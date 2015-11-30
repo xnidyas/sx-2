@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+    <channel>
+    <name>SPORTS</name>
+    <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
+    <fanart></fanart>
+
+    <subchannel>
+        <name>LIVE SPORTS CHANNELS</name>
+        <thumbnail>http://television.png</thumbnail>
+        <fanart>http://fanart.jpg</fanart>
+            <subitems>
+                <subitem>
+                <title>FOX Sports HD</title>
+                <link>http://200.76.77.237/LIVE/H01/CANAL522/PROFILE05.m3u8?-1332%2F1499-20150816T153535.ts=-1</link>
+                <thumbnail></thumbnail>
+                </subitem>
+
+                <subitem>
+                <title>FOX Sports 2 HD</title>
+                <link>http://200.76.77.237/LIVE/H01/CANAL527/PROFILE05.m3u8?-1332%2F1499-20150816T153535.ts=-1</link>
+                <thumbnail></thumbnail>
+                </subitem>   
+            <subitem>
+                <title>ESPN Espanol</title>         
+                <link>http://200.76.77.237/LIVE/H01/CANAL558/PROFILE02.m3u8?-1332%2F1499-20150816T153535.ts</link>
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>MUZIKE SHQIP</info>
+            </subitem>
+            <subitem>
+                <title>ESPN 3Tres HD</title>         
+                <link>http://200.76.77.237/LIVE/H01/CANAL520/PROFILE05.m3u8?-1332%2F1499-20150816T153535.ts=-1</link>
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>MUZIKE SHQIP</info>
+            </subitem>
+            <subitem>
+                <title>ESPN +</title>         
+                <link>http://200.76.77.237/LIVE/H01/CANAL516/PROFILE03.m3u8?-1332%2F1499-20150816T153535.ts</link>
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>MUZIKE SHQIP</info>
+            </subitem>
+            <subitem>
+                <title>ESPN + Espanol</title>         
+                <link>http://200.76.77.237/LIVE/H01/CANAL516/PROFILE03.m3u8?supertvlat=/.ts</link>
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>MUZIKE SHQIP</info>
+            </subitem>
+            <subitem>
+                <title>Azteca 7</title>         
+                <link>http://200.76.77.237/LIVE/H01/CANAL7/PROFILE03.m3u8?-1332%2F1499-20150816T153535.ts</link>
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>MUZIKE SHQIP</info>
+            </subitem>             
+
+    <subchannel>
+        <name>AMERICAN FOOTBALL</name>
+        <thumbnail>http://television.png</thumbnail>
+        <fanart>http://fanart.jpg</fanart>
+            <subitems>
+                <subitem>
+                <title>NFL Now TV</title>
+                <link>http://nflioslivesvg2-i.akamaihd.net/hls/live/221521/nflioslive/2015HackerNow_w99d9.m3u8</link>
+                <thumbnail></thumbnail>
+                </subitem>
+
+                <subitem>
+                <title>NFL Network</title>
+                <link>http://channelpear.com/watch/stream/?id=1222</link>
+                <thumbnail></thumbnail>
+                </subitem>
+
+                <subitem>
+                <title>Game 1</title>
+                <link></link>
+                <thumbnail></thumbnail>
+                </subitem>
+
+    <subchannel>
+        <name>LIVE SOCCER/FUTBOL GAMES</name>
+        <thumbnail>http://television.png</thumbnail>
+        <fanart>http://fanart.jpg</fanart>
+            <subitems>
+                <subitem>
+                <title>Coming Soon...</title>
+                <link>#</link>
+                <thumbnail></thumbnail>
+                </subitem>
+
+
+            </subitems>	
+        </channel>
+    </subchannel>
+    </channels>
