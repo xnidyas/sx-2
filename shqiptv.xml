@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
+ <channels>
 
+<channel>
+    <name>IPTV Shqip TV</name>
+    <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
+    <fanart></fanart>
         <items>
             <item>
                 <title>WEATHER/KOHA U.S.A</title>        
