@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<channels>
+    <channels_info> <!-- this is optional -->
+      <title>IPTV by BES</title> <!-- if channels_info, a title is required, other elements are optional -->
+      <genre>IPTV</genre>
+      <description>BES-IPTV Bringing you Albanian TV in kodi/xbmc and other media sources</description>
+      <thumbnail></thumbnail>
+      <fanart></fanart>
+      <date>11.28.2015</date>
+      <credits>divingmule, Johnny Cache, Bes</credits>
+    </channels_info>
+    
+    <channel>
+    <name>MOVIES</name>
+    <thumbnail>http://www.helenplum.org/system/files/movie-night-clipart-9cp4q9xcE.jpeg.jpg</thumbnail>
+    <fanart></fanart>
+        <items>
+            <item>
+                <title>24/7 Movies/Filma</title>        
+                <link>http://veetle.com/index.php/hls/streamMbrfast/563dc1d3a3790_/stream.m3u8</link>
+                <thumbnail></thumbnail>
+                <genre>MOVIES</genre>
+                <info>Watch Movies on BESA-IPTV</info>
+            </item>
+            <item>
+                <title>All Kinds of Movies</title>        
+                <link>http://veetle.com/index.php/hls/streamMbrfast/563dd79bc45b2_/stream.m3u8</link>
+                <thumbnail></thumbnail>
+                <genre>MOVIES</genre>
+                <info>Watch Movies on BESA-IPTV</info>
+            </item>
+            <item>
+                <title>Action Movies</title>        
+                <link>http://veetle.com/index.php/hls/streamMbrfast/565329fe01041_/stream.m3u8</link>
+                <thumbnail></thumbnail>
+                <genre>MOVIES</genre>
+                <info>Watch Movies on BESA-IPTV</info>
+            </item>
+            <item>
+                <title>Kung FU Movies</title>        
+                <link>http://veetle.com/index.php/hls/streamMbrfast/56545724b5e99_/stream.m3u8</link>
+                <thumbnail></thumbnail>
+                <genre>MOVIES</genre>
+                <info>Watch Movies on BESA-IPTV</info>
+            </item>
+ 
+            <item>
+                <title>SciFi/Action Movies</title>        
+                <link>http://veetle.com/index.php/hls/streamMbrfast/55deb10e264cf_/stream.m3u8</link>
+                <thumbnail></thumbnail>
+                <genre>MOVIES</genre>
+                <info>Watch Movies on BESA-IPTV</info>
+            </item>
+</items>
+    </channel>
+ 
+</channels>
