@@ -442,10 +442,17 @@
                 <info>MUZIKE SHQIP</info>
             </item>
  <channel>
-    <name>IPTV other TV</name>
+    <name>Balkan TV</name>
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
     <link>#</link> 
-    <externallink>https://raw.githubusercontent.com/saydinx/sejdin/master/Albtvm3ushqip.m3u</externallink>
+    <externallink>#</externallink>
+    <fanart></fanart>
+    
+ <channel>
+    <name>YouTube TV</name>
+    <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
+    <link>#</link> 
+    <externallink>#</externallink>
     <fanart></fanart>
     
         </items>
