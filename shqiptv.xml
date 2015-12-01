@@ -27,12 +27,12 @@
             <item>
                 <title>RTV SHARRI</title>
                 <link>rtmp://live.opoja.tv:1935/8006/8006</link>
-                <thumbnail>http://channel.png</thumbnail>
+                <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>RTV Sharri - Kenge Shqip popullore</info>
-                <date>07.12.2015</date>  <!-- format - dd.mm.yyyy -->
+                <date>11.28.2015</date>  <!-- format - dd.mm.yyyy -->
                 <epg></epg>  <!-- See daschacka's post - http://forum.xbmc.org/showpost.php?p=936228&postcount=1076 -->
-                <fanart>http://fanart.jpg</fanart>
+                <fanart></fanart>
             </item>
            
             <item>
