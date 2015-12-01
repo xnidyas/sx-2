@@ -1,0 +1,18 @@
+#EXTM3U
+
+#EXTINF:0 group-title="KIDS TV" tvg-id="" tvg-logo="",Cartoon Network
+http://d1hya96e2cm7qi.cloudfront.net/Live/_definst_/sweetbcha1novD28_W_250.sdp/playlist.m3u8
+#EXTINF:0 group-title="KIDS TV" tvg-id="" tvg-logo="",NICK
+http://200.76.77.237/LIVE/H01/CANAL317/PROFILE03.m3u8?-1332%2F1499-20150816T153535.ts
+#EXTINF:0 group-title="KIDS TV" tvg-id="" tvg-logo="",DISNEY XD
+http://200.76.77.237/LIVE/H01/CANAL322/PROFILE03.m3u8?-1332%2F1499-20150816T153535.ts
+#EXTINF:0 group-title="KIDS TV" tvg-id="" tvg-logo="",DISNEY JR
+http://200.76.77.237/LIVE/H01/CANAL308/PROFILE03.m3u8?-1332%2F1499-20150816T153535.ts
+#EXTINF:0 group-title="KIDS TV" tvg-id="" tvg-logo="",TOONCAST
+http://200.76.77.237/LIVE/H01/CANAL328/PROFILE03.m3u8?-1332%2F1499-20150816T153535.ts
+#EXTINF:-1,
+#EXTINF:-1,
+#EXTINF:-1,
+#EXTINF:-1,
+#EXTINF:-1,
+#EXTINF:-1,
