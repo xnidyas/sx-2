@@ -11,3 +11,10 @@
                 <title>Sky Sports 1</title>        
                 <link>http://public.tuiptv.biz/public/PlayList.php?id=410e048a-7320-4710-800a-24d66a2abdea&channel=2</link>
             </item>
+            <item>
+                <title>NASA TV</title>        
+                <link>http://public.tuiptv.biz/public/PlayList.php?id=410e048a-7320-4710-800a-24d66a2abdea&channel=1</link>
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>MUZIKE SHQIP</info>
+            </item>
