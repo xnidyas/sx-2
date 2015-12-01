@@ -1,14 +1,21 @@
 #EXTM3U
 
-#EXTINF:-1,
+#EXTINF:-1,TVCG - Montenegro
 rtsp://beotelmedia.beotel.net/tvcg
-#EXTINF:-1,
-#EXTINF:-1,
-#EXTINF:-1,
-#EXTINF:-1,
-#EXTINF:-1,
-#EXTINF:-1,
-#EXTINF:-1,
+#EXTINF:-1,TVRS - Serbia
+rtsp://195.252.113.40/rts
+#EXTINF:-1,TOP Music RS
+http://5.35.240.130:30005
+#EXTINF:-1,Duga+ TV
+http://w10.streamgb.com:1935/dugaplus/dugaplus/chunklist_w1672567553.m3u8
+#EXTINF:-1,A1 Balkan TV
+http://176.9.45.202:22222/live/_definst_/alpha1/chunklist_w1273391744.m3u8
+#EXTINF:-1,HRT 1
+http://hrt.live.cdn.spectar.tv/OIV_HRT1_TV/01.m3u8?token=N1vv10JFKH8IiF3ZlQgaiQ&token_expiration=1445958423
+#EXTINF:-1,Balkan RTV
+rtmp://yayin.tvdunyasi.tv/live/balkanrtv
+#EXTINF:-1,Macedonia Vesti 
+http://62.162.58.55/24vesti
 #EXTINF:-1,
 #EXTINF:-1,
 #EXTINF:-1,
