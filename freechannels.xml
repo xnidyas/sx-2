@@ -3,17 +3,11 @@
 
         <items>
             <item>
-                <title>WEATHER/KOHA U.S.A</title>        
-                <link>http://kalsegsec-a.akamaihd.net/dc-1/m/ny-live-publish1/kLive/smil:1_oorxcge2_publish.smil/chunklist_b2096000.m3u8</link>
-                <thumbnail></thumbnail>
-                <genre>WEATHER/KOHA</genre>
-                <info>THE WEATHER CHANNEL</info>
+                <title>BOXNation TV</title>        
+                <link>http://public.tuiptv.biz/public/PlayList.php?id=410e048a-7320-4710-800a-24d66a2abdea&channel=1</link>
             </item>
  
             <item>
-                <title>A1 Shqiptare TV</title>        
-                <link>http://176.9.45.202:22222/live/alb/playlist.m3u8</link>
-                <thumbnail></thumbnail>
-                <genre>A1 Shqip</genre>
-                <info>Televizioni A1 Shqip Balkan</info>
+                <title>Sky Sports 1</title>        
+                <link>http://public.tuiptv.biz/public/PlayList.php?id=410e048a-7320-4710-800a-24d66a2abdea&channel=2</link>
             </item>
