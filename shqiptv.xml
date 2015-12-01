@@ -444,17 +444,9 @@
  <channel>
     <name>IPTV other TV</name>
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
+    <link>#</link>
     <externallink>http://pastebin.com/raw.php?i=mgjYAdCj</externallink>
     <fanart></fanart>
     
-        <items>
-            <item>
-                <title>WEATHER/KOHA U.S.A</title>        
-                <link>#</link>
-                <externallink>http://pastebin.com/raw.php?i=mgjYAdCj</externallink>
-                <thumbnail></thumbnail>
-                <genre>WEATHER/KOHA</genre>
-                <info>THE WEATHER CHANNEL</info>
-            </item>
         </items>
     </channel>
