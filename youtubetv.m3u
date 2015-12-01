@@ -1,0 +1,82 @@
+#EXTM3U
+
+#EXTINF:0  group-title="YouTube Videos|Films" tvg-id="48" tvg-logo="",KENGE SHQIP by SejDin X. (kodi|pc)
+plugin://plugin.video.youtube/play/?playlist_id=PLtGclolOH9lDmjSEMd_nUbo6XwDhxDPax&order=shuffle
+ 
+#EXTINF:0 group-title="YouTube Videos|Films" tvg-id="49" tvg-logo="",Arkiva Shqip *New Songs (kodi|pc)
+plugin://plugin.video.youtube/play/?playlist_id=PL484FD2795B665D26&order=shuffle
+ 
+#EXTINF:0 group-title="YouTube Videos|Films" tvg-id="49" tvg-logo="",Arkiva Shqip *Hitet '15 (kodi|pc)
+plugin://plugin.video.youtube/play/?playlist_id=PLDBHNGQFJGxMmG_FBHZjcGjeZ6aaoQDYP&order=shuffle
+ 
+#EXTINF:0 group-title="YouTube Videos|Films" tvg-id="50" tvg-logo="",DM SAT Videos (kodi|pc)
+plugin://plugin.video.youtube/play/?playlist_id=PLEF005FF978018502&order=shuffle
+ 
+#EXTINF:0 group-title="YouTube Videos|Films" tvg-id="51" tvg-logo="",Kenge me Qiftelli (kodi|pc)
+plugin://plugin.video.youtube/play/?playlist_id=PLbz9CFlXZDs-hGLkQOZIS2OyAKRJ28tCu&order=shuffle
+ 
+#EXTINF:0 group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Plage te Vjetra HD
+https://www.youtube.com/watch?v=_tVGEd8o3qY&index=2&list=PLtGclolOH9lCaUqb8VUmVBTRty2E-YzBq
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Kenga e Muriqit by FH
+https://www.youtube.com/watch?v=GvD-nOcuxVE
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Shqipetaret e Besit by FH
+https://www.youtube.com/watch?v=IlAiIIowSFE&index=3&list=PLtGclolOH9lCaUqb8VUmVBTRty2E-YzBq
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Senad Idrizi -Kenga e Selman Muriqit by SejdDin X
+https://www.youtube.com/watch?v=olYaZXeVhkU&index=4&list=PLtGclolOH9lCaUqb8VUmVBTRty2E-YzBq
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Senad Idrizi -Lufta e Muriqit 1861 by FH
+https://www.youtube.com/watch?v=K0dnHqNy7xY&index=6&list=PLtGclolOH9lCaUqb8VUmVBTRty2E-YzBq
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Film Mesazhi Islam Shqip
+https://www.youtube.com/watch?v=6rS0h-wGVn0
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Flaka e Maleve
+https://www.youtube.com/watch?v=x6Ogaatw2Ao
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Dy Here MAT 1986
+https://www.youtube.com/watch?v=ps69Ty3-Diw
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Zonja nga Qyteti
+https://www.youtube.com/watch?v=VHdfq4Lq3XI
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Dasma e Sakos
+https://www.youtube.com/watch?v=lU_ErS_aQdA
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Filmi Skenderbeut
+https://www.youtube.com/watch?v=rJ_V6COFsC8
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Jetim me Bab e Nan
+https://www.youtube.com/watch?v=YsktwUuv4xc
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Nje Shoqe nga Fshati
+https://www.youtube.com/watch?v=7TGXscMAjrw
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Kush vdes ne Kembe 1984
+https://www.youtube.com/watch?v=wFqAL6Tiqyk
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Bolero HD Film Shqip 1997
+https://www.youtube.com/watch?v=Wsp7_6hDO3o
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Shkolla e Maleva UCK (Full Movie)
+https://www.youtube.com/watch?v=pfJvdX9aEvw
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",AZEM GALICA (Full Movie)
+https://www.youtube.com/watch?v=T1X9WB0ZkqA
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Haraqi (Full Movie)
+https://www.youtube.com/watch?v=nO0yGskfifQ
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",AZEMI(Film Artistik per UCK)
+https://www.youtube.com/watch?v=Pr8Kp5FB6h4
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",ZORI (Full Movie)
+https://www.youtube.com/watch?v=EN7pktCEwKM
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Shoku Im i Luftes (Full Movie)
+https://www.youtube.com/watch?v=HGk-ODwyX5k
+ 
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",TIGRAT (Best of)Compilation HUMOR
+https://www.youtube.com/watch?v=AHjwVK3wP1A
