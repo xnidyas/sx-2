@@ -53,6 +53,13 @@
                 <info>Watch Movies on BESA-IPTV</info>
             </item>
 </items>
+ <channel>
+    <name>Classic Movies</name>
+    <thumbnail></thumbnail>
+    <link>#</link> 
+    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/worldcctvcams.m3u</externallink>
+    <fanart></fanart>
+
     </channel>
  
 </channels>
