@@ -12,7 +12,7 @@
     </channels_info>
     
     <channel>
-    <name>MOVIES</name>
+    <name>Movies</name>
     <thumbnail>http://www.helenplum.org/system/files/movie-night-clipart-9cp4q9xcE.jpeg.jpg</thumbnail>
     <fanart></fanart>
         <items>
@@ -57,9 +57,16 @@
     <name>Classic Movies</name>
     <thumbnail></thumbnail>
     <link>#</link> 
-    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/worldcctvcams.m3u</externallink>
+    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/classicmovies.m3u</externallink>
     <fanart></fanart>
 
+ <channel>
+    <name>XXX +18 Movies</name>
+    <thumbnail></thumbnail>
+    <link>#</link> 
+    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/xxxmovies.m3u</externallink>
+    <fanart></fanart>
+    
     </channel>
  
 </channels>
