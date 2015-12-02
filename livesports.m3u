@@ -24,6 +24,21 @@ http://180.250.29.22:80/jhos/beib1_4/playlist.m3u8
 http://180.250.29.22:80/jhos/beib2_4/playlist.m3u8
 #EXTINF:-1,beIN SPORTS 3HD EN
 http://180.250.29.22:80/jhos/beib3_4/playlist.m3u8
+#EXTINF:-1,beIN 1 Latino
+http://q.gs/11042797/whasa-604270509-iptv2-m3u8
+#EXTINF:-1,beIN Espana
+rtmp://31.220.40.61/pull/tvbein12?keys=CQ3UnfJWSbEv0gBtIkghiA&keyt=1443272822 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+#EXTINF:-1,LA 1 ( LA LIGA)
+rtmp://31.220.0.196/pull/laprimera6?keys=uUs_REKMuSneTrx_IQFpIA&keyt=1443470984 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://leton.tv/
+#EXTINF:-0,C+ LIGA
+rtmp://31.220.40.61/pull/ligaplus?keys=QnYfTXZ96_vNEHg2BAHaZA&keyt=1443272623 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+#EXTINF:-0,C+ LIGA 2
+rtmp://31.220.0.134/pull/liga258?keys=fcYcc1wKKoFf-1GwxzkD9w&keyt=1443747981 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+#EXTINF:-1,C+ FUTBOL
+rtmp://31.220.2.53/pull playpath=futbolsala?keys=5U6rLsKDdkGo1qBYF0ZZmw&keyt=1444987977 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=
+#EXTINF:-1,C+ DEPORTE
+rtmp://31.220.40.40/pull/deportes16?keys=9DemzM-fHBveK3_PFeYbuw&keyt=1443272732 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+#EXTINF:-0,C+ DEPORTES 2
+rtmp://31.220.40.61/pull/deportes26?keys=CQ3UnfJWSbEv0gBtIkghiA&keyt=1443272822 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+#EXTINF:-1,
 
-#EXTINF:-1,
-#EXTINF:-1,
