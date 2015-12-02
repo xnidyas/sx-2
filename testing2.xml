@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+</items>
+<item>
+<title>Lshunter</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/lshunter.tv.cfg&amp;mode=1</jsonrpc>
+<thumbnail></thumbnail>
+</item>
+<item>
+<title>Rojadirecta</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/rojadirecta.me.cfg&amp;mode=1</jsonrpc>
+<thumbnail></thumbnail>
+</item>
+<item>
+<title>Livetv.ru</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/livetv.ru.cfg&amp;mode=1</jsonrpc>
+<thumbnail></thumbnail>
+</item>
+</items>
