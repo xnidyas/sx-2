@@ -1,62 +1,141 @@
 #EXTM3U
-
-#EXTINF:-1,BOXNation
-http://31.220.40.117/LiveEdge/boxnation.stream/playlist.m3u8?token=2a5d0e801657ad1c275382aa41fafd22
-#EXTINF:-1,Sky Sports 1
-http://31.220.40.105/LiveEdge/skysp1.stream/playlist.m3u8?token=99f389cb2c0e00bc83432fa782ff89c4
-
-#EXTINF:-1,Venus
-http://31.220.40.114:80/LiveEdge/VENUSSD/chunklist_w1398073110_b1000000.m3u8?token=b9ffd7a3099637b1ed3a633593af5291
-
-#EXTINF:-1,SeXtreme
-http://31.220.40.116/LiveEdge/SextremeSD/playlist.m3u8?token=82f189944a6a18ade1b9c73bfb486ba1
-
-#EXTINF:-1,ManHandled
-http://31.220.40.108/LiveEdge/manhandleLA/playlist.m3u8?token=0f5ca26720aabadc2196b3d3009a8e7d
-
-#EXTINF:-1,PlayBoy Latino
-http://31.220.40.115/LiveEdge/PlayboyTV/playlist.m3u8?token=6ee33905d2cdf4bce4eb544262220129
-
-#EXTINF:-1,Real
-http://31.220.40.105/LiveEdge/RealLA/playlist.m3u8?token=d6dc64911b779f1e2428189aa77a2480
-
-#EXTINF:-1,Juicy
-http://31.220.40.117/LiveEdge/JuicyLA/playlist.m3u8?token=37d9c5ca2851db3df7d546595d664ae7
-
-#EXTINF:-1,Xtsy XXX
-http://31.220.40.108/LiveEdge/XTSYLA/playlist.m3u8?token=14fa2fe218290c10af8bf2a5caa65b6c
-
-#EXTINF:-1,Univision
-http://31.220.40.100/LiveEdge/UnivisionEastUS/playlist.m3u8?token=ff29c9002cc13a22f1ef82297337a351
-
-##EXTINF:-1,Discovery Espanol
-http://31.220.40.115/LiveEdge/DiscoveryChLA/playlist.m3u8?token=46de0ff49a1561b52f2e3a88c1a6d767
-
-##EXTINF:-1,ESPN Latin
-http://31.220.40.116/LiveEdge/ESPNLA/playlist.m3u8?token=2152e618b023eee45f767e3e228325da
-
-##EXTINF:-1,ESPN 2 Latin
-http://31.220.40.119/LiveEdge/ESPN2LASD/playlist.m3u8?token=89272cef2813b6dde2eb2f079b3f5f93
-
-##EXTINF:-1,ESPN 3 Latin
-http://31.220.40.108/LiveEdge/ESPN3LASD/playlist.m3u8?token=678c47b03102ba3e56b6fd66da1e90ae
-
-##EXTINF:-1,Fox Sports Latin
-http://31.220.40.119/LiveEdge/FoxSportsLA/playlist.m3u8?token=25a174acdea7d5c13d60c3a12aa7298d
-
-##EXTINF:-1,Fox Sports 2 Latin
-http://31.220.40.105/LiveEdge/FoxSports2SD/playlist.m3u8?token=9397a5f30bf8cf489c33bddb2f56c5d9
-
-##EXTINF:-1,Fox Sports 3 Latin
-http://31.220.40.118/LiveEdge/FoxSports3SD/playlist.m3u8?token=3d77a5e8d25ee7caad823185df0eb9e3
-
-##EXTINF:-1,UFC Network
-http://31.220.40.105/LiveEdge/UFCNetworkLA/playlist.m3u8
-
-##EXTINF:-1,BeiN Sports Latin
-http://31.220.40.114/LiveEdge/BeinSportsLA/playlist.m3u8?token=3fa217708d43aec864a418c5f0d33f05
-
-##EXTINF:-1,Planeta Futbol
-http://31.220.40.115/LiveEdge/PlanetaFutbolLA/playlist.m3u8?token=6f945d44989648cbb60f0170ff4e249b
-
-##EXTINF:-1,
+#EXTINF:-1,###Channels in TEST Mode#### 
+http://www.#.com/#
+#EXTINF:-1,BOXnation 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=1
+#EXTINF:-1,SKY Sports 1 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=2
+#EXTINF:-1,Venus 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=3
+#EXTINF:-1,Sextreme 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=4
+#EXTINF:-1,Manhandle XXX 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=5
+#EXTINF:-1,Playboy TV Latin America 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=6
+#EXTINF:-1,Real 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=7
+#EXTINF:-1,Juicy 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=8
+#EXTINF:-1,Xtsy XXX 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=9
+#EXTINF:-1,Canal De Las Estrellas 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=10
+#EXTINF:-1,Univision 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=11
+#EXTINF:-1,Telemundo 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=12
+#EXTINF:-1,Tlnovelas America 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=13
+#EXTINF:-1,Discovery en Español 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=14
+#EXTINF:-1,Discovery Home & Health Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=15
+#EXTINF:-1,H2 Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=16
+#EXTINF:-1,National Geographic Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=17
+#EXTINF:-1,Animal Planet Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=18
+#EXTINF:-1,ESPN Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=19
+#EXTINF:-1,ESPN 2 Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=20
+#EXTINF:-1,ESPN 3 Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=21
+#EXTINF:-1,Fox Sports Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=22
+#EXTINF:-1,Fox Sports 2 Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=23
+#EXTINF:-1,Fox Sports 3 Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=24
+#EXTINF:-1,UFC Network Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=25
+#EXTINF:-1,BeinSports en Español 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=26
+#EXTINF:-1,Planeta Futbol 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=27
+#EXTINF:-1,TDN Mexico 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=28
+#EXTINF:-1,Univision TDN 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=29
+#EXTINF:-1,Disney Channel Norte 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=30
+#EXTINF:-1,Disney XD Norte 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=31
+#EXTINF:-1,Disney Junior Norte 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=32
+#EXTINF:-1,Nickelodeon Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=33
+#EXTINF:-1,Nick Jr Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=34
+#EXTINF:-1,Discovery Kids America Latina 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=35
+#EXTINF:-1,Cartoon Network Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=36
+#EXTINF:-1,Boomerang Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=37
+#EXTINF:-1,Tooncast 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=38
+#EXTINF:-1,Baby TV Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=39
+#EXTINF:-1,Unicable 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=40
+#EXTINF:-1,Warner Channel Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=41
+#EXTINF:-1,FX Latino 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=42
+#EXTINF:-1,A&E Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=43
+#EXTINF:-1,TLC Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=44
+#EXTINF:-1,MundoFox 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=45
+#EXTINF:-1,TNT Series Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=46
+#EXTINF:-1,Distrito Comedia 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=47
+#EXTINF:-1,Azteca Noticias 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=48
+#EXTINF:-1,HTV 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=49
+#EXTINF:-1,Bandamax 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=50
+#EXTINF:-1,Golden 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=51
+#EXTINF:-1,Golden Edge 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=52
+#EXTINF:-1,TNT America Latina 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=53
+#EXTINF:-1,CineCanal 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=54
+#EXTINF:-1,Cinemax Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=55
+#EXTINF:-1,SPACE 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=56
+#EXTINF:-1,AMC 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=57
+#EXTINF:-1,Studio Universal 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=58
+#EXTINF:-1,Film Zone 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=59
+#EXTINF:-1,Fox 1 Este 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=60
+#EXTINF:-1,HBO Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=61
+#EXTINF:-1,HBO Plus Este 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=62
+#EXTINF:-1,HBO Family Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=63
+#EXTINF:-1,HBO Signature Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=64
+#EXTINF:-1,Max UP Latinoamerica 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=65
+#EXTINF:-1,Max Prime Este 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=66
+#EXTINF:-1,MAX 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=67
+#EXTINF:-1,Golden Premier 1 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=68
+#EXTINF:-1,Golden Premier 2 
+http://public.tuiptv.biz/public/PlayList.php?id=8D72781E-9374-4AAB-B442-7ED4757F59EE&channel=69
