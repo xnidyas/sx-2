@@ -56,7 +56,14 @@
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
-            </subitem>             
+            </subitem> 
+            <subitem>
+                <title>BT Sports 1</title>         
+                <link>http://02e4.vp9.tv/chn/btsu1/v.m3u8</link>
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>MUZIKE SHQIP</info>
+            </subitem>
 
     <subchannel>
         <name>AMERICAN FOOTBALL</name>
