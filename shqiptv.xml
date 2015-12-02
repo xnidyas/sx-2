@@ -365,20 +365,19 @@
     <fanart></fanart>
     
  <channel>
-    <name>MIXED Channels</name>
-    <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
-    <link>#</link> 
-    <externallink>https://raw.githubusercontent.com/saydinx/sejdin/master/Albtvm3ushqip.m3u</externallink>
-    <fanart></fanart>
-    
- <channel>
     <name>KIDS TV</name>
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
     <link>#</link> 
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/kidstv.m3u</externallink>
     <fanart></fanart>
     
- 
+ <channel>
+    <name>Mixed Channels</name>
+    <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
+    <link>#</link> 
+    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/freechannels.m3u</externallink>
+    <fanart></fanart>
+   
     
         </items>
         
