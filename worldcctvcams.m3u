@@ -1,0 +1,306 @@
+#EXTM3U
+
+#EXTINF:0,[COLOR green]*—Web Cam—*[/COLOR]
+http://#.com/#
+#EXTINF:0,Algonquin Park -Canada
+http://video1.earthcam.com/fecnetwork/5230.flv/hasbahca.m3u8
+#EXTINF:0,Bucuti Beach Wing -Aruba
+http://video1.earthcam.com/fecnetwork/4646.flv/hasbahca.m3u8
+#EXTINF:0,Las Vegas, Wedding chapel -Nevada(USA)
+http://video1.earthcam.com/fecnetwork/5359.flv/hasbahca.m3u8
+#EXTINF:0,Niagara Falls
+rtsp://video1.earthcam.com/fecnetwork/4559.flv
+#EXTINF:0,Niagara Falls 2 
+mms://webcams.niagarafallshotels.com/CNH-Stream2
+#EXTINF:0,Tara Suites -Aruba
+http://video1.earthcam.com/fecnetwork/4644.flv/hasbahca.m3u8
+#EXTINF:0,Destin -Florida
+http://video1.earthcam.com/fecnetwork/5424.flv/hasbahca.m3u8
+#EXTINF:0,El Paso -Texas
+http://video1.earthcam.com/fecnetwork/5307.flv/hasbahca.m3u8
+#EXTINF:0,Gettysburg Battlefield-Cam -Pennsylvania
+http://video1.earthcam.com/fecnetwork/5536.flv/hasbahca.m3u8
+#EXTINF:0,Hampton Beach -New Hampshire
+http://video1.earthcam.com/fecnetwork/hampton-beach-cam.flv/hasbahca.m3u8
+#EXTINF:0,Las Vegas -Nevada
+http://video1.earthcam.com/fecnetwork/eclasvegas.flv/hasbahca.m3u8
+#EXTINF:0,Los Angeles Hollywood Blvd -California
+http://video1.earthcam.com/fecnetwork/lacitytours1.flv/hasbahca.m3u8
+#EXTINF:0,Los Angeles Marina Del Rey -California
+http://video1.earthcam.com/fecnetwork/uscmarina.flv/hasbahca.m3u8
+#EXTINF:0,Miami Biscayne Bay -Florida
+http://video1.earthcam.com/fecnetwork/miamivishd4.flv/hasbahca.m3u8
+#EXTINF:0,Miami South Beach Newscafe -Florida
+http://video1.earthcam.com/fecnetwork/3644newscafe.flv/hasbahca.m3u8
+#EXTINF:0,New York Brooklyn Bridge
+http://video1.earthcam.com/fecnetwork/3983.flv/hasbahca.m3u8
+#EXTINF:0,New York Columbus Circle
+http://video1.earthcam.com/fecnetwork/6427.flv/hasbahca.m3u8
+#EXTINF:0,New York Midtown East
+http://video1.earthcam.com/fecnetwork/5321.flv/hasbahca.m3u8
+#EXTINF:0,New York Times Square 47th and Broadway
+http://video1.earthcam.com/fecnetwork/hdtimes10.flv/hasbahca.m3u8
+#EXTINF:0,New York Times Square South View
+http://video1.earthcam.com/fecnetwork/4017timessquare.flv/hasbahca.m3u8
+#EXTINF:0,New York Times Square Street Cam
+http://video1.earthcam.com/fecnetwork/hdtimes11.flv/hasbahca.m3u8
+#EXTINF:0,San Francisco -California
+http://video1.earthcam.com/fecnetwork/6603.flv/hasbahca.m3u8
+#EXTINF:0,San Jacinto Monument -Texas
+http://video1.earthcam.com/fecnetwork/6081.flv/hasbahca.m3u8
+#EXTINF:0,Sandestin Beach Destin -Florida
+http://video1.earthcam.com/fecnetwork/5663.flv/hasbahca.m3u8
+#EXTINF:0,Santa Monica Pier -California
+http://video1.earthcam.com/fecnetwork/6253.flv/hasbahca.m3u8
+#EXTINF:0,Sante Fe -New Mexico
+http://video1.earthcam.com/fecnetwork/4831.flv/hasbahca.m3u8
+#EXTINF:0,Sedona Red Rock Cam -Arizona
+http://video1.earthcam.com/fecnetwork/sedonawebcam.flv/hasbahca.m3u
+#EXTINF:0,Sedona Seven Arches -Arizona
+http://video1.earthcam.com/fecnetwork/5805.flv/hasbahca.m3u8
+#EXTINF:0,Snyder Square Snyder -Texas
+http://video1.earthcam.com/fecnetwork/5666.flv/hasbahca.m3u8
+#EXTINF:0,Wildwood -New Jersey
+http://video1.earthcam.com/fecnetwork/5732.flv/hasbahca.m3u8
+#EXTINF:0,Underwater Shark Cam In Shark Aquarium
+http://iphone-streaming.ustream.tv/uhls/18477621/streams/live/iphone/playlist.m3u8
+#EXTINF:0,Pitbull Shelter Cam U.S
+http://iphone-streaming.ustream.tv/uhls/17999798/streams/live/iphone/playlist.m3u8
+#EXTINF:0,Bear Cam Forests of China
+http://iphone-streaming.ustream.tv/uhls/16061202/streams/live/iphone/playlist.m3u8
+#EXTINF:0,Downtown Tokoyo
+http://iphone-streaming.ustream.tv/uhls/16163337/streams/live/iphone/playlist.m3u8
+#EXTINF:0,Downtown Tokoyo Cam 2
+http://iphone-streaming.ustream.tv/uhls/17662918/streams/live/iphone/playlist.m3u8
+#EXTINF:0,Seoul Shopping Plazza
+http://iphone-streaming.ustream.tv/uhls/18500421/streams/live/iphone/playlist.m3u8
+#EXTINF:0,Yokohama Japan
+http://iphone-streaming.ustream.tv/uhls/12365462/streams/live/iphone/playlist.m3u8
+#EXTINF:0,Fishing
+http://iphone-streaming.ustream.tv/uhls/17512776/streams/live/iphone/playlist.m3u8
+#EXTINF:0,Downtown Austin U.S
+http://video4.earthcam.com/fecnetwork/paradiseon6.flv/playlist.m3u8
+#EXTINF:0,Tusto Pizza – Bar Area
+http://46.28.111.70:9094/stream.flv
+#EXTINF:0,Tusto Pizza – Pizza Area
+http://46.28.111.70:9092/stream.flv
+#EXTINF:0,Tusto Pizza – Kitchen Area
+http://46.28.111.70:9091/stream.flv
+#EXTINF:0,Abbey Road Crossing
+http://video4.earthcam.com:1935/fecnetwork/AbbeyRoadHD1.flv/playlist.m3u8
+#EXTINF:0,Andy Warhol Grave Cam
+http://video4.earthcam.com:1935/fecnetwork/5595.flv/playlist.m3u8
+#EXTINF:0,Temple Inn Pub Dublin Ireland
+http://video4.earthcam.com/fecnetwork/4054.flv/playlist.m3u8
+#EXTINF:0,Rio de Janeiro Copacabana Beach Brazil
+http://video4.earthcam.com/fecnetwork/6593.flv/playlist.m3u8
+#EXTINF:0,The Palm Atlantis Hotel Dubai 
+http://video1.earthcam.com/fecnetwork/6405.flv/ukturk.m3u8
+#EXTINF:0,Amman City Jordan
+http://video4.earthcam.com/fecnetwork/4518.flv/playlist.m3u8
+#EXTINF:0,Eiffel Tower Paris France
+http://video4.earthcam.com/fecnetwork/eiffelcamHD.flv/playlist.m3u8
+#EXTINF:0,Crimera Roads Ukraine
+http://iphone-streaming.ustream.tv/uhls/18795832/streams/live/iphone/playlist.m3u8
+#EXTINF:0,Transylvania City Centre Romania
+http://video4.earthcam.com/fecnetwork/5206.flv/playlist.m3u8
+#EXTINF:0,Lemon Tree Farm In Amaliada Greece
+http://iphone-streaming.ustream.tv/uhls/3238486/streams/live/iphone/playlist.m3u8
+#EXTINF:0,Costa Rica Beach Cam
+http://video4.earthcam.com/fecnetwork/5358.flv/playlist.m3u8
+#EXTINF:0,Anguilla Aleta Hotel Pool
+http://video4.earthcam.com/fecnetwork/7393.flv/playlist.m3u8
+#EXTINF:0,St Croix Virgin Islands
+http://video1.earthcam.com/fecnetwork/4480.flv/ukturk.m3u8
+#EXTINF:0,Cats Meow At Karoke New Orleans
+rtmp://video1.earthcam.com/fecnetwork swfUrl=http://www.earthcam.com/swf/cam_player_v2/ecnPlayer.swf playpath=4281.flv
+#EXTINF:0,Taro Safari Park Elephant Bathing Pool Bali
+http://video1.earthcam.com/fecnetwork/4338.flv/ukturk.m3u8
+#EXTINF:0,Zurich Skate Park
+rtmp://rtmp.infomaniak.ch/livecast/webcam07luganoch
+#EXTINF:0,Zurich Zoo Cam 1
+rtmp://stream.livespotting.tv/windit-edge/vv78_720p.stream
+#EXTINF:0,Zurich Zoo Cam 2
+rtmp://stream.livespotting.tv/windit-edge/vv23_720p.stream
+#EXTINF:0,Paterson Falls 
+http://video4.earthcam.com:1935/fecnetwork/4918.flv/playlist.m3u8
+#EXTINF:0,Statue of Liberty 
+http://video4.earthcam.com:1935/fecnetwork/statueoflibertyHD.flv/playlist.m3u8
+#EXTINF:0,Reunion Tower 
+http://video4.earthcam.com:1935/fecnetwork/7524.flv/playlist.m3u8
+#EXTINF:0,Wamo Washington D.C
+http://video4.earthcam.com/fecnetwork/7132.flv/playlist.m3u8
+#EXTINF:0,Fort Lauderdale Florida
+http://video1.earthcam.com/fecnetwork/windjammerHD2.flv/ukturk.m3u8
+#EXTINF:0,Palm Beach Cam
+http://video4.earthcam.com:1935/fecnetwork/6391.flv/playlist.m3u8
+#EXTINF:0,Sunny Isles Beach Cam
+http://video4.earthcam.com:1935/fecnetwork/miamivishd2.flv/playlist.m3u8
+#EXTINF:0,Bognor Regis 
+http://video4.earthcam.com:1935/fecnetwork/5288.flv/playlist.m3u8
+#EXTINF:0,Holden Beach 
+http://video4.earthcam.com:1935/fecnetwork/4904.flv/playlist.m3u8
+#EXTINF:0,Lake Michigan 
+http://video4.earthcam.com:1935/fecnetwork/4465.flv/playlist.m3u8
+#EXTINF:0,Seaside Park 
+http://video4.earthcam.com:1935/fecnetwork/5423.flv/playlist.m3u8
+#EXTINF:0,Kauai 
+http://video4.earthcam.com:1935/fecnetwork/4617.flv/playlist.m3u8
+#EXTINF:0,San Juan – Aerial View
+http://video4.earthcam.com:1935/fecnetwork/3700sanjuan3.flv/playlist.m3u8
+#EXTINF:0,Waikoloa 
+http://video4.earthcam.com:1935/fecnetwork/5758.flv/playlist.m3u8
+#EXTINF:0,St. Lucie County – Pier and Marina
+http://video4.earthcam.com:1935/fecnetwork/5965.flv/playlist.m3u8
+#EXTINF:0,St. Lucie County – River View
+http://video4.earthcam.com:1935/fecnetwork/5966.flv/playlist.m3u8
+#EXTINF:0,Fort Myers Areal View Florida
+http://video1.earthcam.com/fecnetwork/5719.flv/ukturk.m3u8
+#EXTINF:0,Hotel Ranga Island
+http://video1.earthcam.com/fecnetwork/5299.flv/ukturk.m3u8
+#EXTINF:0,Hillsboro Beach Florida
+rtmp://video1.earthcam.com/fecnetwork/4135.flv.flv pageUrl=http://www.earthcam.com swfUrl=http://www.earthcam.com/swf/cam_player_v2/ecnPlayer.swf?20120504_a live=1
+#EXTINF:0,Hot Springs Jordanien
+http://video1.earthcam.com/fecnetwork/4515.flv/ukturk.m3u8
+#EXTINF:0,St Lucia County Cams – Fort Pierce Inlet
+http://video4.earthcam.com:1935/fecnetwork/6076.flv/playlist.m3u8
+#EXTINF:0,Tokyo Japan
+http://video1.earthcam.com/fecnetwork/tokyo1.flv/ukturk.m3u8
+#EXTINF:0,Amsterdam Cam 1
+http://video4.earthcam.com/fecnetwork/4098.flv/playlist.m3u8
+#EXTINF:0,Israel Western Wall Cam 1
+rtmp://EU40.cast-tv.com:1935/23595_LIVE_Kotel_Live playpath=23595_LIVE_Kotel_Live swfUrl=http://www.cast-tv.biz/play/newPlayer/smart-skin-new9.swf?movid=cgjlej&clid=23595&autoplay=true&totalurl=&skinid=2285&flcinemator=&flplaylist=&PlayListID=0&CinematorID=&Link_URL=&Embed_URL=&ServerName=&MyTmpNum=02112014125649&playOnMouseOver=False&DurMovType=Long&SortType=Random&LangType= live=1 pageUrl=http://www.cast-tv.biz/play/?clid=23595&media=yes&movId=cgjlej
+#EXTINF:0,Israel-Western Wall Live 2 
+rtmp://EU40.cast-tv.com:1935/23595_LIVE_Kotel_Live1 playpath=23595_LIVE_Kotel_Live1 swfUrl=http://www.cast-tv.biz/play/newPlayer/smart-skin-new9.swf?movid=jfjmcg&clid=23595&autoplay=true&totalurl=&skinid=2192&flcinemator=&flplaylist=&PlayListID=0&CinematorID=&Link_URL=&Embed_URL=&ServerName=&MyTmpNum=02112014130815&playOnMouseOver=False&DurMovType=Long&SortType=Random&LangType= live=1 pageUrl=http://www.cast-tv.biz/play/?clid=23595&media=yes&movId=jfjmcg
+#EXTINF:0,Dusseldorf Airport cam 1
+rtmp://stream-5gw.1000eyes.de/rtplive//dus0600.stream
+#EXTINF:0,Dusseldorf Airport cam 2
+rtmp://stream-5gw.1000eyes.de/rtplive//dus8a21.stream
+#EXTINF:0,Dusseldorf Airport cam 3
+rtmp://stream-5gw.1000eyes.de/rtplive//dus2777.stream
+#EXTINF:0,Dusseldorf Airport cam 4
+rtmp://stream-5gw.1000eyes.de/rtplive//dus275d.stream
+#EXTINF:0,Dusseldorf Airport cam 5
+rtmp://stream-5gw.1000eyes.de/rtplive//dusbc0c.stream
+#EXTINF:0,Zurich Square
+rtmp://rtmp.infomaniak.ch/livecast/webcam01luganoch
+#EXTINF:0,Zurich Lido
+rtmp://rtmp.infomaniak.ch/livecast/webcam05luganoch
+#EXTINF:0,Port Of Malta
+http://video1.earthcam.com/fecnetwork/5245.flv/.m3u8
+#EXTINF:0,Park Krasnala poland
+http://178.33.229.71:1935/parkkrasnala/parkkrasnala.stream/playlist.m3u8
+#EXTINF:0,Scheveningen surf webcam 
+rtsp://b1.dnsdojo.com:1935/live/sys3.stream
+#EXTINF:0,Miami Biscayne Bay
+http://video1.earthcam.com/fecnetwork/miamivishd4.flv/ukturk.m3u8
+#EXTINF:0,Myrtle Beach South Carolina
+http://video1.earthcam.com/fecnetwork/3635.flv/ukturk.m3u8
+#EXTINF:0,Oak Harbour Washington
+http://video1.earthcam.com/fecnetwork/6172.flv/ukturk.m3u8
+#EXTINF:0,San Francisco California
+http://video1.earthcam.com/fecnetwork/6603.flv/uktutk.m3u8
+#EXTINF:0,Zürich Zoo Cam 3
+rtmp://stream.livespotting.tv/windit-edge/vv78b_720p.stream
+#EXTINF:0,Turkey – Denizli 1
+rtmp://212.175.207.19/live/cinar.stream
+#EXTINF:0,Turkey Denizli 2
+rtmp://212.175.207.19/live/cinar2.stream
+#EXTINF:0,Turkey Denizli 3
+rtmp://212.175.207.19/live/camlik.stream
+#EXTINF:0,Turkey Denizli 4
+rtmp://212.175.207.19/live/incilipinar.stream
+#EXTINF:0,Portugal Beach cam – Ericeira
+rtmp://213.13.26.12/live playpath=ericeira.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/DTlId9ym9TZc7rOhKECF
+#EXTINF:0,Portugal Beach cam – Leça da Palmeira 
+rtmp://213.13.26.43/live playpath=leca.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/OF4ntVhaeSihG8JIWV8n
+#EXTINF:0,Portugal Beach cam – Matosinhos 
+rtmp://213.13.26.13/live playpath=matosinhos.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/es8j5Fy9uPz4IHG0jDsb
+#EXTINF:0,Cluj Union Square Romania
+http://video1.earthcam.com/fecnetwork/5206.flv/ukturk.m3u8
+#EXTINF:0,Restaurant Hugos/Hotel InterContinental Berlin
+rtmp://stream.livespotting.tv/windit-edge/vv133_720p.stream
+#EXTINF:0,Binz HOTEL AM MEER & SPA
+rtmp://stream.livespotting.tv/windit-edge/vv103_720p.stream
+#EXTINF:0,Hotel Atlantic Sail City Bremerhaven
+rtmp://stream.livespotting.tv/windit-edge/vv106_720p.stream
+#EXTINF:0,Congress Hotel Hannover
+rtmp://stream.livespotting.tv/windit-edge/vv71_720p.stream
+#EXTINF:0,Hotel Panorama Hannover
+rtmp://stream.livespotting.tv/windit-edge/vv75_720p.stream
+#EXTINF:0,Kiel – Port of Kiel Germany
+rtmp://stream.livespotting.tv/windit-edge/vv77_720p.stream
+#EXTINF:0,Kitzbühel Hotel Rasmushof
+rtmp://stream.livespotting.tv/windit-edge/vv143_720p.stream
+#EXTINF:0,Krefeld Garden Hotel
+rtmp://stream.livespotting.tv/windit-edge/vv67_720p.stream
+#EXTINF:0,Mönchengladbach – Best Western Crown
+rtmp://stream.livespotting.tv/windit-edge/vv118_720p.stream
+#EXTINF:0,Oberwiesenthal Hotel Fichtelberghaus
+rtmp://stream.livespotting.tv/windit-edge/vv30_720p.stream
+#EXTINF:0,Passau Hotel König
+rtmp://stream.livespotting.tv/windit-edge/vv98_720p.stream
+#EXTINF:0,Potsdam Hotel Am Luisenplatz
+rtmp://stream.livespotting.tv/windit-edge/vv110_720p.stream
+#EXTINF:0,Rostock Apartment LIVING HOTEL
+rtmp://stream.livespotting.tv/windit-edge/vv89_720p.stream
+#EXTINF:0,Rostock Hotel Sportforum
+rtmp://stream.livespotting.tv/windit-edge/vv119_720p.stream
+#EXTINF:0,Rust Apollon Hotel
+rtmp://stream.livespotting.tv/windit-edge/vv87_720p.stream
+#EXTINF:0,Sankt Peter-Ording – Beach Motel
+rtmp://stream.livespotting.tv/windit-edge/vv129_720p.stream
+#EXTINF:0,übingen – Casino am Neckar
+rtmp://stream.livespotting.tv/windit-edge/vv109_720p.stream
+#EXTINF:0,Ulm Hotel Blaubeurer Tor
+rtmp://stream.livespotting.tv/windit-edge/vv66_720p.stream
+#EXTINF:0,Warnemünde Best Western Hotel
+rtmp://stream.livespotting.tv/windit-edge/vv20_450p.stream
+#EXTINF:0,Russia St Petersburg 1
+http://vpiter.tv:8083/camera1/h264
+#EXTINF:0,Russia St Petersburg 2
+http://vpiter.tv:8083/camera2/h264
+#EXTINF:0,Russia St Petersburg 3
+http://vpiter.tv:8083/camera3/h264
+#EXTINF:0,Russia St Petersburg 4
+http://vpiter.tv:8083/camera4/0,0,640,480/h264
+#EXTINF:0,Russia St Petersburg 5
+http://vpiter.tv:8083/camera4/640,480,640,480/h264
+#EXTINF:0,Russia St Petersburg 6
+http://vpiter.tv:8083/camera13/h264
+#EXTINF:0,Russia St Petersburg 7
+http://vpiter.tv:8083/camera16/h264
+#EXTINF:0,Russia St Petersburg 8
+http://vpiter.tv:8083/camera17/h264
+#EXTINF:0,Russia St Petersburg 9
+http://vpiter.tv:8083/camera19/h264
+#EXTINF:0,Russia St Petersburg 10
+http://vpiter.tv:8083/camera28/h264
+#EXTINF:0,Bulgaria Plovdiv 3
+rtsp://91.191.213.54:554/live_mpeg4.sdp
+#EXTINF:0,Bulgaria Harmanli 
+rtsp://93.183.167.17:554/live/ch00_0
+#EXTINF:0,Bulgaria Kiten 
+rtsp://84.54.158.18:554/live/ch00_0
+#EXTINF:0,Bulgaria Blagoevgrad Square Vasil Levski 
+rtsp://91.191.213.56:554/live_mpeg4.sdp
+#EXTINF:0,Bulgaria Blagoevgrad
+rtsp://91.191.213.55:554/live_mpeg4.sdp
+#EXTINF:0,Bulgaria Blagoevgrad South-West University 
+rtsp://91.191.213.57:554/live_mpeg4.sdp
+#EXTINF:0,Bulgaria  Plovdiv jk Karshiaka blvd. Bulgaria street
+rtsp://91.191.213.54:554/live_mpeg4.sdp
+#EXTINF:0,Bulgaria Plozhdiv jk Hr Botev street Komatevsko road 
+rtsp://91.191.213.52:554/live_mpeg4.sdp
+#EXTINF:0,Bulgaria Sofia street Ring Road 
+rtsp://91.191.213.43:554/live_mpeg4.sdp
+#EXTINF:0,Bulgaria Sofia Mladostbul Tsarigradsko Shosse 
+rtsp://91.191.213.42:554/live_mpeg4.sdp
+#EXTINF:0,Bulgaria Varna center 
+rtsp://91.191.213.49:554/live_mpeg4.sdp
+#EXTINF:0,Bulgaria Varna
+rtsp://91.191.213.48:554/live_mpeg4.sdp
+#EXTINF:0,Bulgaria Varna Asparuhovo 
+rtsp://91.191.213.47:554/live_mpeg4.sdp
+#EXTINF:0,Budapest City Hungary
+http://video4.earthcam.com/fecnetwork/hotelvictoria2.flv/playlist.m3u8
