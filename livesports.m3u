@@ -16,4 +16,14 @@ http://200.76.77.237/LIVE/H01/CANAL516/PROFILE03.m3u8?supertvlat=/.ts
 http://200.76.77.237/LIVE/H01/CANAL7/PROFILE03.m3u8?-1332%2F1499-20150816T153535.ts
 #EXTINF:-1,BT Sports 1
 http://02e4.vp9.tv/chn/btsu1/v.m3u8
+#EXTINF:-1,Sky Sports 1
+http://195.154.226.186:1935/lol/skysports1lsh/playlist.m3u8
+#EXTINF:-1,beIN SPORTS 1HD EN
+http://180.250.29.22:80/jhos/beib1_4/playlist.m3u8
+#EXTINF:-1,beIN SPORTS 2HD EN
+http://180.250.29.22:80/jhos/beib2_4/playlist.m3u8
+#EXTINF:-1,beIN SPORTS 3HD EN
+http://180.250.29.22:80/jhos/beib3_4/playlist.m3u8
+
+#EXTINF:-1,
 #EXTINF:-1,
