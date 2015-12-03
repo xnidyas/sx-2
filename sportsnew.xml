@@ -169,22 +169,13 @@
 </item>
 
 <item>
-<title>[COLOR=dodgerblue]ojo [COLOR] *Test1[COLOR red] SportSdevil[/COLOR]</title>
+<title>[COLOR=dodgerblue]ojo [COLOR] *Test1[COLOR red] S.D.[/COLOR]</title>
 <sportsdevil>http://tvshqiphd.com/tv_al/klan.html</sportsdevil>
-<referer>http://tvshqiphd.com/tv_al/klan.html</referer>
+<referer>http://tvshqiphd.com/</referer>
 <fanart></fanart>
 <thumbnail></thumbnail>
 </item>
 
-<item>
-<title>[COLOR=dodgerblue]ojo[COLOR] *Test2[COLOR yellow] REGEX[/COLOR]</title>
-<link>$doregex[getTvShqipHd.com]</link>
-<regex>
-<name>getTvShqipHd.com</name>
-<expres>$pyFunction:tvshqiphd.decrypt_vipracing('http://tvshqiphd.com/tv_al/klan.html/frame')</expres>
-<page></page>
-</regex>
-</item>
 
 
 
