@@ -17,7 +17,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow]BT Sports 1[/COLOR]</title>
+<title>[COLOR yellow]BT Sports 1 Europe[/COLOR]</title>
 <sportsdevil>http://mamahd.com/watch-bt-sport-1-live-streaming-1.html</sportsdevil>
 <referer>http://www.vipbox.sx/</referer>
 <thumbnail></thumbnail>
@@ -121,7 +121,9 @@
 <thumbnail></thumbnail>
 </item>
 
-
-
-
-
+<item>
+<title>[COLOR orange]*Test*[/COLOR]</title>
+<sportsdevil>http://streamking.cc/player?channel=supersport2&player=clappr</sportsdevil>
+<referer>http://www.vipbox.sx/</referer>
+<thumbnail></thumbnail>
+</item>
