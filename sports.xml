@@ -38,14 +38,14 @@
     <fanart></fanart>
     
    <channel>
-    <name>[COLOR red]###TESTING###[/COLOR]</name>
+    <name>[COLOR red]*Test1*[/COLOR]</name>
     <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
     <link>#</link> 
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/testing.xml</externallink>
     <fanart></fanart>
     
     <channel>
-    <name>[COLOR red]###TESTING 2###[/COLOR]</name>
+    <name>[COLOR red]*Test2*[/COLOR]</name>
     <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
     <link>#</link> 
     <externallink>http://pastebin.com/raw.php?i=Lhbm2zYK</externallink>
