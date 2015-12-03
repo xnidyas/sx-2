@@ -178,9 +178,9 @@
 
 <item>
 <title>[COLOR=dodgerblue]ojo[COLOR] *Test2[COLOR yellow] REGEX[/COLOR]</title>
-<link>$doregex[getTvShqipHd]</link>
+<link>$doregex[getTvShqipHd.com]</link>
 <regex>
-<name>getTvShqipHd</name>
+<name>getTvShqipHd.com</name>
 <expres>$pyFunction:tvshqiphd.decrypt_vipracing('http://tvshqiphd.com/tv_al/klan.html/frame')</expres>
 <page></page>
 </regex>
