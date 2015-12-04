@@ -6,7 +6,21 @@
     <name>IPTV Shqip TV</name>
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
     <fanart></fanart>
-
+        <subchannel>
+        <name>TV Klan</name>
+        <thumbnail>http://television.png</thumbnail>
+        <fanart>http://fanart.jpg</fanart>
+            <subitems>
+                <subitem>
+                <title>TV Klan Link 1</title>
+                <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/209.m3u8#?b?b*t$</link>
+                <thumbnail></thumbnail>
+                </subitem>
+                <subitem>
+                <title>TV Klan Link 2</title>
+                <link>#</link>
+                <thumbnail></thumbnail>
+                </subitem>
         <items>
             <item>
                 <title>WEATHER/KOHA U.S.A</title>        
@@ -15,16 +29,6 @@
                 <genre>WEATHER/KOHA</genre>
                 <info>THE WEATHER CHANNEL</info>
             </item>
-        <subchannel>
-        <name>Tv 1</name>
-        <thumbnail>http://television.png</thumbnail>
-        <fanart>http://fanart.jpg</fanart>
-            <subitems>
-                <subitem>
-                <title>tv1-1</title>
-                <link>mms://some/place</link>
-                <thumbnail>http://thumb.png </thumbnail>
-                </subitem>
 
             <item>
                 <title>Tirana Live Camera</title>        
@@ -42,11 +46,6 @@
                 <genre>TV Klan</genre>
                 <info>Televizioni TV Klan Shqip</info>
             </item>
-                <subitem>
-                <title>tv1-2</title>
-                <link>http://some/place/channel_4.mp4</link>
-                <thumbnail>http://thumb.png</thumbnail>
-                </subitem>
                 
              <item>
                 <title>Top Channel SD</title>        
