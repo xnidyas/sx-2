@@ -18,8 +18,8 @@ http://publish.thewebstream.co:1935/leved/_definst_/passielivestream/playlist.m3
 http://109.226.222.161:4022/udp/239.255.5.6:1234
 #EXTINF:-1,*Test*1
 rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://iptvlivestream.com/rtmp/tirana-live-3/
-#EXTINF:-1,*Test*2.
-rtmp://174.36.1.75/live playpath=203888/313434393231333430395f3233636663653566616565653630363162323964653466326564643137363333 live=1 swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/channel/27595
+#EXTINF:-1,*Test*2..........
+rtmp://174.36.1.75/live playpath=203888 swfUrl=http://static.castalba.tv/player5.9.swf live=1 pageUrl=http://castalba.tv/channel/27595
 #EXTINF:-1,TEST3
 rtmp://$OPT:rtmp-raw=rtmp://89.248.168.21:443/liveedge/ playpath=albparajsacomcpii swfUrl=http://micast.tv/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://micast.tv/chn.php?ch=albparajsacomcpii
 
