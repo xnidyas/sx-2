@@ -1,5 +1,8 @@
 #EXTM3U
 
+#EXTINF:0,[COLOR yellow]###Install YouTube App for Kodi to Play YouTube Videos Here####[/COLOR]
+http://www.ignoreme.com/#
+
 #EXTINF:0  group-title="YouTube Videos|Films" tvg-id="48" tvg-logo="",KENGE SHQIP by SejDin X. (kodi|pc)
 plugin://plugin.video.youtube/play/?playlist_id=PLtGclolOH9lDmjSEMd_nUbo6XwDhxDPax&order=shuffle
  
