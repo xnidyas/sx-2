@@ -16,6 +16,14 @@
                 <info>THE WEATHER CHANNEL</info>
             </item>
  
+             <item>
+                <title>TV Klan</title>        
+                <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/209.ts</link>
+                <thumbnail></thumbnail>
+                <genre>TV Klan</genre>
+                <info>Televizioni TV Klan Shqip</info>
+            </item>
+
             <item>
                 <title>A1 Shqiptare TV</title>        
                 <link>http://176.9.45.202:22222/live/alb/playlist.m3u8</link>
