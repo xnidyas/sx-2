@@ -24,7 +24,12 @@
                 <genre>Tirana Live</genre>
                 <info>Televizioni Tirana Shqip</info>
             </item>
-            
+<item>
+<title>[COLOR yellow]TEST[/COLOR]</title>
+<sportsdevil>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/livestream</sportsdevil>
+<referer>http://shqip24.tv/mobile/tv.html</referer>
+<thumbnail></thumbnail>
+</item>
              <item>
                 <title>TV Klan SD</title>        
                 <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/209.ts</link>
