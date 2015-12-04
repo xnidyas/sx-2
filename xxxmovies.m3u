@@ -16,5 +16,5 @@ http://46.182.25.34:1935/tv/1420/chunklist_w1894981632.m3u8
 http://publish.thewebstream.co:1935/leved/_definst_/passielivestream/playlist.m3u8
 #EXTINF:-1,FrenchLover TV
 http://109.226.222.161:4022/udp/239.255.5.6:1234
-#EXTINF:-1,*Test
-rtmp://$OPT:rtmp-raw=rtmp://93.174.93.50/liveedge/ playpath=albparajsacomcpii swfUrl=http://micast.tv/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://micast.tv/chn.php?ch=albparajsacomcpii –live
+#EXTINF:-1,*Test*
+rtmp://93.174.93.50/liveedge/ playpath=albparajsacomcpii swfUrl=http://micast.tv/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://micast.tv/chn.php?ch=albparajsacomcpii
