@@ -26,6 +26,8 @@ http://180.250.29.22:80/jhos/beib2_4/playlist.m3u8
 http://180.250.29.22:80/jhos/beib3_4/playlist.m3u8
 #EXTINF:-1,beIN 1 Latino HD
 http://q.gs/11042797/whasa-604270509-iptv2-m3u8
+#EXTINF:-1,beIN FR 1
+rtmp://184.173.85.119:1935/live playpath=203815?313434393234333433315f3738393163636563613163303237643962323431393661626439383661323062 live=1 swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/channel/27538
 #EXTINF:-1,EuroSport 1
 http://esioslive6-i.akamaihd.net/hls/live/202874/AL_P_ESP1_INTER_ENG/playlist_1000.m3u8
 #EXTINF:-1,TNT HD
