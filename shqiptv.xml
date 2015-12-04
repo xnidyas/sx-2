@@ -100,7 +100,7 @@
  
             <item>
                 <title>TV Opoja HD</title>        
-                <link>rtmp://109.123.114.178:1935/8000/8000</link>
+                <link>rtmp://live.opoja.tv:1935/8000/8000</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
