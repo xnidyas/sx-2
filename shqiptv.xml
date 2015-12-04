@@ -8,8 +8,8 @@
     <fanart></fanart>
         <subchannel>
         <name>TV Klan SD..</name>
-        <thumbnail>http://television.png</thumbnail>
-        <fanart>http://fanart.jpg</fanart>
+        <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
+        <fanart></fanart>
             <subitems>
                 <subitem>
                 <title>TV Klan Link 1</title>
@@ -18,7 +18,7 @@
                 </subitem>
                 <subitem>
                 <title>TV Klan Link 2..</title>
-                <link>rtmp://173.193.32.166/live playpath=tvshqiphd.com swfUrl=http://static.castalba.tv/player5.9.swf live=1 pageUrl=http://castalba.tv/embed.php?cid=24116&wh=670&ht=460&r=tvshqiphd.com</link>
+                <link>#</link>
                 <thumbnail></thumbnail>
                 </subitem>
         <items>
