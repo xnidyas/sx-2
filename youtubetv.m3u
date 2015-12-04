@@ -12,9 +12,6 @@ plugin://plugin.video.youtube/play/?playlist_id=PL484FD2795B665D26&order=shuffle
 #EXTINF:0 group-title="YouTube Videos|Films" tvg-id="49" tvg-logo="",Arkiva Shqip *Hitet '15 (kodi|pc)
 plugin://plugin.video.youtube/play/?playlist_id=PLDBHNGQFJGxMmG_FBHZjcGjeZ6aaoQDYP&order=shuffle
  
-#EXTINF:0 group-title="YouTube Videos|Films" tvg-id="50" tvg-logo="",DM SAT Videos (kodi|pc)
-plugin://plugin.video.youtube/play/?playlist_id=PLEF005FF978018502&order=shuffle
- 
 #EXTINF:0 group-title="YouTube Videos|Films" tvg-id="51" tvg-logo="",Kenge me Qiftelli (kodi|pc)
 plugin://plugin.video.youtube/play/?playlist_id=PLbz9CFlXZDs-hGLkQOZIS2OyAKRJ28tCu&order=shuffle
  
@@ -64,22 +61,22 @@ plugin://plugin.video.youtube/?action=play_video&videoid=wFqAL6Tiqyk
 plugin://plugin.video.youtube/?action=play_video&videoid=Wsp7_6hDO3o
  
 #EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Shkolla e Maleva UCK (Full Movie)
-https://www.youtube.com/watch?v=pfJvdX9aEvw
+plugin://plugin.video.youtube/?action=play_video&videoid=pfJvdX9aEvw
  
 #EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",AZEM GALICA (Full Movie)
-https://www.youtube.com/watch?v=T1X9WB0ZkqA
+plugin://plugin.video.youtube/?action=play_video&videoid=T1X9WB0ZkqA
  
 #EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Haraqi (Full Movie)
-https://www.youtube.com/watch?v=nO0yGskfifQ
+plugin://plugin.video.youtube/?action=play_video&videoid=nO0yGskfifQ
  
 #EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",AZEMI(Film Artistik per UCK)
-https://www.youtube.com/watch?v=Pr8Kp5FB6h4
+plugin://plugin.video.youtube/?action=play_video&videoid=Pr8Kp5FB6h4
  
 #EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",ZORI (Full Movie)
-https://www.youtube.com/watch?v=EN7pktCEwKM
+plugin://plugin.video.youtube/?action=play_video&videoid=EN7pktCEwKM
  
 #EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Shoku Im i Luftes (Full Movie)
-https://www.youtube.com/watch?v=HGk-ODwyX5k
+plugin://plugin.video.youtube/?action=play_video&videoid=HGk-ODwyX5k
  
 #EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",TIGRAT (Best of)Compilation HUMOR
-https://www.youtube.com/watch?v=AHjwVK3wP1A
+plugin://plugin.video.youtube/?action=play_video&videoid=AHjwVK3wP1A
