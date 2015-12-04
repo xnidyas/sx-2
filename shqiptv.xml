@@ -339,8 +339,8 @@
             </item>
             
             <item>
-                <title>TV T</title>        
-                <link>rtmp://$OPT:rtmp-raw=rtmp://46.234.100.41:1935/ playpath=tvt live=1</link>
+                <title>TV R</title>        
+                <link>rtmp://62.141.45.234:1935/live/shqiptv6/livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://iptvlivestream.com/rtmp/tvr/</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
