@@ -16,6 +16,15 @@
                 <info>THE WEATHER CHANNEL</info>
             </item>
  
+              <item>
+                <title>Tirana Live</title>        
+                <link>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/livestream</link>
+                <thumbnail></thumbnail>
+                <referrer>http://shqip24.tv/</referrer>
+                <genre>Tirana Live</genre>
+                <info>Televizioni Tirana Shqip</info>
+            </item>
+            
              <item>
                 <title>TV Klan SD</title>        
                 <link>http://visar.goldtv.al:8000/live//www.sportsalb.com/albsports.com/209.ts</link>
@@ -181,6 +190,14 @@
                 <info>MUZIKE SHQIP</info>
             </item>
  
+             <item>
+                <title>A1 Report News</title>        
+                <link>rtmp://66.55.93.204/livepkgr/stream?adbe-live-event=report</link>
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>MUZIKE SHQIP</info>
+            </item>
+            
             <item>
                 <title>Channel 1 Shkoder</title>        
                 <link>http://xtv1channelshkoderx.api.channel.livestream.com/3.0/playlist.m3u8</link>
@@ -199,7 +216,7 @@
  
             <item>
                 <title>KLAN Kosova</title>        
-                <link>http://str105mb.setplex.net:1935/str2iosmd5/10ios_klankosova_56468946/playlist.m3u8</link>
+                <link>http://84.22.48.253:8080/klanks/test.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
@@ -309,6 +326,22 @@
                 <info>MUZIKE SHQIP</info>
             </item>
  
+             <item>
+                <title>TV Koha</title>        
+                <link>rtmp://live.tvkoha.tv/live/koha/livestream</link>
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>MUZIKE SHQIP</info>
+            </item>
+            
+            <item>
+                <title>TV T</title>        
+                <link>rtmp://46.234.100.41:1935/tvt</link>
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>MUZIKE SHQIP</info>
+            </item>
+            
             <item>
                 <title>[COLOR yellow]###OTHER CHANNELS###[/COLOR]</title>        
                 <link>#</link>
