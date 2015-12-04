@@ -19,7 +19,7 @@
 
             <item>
                 <title>Tirana Live Camera</title>        
-                <link>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://iptvlivestream.com/rtmp/tirana-live-3/</link>
+                <link>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://iptvlivestream.com/rtmp/tirana-live-3/</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>Tirana Live Camera</info>
@@ -27,7 +27,7 @@
              
              <item>
                 <title>TV Klan SD</title>        
-                <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/209.ts</link>
+                <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/209.m3u8#?b?b*t$</link>
                 <thumbnail></thumbnail>
                 <referrer>http://shqip24.tv/</referrer>
                 <genre>TV Klan</genre>
@@ -36,7 +36,7 @@
 
              <item>
                 <title>Top Channel SD</title>        
-                <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/208.ts</link>
+                <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/208.m3u8#?b?b*t$</link>
                 <thumbnail></thumbnail>
                 <referrer>http://shqip24.tv/</referrer>
                 <genre>TopChannel</genre>
