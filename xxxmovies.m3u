@@ -20,6 +20,6 @@ http://109.226.222.161:4022/udp/239.255.5.6:1234
 rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://iptvlivestream.com/rtmp/tirana-live-3/
 #EXTINF:-1,*Test*2 - don't click!
 rtmp://174.36.1.75/live playpath=203888 swfUrl=http://static.castalba.tv/player5.9.swf live=1 pageUrl=http://castalba.tv/channel/27595
-#EXTINF:-1,*Test*3 - don't click!
-rtmp://$OPT:rtmp-raw=rtmp://89.248.168.21:443/liveedge/ playpath=albparajsacomcpii swfUrl=http://micast.tv/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://micast.tv/chn.php?ch=albparajsacomcpii
+#EXTINF:-1,*Test*3 - don't click!.
+rtmp://184.173.85.119:1935/live playpath=203815?313434393234333433315f3738393163636563613163303237643962323431393661626439383661323062 live=1 swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/channel/27538
 
