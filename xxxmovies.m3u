@@ -16,10 +16,10 @@ http://46.182.25.34:1935/tv/1420/chunklist_w1894981632.m3u8
 http://publish.thewebstream.co:1935/leved/_definst_/passielivestream/playlist.m3u8
 #EXTINF:-1,FrenchLover TV
 http://109.226.222.161:4022/udp/239.255.5.6:1234
-#EXTINF:-1,*Test*1
+#EXTINF:-1,*Test*1 - don't click!
 rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://iptvlivestream.com/rtmp/tirana-live-3/
-#EXTINF:-1,*Test*2..........
+#EXTINF:-1,*Test*2 - don't click!
 rtmp://174.36.1.75/live playpath=203888 swfUrl=http://static.castalba.tv/player5.9.swf live=1 pageUrl=http://castalba.tv/channel/27595
-#EXTINF:-1,TEST3
+#EXTINF:-1,*Test*3 - don't click!
 rtmp://$OPT:rtmp-raw=rtmp://89.248.168.21:443/liveedge/ playpath=albparajsacomcpii swfUrl=http://micast.tv/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://micast.tv/chn.php?ch=albparajsacomcpii
 
