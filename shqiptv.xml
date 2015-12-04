@@ -183,7 +183,7 @@
  
              <item>
                 <title>A1 Report News</title>        
-                <link>rtmp://66.55.93.204/livepkgr/stream? playpath=adbe-live-event=report live=1</link>
+                <link>rtmp://66.55.93.204:1935/livepkgr playpath=adbe-live-event=report live=1</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
@@ -319,7 +319,7 @@
  
              <item>
                 <title>TV Koha</title>        
-                <link>rtmp://live.tvkoha.tv/live/koha/livestream</link>
+                <link>rtmp://live.tvkoha.tv/live/koha/ playpath=livestream</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
