@@ -7,7 +7,7 @@
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
     <fanart></fanart>
         <subchannel>
-        <name>TV Klan SD</name>
+        <name>TV Klan SD...</name>
         <thumbnail>http://television.png</thumbnail>
         <fanart>http://fanart.jpg</fanart>
             <subitems>
@@ -21,7 +21,7 @@
                 <link>rtmp://173.193.32.166/live playpath=199208?313434393231303232325f6434623765346636323164393732643131633662636631303630333662653636 swfUrl=http://static.castalba.tv/player5.9.swf live=1 timeout=15 pageUrl=http://castalba.tv/embed.php?cid=24116&wh=670&ht=460&r=tvshqiphd.com</link>
                 <thumbnail></thumbnail>
                 </subitem>
-                
+                </subchannel>
        <subchannel>
         <name>Top Channel SD</name>
         <thumbnail></thumbnail>
