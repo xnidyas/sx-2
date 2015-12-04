@@ -33,7 +33,12 @@
                 <genre>TV Klan</genre>
                 <info>Televizioni TV Klan Shqip</info>
             </item>
-
+                <subitem>
+                <title>tv1-2</title>
+                <link>http://some/place/channel_4.mp4</link>
+                <thumbnail>http://thumb.png</thumbnail>
+                </subitem>
+                
              <item>
                 <title>Top Channel SD</title>        
                 <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/208.m3u8#?b?b*t$</link>
@@ -328,7 +333,7 @@
  
              <item>
                 <title>TV Koha</title>        
-                <link>rtmp://live.tvkoha.tv/live/koha/ playpath=livestream</link>
+                <link>rtmp://live.tvkoha.tv/live/koha/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://iptvlivestream.com/rtmp/tvk0ha/</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
