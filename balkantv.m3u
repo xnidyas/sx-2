@@ -16,7 +16,8 @@ http://hrt.live.cdn.spectar.tv/OIV_HRT1_TV/01.m3u8?token=N1vv10JFKH8IiF3ZlQgaiQ&
 rtmp://yayin.tvdunyasi.tv/live/balkanrtv
 #EXTINF:-1,Macedonia Vesti 
 http://62.162.58.55/24vesti
-#EXTINF:-1,
+#EXTINF:0 group-title="YouTube Videos|Films" tvg-id="50" tvg-logo="",DM SAT Playlist (YouTube kodi App)
+plugin://plugin.video.youtube/play/?playlist_id=PLEF005FF978018502&order=shuffle
 #EXTINF:-1,
 #EXTINF:-1,
 #EXTINF:-1,
