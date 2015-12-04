@@ -18,7 +18,7 @@
  
              <item>
                 <title>TV Klan SD</title>        
-                <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/209.ts</link>
+                <link>http://visar.goldtv.al:8000/live//www.sportsalb.com/albsports.com/209.ts</link>
                 <thumbnail></thumbnail>
                 <referrer>http://shqip24.tv/</referrer>
                 <genre>TV Klan</genre>
@@ -26,8 +26,8 @@
             </item>
 
              <item>
-                <title>Top Channel HD</title>        
-                <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/208.ts</link>
+                <title>Top Channel SD</title>        
+                <link>http://visar.goldtv.al:8000/live//www.sportsalb.com/albsports.com/208.ts</link>
                 <thumbnail></thumbnail>
                 <referrer>http://shqip24.tv/</referrer>
                 <genre>TopChannel</genre>
