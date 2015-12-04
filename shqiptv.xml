@@ -15,21 +15,7 @@
                 <genre>WEATHER/KOHA</genre>
                 <info>THE WEATHER CHANNEL</info>
             </item>
- 
-              <item>
-                <title>Tirana Live</title>        
-                <link>rtmp://$OPT:rtmp-raw=rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/livestream</link>
-                <thumbnail></thumbnail>
-                <referrer>http://shqip24.tv/</referrer>
-                <genre>Tirana Live</genre>
-                <info>Televizioni Tirana Shqip</info>
-            </item>
-<item>
-<title>[COLOR yellow]TEST1[/COLOR]</title>
-<sportsdevil>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/livestream</sportsdevil>
-<referer>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/livestream</referer>
-<thumbnail></thumbnail>
-</item>
+            
              <item>
                 <title>TV Klan SD</title>        
                 <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/209.ts</link>
@@ -197,7 +183,7 @@
  
              <item>
                 <title>A1 Report News</title>        
-                <link>rtmp://66.55.93.204/livepkgr/stream?adbe-live-event=report</link>
+                <link>rtmp://66.55.93.204/livepkgr/stream? playpath=adbe-live-event=report live=1</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
@@ -341,7 +327,7 @@
             
             <item>
                 <title>TV T</title>        
-                <link>rtmp://$OPT:rtmp-raw=rtmp://46.234.100.41:1935/tvt</link>
+                <link>rtmp://$OPT:rtmp-raw=rtmp://46.234.100.41:1935/ playpath=tvt live=1</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
