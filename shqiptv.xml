@@ -25,9 +25,9 @@
                 <info>Televizioni Tirana Shqip</info>
             </item>
 <item>
-<title>[COLOR yellow]TEST[/COLOR]</title>
+<title>[COLOR yellow]TEST1[/COLOR]</title>
 <sportsdevil>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/livestream</sportsdevil>
-<referer>http://shqip24.tv/mobile/tv.html</referer>
+<referer>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/livestream</referer>
 <thumbnail></thumbnail>
 </item>
              <item>
