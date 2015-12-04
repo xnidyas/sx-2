@@ -191,8 +191,8 @@
             </item>
  
              <item>
-                <title>A1 Report News</title>        
-                <link>rtmp://66.55.93.204:1935/livepkgr playpath=adbe-live-event=report live=1</link>
+                <title>A1 News Report</title>        
+                <link>rtmp://66.55.93.204/livepkgr/ playpath=stream?adbe-live-event=report swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://iptvlivestream.com/rtmp/a1reportsx/</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
