@@ -6,7 +6,16 @@
     <name>IPTV Shqip TV</name>
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
     <fanart></fanart>
-    
+        <subchannel>
+        <name>Tv 1</name>
+        <thumbnail>http://television.png</thumbnail>
+        <fanart>http://fanart.jpg</fanart>
+            <subitems>
+                <subitem>
+                <title>tv1-1</title>
+                <link>mms://some/place</link>
+                <thumbnail>http://thumb.png </thumbnail>
+                </subitem>
         <items>
             <item>
                 <title>WEATHER/KOHA U.S.A</title>        
