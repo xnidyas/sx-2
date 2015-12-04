@@ -25,6 +25,15 @@
                 <info>Televizioni TV Klan Shqip</info>
             </item>
 
+             <item>
+                <title>Top Channel HD</title>        
+                <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/208.ts</link>
+                <thumbnail></thumbnail>
+                <referrer>http://shqip24.tv/</referrer>
+                <genre>TopChannel</genre>
+                <info>Televizioni Top Channel</info>
+            </item>
+            
             <item>
                 <title>A1 Shqiptare TV</title>        
                 <link>http://176.9.45.202:22222/live/alb/playlist.m3u8</link>
