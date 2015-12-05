@@ -432,6 +432,13 @@
     <link>#</link> 
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/worldcctvcams.m3u</externallink>
     <fanart></fanart>
+    
+ <channel>
+    <name>IPTV Mixed Channels</name>
+    <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
+    <link>#</link> 
+    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/otherchannelz.xml</externallink>
+    <fanart></fanart>
    
     
         </items>
