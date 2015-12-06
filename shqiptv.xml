@@ -12,11 +12,11 @@
         <fanart>http://fanart.jpg</fanart>
             <subitems>
                 <subitem>
-                <title>TV Klan Link 1</title>
+                <title>TV Klan Link 1..</title>
                 <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/209.m3u8#?b?b*t$</link>
                 <thumbnail></thumbnail>
                 </subitem>
-                <subitem>
+<subitem>
 <title>TV Klan Link 2</title>
 <link>$doregex[get-rtmp] playpath=$doregex[get-playpath]$doregex[get-dynamic] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/embed.php?cid=$doregex[get-id] live=1</link>
 
@@ -47,6 +47,7 @@
 <page>http://tvshqiphd.com/tv_al/klan.html</page>
 </regex>
 </subitem>
+
         <subchannel>
         <name>Testing</name>
         <thumbnail>http://television.png</thumbnail>
