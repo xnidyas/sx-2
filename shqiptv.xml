@@ -12,7 +12,7 @@
         <fanart>http://fanart.jpg</fanart>
             <subitems>
                 <subitem>
-                <title>TV Klan Link 1</title>
+                <title>TV Klan Link 1 SD</title>
                 <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/209.m3u8#?b?b*t$</link>
                 <thumbnail></thumbnail>
                 </subitem>
@@ -49,12 +49,12 @@
 </subitem>
 
         <subchannel>
-        <name>Top Channel Links</name>
+        <name>TOP Channel Links</name>
         <thumbnail>http://television.png</thumbnail>
         <fanart>http://fanart.jpg</fanart>
             <subitems>
 <subitem>
-<title>TOP Channel Links</title>
+<title>TOP Channel Link 1 HD</title>
 <link>$doregex[get-rtmp] playpath=$doregex[get-playpath]$doregex[get-dynamic] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/embed.php?cid=$doregex[get-id] live=1</link>
 
 <regex>
@@ -85,7 +85,7 @@
 </regex>
 </subitem>
                 <subitem>
-                <title>Top Channel Link 2</title>
+                <title>Top Channel Link 2 SD</title>
                 <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/208.m3u8#?b?b*t$</link>
                 <thumbnail></thumbnail>
                 </subitem>       
