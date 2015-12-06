@@ -12,12 +12,18 @@
         <fanart>http://fanart.jpg</fanart>
             <subitems>
                 <subitem>
-                <title>TV Klan Link 1 SD</title>
+                <title>TV Klan Link 1</title>
+                <link>rtmp://www1.iguide.to:1935/iguide playpath=lefoq3eiznffwzq swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGD</link>
+                <thumbnail></thumbnail>
+                </subitem>
+            <subitems>
+                <subitem>
+                <title>TV Klan Link 2</title>
                 <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/209.m3u8#?b?b*t$</link>
                 <thumbnail></thumbnail>
                 </subitem>
 <subitem>
-<title>TV Klan Link 2 HD</title>
+<title>TV Klan Link 3</title>
 <link>$doregex[get-rtmp] playpath=$doregex[get-playpath]$doregex[get-dynamic] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/embed.php?cid=$doregex[get-id] live=1</link>
 
 <regex>
@@ -52,9 +58,15 @@
         <name>TOP Channel Links</name>
         <thumbnail>http://television.png</thumbnail>
         <fanart>http://fanart.jpg</fanart>
+         </subitem>
+                <subitem>
+                <title>TOP Channel Link 1</title>
+                <link>rtmp://www1.iguide.to:1935/iguide playpath=0jdji666c40fk9x swfUrl=http://cdn.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGD</link>
+                <thumbnail></thumbnail>
+                </subitem>  
             <subitems>
 <subitem>
-<title>TOP Channel Link 1 HD</title>
+<title>TOP Channel Link 2</title>
 <link>$doregex[get-rtmp] playpath=$doregex[get-playpath]$doregex[get-dynamic] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/embed.php?cid=$doregex[get-id] live=1</link>
 
 <regex>
@@ -85,16 +97,10 @@
 </regex>
 </subitem>
                 <subitem>
-                <title>TOP Channel Link 2 SD</title>
+                <title>TOP Channel Link 3</title>
                 <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/208.m3u8#?b?b*t$</link>
                 <thumbnail></thumbnail>
                 </subitem>
- </subitem>
-                <subitem>
-                <title>TOP Channel Link 3 SD...</title>
-                <link>rtmp://www1.iguide.to:1935/iguide playpath=0jdji666c40fk9x swfUrl=http://cdn.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGD</link>
-                <thumbnail></thumbnail>
-                </subitem>                
                 
                 
         <items>
