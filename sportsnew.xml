@@ -351,3 +351,16 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title>SCI -- PXSTREAM</title>
+<link>$doregex[getRTMP]/95486972572794845347 flashver=WWIN\2011,8,800,133 swfUrl=http://pxstream.tv/player510.swf pageUrl=http://pxstream.tv/embedrouter.php</link>
+<regex>
+<name>getRTMP</name>
+<expres>(rtmp.*?)'<expres>
+<page>http://pxstream.tv/embedrouter.php?file=tashclub</page>
+<referer>http://tashtv.info/2015/10/pink-uzivo.html</referer>
+<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko</agent>
+<cookieJar></cookieJar>
+</regex>
+</item>
