@@ -31,13 +31,6 @@
             </item>
 
             <item>
-                <title>[COLOR white]TV Klan[COLOR gray](Now Click on this for more links)[/COLOR]</title>
-                <link>http://ignoreme</link>
-                <externallink>#</externallink>
-                <thumbnail></thumbnail>
-            </item>
-
-            <item>
                 <title>Tirana Live Camera</title>        
                 <link>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://iptvlivestream.com/rtmp/tirana-live-3/</link>
                 <thumbnail></thumbnail>
