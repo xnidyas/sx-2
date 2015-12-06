@@ -339,3 +339,15 @@
 <page>http://tvshqiphd.com/tv_al/topchannel.html</page>
 </regex>
 </item>
+
+<item>
+<title>TESTING REGEX</title>         
+<link>$doregex[get-rtmp] playpath=95486972572794845347 swfUrl=http://pxstream.tv/player510.swf live=1 pageUrl=http://pxstream.tv/embedrouter.php?file=tashclub</link>
+<regex>
+<name>get-rtmp</name>
+<expres>streamer: '(.*?)'</expres>
+<page>http://pxstream.tv/embedrouter.php?file=tashclub</page>
+<referer>http://tashtv.info/2015/10/pink-uzivo.html</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
