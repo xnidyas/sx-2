@@ -267,7 +267,15 @@
             </item>
  
             <item>
-                <title>TV Teuta Ulqin</title>        
+                <title>TV Teuta Ulqin Link 1</title>        
+                <link>rtmp://str109.setplex.net:1935/tvalb_psh3/ playpath=teuta swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://tvteuta.me/live-tv/</link>
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>MUZIKE SHQIP</info>
+            </item>
+            
+            <item>
+                <title>TV Teuta Ulqin Link 2</title>        
                 <link>http://str105mb.setplex.net:1935/str2iosmd5/7ios_tvteuta_34654675644/HasBahCa.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
