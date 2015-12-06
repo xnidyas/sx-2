@@ -272,4 +272,70 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>TV Klan</title>
+<link>$doregex[get-rtmp] playpath=$doregex[get-playpath]$doregex[get-dynamic] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/embed.php?cid=$doregex[get-id] live=1</link>
 
+<regex>
+<name>get-rtmp</name>
+<expres>streamer': '(.*?)'</expres>	
+<page>http://castalba.tv/embed.php?cid=$doregex[get-id]</page>
+<referer>http://tvshqiphd.com/</referer>
+</regex>
+
+<regex>
+<name>get-dynamic</name>
+<expres>unescape\('(.*?)'</expres>	
+<page>http://castalba.tv/embed.php?cid=$doregex[get-id]</page>
+<referer>http://tvshqiphd.com/</referer>
+</regex>
+
+<regex>
+<name>get-playpath</name>
+<expres>var file = '(.*?)'</expres>	
+<page>http://castalba.tv/embed.php?cid=$doregex[get-id]</page>
+<referer>http://tvshqiphd.com/</referer>
+</regex>
+
+<regex>
+<name>get-id</name>
+<expres>javascript"> id="(.*?)"</expres>	
+<page>http://tvshqiphd.com/tv_al/klan.html</page>
+</regex>
+</item>
+
+
+
+
+
+<item>
+<title>TOP Channel</title>
+<link>$doregex[get-rtmp] playpath=$doregex[get-playpath]$doregex[get-dynamic] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/embed.php?cid=$doregex[get-id] live=1</link>
+
+<regex>
+<name>get-rtmp</name>
+<expres>streamer': '(.*?)'</expres>	
+<page>http://castalba.tv/embed.php?cid=$doregex[get-id]</page>
+<referer>http://tvshqiphd.com/</referer>
+</regex>
+
+<regex>
+<name>get-dynamic</name>
+<expres>unescape\('(.*?)'</expres>	
+<page>http://castalba.tv/embed.php?cid=$doregex[get-id]</page>
+<referer>http://tvshqiphd.com/</referer>
+</regex>
+
+<regex>
+<name>get-playpath</name>
+<expres>var file = '(.*?)'</expres>	
+<page>http://castalba.tv/embed.php?cid=$doregex[get-id]</page>
+<referer>http://tvshqiphd.com/</referer>
+</regex>
+
+<regex>
+<name>get-id</name>
+<expres>javascript"> id="(.*?)"</expres>	
+<page>http://tvshqiphd.com/tv_al/topchannel.html</page>
+</regex>
+</item>
