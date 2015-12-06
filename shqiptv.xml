@@ -88,7 +88,13 @@
                 <title>TOP Channel Link 2 SD</title>
                 <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/208.m3u8#?b?b*t$</link>
                 <thumbnail></thumbnail>
-                </subitem>       
+                </subitem>
+ </subitem>
+                <subitem>
+                <title>TOP Channel Link 3 SD</title>
+                <link>rtmp://www1.iguide.to:1935/iguide playpath=0jdji666c40fk9x swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/embedplayer_new.php?width=660&height=450&channel=32304&autoplay=true</link>
+                <thumbnail></thumbnail>
+                </subitem>                
                 
                 
         <items>
