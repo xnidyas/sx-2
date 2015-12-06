@@ -7,17 +7,17 @@
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
     <fanart></fanart>
         <subchannel>
-        <name>TV Klan SD</name>
+        <name>TV Klan Links</name>
         <thumbnail>http://television.png</thumbnail>
         <fanart>http://fanart.jpg</fanart>
             <subitems>
                 <subitem>
-                <title>TV Klan Link 1..</title>
+                <title>TV Klan Link 1</title>
                 <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/209.m3u8#?b?b*t$</link>
                 <thumbnail></thumbnail>
                 </subitem>
 <subitem>
-<title>TV Klan Link 2</title>
+<title>TV Klan Link 2 HD</title>
 <link>$doregex[get-rtmp] playpath=$doregex[get-playpath]$doregex[get-dynamic] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/embed.php?cid=$doregex[get-id] live=1</link>
 
 <regex>
@@ -49,18 +49,44 @@
 </subitem>
 
         <subchannel>
-        <name>Testing</name>
+        <name>Top Channel Links</name>
         <thumbnail>http://television.png</thumbnail>
         <fanart>http://fanart.jpg</fanart>
             <subitems>
+<subitem>
+<title>TOP Channel Links</title>
+<link>$doregex[get-rtmp] playpath=$doregex[get-playpath]$doregex[get-dynamic] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/embed.php?cid=$doregex[get-id] live=1</link>
+
+<regex>
+<name>get-rtmp</name>
+<expres>streamer': '(.*?)'</expres>	
+<page>http://castalba.tv/embed.php?cid=$doregex[get-id]</page>
+<referer>http://tvshqiphd.com/</referer>
+</regex>
+
+<regex>
+<name>get-dynamic</name>
+<expres>unescape\('(.*?)'</expres>	
+<page>http://castalba.tv/embed.php?cid=$doregex[get-id]</page>
+<referer>http://tvshqiphd.com/</referer>
+</regex>
+
+<regex>
+<name>get-playpath</name>
+<expres>var file = '(.*?)'</expres>	
+<page>http://castalba.tv/embed.php?cid=$doregex[get-id]</page>
+<referer>http://tvshqiphd.com/</referer>
+</regex>
+
+<regex>
+<name>get-id</name>
+<expres>javascript"> id="(.*?)"</expres>	
+<page>http://tvshqiphd.com/tv_al/topchannel.html</page>
+</regex>
+</subitem>
                 <subitem>
-                <title>TV Klan Link 1</title>
-                <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/209.m3u8#?b?b*t$</link>
-                <thumbnail></thumbnail>
-                </subitem>
-                <subitem>
-                <title>TV Klan Link 2..</title>
-                <link></link>
+                <title>Top Channel Link 2</title>
+                <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/208.m3u8#?b?b*t$</link>
                 <thumbnail></thumbnail>
                 </subitem>       
                 
@@ -80,15 +106,6 @@
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>Tirana Live Camera</info>
-            </item>
-                
-             <item>
-                <title>Top Channel SD</title>        
-                <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/208.m3u8#?b?b*t$</link>
-                <thumbnail></thumbnail>
-                <referrer>http://shqip24.tv/</referrer>
-                <genre>TopChannel</genre>
-                <info>Televizioni Top Channel</info>
             </item>
             
             <item>
