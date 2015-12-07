@@ -444,3 +444,13 @@
 <page>http://tvshqiphd.com/tv_al/klan.html</page>
 </regex>
 </item>
+
+<item>
+			<title>youtube tvbluesky</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[get-id]</link>
+			<regex>
+			<name>get-id</name>
+			<expres>data-context-item-id="(.*?)"</expres>
+			<page>https://www.youtube.com/user/BlueSkyMusicTv</page>
+			</regex>
+		</item>
