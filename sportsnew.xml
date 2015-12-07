@@ -322,11 +322,11 @@
 
 
 <item>
-			<title>youtube-test</title>
+			<title>youtube-test1</title>
 			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[get-id]</link>
 			<regex>
 			<name>get-id</name>
 			<expres>data-context-item-id="(.*?)"</expres>
-			<page>https://www.youtube.com/user/BlueSkyMusicTv</page>
+			<page>https://www.youtube.com/user/nfmEUROLINDI/videos</page>
 			</regex>
 		</item>
