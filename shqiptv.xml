@@ -42,14 +42,14 @@
 
 <regex>
 <name>get-playpath</name>
-<expres>var file = '(.*?)'</expres>	
+<expres>var file = '(.*?)'</expres>
 <page>http://castalba.tv/embed.php?cid=$doregex[get-id]</page>
 <referer>http://tvshqiphd.com/tv_al/klan.html</referer>
 </regex>
 
 <regex>
 <name>get-id</name>
-<expres>javascript"> id="(.*?)"</expres>	
+<expres>javascript"> id="(.*?)"</expres>
 <page>http://tvshqiphd.com/tv_al/klan.html</page>
 </regex>
 </subitem>
