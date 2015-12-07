@@ -23,28 +23,28 @@
                 <thumbnail></thumbnail>
                 </subitem>
 <subitem>
-<title>TV Klan Link 3</title>
+<title>TV Klan Link 3...</title>
 <link>$doregex[get-rtmp] playpath=$doregex[get-playpath]$doregex[get-dynamic] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/embed.php?cid=$doregex[get-id] live=1</link>
 
 <regex>
 <name>get-rtmp</name>
 <expres>streamer': '(.*?)'</expres>	
 <page>http://castalba.tv/embed.php?cid=$doregex[get-id]</page>
-<referer>http://tvshqiphd.com/</referer>
+<referer>http://tvshqiphd.com/tv_al/klan.html</referer>
 </regex>
 
 <regex>
 <name>get-dynamic</name>
 <expres>unescape\('(.*?)'</expres>	
 <page>http://castalba.tv/embed.php?cid=$doregex[get-id]</page>
-<referer>http://tvshqiphd.com/</referer>
+<referer>http://tvshqiphd.com/tv_al/klan.html</referer>
 </regex>
 
 <regex>
 <name>get-playpath</name>
 <expres>var file = '(.*?)'</expres>	
 <page>http://castalba.tv/embed.php?cid=$doregex[get-id]</page>
-<referer>http://tvshqiphd.com/</referer>
+<referer>http://tvshqiphd.com/tv_al/klan.html</referer>
 </regex>
 
 <regex>
