@@ -18,7 +18,7 @@
         <items>
          
 <item>
-<title>[COLOR white]Movie Channel 1 (Regex) HD [COLOR gray](Live)[/COLOR]</title>
+<title>[COLOR white]Movie Channel 1 (Regex) HD [COLOR gray](OFF)[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
 <regex>
 <name>path</name>
@@ -66,7 +66,7 @@
 </item>
 
 <item>
-<title>[COLOR white]Movie Channel 2 (Regex) HD [COLOR gray](Live)[/COLOR]</title>
+<title>[COLOR white]Movie Channel 2 (Regex) HD [COLOR gray](OFF)[/COLOR]</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
 <regex>
 <name>path</name>
