@@ -3,10 +3,10 @@
 #EXTINF:0,[COLOR yellow]###Install YouTube App for Kodi to Play YouTube Videos Here####[/COLOR]
 http://www.ignoreme.com/#
 
-#EXTINF:0  group-title="YouTube Videos|Films" tvg-id="48" tvg-logo="",KENGE SHQIP by SejDin X. (kodi|pc)
+#EXTINF:0  group-title="YouTube Videos|Films" tvg-id="48" tvg-logo="",KENGE SHQIP by S.X. (kodi|pc)
 plugin://plugin.video.youtube/play/?playlist_id=PLtGclolOH9lDmjSEMd_nUbo6XwDhxDPax&order=shuffle
  
-#EXTINF:0 group-title="YouTube Videos|Films" tvg-id="49" tvg-logo="",Arkiva Shqip *New Songs (kodi|pc)
+#EXTINF:0 group-title="YouTube Videos|Films" tvg-id="49" tvg-logo="",Arkiva Shqip *Hitet E Reja! (kodi|pc)
 plugin://plugin.video.youtube/play/?playlist_id=PL484FD2795B665D26&order=shuffle
  
 #EXTINF:0 group-title="YouTube Videos|Films" tvg-id="49" tvg-logo="",Arkiva Shqip *Hitet '15 (kodi|pc)
@@ -14,6 +14,9 @@ plugin://plugin.video.youtube/play/?playlist_id=PLDBHNGQFJGxMmG_FBHZjcGjeZ6aaoQD
  
 #EXTINF:0 group-title="YouTube Videos|Films" tvg-id="51" tvg-logo="",Kenge me Qiftelli (kodi|pc)
 plugin://plugin.video.youtube/play/?playlist_id=PLbz9CFlXZDs-hGLkQOZIS2OyAKRJ28tCu&order=shuffle
+ 
+#EXTINF:0 group-title="YouTube Videos|Films" tvg-id="51" tvg-logo="",Folklori 2015 (kodi|pc)
+plugin://plugin.video.youtube/play/?playlist_id=PLL9v8Y_vwnvlGLCiaoYJvkfW0ShnI_nDh&order=shuffle
  
 #EXTINF:0 group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Plage te Vjetra HD
 plugin://plugin.video.youtube/?action=play_video&videoid=_tVGEd8o3qY&index=2&list=PLtGclolOH9lCaUqb8VUmVBTRty2E-YzBq
