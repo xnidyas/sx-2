@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
+ 
+<poster>BES-IPTV Say's Hi!</poster>
+<fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
+ 
  <channels>
 
 <channel>
     <name>BES-IPTV Shqip TV :)</name>
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
-    <fanart></fanart>
+    <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
         <subchannel>
         <name>TV Klan Links [COLOR gray](Click here for links!)[/COLOR]</name>
         <thumbnail>http://television.png</thumbnail>
-        <fanart>http://fanart.jpg</fanart>
+        <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
             <subitems>
                 <subitem>
                 <title>TV Klan Link 1</title>
@@ -57,7 +61,7 @@
         <subchannel>
         <name>TOP Channel Links [COLOR gray](Click here for links!)[/COLOR]</name>
         <thumbnail>http://television.png</thumbnail>
-        <fanart>http://fanart.jpg</fanart>
+        <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
          </subitem>
                 <subitem>
                 <title>TOP Channel Link 1</title>
