@@ -7,7 +7,7 @@
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
     <fanart></fanart>
         <subchannel>
-        <name>TV Klan Links [COLOR gray](Try but Channels may be down)[/COLOR]</name>
+        <name>TV Klan Links [COLOR gray](Click here for links!)[/COLOR]</name>
         <thumbnail>http://television.png</thumbnail>
         <fanart>http://fanart.jpg</fanart>
             <subitems>
@@ -55,7 +55,7 @@
 </subitem>
 
         <subchannel>
-        <name>TOP Channel Links [COLOR gray](Try but Channels may be down)[/COLOR]</name>
+        <name>TOP Channel Links [COLOR gray](Click here for links!)[/COLOR]</name>
         <thumbnail>http://television.png</thumbnail>
         <fanart>http://fanart.jpg</fanart>
          </subitem>
