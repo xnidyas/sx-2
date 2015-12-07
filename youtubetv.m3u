@@ -17,6 +17,9 @@ plugin://plugin.video.youtube/play/?playlist_id=PLbz9CFlXZDs-hGLkQOZIS2OyAKRJ28t
  
 #EXTINF:0 group-title="YouTube Videos|Films" tvg-id="51" tvg-logo="",Folklori 2015 (kodi|pc)
 plugin://plugin.video.youtube/play/?playlist_id=PLL9v8Y_vwnvlGLCiaoYJvkfW0ShnI_nDh&order=shuffle
+
+#EXTINF:0 group-title="YouTube Videos|Films" tvg-id="51" tvg-logo="",Elrodi Music Videoklipe (kodi|pc)
+plugin://plugin.video.youtube/play/?playlist_id=PL-6uOw2psPuh2P4mXIUdgXnqkCSdfCWzs&order=shuffle
  
 #EXTINF:0 group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Plage te Vjetra HD
 plugin://plugin.video.youtube/?action=play_video&videoid=_tVGEd8o3qY&index=2&list=PLtGclolOH9lCaUqb8VUmVBTRty2E-YzBq
