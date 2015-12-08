@@ -106,7 +106,23 @@
                 <link>http://livefutboll24.com/www.sportsalb.com/albsports.com/208.m3u8#?b?b*t$</link>
                 <thumbnail></thumbnail>
                 </subitem>
-                
+               
+    <subchannel>
+        <name>Super Sport Links [COLOR gray](Click here for links!)[/COLOR]</name>
+        <thumbnail>http://television.png</thumbnail>
+        <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
+         </subitem>
+<title>Super Sport [COLOR yellow](R)[/COLOR]</title>
+<link>$doregex[file]|Referer=http://streamking.cc/supersport&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
+<regex>
+<name>file</name>
+<expres>source: '(.*?)'</expres>
+<page>http://streamking.cc/player?channel=supersport&amp;player=clappr</page>
+<referer>http://streamking.cc/supersport</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</subitem>  
                 
         <items>
             <item>
