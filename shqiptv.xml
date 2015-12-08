@@ -123,7 +123,33 @@
 <thumbnail></thumbnail>
 <fanart></fanart>
 </subitem>  
-                
+
+<subitem>
+<title>Super Sport 2[COLOR yellow](R)[/COLOR]</title>
+<link>$doregex[file]|Referer=http://streamking.cc/supersport2&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
+<regex>
+<name>file</name>
+<expres>source: '(.*?)'</expres>
+<page>http://streamking.cc/player?channel=supersport2&amp;player=clappr</page>
+<referer>http://streamking.cc/supersport2</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</subitem>
+
+<subitem>
+<title>Super Sport 3[COLOR yellow](R)[/COLOR]</title>
+<link>$doregex[file]|Referer=http://streamking.cc/supersport3&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
+<regex>
+<name>file</name>
+<expres>source: '(.*?)'</expres>
+<page>http://streamking.cc/player?channel=supersport3&amp;player=clappr</page>
+<referer>http://streamking.cc/supersport3</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+</subitem>
+
         <items>
             <item>
                 <title>WEATHER/KOHA U.S.A</title>        
