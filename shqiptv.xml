@@ -149,8 +149,26 @@
 </subitem>
 
 <subitem>
- <title>Super Sport News [COLOR yellow](Temporary)[/COLOR]</title>
- <link>http://stream-full.selfip.com:8000/live/chris/chris/220.m3u8</link>
+ <title>Super Sport News  [COLOR yellow](Temporary)[/COLOR]</title>
+ <link>http://stream-full.selfip.com:8000/live/chris/chris/220.m3u8#?b?b*t$</link>
+ <thumbnail></thumbnail>
+ <fanart></fanart>
+</subitem>
+<subitem>
+ <title>Super Sport News 1 [COLOR yellow](Temporary)[/COLOR]</title>
+ <link>http://stream-full.selfip.com:8000/live/chris/chris/221.m3u8#?b?b*t$</link>
+ <thumbnail></thumbnail>
+ <fanart></fanart>
+</subitem>
+<subitem>
+ <title>Super Sport News 2 [COLOR yellow](Temporary)[/COLOR]</title>
+ <link>http://stream-full.selfip.com:8000/live/chris/chris/222.m3u8#?b?b*t$</link>
+ <thumbnail></thumbnail>
+ <fanart></fanart>
+</subitem>
+<subitem>
+ <title>Super Sport News 3 [COLOR yellow](Temporary)[/COLOR]</title>
+ <link>http://stream-full.selfip.com:8000/live/chris/chris/223.m3u8#?b?b*t$</link>
  <thumbnail></thumbnail>
  <fanart></fanart>
 </subitem>
