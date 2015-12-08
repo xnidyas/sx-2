@@ -17,10 +17,17 @@
     <fanart></fanart>
     
  <channel>
-    <name>[COLOR orange]American Footbal NFL[/COLOR]</name>
+    <name>[COLOR yellow]American Footbal NFL[/COLOR]</name>
     <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
     <link>#</link> 
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/nflsports.m3u</externallink>
+    <fanart></fanart>
+    
+ <channel>
+    <name>[COLOR yellow]Sky Sports Channels[/COLOR]</name>
+    <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
+    <link>#</link> 
+    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/testingskysp.xml</externallink>
     <fanart></fanart>
     
  <channel>
@@ -37,15 +44,8 @@
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/liveppvevents.m3u</externallink>
     <fanart></fanart>
     
-   <channel>
-    <name>[COLOR red]*Test1*[/COLOR]</name>
-    <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
-    <link>#</link> 
-    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/testing.xml</externallink>
-    <fanart></fanart>
-    
     <channel>
-    <name>[COLOR red]*Test2*[/COLOR]</name>
+    <name>[COLOR red]*Test1*[/COLOR]</name>
     <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
     <link>#</link> 
     <externallink>http://pastebin.com/raw.php?i=Lhbm2zYK</externallink>
