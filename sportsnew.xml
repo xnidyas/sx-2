@@ -320,6 +320,18 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>Primier Sport [R]</title>
+<link>$doregex[file]|Referer=http://streamking.cc/premiersport&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
+<regex>
+<name>file</name>
+<expres>source: '(.*?)'</expres>
+<page>http://streamking.cc/player?channel=premiersport&amp;player=clappr</page>
+<referer>http://streamking.cc/premiesport</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
 
 <item>
 			<title>youtube-test1</title>
@@ -331,15 +343,4 @@
 			</regex>
 		</item>
 
-<item>
-<title>S/Sport 2 | TEST | file - m3u8</title>
-<link>$doregex[file]|Referer=http://streamking.cc/premiersport&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
-<regex>
-<name>file</name>
-<expres>source: '(.*?)'</expres>
-<page>http://streamking.cc/player?channel=premiersport&amp;player=clappr</page>
-<referer>http://streamking.cc/premiersport</referer>
-</regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
+
