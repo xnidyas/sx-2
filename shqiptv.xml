@@ -493,28 +493,28 @@
                 <info>MUZIKE SHQIP</info>
             </item>
  <channel>
-    <name>Balkan TV</name>
+    <name>Balkan IPTV</name>
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
     <link>#</link> 
     <externallink>http://pastebin.com/raw.php?i=iEE3vM7m</externallink>
     <fanart></fanart>
     
  <channel>
-    <name>YouTube TV</name>
+    <name>YouTube Shqip IPTV</name>
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
     <link>#</link> 
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/youtubetv.m3u</externallink>
     <fanart></fanart>
     
  <channel>
-    <name>KIDS TV</name>
+    <name>KIDS IPTV</name>
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
     <link>#</link> 
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/kidstv.m3u</externallink>
     <fanart></fanart>
     
  <channel>
-    <name>World CCTV Live Cameras</name>
+    <name>World CCTV IPTV Live Cams</name>
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
     <link>#</link> 
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/worldcctvcams.m3u</externallink>
