@@ -148,6 +148,13 @@
 <fanart></fanart> 
 </subitem>
 
+<subitem>
+ <title>Super Sport News [COLOR yellow](Temporary)[/COLOR]</title>
+ <link>http://stream-full.selfip.com:8000/live/chris/chris/220.m3u8</link>
+ <thumbnail></thumbnail>
+ <fanart></fanart>
+</subitem>
+
         <items>
             <item>
                 <title>WEATHER/KOHA U.S.A</title>        
