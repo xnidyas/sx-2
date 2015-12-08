@@ -16,7 +16,7 @@ plugin://plugin.video.youtube/play/?playlist_id=PLDBHNGQFJGxMmG_FBHZjcGjeZ6aaoQD
 plugin://plugin.video.youtube/play/?playlist_id=PLrjBdeOqJwDgCI711Pj894L6a_91kTnPP&order=shuffle
 
 #EXTINF:0 group-title="YouTube Videos|Films" tvg-id="49" tvg-logo="",Albanian Rap Hitet 2015 (kodi|pc)
-plugin://plugin.video.youtube/play/?playlist_id=PL9RiXq3CWn9qROD55aEv5J0p1OVl-aq0Lorder=shuffle
+plugin://plugin.video.youtube/play/?playlist_id=PL9RiXq3CWn9qROD55aEv5J0p1OVl-aq0L&order=shuffle
 
 #EXTINF:0 group-title="YouTube Videos|Films" tvg-id="51" tvg-logo="",Kenge me Qiftelli (kodi|pc)
 plugin://plugin.video.youtube/play/?playlist_id=PLbz9CFlXZDs-hGLkQOZIS2OyAKRJ28tCu&order=shuffle
@@ -30,16 +30,16 @@ plugin://plugin.video.youtube/play/?playlist_id=PL-6uOw2psPuh2P4mXIUdgXnqkCSdfCW
 #EXTINF:0 group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Plage te Vjetra HD
 plugin://plugin.video.youtube/?action=play_video&videoid=_tVGEd8o3qY&index=2&list=PLtGclolOH9lCaUqb8VUmVBTRty2E-YzBq
  
-#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Kenga e Muriqit by FH
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Kenga e Muriqit by F.H
 plugin://plugin.video.youtube/?action=play_video&videoid=GvD-nOcuxVE
  
-#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Shqipetaret e Besit by FH
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Shqipetaret e Besit by F.H
 plugin://plugin.video.youtube/?action=play_video&videoid=IlAiIIowSFE&index=3&list=PLtGclolOH9lCaUqb8VUmVBTRty2E-YzBq
  
-#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Senad Idrizi -Kenga e Selman Muriqit by SejdDin X
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Senad Idrizi -Kenga e Selman Muriqit by S.X
 plugin://plugin.video.youtube/?action=play_video&videoid=olYaZXeVhkU&index=4&list=PLtGclolOH9lCaUqb8VUmVBTRty2E-YzBq
  
-#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Senad Idrizi -Lufta e Muriqit 1861 by FH
+#EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Senad Idrizi -Lufta e Muriqit 1861 by F.H
 plugin://plugin.video.youtube/?action=play_video&videoid=K0dnHqNy7xY&index=6&list=PLtGclolOH9lCaUqb8VUmVBTRty2E-YzBq
  
 #EXTINF:-1  group-title="YouTube Videos|Films" tvg-id="" tvg-logo="",Film Mesazhi Islam Shqip
