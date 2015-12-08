@@ -10,7 +10,7 @@
             <name>m3u8</name>
             <expres>src: "(.*?)"</expres>
             <page>http://iptvlatinototal.16mb.com/grindplayer.php?canal=skysp1.stream&amp;cm=2459&amp;name=skysp1</page>
-            <fanart>http://repo.run/cypher/images/back.jpg</fanart>
+            <fanart></fanart>
 			<thumbnail>http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1269.png</thumbnail>
 			</regex>
 			</item>
@@ -21,7 +21,7 @@
             <name>m3u8</name>
            <expres>src: "(.*?)"</expres>
             <page>http://iptvlatinototal.16mb.com/grindplayer.php?canal=skysp2.stream&amp;cm=2461&amp;name=skysp2</page>
-            <fanart>http://repo.run/cypher/images/back.jpg</fanart>
+            <fanart></fanart>
 			<thumbnail>http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1271.png</thumbnail>
 			</regex>
 </item>
@@ -33,7 +33,7 @@
             <name>m3u8</name>
             <expres>src: "(.*?)"</expres>
             <page>http://iptvlatinototal.16mb.com/grindplayer.php?canal=skysp3.stream&amp;cm=2469&amp;name=skysp3</page>
-            <fanart>http://repo.run/cypher/images/back.jpg</fanart>
+            <fanart></fanart>
 			<thumbnail>http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1273.png</thumbnail>
 			</regex>
 </item>
@@ -45,7 +45,6 @@
             <name>m3u8</name>
            <expres>src: "(.*?)"</expres>
             <page>http://iptvlatinototal.16mb.com/grindplayer.php?canal=skysp4.stream&amp;cm=2465&amp;name=skysp4</page>
-            <fanart>http://repo.run/cypher/images/back.jpg</fanart>
 			<thumbnail>http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1275.png</thumbnail>
 			</regex>
 </item>
@@ -58,7 +57,7 @@
             <name>m3u8</name>
             <expres>src: "(.*?)"</expres>
             <page>http://iptvlatinototal.16mb.com/grindplayer.php?canal=skysp5.stream&amp;cm=2467&amp;name=skysp5</page>
-			<fanart>http://repo.run/cypher/images/back.jpg</fanart>
+			<fanart></fanart>
 			<thumbnail>http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1277.png</thumbnail>
 			</regex>
 			
@@ -70,7 +69,7 @@
             <name>m3u8</name>
             <expres>src: "(.*?)"</expres>
             <page>http://iptvlatinototal.16mb.com/grindplayer.php?canal=skyspf1.stream&amp;cm=2457&amp;name=skyspf1</page>
-			<fanart>http://repo.run/cypher/images/back.jpg</fanart>
+			<fanart></fanart>
 			<thumbnail>http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1267.png</thumbnail>
 			</regex>
 			
@@ -82,7 +81,7 @@
             <name>m3u8</name>
             <expres>src: "(.*?)"</expres>
             <page>http://iptvlatinototal.16mb.com/grindplayer.php?canal=btsport1.stream&amp;cm=2479&amp;name=btsports1</page>
-			<fanart>http://repo.run/cypher/images/back.jpg</fanart>
+			<fanart></fanart>
 			<thumbnail>http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1287.png</thumbnail>
 			</regex>
 			
@@ -94,7 +93,7 @@
             <name>m3u8</name>
             <expres>src: "(.*?)"</expres>
             <page>http://iptvlatinototal.16mb.com/grindplayer.php?canal=btsport2.stream&amp;cm=2481&amp;name=btsports2</page>
-			<fanart>http://repo.run/cypher/images/back.jpg</fanart>
+			<fanart></fanart>
 			<thumbnail>http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1289.png</thumbnail>
 			</regex>
 			
