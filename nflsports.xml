@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+<item>
+<title>[COLOR blue]NFL Now[/COLOR]</title>
+<link>http://nflioslivesvg2-i.akamaihd.net/hls/live/221521/nflioslive/2015HackerNow_w99d9.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR blue]NFL Network[/COLOR]</title>
+<link>http://mstream.streamlive.to:1935/edge/_definst_/n1dv2of13iqam3u/playlist.m3u8?wowzasessionid=1323532750</link>
+<thumbnail></thumbnail>
+</item>
+
+
+
