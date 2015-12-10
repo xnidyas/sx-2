@@ -21,12 +21,10 @@
 <thumbnail></thumbnail>
 </item>
 
-
-
-###############################################################################################
+<!-- REGEX PARA STREMLIVE.TO -->
 
 <item>
-<title>[COLOR=dodgerblue]besiptv=>[/COLOR][COLOR yellow]Regex [/COLOR]  NFL Network</title>
+<title>[COLOR blue]NFL Network[/COLOR] Regex SL.to</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
 <regex>
         <name>path</name>
