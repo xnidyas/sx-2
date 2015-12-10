@@ -19,29 +19,29 @@
          
 <item>
 <title>[COLOR white]Movie Channel 1 (Regex) HD [COLOR gray](OFF)[/COLOR]</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
 <regex>
 <name>path</name>
-<page>http://www.streamlive.to/view/68358/The_HD_Movie_Channel_1-live-stream-channel</page>
+<page>http://www.streamlive.to/view/68358/</page>
 <expres>file: "(.*).flv</expres>
 </regex>
 <regex>
 <name>tok</name>
 <expres>token":"([^"]*)</expres>
 <page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
+<referer>http://www.streamlive.to</referer>
 </regex>
 <regex>
 <name>tokpg</name>
 <expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/68358/The_HD_Movie_Channel_1-live-stream-channel</page>
+<page>http://www.streamlive.to/view/68358/</page>
 </regex>
 <regex>
 <name>xs</name>
 <expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/68358/The_HD_Movie_Channel_1-live-stream-channel</page>
+<page>http://www.streamlive.to/view/68358/</page>
 <rawpost>captcha=$doregex[answer]</rawpost>
-<referer>https://www.streamlive.to</referer>
+<referer>http://www.streamlive.to</referer>
 <cookieJar></cookieJar>
 <ignorecache></ignorecache>
 </regex>
@@ -58,7 +58,7 @@
 <regex>
 <name>xcaptcha</name>
 <expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/68358/The_HD_Movie_Channel_1-live-stream-channel</page>
+<page>http://www.streamlive.to/view/68358/</page>
 <referer>http://www.streamlive.to</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -67,29 +67,29 @@
 
 <item>
 <title>[COLOR white]Movie Channel 2 (Regex) HD [COLOR gray](OFF)[/COLOR]</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
 <regex>
 <name>path</name>
-<page>hhttp://www.streamlive.to/view/68359/The_HD_Movie_Channel_2-live-stream-channel</page>
+<page>http://www.streamlive.to/view/68359/</page>
 <expres>file: "(.*).flv</expres>
 </regex>
 <regex>
 <name>tok</name>
 <expres>token":"([^"]*)</expres>
 <page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
+<referer>http://www.streamlive.to</referer>
 </regex>
 <regex>
 <name>tokpg</name>
 <expres>getJSON\("([^"]*)</expres>
-<page>http://www.streamlive.to/view/68359/The_HD_Movie_Channel_2-live-stream-channel</page>
+<page>http://www.streamlive.to/view/68359/</page>
 </regex>
 <regex>
 <name>xs</name>
 <expres>/(\?xs=.*?)"</expres>
-<page>http://www.streamlive.to/view/68359/The_HD_Movie_Channel_2-live-stream-channel</page>
+<page>http://www.streamlive.to/view/68359/</page>
 <rawpost>captcha=$doregex[answer]</rawpost>
-<referer>https://www.streamlive.to</referer>
+<referer>http://www.streamlive.to</referer>
 <cookieJar></cookieJar>
 <ignorecache></ignorecache>
 </regex>
@@ -106,7 +106,7 @@
 <regex>
 <name>xcaptcha</name>
 <expres>Question: (.*) =</expres>
-<page>http://www.streamlive.to/view/68359/The_HD_Movie_Channel_2-live-stream-channel</page>
+<page>http://www.streamlive.to/view/68359/</page>
 <referer>http://www.streamlive.to</referer>
 <cookieJar></cookieJar>
 </regex>
