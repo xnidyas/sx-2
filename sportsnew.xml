@@ -178,7 +178,7 @@
 
 <item>
 <title>[COLOR white]NBA TV (P) SD[COLOR gray](Now : Live Basketball)[/COLOR]</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
 <regex>
 <name>path</name>
 <page>http://www.streamlive.to/view/71562/NBA_TV-live-stream-channel</page>
@@ -188,7 +188,7 @@
 <name>tok</name>
 <expres>token":"([^"]*)</expres>
 <page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
+<referer>http://www.streamlive.to</referer>
 </regex>
 <regex>
 <name>tokpg</name>
@@ -200,7 +200,7 @@
 <expres>/(\?xs=.*?)"</expres>
 <page>http://www.streamlive.to/view/71562/NBA_TV-live-stream-channel</page>
 <rawpost>captcha=$doregex[answer]</rawpost>
-<referer>https://www.streamlive.to</referer>
+<referer>http://www.streamlive.to</referer>
 <cookieJar></cookieJar>
 <ignorecache></ignorecache>
 </regex>
@@ -226,7 +226,7 @@
 
 <item>
 <title>[COLOR white]NFL Network (Regex) SD[COLOR gray](Now : Live)[/COLOR]</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
 <regex>
 <name>path</name>
 <page>http://www.streamlive.to/view/72886/NFL_Network-live-stream-channel</page>
@@ -236,7 +236,7 @@
 <name>tok</name>
 <expres>token":"([^"]*)</expres>
 <page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
+<referer>http://www.streamlive.to</referer>
 </regex>
 <regex>
 <name>tokpg</name>
@@ -274,7 +274,7 @@
 
 <item>
 <title>[COLOR white]NFL R (Regex) SD[COLOR gray](GameDay: Live)[/COLOR]</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15</link>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
 <regex>
 <name>path</name>
 <page>http://www.streamlive.to/view/70077/ESPN:%20RedZone%20-ApolloFm-live-stream-channel</page>
@@ -284,7 +284,7 @@
 <name>tok</name>
 <expres>token":"([^"]*)</expres>
 <page>$doregex[tokpg]</page>
-<referer>https://www.streamlive.to</referer>
+<referer>http://www.streamlive.to</referer>
 </regex>
 <regex>
 <name>tokpg</name>
@@ -296,7 +296,7 @@
 <expres>/(\?xs=.*?)"</expres>
 <page>http://www.streamlive.to/view/70077/ESPN:%20RedZone%20-ApolloFm-live-stream-channel</page>
 <rawpost>captcha=$doregex[answer]</rawpost>
-<referer>https://www.streamlive.to</referer>
+<referer>http://www.streamlive.to</referer>
 <cookieJar></cookieJar>
 <ignorecache></ignorecache>
 </regex>
