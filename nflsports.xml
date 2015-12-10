@@ -124,3 +124,16 @@
 </item>
 <!---------------END REGX------------!
 
+<!------Protokol hls version-------------!
+<item>
+<title>http://www.streamlive.to/view/72886/NFL_Network-live-stream-channel | TEST</title>
+<link>$doregex[m3u8]</link>
+
+<regex>
+<name>m3u8</name>
+<expres>controls" src="(.*?)"</expres>
+<page>http://www.streamlive.to/view/72886/</page>
+<agent>iphone</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
