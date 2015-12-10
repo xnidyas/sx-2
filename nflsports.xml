@@ -24,7 +24,7 @@
 <!-- REGEX PARA STREMLIVE.TO -->
 
 <item>
-<title>[COLOR blue]NFL Network[/COLOR] Regex SL.to</title>
+<title>[COLOR blue]NFL Network[/COLOR] Regex SL.to 1</title>
 <link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
 <regex>
         <name>path</name>
@@ -65,6 +65,56 @@
         <name>xcaptcha</name>
         <expres>Question: (.*) =</expres>
         <page>http://www.streamlive.to/view/72886</page>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>   
+
+</item>
+		<!-----WORKING RGX FROM STRML1VE.TO ---------------->	
+<item>
+<title>[COLOR blue]NFL Network[/COLOR] Regex SL.to 1</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
+<regex>
+        <name>path</name>
+        <expres>file: "(.*).flv</expres>
+        <page>http://www.streamlive.to/view/70295/</page>
+</regex>
+<regex>
+        <name>tok</name>
+        <expres>token":"([^"]*)</expres>
+        <page>$doregex[tokpg]</page>
+        <referer>http://www.streamlive.to</referer>
+</regex>
+<regex>
+        <name>tokpg</name>
+        <expres>getJSON."(.*?)"</expres>
+        <page>http://www.streamlive.to/view/70295/</page>
+</regex>
+<regex>
+        <name>xs</name>
+        <expres>/(\?xs=.*?)"</expres>
+        <page>http://www.streamlive.to/view/70295/</page>
+        <rawpost>captcha=$doregex[answer]</rawpost>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+        <ignorecache/>
+</regex>
+<regex>
+        <name>answer</name>
+        <expres>$pyFunction:($doregex[captcha])</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>captcha</name>
+        <expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>xcaptcha</name>
+        <expres>Question: (.*) =</expres>
+        <page>http://www.streamlive.to/view/70295/</page>
         <referer>http://www.streamlive.to</referer>
         <cookieJar></cookieJar>
 </regex>
