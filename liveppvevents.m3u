@@ -4,4 +4,5 @@
 http://wwww.ignoreme.com/#
 
 #EXTINF:-1,*Test*
-http://portal.rapidiptv.com:8080/live/FQCSrUyO0e/Dm4dz0FcS1/2042.m3u8#?b?b*t$
+http://85.17.14.15:2270//streaming/clients_live.php?username=FQCSrUyO0e&password=Dm4dz0FcS1&stream=2042&extension=m3u8&hash=bacd177c22fc69e473ddacb0a51e86ec&time=0&pid=41797&external_device=
+
