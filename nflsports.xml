@@ -124,7 +124,7 @@
 </item>
 
 <item>
-<title>http://www.streamlive.to/view/72886/NFL_Network-live-stream-channel | TEST</title>
+<title>NFL Network 1</title>
 <link>$doregex[m3u8]</link>
 
 <regex>
@@ -137,3 +137,6 @@
 </item>
 
 
+<item>
+<title>TSN 1 [COLOR blue]MNF[/COLOR]</title>
+<link>http://portal.rapidiptv.com:8080/live/FQCSrUyO0e/Dm4dz0FcS1/2641.ts</link>
