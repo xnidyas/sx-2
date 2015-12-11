@@ -183,8 +183,9 @@
             </item>
 
             <item>
-                <title>Tirana Live Camera</title>        
+                <title>Tirana Live</title>        
                 <link>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://iptvlivestream.com/rtmp/tirana-live-3/</link>
+                <link>http://portal.rapidiptv.com:8080/live/norbert/norbert/4216.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>Tirana Live Camera</info>
@@ -236,7 +237,7 @@
             <item>
                 <title>STV FOLK TV</title>
                 <link>http://portal.rapidiptv.com:8080/live/norbert/norbert/6260.m3u8</link>
-                <link>#rtmp://str103.setplex.net:1935/228/stv_folk/#</link>
+                <link>rtmp://str103.setplex.net:1935/228/stv_folk/</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
