@@ -12,9 +12,8 @@
     <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
         <subchannel>
         <name>[COLOR yellow]»»»BES-IPTV SHQIP PLAYLIST»»»[/COLOR]</name>
-        <thumbnail>http://television.png</thumbnail>
+        <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
         <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
-         </subitem>
                 <subitems>
                 <subitem>
                 <title>Like our FB page for help/support!...</title>
@@ -23,7 +22,7 @@
                 </subitem>
         <subchannel>
         <name>TV Klan Links [COLOR gray](Click here for links!)[/COLOR]</name>
-        <thumbnail>http://television.png</thumbnail>
+        <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
         <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
             <subitems>
                 <subitem>
@@ -71,7 +70,7 @@
 
         <subchannel>
         <name>TOP Channel Links [COLOR gray](Click here for links!)[/COLOR]</name>
-        <thumbnail>http://television.png</thumbnail>
+        <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
         <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
          </subitem>
                 <subitem>
@@ -120,7 +119,7 @@
                
     <subchannel>
         <name>Super Sport Links [COLOR gray](Click here for links!)[/COLOR]</name>
-        <thumbnail>http://television.png</thumbnail>
+        <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
         <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
 <subitem>
 <title>Super Sport  [COLOR yellow](R)[/COLOR]</title>
@@ -510,11 +509,6 @@
                 <info>MUZIKE SHQIP</info>
             </item>
             
-            <item>
-            <title>Super Sport AL</title>
-<sportsdevil>http://streamking.cc/player?channel=supersport&type=p2p</sportsdevil>
-<referer>http://streamking.cc/player?channel=supersport&type=p2p</referer>
-            </item>
             
             <item>
                 <title>[COLOR yellow]###OTHER CHANNELS###[/COLOR]</title>        
