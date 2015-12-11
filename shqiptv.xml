@@ -11,6 +11,17 @@
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
     <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
         <subchannel>
+        <name>[COLOR yellow]»»»BES-IPTV SHQIP PLAYLIST»»»</name>
+        <thumbnail>http://television.png</thumbnail>
+        <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
+         </subitem>
+                     <subitems>
+                <subitem>
+                <title></title>
+                <link>#</link>
+                <thumbnail></thumbnail>
+                </subitem>
+        <subchannel>
         <name>TV Klan Links [COLOR gray](Click here for links!)[/COLOR]</name>
         <thumbnail>http://television.png</thumbnail>
         <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
