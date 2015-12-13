@@ -6,3 +6,34 @@ http://wwww.ignoreme.com/#
 #EXTINF:-1,*Test*1
 http://85.17.14.15:2270//streaming/clients_live.php?username=FQCSrUyO0e&password=Dm4dz0FcS1&stream=2042&extension=m3u8&hash=bacd177c22fc69e473ddacb0a51e86ec&time=0&pid=41797&external_device=
 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+<item>
+<title>[COLOR yellow]BT Sports ESPN[/COLOR]</title>
+<sportsdevil>http://hdfree.tv/watch-espn-live-stream.html</sportsdevil>
+<referer>http://www.vipbox.sx/</referer>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR yellow]BT Sports Europe[/COLOR]</title>
+<sportsdevil>http://hdfree.tv/watch/32/bt-sport-europe-live-stream.html</sportsdevil>
+<referer>http://www.vipbox.sx/</referer>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR yellow]BT Sports 1 Europe[/COLOR]</title>
+<sportsdevil>http://mamahd.com/watch-bt-sport-1-live-streaming-1.html</sportsdevil>
+<referer>http://www.vipbox.sx/</referer>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR yellow]BT Sports 2 Europe[/COLOR]</title>
+<sportsdevil>http://hdfree.tv/watch/9/bt-sport-2-live-stream.html</sportsdevil>
+<referer>http://www.vipbox.sx/</referer>
+<thumbnail></thumbnail>
+</item>
