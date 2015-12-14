@@ -532,6 +532,14 @@
 		</item>
             
             <item>
+                <title>SuperSky TV</title>        
+                <link>rtmp://flash.supersky.ch/live/supersky/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://shqip3.altervista.org/sky.html</link>
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>MUZIKE SHQIP</info>
+            </item>
+            
+            <item>
                 <title>[COLOR yellow]###OTHER CHANNELS###[/COLOR]</title>        
                 <link>#</link>
                 <thumbnail></thumbnail>
