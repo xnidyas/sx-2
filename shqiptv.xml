@@ -576,16 +576,9 @@
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
             </item>
-            <item>
-                <title>Hip Hop Music TV</title>        
-                <link>http://win.cdn.bonus-tv.ru/TVB7/a1tv/playlist.m3u8</link>
-                <thumbnail></thumbnail>
-                <genre>Music</genre>
-                <info>MUZIKE SHQIP</info>
-            </item>
             
- <item>
-<title>Animal Planet Ustream TEST</title>
+            <item>
+<title>Animal Planet Ustream</title>
 <link>$doregex[url]</link>
 <regex>
 	<name>url</name>
@@ -607,6 +600,15 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
+            
+            <item>
+                <title>Hip Hop Music TV</title>        
+                <link>http://win.cdn.bonus-tv.ru/TVB7/a1tv/playlist.m3u8</link>
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>MUZIKE SHQIP</info>
+            </item>
+        
             
             <item>
                 <title></title>        
