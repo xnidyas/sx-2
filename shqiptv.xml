@@ -511,6 +511,19 @@
                 <info>MUZIKE SHQIP</info>
             </item>
             
+            <!-- REGEX USTREAM -->
+<item>
+<title>TV Kontakt Media</title>
+<link>http://iphone-streaming.ustream.tv/ustreamVideo/$doregex[path]/streams/live/playlist.m3u8</link>
+<regex>
+<name>path</name>
+<expres>"https://www.ustream.tv/embed/(.+?)"></expres>
+<page>http://www.ustream.tv/channel/media-kontakt</page>
+<referer> </referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
             
             <item>
                 <title>[COLOR yellow]###OTHER CHANNELS###[/COLOR]</title>        
