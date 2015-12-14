@@ -254,7 +254,8 @@
             </item>
  
             <item>
-                <title>TV Opoja HD</title>        
+                <title>TV Opoja HD</title>
+                <link>rtmp://62.141.45.234/live/shqiptv11/livestream</link>
                 <link>rtmp://live.opoja.tv:1935/8000/8000</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
