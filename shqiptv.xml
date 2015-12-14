@@ -511,19 +511,15 @@
                 <info>MUZIKE SHQIP</info>
             </item>
             
-            <!-- REGEX USTREAM -->
 <item>
-<title>TV Kontakt Media</title>
-<link>http://iphone-streaming.ustream.tv/ustreamVideo/$doregex[path]/streams/live/playlist.m3u8</link>
-<regex>
-<name>path</name>
-<expres>"http://www.ustream.tv/embed/(.+?)"></expres>
-<page>http://www.ustream.tv/channel/media-kontakt</page>
-<referer>http://www.ustream.tv/</referer>
-</regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
+			<title>TV Kontakt Media UStream</title>
+				<link>$doregex[get-link]</link>
+				<regex>
+				<name>get-link</name>
+				<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/19486248/streams/live/playlist.m3u8')</expres>
+				<page></page>
+				</regex>
+		</item>
             
             <item>
                 <title>[COLOR yellow]###OTHER CHANNELS###[/COLOR]</title>        
