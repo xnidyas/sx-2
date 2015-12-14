@@ -11,12 +11,12 @@
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
     <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
         <subchannel>
-        <name>[COLOR yellow]»BES-IPTV SHQIP PLAYLIST[/COLOR]</name>
+        <name>[COLOR yellow]»BES-IPTV SHQIP PLAYLIST![/COLOR]</name>
         <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
         <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
                 <subitems>
                 <subitem>
-                <title>Like our FB page for help/support!...</title>
+                <title>[color blue]Like our FB page for help/support!...[/color]</title>
                 <link>#</link>
                 <thumbnail></thumbnail>
                 </subitem>
@@ -256,7 +256,7 @@
  
             <item>
                 <title>TV Opoja HD</title>
-                <link>rtmp://62.141.45.234/live/shqiptv11/livestream</link>
+                <link>rtmp://62.141.45.234/live/shqiptv11/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://opoja.tv/</link>
                 <link>rtmp://live.opoja.tv:1935/8000/8000</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
