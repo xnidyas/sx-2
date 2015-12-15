@@ -596,7 +596,7 @@
             </item>
             
             <item>
-			<title>Animail Plante Ustream</title>
+			<title>Animal Planet Ustream</title>
 				<link>$doregex[get-link]</link>
 				<regex>
 				<name>get-link</name>
