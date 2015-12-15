@@ -238,13 +238,21 @@
             </item>
  
             <item>
-                <title>BlueSkyTV</title>        
+                <title>BlueSky TV</title>        
                 <link>http://xtvblueskyx.api.channel.livestream.com/3.0/playlist.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
             </item>
- 
+            
+            <item>
+                <title>Star+ TV Shkoder</title>         
+                <link></link>
+                <thumbnail></thumbnail>
+                <genre>BES-IPTV</genre>
+                <info>BES-IPTV SHQIP TV</info>
+            </item>
+            
             <item>
                 <title>STV FOLK TV</title>
                 <link>http://portal.rapidiptv.com:8080/live/norbert/norbert/6260.m3u8</link>
@@ -285,6 +293,22 @@
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
+            </item>
+            
+             <item>
+                <title>ALB Humor TV</title>         
+                <link>http://str105mb.setplex.net:1935/str2iosmd5/alb_humor/playlist.m3u8</link>
+                <thumbnail></thumbnail>
+                <genre>BES-IPTV</genre>
+                <info>BES-IPTV SHQIP TV</info>
+            </item>
+			
+	     <item>
+                <title>ALB Kids TV</title>         
+                <link>http://str105mb.setplex.net:1935/str2iosmd5/alb_kids/playlist.m3u8</link>
+                <thumbnail></thumbnail>
+                <genre>BES-IPTV</genre>
+                <info>BES-IPTV SHQIP TV</info>
             </item>
  
             <item>
@@ -436,13 +460,6 @@
             <item>
                 <title>TV Teuta Ulqin Link 1</title>        
                 <link>rtmp://str109.setplex.net:1935/tvalb_psh3/ playpath=teuta swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://tvteuta.me/live-tv/</link>
-                <thumbnail></thumbnail>
-                <genre>Music</genre>
-                <info>MUZIKE SHQIP</info>
-            </item>
-            
-            <item>
-                <title>TV Teuta Ulqin Link 2</title>        
                 <link>http://str105mb.setplex.net:1935/str2iosmd5/7ios_tvteuta_34654675644/HasBahCa.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
@@ -558,6 +575,14 @@
 				<page></page>
 				</regex>
 		</item>
+		
+	      <item>
+                <title>Fokus TV NYC</title>         
+                <link>http://str105mb.setplex.net:1935/str2iosmd5//25albanianscreen/playlist.m3u8</link>
+                <thumbnail></thumbnail>
+                <genre>BES-IPTV</genre>
+                <info>BES-IPTV SHQIP TV</info>
+            </item>
             
             <item>
                 <title>[COLOR yellow]###OTHER CHANNELS###[/COLOR]</title>        
