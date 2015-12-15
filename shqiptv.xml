@@ -625,7 +625,8 @@
         
              <item>
                 <title> [COLOR blue]*[/COLOR]TEST 1</title>        
-                <link>http://209.188.18.78:8081/live/streamclient9_t/playlist.m3u8?wmsAuthSign=$doregex[id]</link>
+                <link>http://209.188.18.78:8081/live/streamclient9_t/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMTUvMjAxNSAxMjozMzoxOCBBTSZoYXNoX3ZhbHVlPWx5Mk05aVFMRkw2d3hOT2dnYVBGVWc9PSZ2YWxpZG1pbnV0ZXM9MjA=
+</link>
                 <thumbnail></thumbnail>
                 <genre>BES-IPTV</genre>
                 <info>Balkan TV</info>
