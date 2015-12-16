@@ -24,6 +24,9 @@ plugin://plugin.video.youtube/play/?playlist_id=PLBdsvcvkpzMGCD1IZqynE9bG2HOcE_D
 #EXTINF:0 group-title="YouTube Videos|Films" tvg-id="49" tvg-logo="",Gezuar 2016 - OnAirMusic (kodi|pc)
 plugin://plugin.video.youtube/play/?playlist_id=PLqEIKD3GjYImU1a77w__enK9VFhGeM8Qv&order=shuffle
 
+#EXTINF:0 group-title="YouTube Videos|Films" tvg-id="49" tvg-logo="",Stupcat Humor 2016 - OnAirMusic (kodi|pc)
+plugin://plugin.video.youtube/play/?playlist_id=PL8LSDnKQk046fkmj4CEj1CNQRYK0KIZON&order=shuffle
+
 #EXTINF:0 group-title="YouTube Videos|Films" tvg-id="49" tvg-logo="",Albanian Rap Hitet 2015 (kodi|pc)
 plugin://plugin.video.youtube/play/?playlist_id=PL9RiXq3CWn9qROD55aEv5J0p1OVl-aq0L&order=shuffle
 
