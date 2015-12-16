@@ -15,6 +15,9 @@ plugin://plugin.video.youtube/play/?playlist_id=PLDBHNGQFJGxMmG_FBHZjcGjeZ6aaoQD
 #EXTINF:0 group-title="YouTube Videos|Films" tvg-id="49" tvg-logo="",EMFcreative Videoklipe (kodi|pc)
 plugin://plugin.video.youtube/play/?playlist_id=PLrjBdeOqJwDgCI711Pj894L6a_91kTnPP&order=shuffle
 
+#EXTINF:0 group-title="YouTube Videos|Films" tvg-id="49" tvg-logo="",Gezuar 2016 - Emracom (kodi|pc)
+plugin://plugin.video.youtube/play/?playlist_id=PLDBHNGQFJGxPYlFNMf3_kyulr4zphTm9_&order=shuffle
+
 #EXTINF:0 group-title="YouTube Videos|Films" tvg-id="49" tvg-logo="",Albanian Rap Hitet 2015 (kodi|pc)
 plugin://plugin.video.youtube/play/?playlist_id=PL9RiXq3CWn9qROD55aEv5J0p1OVl-aq0L&order=shuffle
 
