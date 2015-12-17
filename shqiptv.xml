@@ -39,15 +39,22 @@
                 <link>rtmp://www1.iguide.to:1935/iguide playpath=lefoq3eiznffwzq swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGD</link>
                 <thumbnail></thumbnail>
                 </subitem>
-            <subitems>
+             <subitems>
                 <subitem>
                 <title>TV Klan Link 2</title>
+                <link>rtmp://94.176.148.210:443/liveedge/ playpath=klanianfY swfUrl=http://micast.tv/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://micast.tv/iframe.php?ch=klanianfY&width=640&height=460</link>
+                <thumbnail></thumbnail>
+                </subitem>
+                <subitems>
+            <subitems>
+                <subitem>
+                <title>TV Klan Link 3</title>
                 <link>rtmp://86.106.137.10/live?token=YA3BMFbotcDlsBKwkQIs3QExpired=1450367897 playpath=verc2aebc39a8c2804bc7feca swfUrl=http://prueba10.biz/player.swf live=1 pageUrl=http://eq10.me/embed.php?file=klan&width=660&height=450</link>
                 <thumbnail></thumbnail>
                 </subitem>
                 <subitems>
 <subitem>
-<title>TV Klan Link 3[COLOR green][/COLOR]</title>
+<title>TV Klan Link 4[COLOR green][/COLOR]</title>
 <link>$doregex[get-rtmp] playpath=$doregex[get-playpath]$doregex[get-dynamic] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/embed.php?cid=$doregex[get-id] live=1</link>
 
 <regex>
