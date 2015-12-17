@@ -25,6 +25,14 @@
         <name>TV Klan Links [COLOR gray](Click here for links!)[/COLOR]</name>
         <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
         <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
+        <subitems>
+         <subitem>
+         <title>[COLOR lime]---Try All Links---[/COLOR]</title>        
+                <link>#</link>
+                <thumbnail></thumbnail>
+                <genre>BES-IPTV</genre>
+                <info>BES-IPTV</info> 	
+         </subitem>
             <subitems>
                 <subitem>
                 <title>TV Klan Link 1</title>
@@ -74,6 +82,7 @@
         <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
         <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
          </subitem>
+         <subitems>
          <subitem>
          <title>[COLOR lime]---Try All Links---[/COLOR]</title>        
                 <link>#</link>
