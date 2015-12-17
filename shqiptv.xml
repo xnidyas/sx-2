@@ -26,7 +26,8 @@
         <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
         <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
         <subitems>
-         <subitem>
+        	
+          <subitem>
          <title>[COLOR lime]---Try All Links---[/COLOR]</title>        
                 <link>#</link>
                 <thumbnail></thumbnail>
@@ -45,6 +46,7 @@
                 <link>rtmp://86.106.137.10/live?token=YA3BMFbotcDlsBKwkQIs3QExpired=1450367897 playpath=verc2aebc39a8c2804bc7feca swfUrl=http://prueba10.biz/player.swf live=1 pageUrl=http://eq10.me/embed.php?file=klan&width=660&height=450</link>
                 <thumbnail></thumbnail>
                 </subitem>
+                <subitems>
 <subitem>
 <title>TV Klan Link 3[COLOR green][/COLOR]</title>
 <link>$doregex[get-rtmp] playpath=$doregex[get-playpath]$doregex[get-dynamic] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/embed.php?cid=$doregex[get-id] live=1</link>
