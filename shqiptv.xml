@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
  
  
 <poster>BES-IPTV Say's Hi!</poster>
@@ -73,6 +74,14 @@
         <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
         <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
          </subitem>
+         <subitem>
+         <title>[COLOR lime]---Try All Links---[/COLOR]</title>        
+                <link>#</link>
+                <thumbnail></thumbnail>
+                <genre>BES-IPTV</genre>
+                <info>BES-IPTV</info> 	
+         </subitem>
+         
                 <subitem>
                 <title>TOP Channel Link 1</title>
                 <link>rtmp://www1.iguide.to:1935/iguide playpath=0jdji666c40fk9x swfUrl=http://cdn.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/ token=#ed%h0#w18623jsda6523lDGD</link>
