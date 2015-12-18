@@ -9,12 +9,6 @@
 </item>
 
 <item>
-<title>[COLOR blue]NFL Network[/COLOR]</title>
-<link>http://mstream.streamlive.to:1935/edge/_definst_/n1dv2of13iqam3u/playlist.m3u8?wowzasessionid=1323532750</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
 <title>[COLOR blue]NFL Network[/COLOR] (wait few seconds) MMHD</title>
 <sportsdevil>http://mamahd.com/watch-nfl-network-live-stream-free-1.html</sportsdevil>
 <referer>http://www.vipbox.sx/</referer>
@@ -124,6 +118,12 @@
 </item>
 
 <item>
+<title>[COLOR blue]NFL Network (Game Day)[/COLOR]</title>
+<link>http://streamup.global.ssl.fastly.net/app/crivo227s-stream/chunklist.m3u8</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
 <title>NFL Network 1</title>
 <link>$doregex[m3u8]</link>
 
@@ -136,6 +136,18 @@
 <thumbnail></thumbnail>
 </item>
 
+<item>
+<title>NFL Network 2</title>
+<link>$doregex[m3u8]</link>
+
+<regex>
+<name>m3u8</name>
+<expres>controls" src="(.*?)"</expres>
+<page>http://www.streamlive.to/view/70295/</page>
+<agent>iphone</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
 
 <item>
 <title>TSN 1 [COLOR blue]MNF[/COLOR]</title>
