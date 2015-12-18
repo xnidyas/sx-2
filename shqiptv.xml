@@ -191,6 +191,18 @@
 <thumbnail></thumbnail>
 <fanart></fanart> 
 </subitem>
+<subitem>
+<title>Super Sport 4 [COLOR yellow](R)[/COLOR]</title>
+<link>$doregex[file]|Referer=http://streamking.cc/supersport4&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
+<regex>
+<name>file</name>
+<expres>source: '(.*?)'</expres>
+<page>http://streamking.cc/player?channel=supersport4&amp;player=clappr</page>
+<referer>http://streamking.cc/supersport4</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart> 
+</subitem>
 
 <subitem>
  <title>Super Sport News  [COLOR yellow](Temporary)[/COLOR]</title>
