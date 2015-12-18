@@ -154,5 +154,12 @@
 <link>http://portal.rapidiptv.com:8080/live/FQCSrUyO0e/Dm4dz0FcS1/2641.ts</link>
 </item>
 
-<title></title>
+<item>
+<title>test 1</title>
+<link>rtmp://89.248.172.15:1935/zmliveme playpath=OCYiUSgckJ swfUrl=http://static.zoomtv.me/player/jwplayer.6.7.4.swf live=1 pageUrl=http://www.zoomtv.me/embed.php?v=2bart914&vw=660&vh=450 objectEncoding=YiUSgckJ</link>
+</item>
 
+<item>
+<title>test2</title>
+<link>rtmp://89.248.172.15:1935/zmliveme playpath=OCYiUSgckJ swfUrl=http://static.zoomtv.me/player/jwplayer.6.7.4.swf live=1 pageUrl=http://www.zoomtv.me/embed.php?v=2bart914&vw=660&vh=450</link>
+</item>
