@@ -150,18 +150,8 @@
 </item>
 
 <item>
-<title>TSN 1 [COLOR blue]MNF[/COLOR]</title>
-<link>http://portal.rapidiptv.com:8080/live/FQCSrUyO0e/Dm4dz0FcS1/2641.ts</link>
-</item>
-
-<item>
-<title>cycling event [vipL</title>
-<sportsdevil>$doregex[get-first-one]</sportsdevil>
-<referer>http://vipleague.me/</referer>
-<regex>
-        <name>get-first-one</name>
-        <expres>'Cycling - Le Tour de France 2015'.*'(http://www.vipleague.me/cycling/.*?)'.Link 1</expres>
-        <page>http://vipleague.me/sports/cycling.html</page>      
-        <referer>http://vipleague.me/</referer>
-</regex>       
+<title>[COLOR blue]NFL Network[/COLOR] (wait few seconds) VipLeague</title>
+<sportsdevil>http://www.vipleague.se/american-football/6455/1/nfl-network-live-stream-online.html</sportsdevil>
+<referer>http://www.vipbox.sx/</referer>
+<thumbnail></thumbnail>
 </item>
