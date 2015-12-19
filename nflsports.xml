@@ -155,3 +155,8 @@
 <referer>http://www.vipleague.se/</referer>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+        <title>test1</title>
+        <link>rtmp://93.174.93.70:1935/zmtvliveme playpath=Oe0DQiT5Sn swfUrl=http://static.zoomtv.me/player/jwplayer.6.5.3.swf live=1 pageUrl=http://www.zoomtv.me/embed.php?v=2nutty77&vw=660&vh=450 token=Q!lrB@G1)ww(-dQ4J4</link>
+</item>
