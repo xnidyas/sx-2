@@ -336,11 +336,14 @@
 
 <item>
 <title>Sport TV1 Direto | JWPCDN.COM |</title>
-<link>$doregex[get-rtmp] playpath=$doregex[m5] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=13 pageUrl=http://openlive.org/embedd.php?file=zuahkbxdA&width=555&height=435</link><regex><name>get-rtmp</name>
+<link>$doregex[get-rtmp] playpath=$doregex[m5] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=13 pageUrl=http://openlive.org/embedd.php?file=zuahkbxdA&width=555&height=435</link>
+<regex>
+<name>get-rtmp</name>
 <expres>streamer: "(.*?)"</expres><page>http://openlive.org/embedd.php?file=zuahkbxdA&width=555&height=435</page>
 <referer>http://antena.mytvfree.me/sportiva.php?id=23476</referer></regex><regex><name>m5</name><expres>file: "(.*?)"</expres>
 <page>http://openlive.org/embedd.php?file=zuahkbxdA&width=555&height=435</page>
-<referer>http://antena.mytvfree.me/sportiva.php?id=23476</referer></regex>
+<referer>http://antena.mytvfree.me/sportiva.php?id=23476</referer>
+</regex>
 </item>
 
 
