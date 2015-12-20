@@ -165,5 +165,5 @@
 
 <item>
         <title>test2</title>
-        <link>rtmp://37.48.83.131/live?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjAvMjAxNSAyOjEyOjI1IFBNJmhhc2hfdmFsdWU9b2MvV09zZDNCTTVBbTVYbUJ6TkRHUT09JnZhbGlkbWludXRlcz0yMA==<playpath>nfln?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjAvMjAxNSAyOjEyOjI1IFBNJmhhc2hfdmFsdWU9b2MvV09zZDNCTTVBbTVYbUJ6TkRHUT06TkRHUT09JnZhbGlkbWludXRl</link>
+        <link>rtmp://37.48.83.131/live?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjAvMjAxNSAyOjEyOjI1IFBNJmhhc2hfdmFsdWU9b2MvV09zZDNCTTVBbTVYbUJ6TkRHUT09JnZhbGlkbWludXRlcz0yMA== playpath=nfln?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjAvMjAxNSAyOjEyOjI1IFBNJmhhc2hfdmFsdWU9b2MvV09zZDNCTTVBbTVYbUJ6TkRHUT06TkRHUT09JnZhbGlkbWludXRl</link>
 </item>
