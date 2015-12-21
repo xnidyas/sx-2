@@ -140,8 +140,6 @@
                 <subitem>
                 <title>TOP Channel Link 3</title>
                 <link>http://185.109.161.191:8081/loadbalance/77259527648351377514/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjAvMjAxNSAxMTozMzoxMSBQTSZoYXNoX3ZhbHVlPVl3R0h0SDBuc0ROVHZzSXNvWDJHQ1E9PSZ2YWxpZG1pbnV0ZXM9MTA=</link>
-                <link>http://185.109.161.191:8081/loadbalance/77259527648351377514/playlist.m3u8?wmsAuthSign=$doregex[id]</link>
-                <link>rtmp://94.176.148.234/live?=$doregex[id] Expired=1450367190 playpath=ver8ce8adf2a14d1e4a097d70 swfUrl=http://prueba10.biz/player.swf live=1 pageUrl=http://eq10.me/embed.php?file=topch&width=660&height=450</link>
                 <thumbnail></thumbnail>
                 </subitem>
                 
