@@ -200,3 +200,9 @@
 </regex>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+        <title>test3</title>
+        <sportsdevil>http://shikotv.de/embed/rtv21.php</sportsdevil>
+        <referer>http://shikotv.de/embed/rtv21.php</referer>
+</item>
