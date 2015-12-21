@@ -355,3 +355,7 @@
 <referer>http://antena.mytvfree.me/sportiva.php?id=23476</referer></regex>
 </item>
 
+<item>
+  <title>test ss2</title>
+  <link>https://raw.githubusercontent.com/saydinx/bes-iptv/master/test.m3u8</link>
+</item>
