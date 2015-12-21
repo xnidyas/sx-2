@@ -139,7 +139,7 @@
 </subitem>
                 <subitem>
                 <title>TOP Channel Link 3</title>
-                <link>http://185.109.161.191:8081/loadbalance/77259527648351377514/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjAvMjAxNSAxMTozMzoxMSBQTSZoYXNoX3ZhbHVlPVl3R0h0SDBuc0ROVHZzSXNvWDJHQ1E9PSZ2YWxpZG1pbnV0ZXM9MTA=</link>
+                <link>rtmp://94.176.148.210:443/liveedge/ playpath=topchhdgS0 swfUrl=http://micast.tv/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://micast.tv/iframe.php?ch=topchhdgS0&width=640&height=460</link>
                 <thumbnail></thumbnail>
                 </subitem>
                 
