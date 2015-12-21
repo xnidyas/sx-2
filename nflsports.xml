@@ -172,3 +172,18 @@
         <title>test2.</title>
         <link>rtmp://37.48.83.131/live?wmsAuthSign=$doregex[id] playpath=nfln?wmsAuthSign=$doregex[id]</link>
 </item>
+
+<item>
+<title>TEST</title>
+<link>$doregex[get-M3U8]</link>
+<regex>
+<name>get-M3U8</name>
+<expres>file: "(.*?)"</expres>
+<page>$doregex[get-embed]</page>
+</regex>
+<regex>
+<name>get-embed</name>
+<expres>iframe.*src="(.*?)"</expres>
+<page>http://shikotv.de/play/rtv21.php</page>
+</regex>
+</item>
