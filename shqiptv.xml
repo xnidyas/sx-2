@@ -165,7 +165,7 @@
         <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
         <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
 <subitem>
-<title>Super Sport  [COLOR yellow](R)[/COLOR]</title>
+<title>Super Sport  [COLOR yellow] (R)[/COLOR]</title>
 <link>$doregex[file]|Referer=http://streamking.cc/supersport&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
 <regex>
 <name>file</name>
