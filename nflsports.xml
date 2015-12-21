@@ -161,54 +161,10 @@
         <link>rtmp://37.48.83.131/live?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjAvMjAxNSAyOjM2OjAyIFBNJmhhc2hfdmFsdWU9Z1RjK29zakljM3pZUjZKeWJBdjRYdz09JnZhbGlkbWludXRlcz0yMA== playpath=nba77?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjAvMjAxNSAyOjM2OjAyIFBNJmhhc2hfdmFsdWU9Z1RjK29zakljM3pZUjZKeWJBdjRYdzBdjRYdz09JnZhbGlkbWludXRlc</link>
 </item>
 
-<item>
-        <title>test1</title>
-        <link>rtmp://37.48.83.131/live?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjAvMjAxNSAyOjM2OjAyIFBNJmhhc2hfdmFsdWU9Z1RjK29zakljM3pZUjZKeWJBdjRYdz09JnZhbGlkbWludXRlcz0yMA== playpath=nba77?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjAvMjAxNSAyOjM2OjAyIFBNJmhhc2hfdmFsdWU9Z1RjK29zakljM3pZUjZKeWJBdjRYdzBdjRYdz09JnZhbGlkbWludXRlc</link>
-</item>
-
 
 
 <item>
-        <title>test2.</title>
-        <link>rtmp://37.48.83.131/live?wmsAuthSign=$doregex[id] playpath=nfln?wmsAuthSign=$doregex[id]</link>
-</item>
-
-<item>
-<title>TEST21</title>
-<link>$doregex[m3u8]</link>
-<regex>
-<name>get-M3U8</name>
-<expres>file: = "(.*?)"</expres>
-<page>$doregex[get-embed]</page>
-</regex>
-<regex>
-<name>get-embed</name>
-<expres>iframe.*src="(.*?)"</expres>
-<page>http://shikotv.de/embed/rtv21.php</page>
-</regex>
-</item>
-
-<item>
-<title> TEST 2</title>
-<link>$doregex[m3u8]</link>
-
-<regex>
-<name>m3u8</name>
-<expres>controls" src="(.*?)"</expres>
-<page>http://shikotv.de/embed/rtv21.php</page>
-<agent>iphone</agent>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-        <title>test3</title>
-        <sportsdevil>http://shikotv.de/embed/rtv21.php</sportsdevil>
-        <referer>http://shikotv.de/embed/rtv21.php</referer>
-</item>
-
-<item>
-<title>TEST | http://shikotv.de/play/rtv21.php | m3u8</title>
+<title>TEST | | m3u8</title>
 <link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
 <page>http://shikotv.de/play/kanalet/rtv21.php</page>
 <referer>http://shikotv.de/</referer></regex>
