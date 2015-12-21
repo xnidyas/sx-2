@@ -334,12 +334,6 @@
 </item>
 
 
-
-<item>
-  <title>test ss2</title>
-  <link></link>
-</item>
-
 			 <item>
 <title>[COLOR=dodgerblue]besiptv=>[/COLOR][COLOR red] SportSdevil[/COLOR] Canal+ Futbol</title>
  <sportsdevil>http://hispaniatv.tv/canales/canal-plus-futbol.html</sportsdevil> 
@@ -347,4 +341,28 @@
 <thumbnail></thumbnail>
 <fanart></fanart>
  <thumbnail></thumbnail> 
+</item>
+
+			 <item>
+<title>[COLOR=dodgerblue]besiptv=>[/COLOR][COLOR red] SportSdevil[/COLOR] BeiN Sports Espanol</title>
+ <sportsdevil>http://hispaniatv.tv/canales/bein.html</sportsdevil> 
+<referer>http://ponlatv.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+ <thumbnail></thumbnail> 
+</item>
+
+			 <item>
+<title>[COLOR=dodgerblue]besiptv=>[/COLOR][COLOR red] SportSdevil[/COLOR] Canal+ Liga</title>
+ <sportsdevil>http://hispaniatv.tv/canales/canal-plus-liga.html</sportsdevil> 
+<referer>http://ponlatv.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+ <thumbnail></thumbnail> 
+</item>
+
+
+<item>
+  <title>test ss2</title>
+  <link></link>
 </item>
