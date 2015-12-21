@@ -258,7 +258,7 @@
  
             <item>
                 <title>RTV SHARRI</title>
-                <link>rtmp://live.opoja.tv:1935/8006/8006</link>
+                <link></link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>RTV Sharri - Kenge Shqip popullore</info>
@@ -572,6 +572,12 @@
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
+            </item>
+            
+            <item>
+            	<title>RTV 21</title>
+            	<link>http://209.188.18.78:8081/live/streamclient9_r/chunks.m3u8?nimblesessionid=1305285&wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjEvMjAxNSA4OjM2OjQzIFBNJmhhc2hfdmFsdWU9M3JqM3ZzNU5tdGVUZ1lUSFdlQktvQT09JnZhbGlkbWludXRlcz0yMA==</link>
+            	<thumbnail></thumbnail>
             </item>
             
             <item>
