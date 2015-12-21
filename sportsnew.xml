@@ -367,23 +367,4 @@
 <link></link>
 </item>
 
-<item>
-<title>Fox</title>
-<link>rtmpe://l.mybeststream.xyz/r/$doregex[path] token=xxxx pageUrl=http://mybeststream.xyz live=1 timeout=20</link>
-<regex>
-	<name>path</name>
-	<expres>'(.*?)',logo</expres>
-	<page>$doregex[get-decrypted]</page>
-</regex>
-<regex>
-	<name>get-decrypted</name>
-	<expres>$pyFunction:get_unwise("$doregex[get-encrypted]")</expres>
-	<page></page>
-</regex>
-<regex>
-	<name>get-encrypted</name>
-	<expres>Loading the player.*;eval\(function\(w,i,s,e\).*}\((.*?)\)</expres>
-	<page>http://mybeststream.xyz/gen_s.php?id=30311</page>
-	<referer>http://usachannels.tv/fox_live.php</referer>
-</regex>
-</item>
+
