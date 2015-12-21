@@ -149,6 +149,15 @@
  <thumbnail></thumbnail>
  <fanart></fanart>
 </subitem>
+<subitem>
+<title>TOP Channel Link 5</title>
+<link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
+<page>http://shikotv.de/play/kanalet/topchannel.php</page>
+<referer>http://shikotv.de/</referer></regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</subitem>
+
 </subitems>
                
     <subchannel>
@@ -574,11 +583,24 @@
                 <info>MUZIKE SHQIP</info>
             </item>
             
-            <item>
-            	<title>RTV 21</title>
-            	<link>http://209.188.18.78:8081/live/streamclient9_r/chunks.m3u8?nimblesessionid=1305285&wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjEvMjAxNSA4OjM2OjQzIFBNJmhhc2hfdmFsdWU9M3JqM3ZzNU5tdGVUZ1lUSFdlQktvQT09JnZhbGlkbWludXRlcz0yMA==</link>
-            	<thumbnail></thumbnail>
-            </item>
+<item>
+<title>RTV 21</title>
+<link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
+<page>http://shikotv.de/play/kanalet/rtv21.php</page>
+<referer>http://shikotv.de/</referer></regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>KTV KohaVision</title>
+<link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
+<page>http://shikotv.de/play/kanalet/ktv.php</page>
+<referer>http://shikotv.de/</referer></regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
             
             <item>
                 <title>TV R</title>        
