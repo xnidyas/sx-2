@@ -1,0 +1,16 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:11
+#EXT-X-MEDIA-SEQUENCE:670
+#EXTINF:9.599567,
+http://85.17.14.5:8080/streaming/clients_live.php?pid=10723&extension=m3u8&username=FQCSrUyO0e&password=Dm4dz0FcS1&stream=7227&type=hls&segment=7227_670.ts&hash=a01fd484996b0dc7458f4b62f6f4133a&time=3330608
+#EXTINF:10.799522,
+http://85.17.14.5:8080/streaming/clients_live.php?pid=10723&extension=m3u8&username=FQCSrUyO0e&password=Dm4dz0FcS1&stream=7227&type=hls&segment=7227_671.ts&hash=e789add115190698c126d6d2804945b5&time=3754360
+#EXTINF:9.599578,
+http://85.17.14.5:8080/streaming/clients_live.php?pid=10723&extension=m3u8&username=FQCSrUyO0e&password=Dm4dz0FcS1&stream=7227&type=hls&segment=7227_672.ts&hash=791ebaaabf2c698391e3ea6244942046&time=3350912
+#EXTINF:9.599578,
+http://85.17.14.5:8080/streaming/clients_live.php?pid=10723&extension=m3u8&username=FQCSrUyO0e&password=Dm4dz0FcS1&stream=7227&type=hls&segment=7227_673.ts&hash=9b1b2a53731b4d898f20c32aa9bd7b4e&time=3342828
+#EXTINF:10.799522,
+http://85.17.14.5:8080/streaming/clients_live.php?pid=10723&extension=m3u8&username=FQCSrUyO0e&password=Dm4dz0FcS1&stream=7227&type=hls&segment=7227_674.ts&hash=fe75507a7dc6e8b04ec1a499931b357f&time=3754172
+#EXTINF:9.599567,
+http://85.17.14.5:8080/streaming/clients_live.php?pid=10723&extension=m3u8&username=FQCSrUyO0e&password=Dm4dz0FcS1&stream=7227&type=hls&segment=7227_675.ts&hash=676bee278406eddd3d1fa40765cc0376&time=3340572
