@@ -8,3 +8,513 @@
 <thumbnail></thumbnail>
 </item>
 
+<!-----WORKING E5PN USA RGX FROM STRML1VE.TO ---------------->	
+<item>
+<title>[COLOR blue]ESPN [/COLOR]USA Regex</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
+<regex>
+        <name>path</name>
+        <expres>file: "(.*).flv</expres>
+        <page>http://www.streamlive.to/view/71561/</page>
+</regex>
+<regex>
+        <name>tok</name>
+        <expres>token":"([^"]*)</expres>
+        <page>$doregex[tokpg]</page>
+        <referer>http://www.streamlive.to</referer>
+</regex>
+<regex>
+        <name>tokpg</name>
+        <expres>getJSON."(.*?)"</expres>
+        <page>http://www.streamlive.to/view/71561/</page>
+</regex>
+<regex>
+        <name>xs</name>
+        <expres>/(\?xs=.*?)"</expres>
+        <page>http://www.streamlive.to/view/71561/</page>
+        <rawpost>captcha=$doregex[answer]</rawpost>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+        <ignorecache/>
+</regex>
+<regex>
+        <name>answer</name>
+        <expres>$pyFunction:($doregex[captcha])</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>captcha</name>
+        <expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>xcaptcha</name>
+        <expres>Question: (.*) =</expres>
+        <page>http://www.streamlive.to/view/71561/</page>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>   
+
+</item>
+
+<!-----WORKING WWE USA RGX FROM STRML1VE.TO ---------------->	
+<item>
+<title>[COLOR blue]WWE  [/COLOR]Monday Night Raw Regex</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
+<regex>
+        <name>path</name>
+        <expres>file: "(.*).flv</expres>
+        <page>http://www.streamlive.to/view/67439/</page>
+</regex>
+<regex>
+        <name>tok</name>
+        <expres>token":"([^"]*)</expres>
+        <page>$doregex[tokpg]</page>
+        <referer>http://www.streamlive.to</referer>
+</regex>
+<regex>
+        <name>tokpg</name>
+        <expres>getJSON."(.*?)"</expres>
+        <page>http://www.streamlive.to/view/67439/</page>
+</regex>
+<regex>
+        <name>xs</name>
+        <expres>/(\?xs=.*?)"</expres>
+        <page>http://www.streamlive.to/view/67439/</page>
+        <rawpost>captcha=$doregex[answer]</rawpost>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+        <ignorecache/>
+</regex>
+<regex>
+        <name>answer</name>
+        <expres>$pyFunction:($doregex[captcha])</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>captcha</name>
+        <expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>xcaptcha</name>
+        <expres>Question: (.*) =</expres>
+        <page>http://www.streamlive.to/view/67439/</page>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>   
+
+</item>
+
+<!-----WORKING CNN USA RGX FROM STRML1VE.TO ---------------->	
+<item>
+<title>[COLOR blue]CNN  [/COLOR]USA Regex</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
+<regex>
+        <name>path</name>
+        <expres>file: "(.*).flv</expres>
+        <page>http://www.streamlive.to/view/68967/</page>
+</regex>
+<regex>
+        <name>tok</name>
+        <expres>token":"([^"]*)</expres>
+        <page>$doregex[tokpg]</page>
+        <referer>http://www.streamlive.to</referer>
+</regex>
+<regex>
+        <name>tokpg</name>
+        <expres>getJSON."(.*?)"</expres>
+        <page>http://www.streamlive.to/view/68967/</page>
+</regex>
+<regex>
+        <name>xs</name>
+        <expres>/(\?xs=.*?)"</expres>
+        <page>http://www.streamlive.to/view/68967/</page>
+        <rawpost>captcha=$doregex[answer]</rawpost>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+        <ignorecache/>
+</regex>
+<regex>
+        <name>answer</name>
+        <expres>$pyFunction:($doregex[captcha])</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>captcha</name>
+        <expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>xcaptcha</name>
+        <expres>Question: (.*) =</expres>
+        <page>http://www.streamlive.to/view/68967/</page>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>   
+
+</item>
+
+<!-----WORKING WWE CBS RGX FROM STRML1VE.TO ---------------->	
+<item>
+<title>[COLOR blue]CBS  [/COLOR]USA Regex</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
+<regex>
+        <name>path</name>
+        <expres>file: "(.*).flv</expres>
+        <page>http://www.streamlive.to/view/69956/</page>
+</regex>
+<regex>
+        <name>tok</name>
+        <expres>token":"([^"]*)</expres>
+        <page>$doregex[tokpg]</page>
+        <referer>http://www.streamlive.to</referer>
+</regex>
+<regex>
+        <name>tokpg</name>
+        <expres>getJSON."(.*?)"</expres>
+        <page>http://www.streamlive.to/view/69956/</page>
+</regex>
+<regex>
+        <name>xs</name>
+        <expres>/(\?xs=.*?)"</expres>
+        <page>http://www.streamlive.to/view/69956/</page>
+        <rawpost>captcha=$doregex[answer]</rawpost>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+        <ignorecache/>
+</regex>
+<regex>
+        <name>answer</name>
+        <expres>$pyFunction:($doregex[captcha])</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>captcha</name>
+        <expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>xcaptcha</name>
+        <expres>Question: (.*) =</expres>
+        <page>http://www.streamlive.to/view/69956/</page>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>   
+
+</item>
+
+<!-----WORKING WWE NBC RGX FROM STRML1VE.TO ---------------->	
+<item>
+<title>[COLOR blue]NBC  [/COLOR]USA Regex</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
+<regex>
+        <name>path</name>
+        <expres>file: "(.*).flv</expres>
+        <page>http://www.streamlive.to/view/69116/</page>
+</regex>
+<regex>
+        <name>tok</name>
+        <expres>token":"([^"]*)</expres>
+        <page>$doregex[tokpg]</page>
+        <referer>http://www.streamlive.to</referer>
+</regex>
+<regex>
+        <name>tokpg</name>
+        <expres>getJSON."(.*?)"</expres>
+        <page>http://www.streamlive.to/view/69116/</page>
+</regex>
+<regex>
+        <name>xs</name>
+        <expres>/(\?xs=.*?)"</expres>
+        <page>http://www.streamlive.to/view/69116/</page>
+        <rawpost>captcha=$doregex[answer]</rawpost>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+        <ignorecache/>
+</regex>
+<regex>
+        <name>answer</name>
+        <expres>$pyFunction:($doregex[captcha])</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>captcha</name>
+        <expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>xcaptcha</name>
+        <expres>Question: (.*) =</expres>
+        <page>http://www.streamlive.to/view/69116/</page>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>   
+
+</item>
+
+<!-----WORKING WWE FOX RGX FROM STRML1VE.TO ---------------->	
+<item>
+<title>[COLOR blue]FOX News [/COLOR]USA Regex</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
+<regex>
+        <name>path</name>
+        <expres>file: "(.*).flv</expres>
+        <page>http://www.streamlive.to/view/68968/</page>
+</regex>
+<regex>
+        <name>tok</name>
+        <expres>token":"([^"]*)</expres>
+        <page>$doregex[tokpg]</page>
+        <referer>http://www.streamlive.to</referer>
+</regex>
+<regex>
+        <name>tokpg</name>
+        <expres>getJSON."(.*?)"</expres>
+        <page>http://www.streamlive.to/view/68968/</page>
+</regex>
+<regex>
+        <name>xs</name>
+        <expres>/(\?xs=.*?)"</expres>
+        <page>http://www.streamlive.to/view/68968/</page>
+        <rawpost>captcha=$doregex[answer]</rawpost>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+        <ignorecache/>
+</regex>
+<regex>
+        <name>answer</name>
+        <expres>$pyFunction:($doregex[captcha])</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>captcha</name>
+        <expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>xcaptcha</name>
+        <expres>Question: (.*) =</expres>
+        <page>http://www.streamlive.to/view/68968/</page>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>   
+
+</item>
+
+<!-----WORKING ABC USA RGX FROM STRML1VE.TO ---------------->	
+<item>
+<title>[COLOR blue]ABC  [/COLOR]USA Regex</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
+<regex>
+        <name>path</name>
+        <expres>file: "(.*).flv</expres>
+        <page>http://www.streamlive.to/view/68969/</page>
+</regex>
+<regex>
+        <name>tok</name>
+        <expres>token":"([^"]*)</expres>
+        <page>$doregex[tokpg]</page>
+        <referer>http://www.streamlive.to</referer>
+</regex>
+<regex>
+        <name>tokpg</name>
+        <expres>getJSON."(.*?)"</expres>
+        <page>http://www.streamlive.to/view/68969/</page>
+</regex>
+<regex>
+        <name>xs</name>
+        <expres>/(\?xs=.*?)"</expres>
+        <page>http://www.streamlive.to/view/68969/</page>
+        <rawpost>captcha=$doregex[answer]</rawpost>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+        <ignorecache/>
+</regex>
+<regex>
+        <name>answer</name>
+        <expres>$pyFunction:($doregex[captcha])</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>captcha</name>
+        <expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>xcaptcha</name>
+        <expres>Question: (.*) =</expres>
+        <page>http://www.streamlive.to/view/68969/</page>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>   
+
+</item>
+
+<!-----WORKING AMC USA RGX FROM STRML1VE.TO ---------------->	
+<item>
+<title>[COLOR blue]AMC  [/COLOR]USA Regex</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
+<regex>
+        <name>path</name>
+        <expres>file: "(.*).flv</expres>
+        <page>http://www.streamlive.to/view/68963/</page>
+</regex>
+<regex>
+        <name>tok</name>
+        <expres>token":"([^"]*)</expres>
+        <page>$doregex[tokpg]</page>
+        <referer>http://www.streamlive.to</referer>
+</regex>
+<regex>
+        <name>tokpg</name>
+        <expres>getJSON."(.*?)"</expres>
+        <page>http://www.streamlive.to/view/68963/</page>
+</regex>
+<regex>
+        <name>xs</name>
+        <expres>/(\?xs=.*?)"</expres>
+        <page>http://www.streamlive.to/view/68963/</page>
+        <rawpost>captcha=$doregex[answer]</rawpost>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+        <ignorecache/>
+</regex>
+<regex>
+        <name>answer</name>
+        <expres>$pyFunction:($doregex[captcha])</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>captcha</name>
+        <expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>xcaptcha</name>
+        <expres>Question: (.*) =</expres>
+        <page>http://www.streamlive.to/view/68963/</page>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>   
+
+</item>
+
+<!-----WORKING SH0WTIME USA RGX FROM STRML1VE.TO ---------------->	
+<item>
+<title>[COLOR blue]Showtime  [/COLOR]USA Regex</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
+<regex>
+        <name>path</name>
+        <expres>file: "(.*).flv</expres>
+        <page>http://www.streamlive.to/view/69036/</page>
+</regex>
+<regex>
+        <name>tok</name>
+        <expres>token":"([^"]*)</expres>
+        <page>$doregex[tokpg]</page>
+        <referer>http://www.streamlive.to</referer>
+</regex>
+<regex>
+        <name>tokpg</name>
+        <expres>getJSON."(.*?)"</expres>
+        <page>http://www.streamlive.to/view/69036/</page>
+</regex>
+<regex>
+        <name>xs</name>
+        <expres>/(\?xs=.*?)"</expres>
+        <page>http://www.streamlive.to/view/69036/</page>
+        <rawpost>captcha=$doregex[answer]</rawpost>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+        <ignorecache/>
+</regex>
+<regex>
+        <name>answer</name>
+        <expres>$pyFunction:($doregex[captcha])</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>captcha</name>
+        <expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>xcaptcha</name>
+        <expres>Question: (.*) =</expres>
+        <page>http://www.streamlive.to/view/69036/</page>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>   
+
+</item>
+
+<!-----WORKING NB4 TV USA RGX FROM STRML1VE.TO ---------------->	
+<item>
+<title>[COLOR blue]NBA TV  [/COLOR]USA Regex</title>
+<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
+<regex>
+        <name>path</name>
+        <expres>file: "(.*).flv</expres>
+        <page>http://www.streamlive.to/view/71562/</page>
+</regex>
+<regex>
+        <name>tok</name>
+        <expres>token":"([^"]*)</expres>
+        <page>$doregex[tokpg]</page>
+        <referer>http://www.streamlive.to</referer>
+</regex>
+<regex>
+        <name>tokpg</name>
+        <expres>getJSON."(.*?)"</expres>
+        <page>http://www.streamlive.to/view/71562/</page>
+</regex>
+<regex>
+        <name>xs</name>
+        <expres>/(\?xs=.*?)"</expres>
+        <page>http://www.streamlive.to/view/71562/</page>
+        <rawpost>captcha=$doregex[answer]</rawpost>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+        <ignorecache/>
+</regex>
+<regex>
+        <name>answer</name>
+        <expres>$pyFunction:($doregex[captcha])</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>captcha</name>
+        <expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
+        <page></page>
+</regex>
+<regex>
+        <name>xcaptcha</name>
+        <expres>Question: (.*) =</expres>
+        <page>http://www.streamlive.to/view/71562/</page>
+        <referer>http://www.streamlive.to</referer>
+        <cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>   
+
+</item>
+
