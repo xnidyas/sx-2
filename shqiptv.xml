@@ -723,6 +723,13 @@
     <fanart></fanart>
     
  <channel>
+    <name>[COLOR yellow]»[/COLOR]USA IPTV</name>
+    <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
+    <link>#</link> 
+    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/U5AChannels.xml</externallink>
+    <fanart></fanart>    
+    
+ <channel>
     <name>[COLOR yellow]»[/COLOR]KIDS IPTV</name>
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
     <link>#</link> 
