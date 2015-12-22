@@ -156,18 +156,3 @@
 <thumbnail></thumbnail>
 </item>
 
-<item>
-        <title>NBA T.V</title>
-        <link>rtmp://37.48.83.131/live?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjAvMjAxNSAyOjM2OjAyIFBNJmhhc2hfdmFsdWU9Z1RjK29zakljM3pZUjZKeWJBdjRYdz09JnZhbGlkbWludXRlcz0yMA== playpath=nba77?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjAvMjAxNSAyOjM2OjAyIFBNJmhhc2hfdmFsdWU9Z1RjK29zakljM3pZUjZKeWJBdjRYdzBdjRYdz09JnZhbGlkbWludXRlc</link>
-</item>
-
-
-
-<item>
-<title>TEST | | m3u8</title>
-<link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
-<page>http://shikotv.de/play/kanalet/rtv21.php</page>
-<referer>http://shikotv.de/</referer></regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
