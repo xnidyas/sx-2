@@ -240,9 +240,8 @@
             </item>
 
             <item>
-                <title>Tirana Live</title>        
+                <title>Tirana Live Camera</title>        
                 <link>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://iptvlivestream.com/rtmp/tirana-live-3/</link>
-                <link>http://portal.rapidiptv.com:8080/live/norbert/norbert/4216.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>Tirana Live Camera</info>
@@ -299,7 +298,6 @@
             
             <item>
                 <title>STV FOLK TV</title>
-                <link>http://portal.rapidiptv.com:8080/live/norbert/norbert/6260.m3u8</link>
                 <link>rtmp://str103.setplex.net/228/stv_folk/</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
@@ -693,15 +691,6 @@
                 <info>MUZIKE SHQIP</info>
             </item>
             
-            <item>
-			<title>Animal Planet Ustream</title>
-				<link>$doregex[get-link]</link>
-				<regex>
-				<name>get-link</name>
-				<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/12762028/streams/live/playlist.m3u8')</expres>
-				<page></page>
-				</regex>
-		</item>
 		
             <item>
                 <title>Hip Hop Music TV</title>        
@@ -711,13 +700,6 @@
                 <info>MUZIKE SHQIP</info>
             </item>
         
-             <item>
-                <title> [COLOR blue]*[/COLOR]TEST 1* (nuk funksionon)</title>        
-                <link>http://ontv.al/mivt/tvimstream/topchannel.m3u8</link>
-                <thumbnail></thumbnail>
-                <genre>BES-IPTV</genre>
-                <info>Balkan TV</info>
-            </item>            
             
             <item>
                 <title></title>        
