@@ -363,6 +363,40 @@
 
 
 <item>
+<title>Sport TV Direto</title>
+<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://openlive.org live=1 timeout=15</link>
+<regex>
+	<name>rtmp</name>
+	<expres>streamer: "(.*?)"</expres>
+	<page>http://openlive.org/embedd.php?file=$doregex[channel]&amp;width=555&amp;height=435</page>
+	<referer>http://antena.mytvfree.me</referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+	<name>path</name>
+	<expres>file: "(.*?)"</expres>
+	<page>http://openlive.org/embedd.php?file=$doregex[channel]&amp;width=555&amp;height=435</page>
+	<referer>http://antena.mytvfree.me</referer>
+	<cookieJar></cookieJar>
+</regex>
+<regex>
+	<name>channel</name>
+	<expres>file='(.*?)'</expres>
+	<page>$doregex[starturl]</page>
+	<referer>http://mytvfree.me/</referer>
+	<cookieJar></cookieJar>
+</regex>
+<regex>
+	<name>starturl</name>
+	<expres>iframe src="(http.*?)"</expres>
+	<page>http://mytvfree.me/sport-tv-em-direto-gratis</page>
+	<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
   <title>test ss2</title>
 <link></link>
 </item>
