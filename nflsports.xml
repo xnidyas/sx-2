@@ -213,19 +213,19 @@
 </item>
 
 <item>
-<title> [COLOR blue]*[/COLOR] Link 1...</title>
+<title> [COLOR blue]*[/COLOR] Link 1</title>
 <link>$doregex[get-m3u8]</link>
  
 <regex>
 <name>get-m3u8</name>
 <expres>file: "(.*?)"</expres>
 <page>http://pxstream.tv/embedrouter.php?file=$doregex[get-id]</page>
-<referer>http://shqip3.altervista.org/topchannel.html</referer>
+<referer>http://shiko.topch.eu/</referer>
 </regex>
 
 <regex>
 <name>get-id</name>
 <expres>file='(.*?)'</expres>
-<page>http://shqip3.altervista.org/topchannel.html</page>
+<page>http://shiko.topch.eu/</page>
 </regex>
 </item>
