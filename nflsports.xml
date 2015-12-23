@@ -211,3 +211,14 @@
         <title>ESPN USA</title>
         <link>rtmp://185.63.255.60:80/live playpath=espnusa swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://www.yotv.co/embed.php?live=espnusa</link>
 </item>
+
+<item>
+<title> [COLOR blue]*[/COLOR] Link 1</title>
+<link>$doregex[get-m3u8]</link>
+ 
+<regex>
+<name>get-m3u8</name>
+<expres>file: "(.*?)"</expres>
+<page>http://pxstream.tv/embedrouter.php?file=$doregex[get-id]</page>
+<referer>http://shqip3.altervista.org/topchannel.html</referer>
+</regex>
