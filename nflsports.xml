@@ -209,5 +209,5 @@
 
 <item>
         <title>ESPN USA</title>
-        <link> rtmp://185.63.255.60:80/live playpath=espnusa swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://www.yotv.co/embed.php?live=espnusa</link>
+        <link>rtmp://185.63.255.60:80/live playpath=espnusa swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://www.yotv.co/embed.php?live=espnusa</link>
 </item>
