@@ -309,8 +309,8 @@
             </item>
             
             <item>
-                <title>STV FOLK TV</title>
-                <link>rtmp://str103.setplex.net/228/stv_folk/</link>
+                <title>ALB Music</title>
+                <link>http://str105mb.setplex.net:1935/str2iosmd5/alb_music/playlist.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
