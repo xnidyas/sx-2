@@ -357,5 +357,39 @@
   <title>test ss2</title>
 <link></link>
 </item>
-
-
+<!--------------telewizjada.net channel--------------->
+<item>
+<title>Eurosport</title>
+<link>$doregex[M3U8]|Cookie=$get_cookies$&amp;User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36&amp;X-Requested-With: ShockwaveFlash/20.0.0.228</link><regex>
+	<name>M3U8</name>
+	<expres>(.*)</expres>
+	<page>http://www.telewizjada.net/get_channel_url.php</page>
+	<referer>http://www.telewizjada.net/live.php?cid=37</referer>
+	<agent>Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</agent>
+	<rawpost>cid=37</rawpost>
+	<cookiejar>$doregex[createsession]</cookiejar>
+</regex>
+<regex>
+	<name>createsession</name>
+	<expres></expres>
+	<page>http://www.telewizjada.net/set_cookie.php</page>
+	<referer>http://www.telewizjada.net/live.php?cid=37</referer>
+	<rawpost>url=$doregex[get-POST]</rawpost>
+	<agent>Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</agent>
+	<cookiejar></cookiejar>
+</regex>
+<regex>
+	<name>get-POST</name>
+	<expres>$pyFunction:'$doregex[get-enPOST]'.replace('\/','/')</expres>
+        <page></page>
+</regex>
+<regex>
+	<name>get-enPOST</name>
+	<expres>"url":"([^"]+)</expres>
+	<page>http://www.telewizjada.net/get_mainchannel.php</page>
+	<referer>http://www.telewizjada.net/live.php?cid=37</referer>
+	<rawpost>cid=37</rawpost>
+	<agent>Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</agent>
+	<cookiejar></cookiejar>
+</regex>
+</item>
