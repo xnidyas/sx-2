@@ -637,6 +637,14 @@
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
+
+            <item>
+                <title>TV 2 Gostivar[/COLOR]</title>        
+                <link>rtmp://62.141.45.234/live/shqiptv9/livestream</link>
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>MUZIKE SHQIP</info>
+            </item>
             
             <item>
                 <title>[COLOR yellow]###OTHER CHANNELS###[/COLOR]</title>        
