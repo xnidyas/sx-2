@@ -639,7 +639,8 @@
 </item>
 
             <item>
-                <title>TV 2 Gostivar</title>        
+                <title>TV 2 Gostivar</title>
+                <link>http://shqiptv.us/tv2.m3u8</link>
                 <link>rtmp://62.141.45.234/live/shqiptv9/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://iptvlivestream.com/rtmp/tv2-2/</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
