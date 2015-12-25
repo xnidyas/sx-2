@@ -258,3 +258,22 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://www.zoptv.com[makelist.param1]</page>
 </regex>
 </item>
+
+
+<item>
+<title>TEST..ABCAST</title>
+<link>$doregex[get-rtmp] redirect?token=$doregex[get-tok] playpath=verf8e8b210d74b70e6ef2227 swfUrl=http://abcast.net/player.swf live=1 pageUrl=http://abcast.net/channel.php?id=DUGA</link>
+<regex>
+<name>get-rtmp</name>
+<expres>streamer: "(.*?)\?</expres>
+<page>http://abcast.net/channel.php?id=DUGA</page>
+<referer>http://ylive.biz/ari.php</referer>
+</regex>
+<regex>
+<name>get-tok</name>
+<expres>token=(.*?)"</expres>
+<page>http://abcast.net/channel.php?id=DUGA</page>
+<referer>http://abcast.net/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
