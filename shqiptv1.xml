@@ -717,6 +717,13 @@
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
             </item>
+  <channel>
+    <name>[COLOR yellow]»[/COLOR][COLOR lime]--Temporary SHQIP HD IPTV--</name>
+    <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
+    <link>#</link> 
+    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/temporaryshq1phd.m3u</externallink>
+    <fanart></fanart>
+    
  <channel>
     <name>[COLOR yellow]»[/COLOR]Balkan IPTV</name>
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
