@@ -1,0 +1,45 @@
+#EXTM3U
+#EXTINF:-1,[COLOR lime] --Temporary HD SHQIP Channels-- [/COLOR]
+http://www.mihangshkoqet.com/#
+
+#EXTINF:-1,TV KLAN HD
+http://176.10.104.216:8080/tvklanhd/index.m3u8
+#EXTINF:-1,TOP CHANNEL HD
+http://176.10.104.216:8080/topchannelhd/index.m3u8
+#EXTINF:-1,TOP CHANNEL
+http://46.234.100.41:8080/topchannel/index.m3u8
+#EXTINF:-1,ALSAT M HD
+http://46.234.100.41:8080/alsatm/index.m3u8
+#EXTINF:-1,TOP AL INFO HD
+http://176.10.104.216/info/index.m3u8
+#EXTINF:-1,RTV 21 HD
+http://46.234.100.41:8080/rtv21/index.m3u8
+#EXTINF:-1,KTV KOHAVISION HD
+http://46.234.100.41:8080/ktv/index.m3u8
+#EXTINF:-1,KLAN KOSOVA HD
+http://46.234.100.41:8080/klankosova/index.m3u8
+#EXTINF:-1,TVSH HD
+http://46.234.100.41:8080/tvsh/index.m3u8
+#EXTINF:-1,FILM THRILLER HD
+http://46.234.100.41:8080/thriller/index.m3u8
+#EXTINF:-1,FILM AKSION HD
+http://46.234.100.41:8080/filmaksion/index.m3u8
+FILM KOMEDI HD
+http://46.234.100.41:8080/komedi/index.m3u8
+#EXTINF:-1,FILM NJE HD
+http://46.234.100.41:8080/filmnje/index.m3u8
+#EXTINF:-1,FILM DY HD
+http://46.234.100.41:8080/filmdy/index.m3u8
+#EXTINF:-1,SS NEWS HD
+http://176.10.104.216:8080/ss1hd/index.m3u8
+#EXTINF:-1,SS 2 HD
+http://176.10.104.216:8080/ss2hd/index.m3u8
+#EXTINF:-1,SS 3 HD
+http://176.10.104.216:8080/ss3hd/index.m3u8
+#EXTINF:-1,SS 4 HD
+http://176.10.104.216:8080/ss4hd/index.m3u8
+#EXTINF:-1,SS 5 HD
+http://176.10.104.216:8080/ss5hd/index.m3u8
+#EXTINF:-1,SS 6 HD
+http://176.10.104.216:8080/ss6hd/index.m3u8
+
