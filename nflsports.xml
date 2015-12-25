@@ -267,7 +267,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>get-rtmp</name>
 <expres>streamer: "(.*?)\?</expres>
 <page>http://abcast.net/channel.php?id=DUGA</page>
-<referer>http://ylive.biz/ari.php</referer>
+<referer>http://abcast.net/</referer>
 </regex>
 <regex>
 <name>get-tok</name>
