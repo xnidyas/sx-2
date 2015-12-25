@@ -138,13 +138,13 @@
 </regex>
 </subitem>
                 <subitem>
-                <title>TOP Channel Link 3</title>
-                <link>rtmp://93.120.27.242:443/liveedge/ playpath=topchhdgS0 swfUrl=http://micast.tv/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://micast.tv/iframe.php?ch=topchhdgS0&width=640&height=460</link>
+                <title>TOP Channel Link 3 [on]</title>
+                <link>rtmp://94.176.148.213:443/liveedge/ playpath=nedtdvmbLBZ swfUrl=http://micast.tv/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://micast.tv/iframe.php?ch=topchhdgS0&width=640&height=460</link>
                 <thumbnail></thumbnail>
                 </subitem>
                 
 <subitem>
-<title>TOP Channel Link 4 [on]</title>
+<title>TOP Channel Link 4</title>
 <link>$doregex[get-m3u8]</link>
  
 <regex>
