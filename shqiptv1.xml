@@ -600,12 +600,15 @@
 
 <item>
 <title>KTV KohaVision</title>
-<link>rtmp://unm203.bsdns.eu:1935/live/AL-KTV?token=testrapid:3CmWLfb3kW</link>
 <link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
 <page>http://shikotv.de/play/kanalet/ktv.php</page>
 <referer>http://shikotv.de/</referer></regex>
 <thumbnail></thumbnail>
 <fanart></fanart>
+</item>
+<item>
+	<title>KTV - TEST</title>
+	<link>rtmp://unm203.bsdns.eu:1935/live/AL-KTV?token=testrapid:3CmWLfb3kW</link>
 </item>
 
             
