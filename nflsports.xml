@@ -284,3 +284,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports.cfg&amp;mode=1</jsonrpc>
 <thumbnail>http://gvt.net/sites/default/files/HD-Sports-2.0-Logo-450.png</thumbnail>
 </item>
+
+<item>
+<title>SS</title>
+<link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
+<page>http://iptvlivestream.com/rtmp/ss1-6/</page>
+<referer>http://iptvlivestream.com/rtmp/ss1-6/</referer></regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
