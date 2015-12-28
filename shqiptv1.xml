@@ -747,7 +747,7 @@
     <name>[COLOR yellow]»[/COLOR]YouTube Shqip IPTV</name>
     <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
     <link>#</link> 
-    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/youtubetv.m3u</externallink>
+    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/youtubetv.xml</externallink>
     <fanart></fanart>
     
  <channel>
