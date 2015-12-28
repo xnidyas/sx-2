@@ -664,6 +664,15 @@
                 <info>MUZIKE SHQIP</info>
             </item>
             
+            <item>
+            	<title>my Music - Temporary</title>
+            		<link>http://176.10.104.216:8080/mymusic/index.m3u8</link>
+            </item>
+            
+            <item>
+            	<title>Bang Bang - Temporary</title>
+            		<link>http://46.234.100.41:8080/bangbang/index.m3u8</link>
+            </item>
 <!--------------------------------            
 <item>
 <title>Bang Bang --Test--</title>
