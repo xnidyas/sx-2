@@ -3,15 +3,15 @@
  <channels>
 
  <channel>
-    <name>[COLOR yellow]MUZIKE SHQIP[/COLOR]</name>
-    <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
+    <name>[COLOR yellow]Muzike Shqip[/COLOR][COLOR gray] (Hite/TeReja/Festa/Folk/Custom)[/COLOR]</name>
+    <thumbnail></thumbnail>
     <link>#</link> 
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/youtubetv.m3u</externallink>
     <fanart></fanart>
     
  <channel>
-    <name>[COLOR yellow]Live Sports Channels 2[/COLOR]</name>
-    <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
+    <name>[COLOR yellow]TOP Channel VOD[/COLOR]</name>
+    <thumbnail></thumbnail>
     <link>#</link> 
-    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/sportsnew.xml</externallink>
+    <externallink>https://github.com/saydinx/bes-iptv/raw/master/t0pch4nnel.m3u</externallink>
     <fanart></fanart>
