@@ -2,9 +2,7 @@
 
 #EXTINF:0,[COLOR yellow]###Install YouTube App for Kodi to Play YouTube Videos Here####[/COLOR]
 http://www.ignoreme.com/#
-#EXTINF:0,[COLOR blue]>>>Portokalli TOPChannel Albania<<<[/COLOR]
-http://www.ignoreme.com/#
 
-#EXTINF:0  group-title="YouTube Videos|Films" tvg-id="48" tvg-logo="",Portokalli
-plugin://plugin.video.youtube/play/?playlist_id=PLM8BAxfZddjz-q03yHE8wxPfCE3OrlsDv&order=default
+#EXTINF:0  group-title="YouTube Videos|Films" tvg-id="48" tvg-logo="",Portokalli TOPChannel Albania
+plugin://plugin.video.youtube/play/?playlist_id=PLM8BAxfZddjz-q03yHE8wxPfCE3OrlsDv&order=
 
