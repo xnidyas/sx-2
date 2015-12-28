@@ -6,3 +6,6 @@ http://www.ignoreme.com/#
 #EXTINF:0  group-title="YouTube Videos|Films" tvg-id="48" tvg-logo="",Portokalli TOPChannel Albania
 plugin://plugin.video.youtube/play/?playlist_id=PLM8BAxfZddjz-q03yHE8wxPfCE3OrlsDv&order=
 
+#EXTINF:0  group-title="YouTube Videos|Films" tvg-id="48" tvg-logo="",Fiks Fare TOPChannel Albania
+plugin://plugin.video.youtube/play/?playlist_id=PL93D704769E6A8781&order=
+
