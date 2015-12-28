@@ -670,6 +670,15 @@
                 <info>MUZIKE SHQIP</info>
             </item>
             
+<item>
+<title>Bang Bang --Test--</title>
+<link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
+<page>http://ontv.al/live/853_bang_bang</page>
+<referer>http://ontv.al/</referer></regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+            
             <item>
                 <title>[COLOR yellow]###OTHER CHANNELS###[/COLOR]</title>        
                 <link>#</link>
