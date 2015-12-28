@@ -608,7 +608,7 @@
 </item>
 <item>
 	<title>KTV - TEST</title>
-	<link>rtmp://unm203.bsdns.eu:1935/live/AL-KTV?token=testrapid:3CmWLfb3kW</link>
+	<link>http://188.138.1.82:8081/streamrtmp/ktv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjgvMjAxNSAyOjMyOjQ3IEFNJmhhc2hfdmFsdWU9NmVmMlZtbzVLY1l2Q2dHenFrbWd6Zz09JnZhbGlkbWludXRlcz0zNjA=</link>
 </item>
 
             
