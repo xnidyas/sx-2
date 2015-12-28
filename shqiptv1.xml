@@ -670,6 +670,7 @@
                 <info>MUZIKE SHQIP</info>
             </item>
             
+<!--------------------------------            
 <item>
 <title>Bang Bang --Test--</title>
 <link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
@@ -679,9 +680,7 @@
 <fanart></fanart>
 </item>
 <item>
-	<title>Bang Bang --Test 2--</title>
-	<link>http://80.80.160.201/http_livestr.m3u8?id=bigbang&k=pako_6234323231383137313533373734396134613035346434343030383334326361003530363663613965326165366461636630656339656134356530623037616639006d656e746f722e7368616c613030320066696c6d616b73696f6e</link>
-</item>
+------------------------------->
             
             <item>
                 <title>[COLOR yellow]###OTHER CHANNELS###[/COLOR]</title>        
