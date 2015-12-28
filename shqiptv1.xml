@@ -226,19 +226,12 @@
 </subitem>
 
 <subitem>
-<title>Super Sport 2 SD</title>
+<title>Super Sport SD</title>
 <link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
 <page>http://shikotv.de/play/kanalet/sport2.php</page>
 <referer>http://shikotv.de/</referer></regex>
 <thumbnail></thumbnail>
 <fanart></fanart>
-</subitem>
-
-<subitem>
- <title>Super Sport 2 [COLOR yellow](Temporary)[/COLOR]</title>
- <link>http://portal.rapidiptv.com:8080/live/FQCSrUyO0e/Dm4dz0FcS1/7227.m3u8#?b?b*t$</link>
- <thumbnail></thumbnail>
- <fanart></fanart>
 </subitem>
 
 
