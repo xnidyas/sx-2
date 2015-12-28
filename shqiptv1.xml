@@ -250,7 +250,7 @@
                 <genre>WEATHER/KOHA</genre>
                 <info>THE WEATHER CHANNEL</info>
             </item>
-
+<!--------------------------NOT WORKING
             <item>
                 <title>Tirana Live Camera</title>        
                 <link>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://iptvlivestream.com/rtmp/tirana-live-3/</link>
@@ -258,6 +258,7 @@
                 <genre>Music</genre>
                 <info>Tirana Live Camera</info>
             </item>
+ ----------------------------->
             
             <item>
                 <title>A1 Shqiptare TV</title>        
@@ -285,7 +286,7 @@
                 <genre>Music</genre>
                 <info>SSTV - Kenge Shqip</info>
             </item>
- 
+ <!--------------------------------------------------- NOT WORKING...
             <item>
                 <title>3+HDTV Muzike</title>        
                 <link>http://live.tv3plushd.com:1935/8008/8008/playlist.m3u8</link>
@@ -293,6 +294,7 @@
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
             </item>
+ ------------------------------------------------------->
             <item>
                 <title>Star Plus TV Shkoder</title>         
                 <link>http://xstarplustvshkoderx.api.channel.livestream.com/3.0/playlist.m3u8</link>
