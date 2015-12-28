@@ -608,7 +608,8 @@
 </item>
 <item>
 	<title>KTV - TEST</title>
-	<link>http://188.138.1.82:8081/streamrtmp/ktv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjgvMjAxNSAzOjEyOjE4IFBNJmhhc2hfdmFsdWU9U3Z0K1hrblhORkVTZlk1SzhNOEROZz09JnZhbGlkbWludXRlcz0zNjA=</link>
+	<link>http://188.138.1.82:8081/streamrtmp/ktv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjgvMjAxNSAxMToyNzo1MSBQTSZoYXNoX3ZhbHVlPWRMQVVMbWk1d2RmTVV3WDJ3SjJaNXc9PSZ2YWxpZG1pbnV0ZXM9MzYw
+</link>
 </item>
 
             
