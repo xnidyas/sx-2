@@ -231,7 +231,7 @@
 <subitem>
 <title>Super Sport SD</title>
 <link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
-<page>http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_3963343530616661636639323833636466373837643530353464333134396433003000617274616e6c6168616a69706b6f0073736e657773</page>
+<page><link>http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_3963343530616661636639323833636466373837643530353464333134396433003000617274616e6c6168616a69706b6f0073736e657773</link></page>
 <referer>http://shikotv.de/</referer></regex>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -342,7 +342,7 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
             </item>
  
             <item>
-                <title>ALB UK Muzik</title>        
+                <title>ALB UK Music</title>        
                 <link>http://188.138.17.8:1935/albuk/albmus.stream/index.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
@@ -612,7 +612,8 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
 
 <item>
 	<title>RTV 21 -TEST</title>
-	<<link>http://85.25.218.196:8081/streamrtmp/rtv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjkvMjAxNSA0OjA4OjU0IFBNJmhhc2hfdmFsdWU9cFhSN1AvbHYzV3VVUUU5T3BydHB6UT09JnZhbGlkbWludXRlcz0zNjA=</link>
+	<<link>http://46.234.100.41:8080/rtv21/index.m3u8
+</link>
 </item>
 
 <item>
@@ -625,12 +626,14 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
 </item>
 <item>
 	<title>KTV - TEST</title>
-	<link>http://188.138.1.82:8081/streamrtmp/ktv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjkvMjAxNSA0OjA4OjU0IFBNJmhhc2hfdmFsdWU9cFhSN1AvbHYzV3VVUUU5T3BydHB6UT09JnZhbGlkbWludXRlcz0zNjA=</link>
+	<link>http://46.234.100.41:8080/ktv/index.m3u8
+</link>
 </item>
 
 <item>
-	<title>Vizion Plus - Temporary!</title>
-	<link>http://bit.ly/vznplus,http://4.31.30.135:1935/str2iosmd5/7ios_vizionplus_85674923/playlist.m3u8</link>
+	<title>Vizion Plus</title>
+	<link>http://bit.ly/vznplus</link>
+	<link>http://4.31.30.135:1935/str2iosmd5/7ios_vizionplus_85674923/playlist.m3u8</link>
 </item>
             
             <item>
