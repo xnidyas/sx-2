@@ -612,8 +612,7 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
 
 <item>
 	<title>RTV 21 -TEST</title>
-	<<link>http://46.234.100.41:8080/rtv21/index.m3u8
-</link>
+	<<link>http://46.234.100.41:8080/rtv21/index.m3u8</link>
 </item>
 
 <item>
@@ -624,10 +623,10 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
+
 <item>
 	<title>KTV - TEST</title>
-	<link>http://46.234.100.41:8080/ktv/index.m3u8
-</link>
+	<link>http://46.234.100.41:8080/ktv/index.m3u8</link>
 </item>
 
 <item>
@@ -739,13 +738,6 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
                 <info>MUZIKE SHQIP</info>
             </item>
  
-            <item>
-                <title>i24 News English</title>        
-                <link>http://bcoveliveios-i.akamaihd.net/hls/live/215102/master_english/398/master.m3u8</link>
-                <thumbnail></thumbnail>
-                <genre>Music</genre>
-                <info>MUZIKE SHQIP</info>
-            </item>
             <item>
                 <title>Times Square & 47th st Broadway Live CCTV *SHBA/NYC</title>        
                 <link>http://video1.earthcam.com/fecnetwork/hdtimes10.flv/ukturk.m3u8?wowzasessionid=23914309</link>
