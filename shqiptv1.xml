@@ -228,11 +228,77 @@
 <subitem>
 <title>Super Sport SD</title>
 <link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
-<page><link>http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_3963343530616661636639323833636466373837643530353464333134396433003000617274616e6c6168616a69706b6f0073736e657773</link></page>
+<page>http://shikotv.de/play/kanalet/sport1.php</page>
 <referer>http://shikotv.de/</referer></regex>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </subitem>
+
+<subitem>
+<title>Arena Sport 1 [COLOR yellow](R)[/COLOR]</title>
+<link>$doregex[file]|Referer=http://streamking.cc/arena1&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
+<regex>
+<name>file</name>
+<expres>source: '(.*?)'</expres>
+<page>http://streamking.cc/player?channel=arena1&amp;player=clappr</page>
+<referer>http://streamking.cc/arena1</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</subitem>
+
+<subitem>
+<title>Arena Sport 2 [COLOR yellow](R)[/COLOR]</title>
+<link>$doregex[file]|Referer=http://streamking.cc/arena2&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
+<regex>
+<name>file</name>
+<expres>source: '(.*?)'</expres>
+<page>http://streamking.cc/player?channel=arena2&amp;player=clappr</page>
+<referer>http://streamking.cc/arena2</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</subitem>
+
+<subitem>
+<title>Sport Klub 1 [COLOR yellow](R)[/COLOR]</title>
+<link>$doregex[file]|Referer=http://streamking.cc/sportklub&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
+<regex>
+<name>file</name>
+<expres>source: '(.*?)'</expres>
+<page>http://streamking.cc/player?channel=sportklub&amp;player=clappr</page>
+<referer>http://streamking.cc/sportklub</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</subitem>
+
+<subitem>
+<title>Sport Klub 2 [COLOR yellow](R)[/COLOR]</title>
+<link>$doregex[file]|Referer=http://streamking.cc/sportklub2&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
+<regex>
+<name>file</name>
+<expres>source: '(.*?)'</expres>
+<page>http://streamking.cc/player?channel=sportklub2&amp;player=clappr</page>
+<referer>http://streamking.cc/sportklub2</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</subitem>
+
+<subitem>
+<title>BT Sports 1 [COLOR yellow](R)[/COLOR]</title>
+<link>$doregex[file]|Referer=http://streamking.cc/btsport1&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
+<regex>
+<name>file</name>
+<expres>source: '(.*?)'</expres>
+<page>http://streamking.cc/player?channel=btsport1&amp;player=clappr</page>
+<referer>http://streamking.cc/btsport1</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</subitem>
+
 <!----
 
 test2
