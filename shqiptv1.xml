@@ -316,7 +316,8 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
             </item>
             
             <item>
-                <title>ALB Music</title>
+                <title>my Music</title>
+                <link>http://176.10.104.216:8080/mymusic/index.m3u8</link>
                 <link>http://str105mb.setplex.net:1935/str2iosmd5/alb_music/playlist.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
@@ -628,8 +629,8 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
 </item>
 
 <item>
-	<title>Vizion Plus - Temporary</title>
-	<link>http://bit.ly/vznplus</link>
+	<title>Vizion Plus - Temporary!</title>
+	<link>http://bit.ly/vznplus,http://4.31.30.135:1935/str2iosmd5/7ios_vizionplus_85674923/playlist.m3u8</link>
 </item>
             
             <item>
