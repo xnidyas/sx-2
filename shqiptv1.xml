@@ -238,12 +238,25 @@
 </subitem>
 
 <subitem>
-<title>Super Sport</title>
+<title>Super Sport I</title>
 <link>$doregex[get-M3u8]</link>
 <regex>
 <name>get-M3u8</name>
 <expres>file:'(http.*m3u8)'</expres>
 <page>http://ontv.al/embed/973</page>
+<referer>http://ontv.al</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
+</regex>
+<thumbnail></thumbnail>
+</subitem>
+
+<subitem>
+<title>Super Sport II</title>
+<link>$doregex[get-M3u8]</link>
+<regex>
+<name>get-M3u8</name>
+<expres>a href="(http.*m3u8.*?)"</expres>
+<page>http://ontv.al/live/858_super_sport_2</page>
 <referer>http://ontv.al</referer>
 <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
 </regex>
