@@ -22,5 +22,6 @@ http://80.80.160.201/http_livestr.m3u8?id=topnews&k=pako_62343232313831373135333
 http://stream.ontv.al:8000/live/ontv/albania/7.m3u8
 #EXTINF:-1,test5
 http://ontv.al/jw/ontvweb/klantv.m3u8
-#EXTINF:-1,testbang
-http://ontv.al/jw/ontvweb/bangbang.m3u8
+#EXTINF:-1,1testTop
+http://ontv.al/jw/ontvweb/topchannel.m3u8
+#EXTINF:-1,
