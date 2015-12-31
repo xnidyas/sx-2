@@ -232,6 +232,13 @@
 </subitem>
 
 <subitem>
+	<title>Super Sport KS</title>
+	<link>http://ontv.al/jw/ontvweb/supersport1.m3u8</link>
+	<link>http://ontv.al/jw/ontvweb/supersport2.m3u8</link>
+</subitem>
+
+<!---------------OFF FOR NOW.
+<subitem>
 <title>Super Sport SD</title>
 <link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
 <page>http://shikotv.de/play/kanalet/sport1.php</page>
@@ -239,7 +246,7 @@
 <thumbnail></thumbnail>
 <fanart></fanart>
 </subitem>
-
+----------------------->
 <subitem>
 <title>Arena Sport 1 [COLOR yellow](R)[/COLOR]</title>
 <link>$doregex[file]|Referer=http://streamking.cc/arena1&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
@@ -360,6 +367,11 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
                 <genre>Music</genre>
                 <info>SSTV - Kenge Shqip</info>
             </item>
+            
+            <item>
+            	<title>STV FOLK HD</title>
+            	<link>rtmp://str103.setplex.net:1935/228/ playpath=stv_folk swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://iptvlivestream.com/rtmp/stvflk/</link>
+            </item>
  <!--------------------------------------------------- NOT WORKING...
             <item>
                 <title>3+HDTV Muzike</title>        
@@ -386,7 +398,6 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
             
             <item>
                 <title>my Music</title>
-                <link>http://176.10.104.216:8080/mymusic/index.m3u8</link>
                 <link>http://str105mb.setplex.net:1935/str2iosmd5/alb_music/playlist.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
@@ -529,6 +540,11 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
             </item>
+            
+            <item>
+            	<title>TOP News</title>
+            	<link>http://ontv.al/jw/ontvweb/topnews.m3u8</link>
+            </item>
  
             <item>
                 <title>KLAN Kosova</title>        
@@ -598,14 +614,6 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
             </item>
  
             <item>
-                <title>Film Komedi</title>        
-                <link>http://ontv.al/jw/ontvweb/filmkomedi.m3u8</link>
-                <thumbnail></thumbnail>
-                <genre>Music</genre>
-                <info>MUZIKE SHQIP</info>
-            </item>
- 
-            <item>
                 <title>MAD TV</title>        
                 <link>http://37.26.81.188:1935/live/livestream/playlist.m3u8</link>
                 <thumbnail></thumbnail>
@@ -656,6 +664,19 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
              <item>
                 <title>TV Koha</title>        
                 <link>rtmp://live.tvkoha.tv/live/koha/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://iptvlivestream.com/rtmp/tvk0ha/</link>
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>MUZIKE SHQIP</info>
+            </item>
+            
+            <item>
+            	<title>Tring Shqip</title>
+            	<link>http://ontv.al/jw/ontvweb/tchannel.m3u8</link>
+            </item>
+            
+            <item>
+                <title>Film Komedi</title>        
+                <link>http://ontv.al/jw/ontvweb/filmkomedi.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
@@ -788,7 +809,7 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
 <referer>http://ontv.al/femije</referer></regex>
 <thumbnail></thumbnail>
 <fanart></fanart>
-</item>
+</item> 
 <item>
 ------------------------------->
             
