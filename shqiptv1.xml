@@ -251,7 +251,7 @@
 </subitem>
 
 <subitem>
-<title>Super Sport II</title>
+<title>Super Sport SD</title>
 <link>$doregex[get-M3u8]</link>
 <regex>
 <name>get-M3u8</name>
