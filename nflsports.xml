@@ -213,53 +213,8 @@
 </item>
 
 
-<item>
-<title>www.zoptv.com | SPORTS Page</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<item>
-<title>[makelist.param3]</title>
-<link>http://www.iptvlinks.tk$doregex[path]|User-Agent=iPhone</link>
-<thumbnail>http://www.zoptv.com[makelist.param2]</thumbnail>
-]]></listrepeat>
-<expres>"zp-channel" href="(.*?)".*?src="(.*?)"..*?&gt;(.*?)..span.</expres>
-<page>http://www.zoptv.com/channels/sports</page>
-</regex>
-<regex>
-<name>path</name>
-<expres>var src = '(.*?)'</expres>
-<page>$doregex[embedurl]</page>
-<referer>http://www.zoptv.com/</referer>
-</regex>
-<regex>
-<name>embedurl</name>
-<expres>.+"src":"(.*?)"</expres>
-<page>$doregex[decpage]</page>
-</regex>
-<regex>
-<name>decpage</name>
-<expres><![CDATA[#$pyFunction
-import urllib,re,base64
-def GetLSProData(page_data,Cookie_Jar,m):
-	import base64
-	s=page_data
-	while '(atob(' in s:
-		s=re.compile('\'(.*?)\'').findall(s)[0];
-		s=base64.b64decode(s);
-	return s
-]]></expres>
-<page>$doregex[encpage]</page>
-</regex>
-<regex>
-<name>encpage</name>
-<expres>(.atob.*)</expres>
-<page>http://www.zoptv.com[makelist.param1]</page>
-</regex>
-</item>
 
-
+<!-----------------------------------------TEST REGEX
 <item>
 <title>TEST..ABCAST</title>
 <link>$doregex[get-rtmp] redirect?token=$doregex[get-tok] playpath=verf8e8b210d74b70e6ef2227 swfUrl=http://abcast.net/player.swf live=1 pageUrl=http://abcast.net/channel.php?id=DUGA</link>
@@ -315,7 +270,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail></thumbnail>
 </item>
-
+-------------------------------------------------------------> END TEST REGEX
 
 <item>
 	<title>Not working!</title>
