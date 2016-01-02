@@ -696,7 +696,7 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
             </item>
             
             <item>
-            	<title>Tring Shqip</title>
+            	<title>T Shqip</title>
             	<link>http://ontv.al/jw/ontvweb/tchannel.m3u8</link>
             </item>
             
@@ -709,7 +709,7 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
             </item>
 
 <item>
-<title>Film Aksion</title>
+<title>Film 1/Aksion</title>
 <link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
 <page>http://shikotv.de/play/kanalet/aksion.php</page>
 <referer>http://shikotv.de/</referer></regex>
