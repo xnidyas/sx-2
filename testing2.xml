@@ -24,4 +24,21 @@
 <jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/livetv.ru.cfg&amp;mode=1</jsonrpc>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title> 2015 Movies Trailer</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param2]</title>
+    <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+<page>https://www.youtube.com/playlist?list=PL63F0C78739B09958</page>
+<referer>https://www.youtube.com/user/movieclipsTRAILERS/playlists</referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
 </items>
