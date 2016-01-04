@@ -8,3 +8,17 @@
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item> 
+
+
+<item>
+<title>[COLOR=red][B][I] TVI24 [/I][/B][/COLOR]</title>
+<link>$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres>file: "(.*?)"<expres>
+<page>http://www.meocanaltv.com/embed/TVI24.php?width=600&height=450</page>
+<referer>http://www.meocanaltv.com/embed/TVI24.php?width=600&height=450</referer>
+<agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36 OPR/33.0.1990.115</agent>
+<thumbnail></thumbnail>
+</regex>
+</item>
