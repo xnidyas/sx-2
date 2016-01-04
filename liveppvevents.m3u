@@ -1,11 +1,3 @@
-#EXTM3U
-
-#EXTINF:-1,Coming Soon...
-http://wwww.ignoreme.com/#
-
-#EXTINF:-1,*Test*1
-http://85.17.14.15:2270//streaming/clients_live.php?username=FQCSrUyO0e&password=Dm4dz0FcS1&stream=2042&extension=m3u8&hash=bacd177c22fc69e473ddacb0a51e86ec&time=0&pid=41797&external_device=
-
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
