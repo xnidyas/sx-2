@@ -114,41 +114,35 @@
 </item>
          
             <item>
-                <title>24/7 Movies/Filma</title>        
-                <link>http://veetle.com/index.php/hls/streamMbrfast/563dc1d3a3790_/stream.m3u8</link>
+                <title>HD MOVIES 1</title>        
+                <link>http://veetle.com/index.php/hls/streamMbrFast/566dae686e6f1_/stream.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>MOVIES</genre>
                 <info>Watch Movies on BESA-IPTV</info>
             </item>
             <item>
-                <title>All Kinds of Movies</title>        
-                <link>http://veetle.com/index.php/hls/streamMbrfast/563dd79bc45b2_/stream.m3u8</link>
+                <title>HD MOVIES 2</title>        
+                <link>http://veetle.com/index.php/hls/streamMbrFast/5673346c91ce1_/stream.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>MOVIES</genre>
                 <info>Watch Movies on BESA-IPTV</info>
             </item>
             <item>
-                <title>Action Movies</title>        
-                <link>http://veetle.com/index.php/hls/streamMbrfast/565329fe01041_/stream.m3u8</link>
+                <title>HD MOVIES 3</title>        
+                <link>http://veetle.com/index.php/hls/streamMbrFast/567801f9d37a0_/stream.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>MOVIES</genre>
                 <info>Watch Movies on BESA-IPTV</info>
             </item>
+            <!--------------------------------------NOT WORKING
             <item>
-                <title>Kung FU Movies</title>        
+                <title>HD MOVIES 4</title>        
                 <link>http://veetle.com/index.php/hls/streamMbrfast/56545724b5e99_/stream.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>MOVIES</genre>
                 <info>Watch Movies on BESA-IPTV</info>
             </item>
- 
-            <item>
-                <title>SciFi/Action Movies</title>        
-                <link>http://veetle.com/index.php/hls/streamMbrfast/55deb10e264cf_/stream.m3u8</link>
-                <thumbnail></thumbnail>
-                <genre>MOVIES</genre>
-                <info>Watch Movies on BESA-IPTV</info>
-            </item>
+ ---------------------------------------->
 </items>
  <channel>
     <name>Classic Movies</name>
