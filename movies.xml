@@ -150,6 +150,15 @@
     <link>#</link> 
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/classicmovies.m3u</externallink>
     <fanart></fanart>
+    
+ <channel>
+    <name>Movies/Shows</name>
+    <thumbnail></thumbnail>
+    <link>#</link> 
+    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/tv5howsnmov1es.xml</externallink>
+    <fanart></fanart>
+    
+    </channel>
 
  <channel>
     <name>XXX +18 Movies</name>
