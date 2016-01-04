@@ -11,14 +11,12 @@
 
 
 <item>
-<title>[COLOR=red][B][I] TVI24 [/I][/B][/COLOR]</title>
+<title>TEST | TV124</title>
 <link>$doregex[getM3U8]</link>
 <regex>
 <name>getM3U8</name>
-<expres>file: "(.*?)"<expres>
-<page>http://www.meocanaltv.com/embed/TVI24.php?width=600&height=450</page>
-<referer>http://www.meocanaltv.com/embed/TVI24.php?width=600&height=450</referer>
-<agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36 OPR/33.0.1990.115</agent>
-<thumbnail></thumbnail>
+<expres>mobileUrl: "(.*?)"</expres>
+<page>http://meocanaltv.com/canais.php?stream=TVI24</page>
+<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0</agent>
 </regex>
 </item>
