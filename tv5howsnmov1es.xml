@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+
+
+<item>
+<title>[COLOR oldlace][B]Aqua Teen Hunger Force[/B] [/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/aqua-teen-hunger-force</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://dexteriptv.com/live/thumbs/aqua.png</thumbnail>
+<fanart>http://dexteriptv.com/live/thumbs/fanart.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR oldlace][B]American DAD[/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/american-dad</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/a%20dad.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>American Dad! is an American adult animated sitcom created by Seth MacFarlane, Mike Barker, and Matt Weitzman for the Animation Domination lineup on Fox.[1][2] American Dad! is the first television series to have its inception on Animation Domination.[3] The series premiere aired on February 6, 2005, following Super Bowl XXXIX, three months before the rest of the first season aired as part of the Animation Domination block</info>
+</item>
+
+
+<item>
+<title>[COLOR oldlace][B]Big Bang Theory[/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/the-big-bang-theory</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/big%20bang.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>A woman who moves into an apartment across the hall from two brilliant but socially awkward physicists shows them how little they know about life outside of the laboratory.</info>
+</item>
+
+
+<item>
+<title>[COLOR oldlace][B]Black Sails[/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/black-sails</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]Breaking Bad[/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/breaking-bad</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/bad.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>A chemistry teacher diagnosed with a terminal lung cancer, teams up with his former student, Jesse Pinkman, to cook and sell crystal meth.</info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]Brickleberry [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/brickleberry</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/Brickleberry.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+
+
+<item>
+<title>[COLOR oldlace][B]Futurama[/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres><page>http://www.stream4free.eu/futurama</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/futurama-meilleur-serie-2014.jpg</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>Futurama is an American adult animated science fiction sitcom created by Matt Groening and developed by Groening and David X. Cohen for the Fox Broadcasting Company. The series follows the adventures of a late-20th-century New York City pizza delivery boy, Philip J. Fry, who, after being unwittingly cryogenically frozen for one thousand years, finds employment at Planet Express, an interplanetary delivery company in the retro-futuristic 31st century. The series was envisioned by Groening in the late 1990s while working on The Simpsons, later bringing Cohen aboard to develop storylines and characters to pitch the show to Fox.</info>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR oldlace][B]Family Guy[/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/family-guy</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/family%20guy.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>Family Guy is an American adult animated sitcom created by Seth MacFarlane for the Fox Broadcasting Company. The series centers on the Griffins, a family consisting of parents Peter and Lois; their children Meg, Chris, and Stewie; and their anthropomorphic pet dog Brian. The show is set in the fictional city of Quahog, Rhode Island, and exhibits much of its humor in the form of cutaway gags that often lampoon American culture.</info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]Game Of Thrones[/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/game-of-thrones</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/game-of-thrones-house-banner.jpg</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>Several noble families fight for control of the mythical land of Westeros</info>
+</item>
+
+
+
+
+<item>
+<title>[COLOR oldlace][B]Community [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/greendale-college</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/Greendale.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]How I Met Your Mother[/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/himym</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/your%20mum.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>A father recounts to his children, through a series of flashbacks, the journey he and his four best friends took leading up to him meeting their mother.</info>
+</item>
+
+
+<item>
+<title>[COLOR oldlace][B]Regular Show[/B][/COLOR]</title>
+<link>$doregex[file]|user-agent=iPhone</link>
+<regex>
+<name>file</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.justproxy.co.uk/index.php</page>
+<referer>http://www.justproxy.co.uk</referer>
+<rawpost>q=$doregex[url-quote]&amp;hl%5Binclude_form%5D=on&amp;hl%5Baccept_cookies%5D=on&amp;hl%5Bshow_images%5D=on&amp;hl%5Bshow_referer%5D=on&amp;hl%5Bbase64_encode%5D=on&amp;hl%5Bstrip_meta%5D=on&amp;hl%5Bsession_cookies%5D=on</rawpost>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote("https://www.arconaitv.me/rs")</expres>
+<page></page>
+</regex>
+</item>
+
+
+
+<item>
+<title>[COLOR oldlace][B]King Of The Hill[/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/king-of-the-hill</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/hill.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>King of the Hill is an American adult animated sitcom created by Mike Judge and Greg Daniels that ran from January 12, 1997, to May 6, 2010 on Fox. It centers on the Hills, a middle-class American family in the fictional small town of Arlen, Texas. It attempts to retain a naturalistic approach, seeking humor in the conventional and mundane aspects of everyday life. Unlike other animated programs, plots were often cumulative, much like a prime-time drama. In addition, the show was known for its dramatic cliffhangers during season finales. This style of storytelling was unusual for an animated program at the time King of the Hill aired.</info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]Heroes [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/heroes</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/heros.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>After battling the Company to keep an explosion from destroying New York, and averting a global pandemic, the heroes adjust to new stages in their lives. Former cheerleader Claire takes on college life, Hiro and Ando continue to try to help people by utilizing their abilities and Peter is called upon to help an old friend. Meanwhile the arrival of the mysterious carnival clan keeps people guessing. But the heroes will once again be called upon to save the world.</info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]House of Cards [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/house-of-cards</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/House%20of%20Cards.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]House MD [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/house-md</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/House.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[COLOR oldlace][B]Invader Zim[/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.justproxy.co.uk/index.php</page>
+<referer>http://www.justproxy.co.uk</referer>
+<rawpost>q=$doregex[url-quote]&amp;hl%5Binclude_form%5D=on&amp;hl%5Baccept_cookies%5D=on&amp;hl%5Bshow_images%5D=on&amp;hl%5Bshow_referer%5D=on&amp;hl%5Bbase64_encode%5D=on&amp;hl%5Bstrip_meta%5D=on&amp;hl%5Bsession_cookies%5D=on</rawpost>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote("https://www.arconaitv.me/iz")</expres>
+<page></page>
+</regex>
+</item>
+
+
+</item>
+<item>
+<title>[COLOR oldlace][B]Always Sunny in Philadelphia [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/always-sunny-in-philadelphia</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR oldlace][B]Lost [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/lost</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/Lost.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]Mad Men [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/mad-men</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/Mad%20Men.jpg</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]Man vs Wild [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/man-vs-wild-en</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/Man%20vs%20Wild.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+
+
+
+
+
+<item>
+<title>[COLOR oldlace][B]Samurai Jack[/B][/COLOR]</title>
+<link>$doregex[file]|user-agent=iPhone</link>
+<regex>
+<name>file</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.justproxy.co.uk/index.php</page>
+<referer>http://www.justproxy.co.uk</referer>
+<rawpost>q=$doregex[url-quote]&amp;hl%5Binclude_form%5D=on&amp;hl%5Baccept_cookies%5D=on&amp;hl%5Bshow_images%5D=on&amp;hl%5Bshow_referer%5D=on&amp;hl%5Bbase64_encode%5D=on&amp;hl%5Bstrip_meta%5D=on&amp;hl%5Bsession_cookies%5D=on</rawpost>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote("https://www.arconaitv.me/sj")</expres>
+<page></page>
+</regex>
+</item>
+
+
+
+
+<item>
+<title>[COLOR oldlace][B]Seinfeld[/B][/COLOR]</title>
+<link>$doregex[file]|user-agent=iPhone</link>
+<regex>
+<name>file</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.justproxy.co.uk/index.php</page>
+<referer>http://www.justproxy.co.uk</referer>
+<rawpost>q=$doregex[url-quote]&amp;hl%5Binclude_form%5D=on&amp;hl%5Baccept_cookies%5D=on&amp;hl%5Bshow_images%5D=on&amp;hl%5Bshow_referer%5D=on&amp;hl%5Bbase64_encode%5D=on&amp;hl%5Bstrip_meta%5D=on&amp;hl%5Bsession_cookies%5D=on</rawpost>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote("https://www.arconaitv.me/sf")</expres>
+<page></page>
+</regex>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR oldlace][B]The Misadventures of Flapjack[/B][/COLOR]</title>
+<link>$doregex[file]|user-agent=iPhone</link>
+<regex>
+<name>file</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.justproxy.co.uk/index.php</page>
+<referer>http://www.justproxy.co.uk</referer>
+<rawpost>q=$doregex[url-quote]&amp;hl%5Binclude_form%5D=on&amp;hl%5Baccept_cookies%5D=on&amp;hl%5Bshow_images%5D=on&amp;hl%5Bshow_referer%5D=on&amp;hl%5Bbase64_encode%5D=on&amp;hl%5Bstrip_meta%5D=on&amp;hl%5Bsession_cookies%5D=on</rawpost>
+</regex>
+<regex>
+<name>url-quote</name>
+<expres>$pyFunction:urllib.quote("https://arconaitv.me/flapjack/")</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]Rick and Morty [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/rick-and-morty</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/Rick%20and%20Mortv.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]Scrubs[/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/scrubs</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/scubs.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>In the unreal world of Sacred Heart Hospital, intern John "J.D" Dorian learns the ways of medicine, friendship and life.</info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]South Park [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/south-park-hd</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]The Cleveland Show  [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/the-cleveland-show</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/The_Cleveland_Show_3.jpg</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>From the feverish and fertile imagination of "Family Guy" creator Seth MacFarlane comes this offbeat animated sitcom about Cleveland Brown, a nice guy who leaves Quahog, R.I., for Stoolbend, Va., to rekindle his previously unrequited love for high-school crush Donna. Clevelands new life includes a disconcertingly flirtatious stepdaughter, a 5-year-old stepson who loves the ladies, some loudmouthed redneck neighbours, a British family that seems stuck in the Victorian era, plus a clan of bears living down at the end of the block. In other words, just another Sunday in MacFarlaneLand.</info>
+</item>
+
+
+
+<item>
+<title>[COLOR oldlace][B]The Office [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/the-office</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/office.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium. Based on the hit BBC series.</info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]The Simpsons[/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/simpsons-hd</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/simpsons.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>Eighteen seasons have passed since The Simpsons became independent from their shorts on the Tracey Ullman Show in 1987. The family members animated bodies have changed shape a bit since, but they have not aged much, aside from shows that looked into characters futures. In fact, most people would agree that Matt Groenings goofy humor hasnt gotten old either.</info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]The 100 [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/the-100</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/The%20100.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]The Walking Dead[/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/the-walking-dead</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/dead.jpg</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>Sheriffs Deputy Rick Grimes leads a group of survivors in a world overrun by zombies</info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]Triptank [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/triptank</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/Triptank.jpg</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]Smallville [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/smallville</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/Smallville.jpg</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]Sons of Anarchy [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/sons-of-anarchy</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/sons%20of%20anarchy.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]Stargate [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/stargate</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/star.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>A secret military team, SG-1, is formed to explore the recently discovered Stargates.</info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]Spartacus [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/spartacus</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/Spartacus.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]Supernatural [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/supernatural</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/Supernatural.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[COLOR oldlace][B]Weeds [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>>
+<page>http://www.stream4free.eu/weeds</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/weeds.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+
+
+<item>
+<title>[COLOR oldlace][B]Workaholics [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/workaholics</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/Workahlics.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+
+<item>
+<title>[COLOR oldlace][B]Adventure Time[/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/adventure-time</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<info></info>
+</item>
+
+
+<item>
+<title>[COLOR oldlace][B]Better Call Saul [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/better-call-saul</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/Better%20Call%20Saul.jpg</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info></info>
+</item>
+
+
+
+<item>
+<title>[COLOR oldlace][B]Archer [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/archer</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/archer.png</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>Theres not a whole lot of intelligence in the office of the ISIS, an international spy agency where the employees best efforts are geared toward undermining and betraying one another. Master spy Sterling Archer is a suave, confident secret-keeper at work but a mess when it comes to his personal affairs. He has a tenuous relationship with his ex, fellow agent Lana Kane, and he doesnt get along with his mother, Jessica, who happens to be his boss. Meanwhile, ISIS comptroller Cyril Figgis is jealous of Sterlings lifestyle despite the fact hes now dating Lana.</info>
+</item>
+
+
+
+<item>
+<title>[COLOR oldlace][B]Bobs Burgers [/B][/COLOR]</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://www.stream4free.eu/bobs-burgers</page>
+<referer>http://www.stream4free.eu/account-details/go-to-profile/</referer>
+</regex>
+<thumbnail>http://shadowcrew.info/BD/Logos/247/bobs-burgers.jpg</thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+<info>Bob Belcher is a third-generation restaurateur who runs Bobs Burgers with his loving wife and their three children. Bob believes his burgers speak for themselves and isnt afraid to offer a variety of off-beat creations. Bobs wife, Linda, supports his dream but is becoming sick of the slow times, as the restaurant is constantly in danger of going out of business. The main competition to Bobs Burgers is a busy pasta joint located across the street that is run by Bobs nemesis, Jimmy Pesto. Despite the challenges, which includes consistent harassment from Lindas ex - a health inspector - Bob tries to keep the grill sizzling.</info>
+</item>
+
+
+<item>
+<title>[COLOR oldlace][B]Spongebob[/B][/COLOR]</title>
+<link>http://veetle.com/index.php/hls/streamMbrFast/50686cb1bbaa9_/stream.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR oldlace][B]Doctor Who[/B][/COLOR]</title>
+<link>http://veetle.com/index.php/hls/streamMbrFast/4c8416bb6a612_/stream.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR oldlace][B]Star Trek TNG[/B][/COLOR]</title>
+<link>http://veetle.com/index.php/hls/streamMbrFast/51e482fa02883_/stream.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR oldlace][B]King of Queens[/B][/COLOR]</title>
+<link>$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres>controls.*src="(.*?)"</expres>
+<page>http://m.streamlive.to/view/38213</page>
+</regex>
+</item>
+
+
+
+
+
+<item>
+	<title>[COLOR oldlace][B]Adult Swim[/B][/COLOR]</title>
+	<link>http://adultswim-lh.akamaihd.net/i/adultswim_12@156963/master.m3u8</link>
+	<thumbnail>http://channelpear.com/images/media/4.jpg</thumbnail>
+	<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+</item>
+
+<item>
+	<title>[COLOR oldlace][B]Sci-Fi Shows[/B][/COLOR]</title>
+	<link>http://iphone-streaming.ustream.tv/ustreamVideo/18638341/streams/live/playlist.m3u8</link>
+	<thumbnail>http://channelpear.com/images/media/7164.jpg</thumbnail>
+	<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+</item>
+
+<item>
+	<title>[COLOR oldlace][B]Retro[/B][/COLOR]</title>
+	<link>http://edge.streamspot.com:1935/live2/247retd41a/playlist.m3u8</link>
+	<thumbnail>http://channelpear.com/images/media/7185.jpg</thumbnail>
+	<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+</item>
+
+<item>
+	<title>[COLOR oldlace][B]Toonami Aftermath[/B][/COLOR]</title>
+	<link>http://iphone-streaming.ustream.tv/uhls/19964352/streams/live/iphone/playlist.m3u8</link>
+	<thumbnail>http://channelpear.com/images/media/6577.jpg</thumbnail>
+	<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+</item>
+
+<item>
+	<title>[COLOR oldlace][B]Off the Air[/B][/COLOR]</title>
+	<link>http://adultswim-lh.akamaihd.net/i/adultswim_5@318514/master.m3u8</link>
+	<thumbnail>http://channelpear.com/images/media/4974.jpg</thumbnail>
+	<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+</item>
+
+<item>
+	<title>[COLOR oldlace][B]The Venture Bros.[/B][/COLOR]</title>
+	<link>http://adultswim-lh.akamaihd.net/i/adultswim_4@318519/master.m3u8</link>
+	<thumbnail>http://channelpear.com/images/media/4835.jpg</thumbnail>
+	<fanart>http://opti786.5gbfree.com/thumbs/fanart.jpg</fanart>
+</item>
+
+
+
+
+
