@@ -1,44 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-</items>
 
-<item>
-	<title>Test NFL</title>
-	<sportsdevil>http://sawlive.tv/embed/watch/Q5ZGNiODU4ZDAyMWNkMjBlNTQxYjViNGU2/ZG9nZ2FybHVnOjIwNTY1NjZhMTdiMmFkNWIyOWY0ODYxZDQ5NzU5NDBiOjRhNGMyN2</sportsdevil>
-	<referer>http://sawlive.tv/</referer>
-</item
-<item>
-<title>Lshunter</title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/lshunter.tv.cfg&amp;mode=1</jsonrpc>
+<subitem>
+<title>Klan test</title>
+<link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
+<page>http://tvshqiphd.com/tv_al/klan.html</page>
+<referer>http://tvshqiphd.com/tv_al/klan.html</referer></regex>
 <thumbnail></thumbnail>
-</item>
-<item>
-<title>Rojadirecta</title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/rojadirecta.me.cfg&amp;mode=1</jsonrpc>
-<thumbnail></thumbnail>
-</item>
-<item>
-<title>Livetv.ru</title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/livetv.ru.cfg&amp;mode=1</jsonrpc>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title> 2015 Movies Trailer</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-    <title>[makelist.param2]</title>
-    <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-    <thumbnail>NA</thumbnail>
-]]></listrepeat>
-<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
-<page>https://www.youtube.com/playlist?list=PL63F0C78739B09958</page>
-<referer>https://www.youtube.com/user/movieclipsTRAILERS/playlists</referer>
-<cookieJar></cookieJar>
-</regex>
-</item>
-</items>
+<fanart></fanart>
+</subitem> 
