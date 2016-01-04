@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
+<item>
+<title>[COLOR lime]--You must have SportsDevil&LiveStreamsPro Installed to Play--[/COLOR]</title>
+<sportsdevil>#</sportsdevil>
+<referer>#</referer>
+<thumbnail></thumbnail>
+</item>
 
 <item>
 <title>[COLOR yellow]BT Sports ESPN[/COLOR]</title>
@@ -115,9 +121,23 @@
 </item>
 
 <item>
-<title>[COLOR lime]Sky Sports 1 DE[/COLOR]</title>
+<title>[COLOR lime]Sky Sports 1 DE[/COLOR] -Wait 5 seconds</title>
 <sportsdevil>http://mamahd.com/watch-sky-sports-hd1-germany-live-stream-1.html</sportsdevil>
 <referer>http://www.vipbox.sx/</referer>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR lime]Sky Sports 2 DE[/COLOR]</title>
+<sportsdevil>http://mamahd.com/watch-sky-sports-hd2-germany-live-stream-1.html</sportsdevil>
+<referer>http://www.mamahd.com/</referer>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR lime]Sky Bundesliga 1[/COLOR]</title>
+<sportsdevil>http://mamahd.com/watch-sky-bundesliga-1-live-stream-1.html</sportsdevil>
+<referer>http://www.mamahd.com/</referer>
 <thumbnail></thumbnail>
 </item>
 
