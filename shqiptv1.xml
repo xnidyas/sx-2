@@ -391,7 +391,7 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
  
             <item>
                 <title>RTV SHARRI</title>
-                <link></link>
+                <link>rtmp://sharri.streaming.im/live/sharri2/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://shqip3.altervista.org/rtvsharri.html</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>RTV Sharri - Kenge Shqip popullore</info>
@@ -438,6 +438,7 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
             
             <item>
                 <title>my Music</title>
+                <link>http://str105mb.setplex.net:1935/str2iosmd5/alb_hits/chunklist_w1766613434.m3u8</link>
                 <link>http://str105mb.setplex.net:1935/str2iosmd5/alb_music/playlist.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
@@ -638,7 +639,7 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
  
             <item>
                 <title>TV Rozafa</title>        
-                <link>http://str105mb.setplex.net:1935/str2iosmd5/7ios_rozafa_65226289/HasBahCa.m3u8</link>
+                <link>http://str105mb.setplex.net:1935/str2iosmd5/blueskytv_265265_266548/playlist.m3u8</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
@@ -762,6 +763,7 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
 <item>
 	<title>RTV 21 - TEST</title>
 	<link>http://faton.goldtv.al:8000/live/agroni/agroni/6.ts#sthash.3kjRFQnw.dpuf</link>
+	<link>http://84.22.44.225:1935/live/21web.stream/playstream.m3u8</link>
 	<!--<link>http://46.234.100.41:8080/rtv21/index.m3u8</link>-->
 </item>
 
