@@ -35,3 +35,12 @@
             <page>https://www.youtube.com/watch?v=Dy1lCcuVgtU</page>
             </regex>
         </item>
+        
+                    <item>
+                <title>Tirana Live CCTV [COLOR lime]Install YouTube on Kodi to play![/COLOR]</title>  
+                <link>plugin://plugin.video.youtube/?action=play_video&videoid=Dy1lCcuVgtU</link>
+                <!--<link>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://iptvlivestream.com/rtmp/tirana-live-3/</link>--->
+                <thumbnail></thumbnail>
+                <genre>Music</genre>
+                <info>Tirana Live Camera</info>
+            </item>
