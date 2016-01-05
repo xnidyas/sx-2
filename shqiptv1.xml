@@ -370,15 +370,16 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
                 <genre>WEATHER/KOHA</genre>
                 <info>THE WEATHER CHANNEL</info>
             </item>
-<!--------------------------NOT WORKING
+
             <item>
-                <title>Tirana Live Camera</title>        
-                <link>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://iptvlivestream.com/rtmp/tirana-live-3/</link>
+                <title>Tirana Live Camera</title>  
+                <link>https://manifest.googlevideo.com/api/manifest/hls_playlist/id/Dy1lCcuVgtU.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/cmbypass/yes/gir/yes/dg_shard/RHkxbENjdVZndFUuMQ.96/hls_chunk_host/r1---sn-8xgp1vo-xfgz.googlevideo.com/gcr/us/playlist_type/DVR/pmbypass/yes/mm/32/mn/sn-8xgp1vo-xfgz/ms/lv/mv/u/pl/24/dover/3/sver/3/upn/0mturk2dP94/fexp/9416126,9417368,9418204,9420452,9422400,9422596,9423391,9423486,9423662,9424135,9424752,9424772,9425348,9425501,9426413/keepalive/yes/mt/1451956953/ip/100.12.190.83/ipbits/0/expire/1451978781/sparams/ip,ipbits,expire,id,itag,source,requiressl,ratebypass,live,cmbypass,gir,dg_shard,hls_chunk_host,gcr,playlist_type,pmbypass,mm,mn,ms,mv,pl/signature/2E932128ECC99976A1A8DA3C831089D5612355ED.9091F12FDA3374C971450B19A04A8A514BBF3D42/key/dg_yt0/playlist/index.m3u8</link>
+                <!--<link>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://iptvlivestream.com/rtmp/tirana-live-3/</link>--->
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>Tirana Live Camera</info>
             </item>
- ----------------------------->
+ 
             
             <item>
                 <title>A1 Shqiptare TV</title>        
