@@ -25,3 +25,13 @@
   <title>GOLD/Stinet</title>
   <link>rtmp://46.234.100.41/ playpath=gold swfUrl=http://thecdn.04stream.com/p/ooolo1.swf live=1 pageUrl=http://tvshqiphd.com/tv_al/stinet.html</link>
 </item>
+
+<item>
+            <title>Tirana Live CCTV [COLOR yellow](YT)[/COLOR]</title>
+            <link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[get-id]</link>
+            <regex>
+            <name>get-id</name>
+            <expres>data-context-item-id="(.*?)"</expres>
+            <page>https://www.youtube.com/watch?v=Dy1lCcuVgtU</page>
+            </regex>
+        </item>
