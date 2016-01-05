@@ -370,16 +370,16 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
                 <genre>WEATHER/KOHA</genre>
                 <info>THE WEATHER CHANNEL</info>
             </item>
-
+<!-----------------------------not working
             <item>
                 <title>Tirana Live CCTV [COLOR lime]Install YouTube on Kodi to play![/COLOR]</title>  
                 <link>plugin://plugin.video.youtube/?action=play_video&videoid=Dy1lCcuVgtU</link>
-                <!--<link>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://iptvlivestream.com/rtmp/tirana-live-3/</link>--->
+                <!--<link>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://iptvlivestream.com/rtmp/tirana-live-3/</link>---
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>Tirana Live Camera</info>
             </item>
- 
+-----> 
             
             <item>
                 <title>A1 Shqiptare TV</title>        
