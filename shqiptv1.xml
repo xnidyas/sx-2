@@ -697,6 +697,11 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
                 <info>MUZIKE SHQIP</info>
             </item>
  
+ <item>
+ 	<title>Peace TV</title>
+ 	<link>rtmp://82.114.67.178:1935/live playpath=peacetv1?kodistarttime=1452064528&kodiendtime=1452068188&kodihash=V5IhdUOwbejDBvBVOyVw8EVXPlh2SjlWqOhxLEeRyqI= swfUrl=http://www.qsi-ks.com/webi/flowplayer/flowplayer-3.2.18.swf live=1 pageUrl=http://www.qsi-ks.com/webi/live.php</link>
+ </item>
+ 
             <item>
                 <title>RTV Islam</title>        
                 <link>http://77.242.21.140:8090/live.flv</link>
