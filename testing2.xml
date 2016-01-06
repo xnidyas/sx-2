@@ -28,7 +28,7 @@
 
 <item>
             <title>Tirana Live CCTV [COLOR yellow](YT)[/COLOR]</title>
-            <link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=$doregex[get-id]</link>
+            <link>plugin://plugin.video.youtube/?action=play_video&videoid=$doregex[get-id]</link>
             <regex>
             <name>get-id</name>
             <expres>data-context-item-id="(.*?)"</expres>
@@ -47,6 +47,6 @@
 
 <item>
 <title>test</title>
-<link>http://iptvcanales.com/xw/canales/canal.m3u8?canal=2527&amp;profile=4|Referer=http://iptvcanales.com/jwplayer/jwplayer.flash.swf</link>
+<link>http://iptvcanales.com/xw/canales/canal.m3u8?canal=2527&profile=4|Referer=http://iptvcanales.com/jwplayer/jwplayer.flash.swf</link>
 <thumbnail></thumbnail>
 </item>
