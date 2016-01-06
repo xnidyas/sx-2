@@ -41,13 +41,26 @@
          </subitem>
             <subitems>
                 <subitem>
-                <title>TV Klan Link 1</title>
-                <link>rtmp://178.162.193.26/live playpath=lolohd?id=21122 swfUrl=http://www.streamifyplayer.com/resources/scripts/eplayer.swf live=1 pageUrl=http://www.streamifyplayer.com/embedplayer/lolohd/1/660/450 conn=S:OK</link>
-                <thumbnail></thumbnail>
+<title>TV Klan Link 1</title>
+<link>http://$doregex[server]$doregex[path]</link>
+<regex>
+	<name>server</name>
+	<expres>redirect=(.*)</expres>
+	<page>http://www.streamifypublisher.com:1935/loadbalancer</page>
+	<referer>http://www.streamifyplayer.com</referer>
+</regex>
+<regex>
+	<name>path</name>                                                      
+	<expres> \+ "(.*?)"</expres>
+	<page>http://www.streamifyplayer.com/membedplayer/lolohd/1/660/450</page>
+	<referer>http://tvshqiphd.com/</referer>
+	<agent>iPhone</agent>
+</regex>
+<thumbnail></thumbnail>
                 </subitem>
              <subitems>
                 <subitem>
-                <title>TV Klan Link 2 [on]</title>
+                <title>TV Klan Link 2 </title>
                 <link>http://livefutboll24.com/sportsalb.com/sportsalb.com/208.ts</link>
                 <link>rtmp://94.176.148.210:443/liveedge/ playpath=albparajsa3tNF swfUrl=http://micast.tv/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://micast.tv/iframe.php?ch=albparajsa3tNF&width=640&height=460</link>
                 <thumbnail></thumbnail>
