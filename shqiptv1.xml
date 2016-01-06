@@ -858,6 +858,11 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
             	<link>http://iptv.hopto.org:9705/live/Osman/Dosti/12.ts#sthash.3kjRFQnw.dpuf</link>
             	<!----	<link>http://46.234.100.41:8080/bangbang/index.m3u8</link>  --->
             </item>
+            
+            <item>
+            	<title>GLOBI TV</title>
+            	<link>rtmp://sharri.streaming.im/live/sharri1 playpath=livestream swfUrl=http://live.tvglobi.com/playerplus.swf live=1 pageUrl=http://shqip3.altervista.org/globi.html</link>
+            </item>
 <!--------------------------------            
 <item>
 <title>Bang Bang --Test--</title>
