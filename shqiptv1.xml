@@ -816,6 +816,11 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
             </item>
+         
+<item>
+	<title>Tetova TV</title>
+	<link>rtmp://62.141.45.234/live/shqiptv5/ playpath=livestream swfUrl=http://www.albotv.net/jwplayer.swf live=1 pageUrl=http://www.tetova.al/tvlive.html</link>
+</item>    
             
 <item>
 <title>Alsat MPT</title>
