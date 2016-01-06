@@ -42,7 +42,7 @@
             <subitems>
                 <subitem>
                 <title>TV Klan Link 1</title>
-                <link>rtmp://178.162.193.26/live playpath=lolohd?id=21122&pk=4caf340da0b0103cb27ff6a1a9131d84d8bbce5815edbb6315eb9cf53ecc183a swfUrl=http://www.streamifyplayer.com/resources/scripts/eplayer.swf live=1 pageUrl=http://www.streamifyplayer.com/embedplayer/lolohd/1/660/450 conn=S:OK</link>
+                <link>rtmp://178.162.193.26/live playpath=lolohd?id=21122 swfUrl=http://www.streamifyplayer.com/resources/scripts/eplayer.swf live=1 pageUrl=http://www.streamifyplayer.com/embedplayer/lolohd/1/660/450 conn=S:OK</link>
                 <thumbnail></thumbnail>
                 </subitem>
              <subitems>
@@ -696,12 +696,12 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
             </item>
- 
+<!------------ -----------------------------not working.
  <item>
  	<title>Peace TV</title>
  	<link>rtmp://82.114.67.178:1935/live playpath=peacetv1?kodistarttime=1452064528&kodiendtime=1452068188&kodihash=V5IhdUOwbejDBvBVOyVw8EVXPlh2SjlWqOhxLEeRyqI= swfUrl=http://www.qsi-ks.com/webi/flowplayer/flowplayer-3.2.18.swf live=1 pageUrl=http://www.qsi-ks.com/webi/live.php</link>
  </item>
- 
+ ----------------------------------------------------->
             <item>
                 <title>RTV Islam</title>        
                 <link>http://77.242.21.140:8090/live.flv</link>
@@ -862,16 +862,16 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
             	<link>http://188.138.1.82:8081/streamrtmp/BengBeng/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjkvMjAxNSA0OjEyOjQ1IFBNJmhhc2hfdmFsdWU9UEZoM0pjbWQrVDlTNUZZWGdWa2hIQT09JnZhbGlkbWludXRlcz0zNjA=</link>
                  <!--- <link>http://176.10.104.216:8080/mymusic/index.m3u8</link>   
             </item>
-        ----------------------------------------->    
+           
             <item>
             	<title>Bang Bang - Temporary</title>
             	<link>http://iptv.hopto.org:9705/live/Osman/Dosti/12.ts#sthash.3kjRFQnw.dpuf</link>
-            	<!----	<link>http://46.234.100.41:8080/bangbang/index.m3u8</link>  --->
+            	<!----	<link>http://46.234.100.41:8080/bangbang/index.m3u8</link>  ---
             </item>
-            
+           ----------------------------------> 
             <item>
             	<title>GLOBI TV</title>
-            	<link>rtmp://sharri.streaming.im/live/sharri1 playpath=livestream swfUrl=http://live.tvglobi.com/playerplus.swf live=1 pageUrl=http://shqip3.altervista.org/globi.html</link>
+            	<link>rtmp://sharri.streaming.im/live/sharri1/ playpath=livestream swfUrl=http://live.tvglobi.com/playerplus.swf live=1 pageUrl=http://shqip3.altervista.org/globi.html</link>
             </item>
 <!--------------------------------            
 <item>
