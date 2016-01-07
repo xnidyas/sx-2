@@ -104,3 +104,54 @@
 </regex>
 <thumbnail>http://full-stream.org/templates/F-S/images/logo.png</thumbnail>
 </item>
+<!----------------------------------BEGIN-SSKS1-------------->
+<item>
+<title>TESTssks1</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=SIMPLE&amp;url=$doregex[encodedurl]</link>
+<regex>
+	<name>encodedurl</name>
+	<expres>$pyFunction:urllib.quote_plus('$doregex[get-url]|Referer=http://www.tvim.tv/19122012/player/PakoPlayer.swf?ver=v01-130220-7')<expres>
+	<page></page>
+</regex>
+<regex>
+	<name>get-url</name>
+	<expres>location:(.*)</expres>
+	<page>$doregex[get-url1]</page>
+	<agent>Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0</agent>
+	<cookieJar></cookieJar>
+	<noredirect>true</noredirect>
+	<includeheaders/>
+</regex>
+<regex>
+<name>get-url1</name>
+	<expres>location:(.*)</expres>
+	<page>$doregex[get-stream]</page>
+	<agent>Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0</agent>
+	<cookieJar></cookieJar>
+	<noredirect>true</noredirect>
+	<includeheaders/>
+</regex>
+<regex>
+<name>get-stream</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='https://www.tvim.tv/script/user/login'):
+	import requests
+	import re
+	pageUrl=url
+	headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Content-Type': 'application/json'}
+	data ='{"username":"artanlahajipko","cid":"artanlahajipko","password":"wawbdol","remember":false}'
+	r1 = requests.post(pageUrl, headers = headers, data= data)
+	Cookie = re.findall('_ottsessid":"(.*?)"', r1.text)[0]
+	cookie = {'_ottsessid': Cookie}
+	headers2 = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': 'http://www.tvim.tv/'}
+	pageUrl2='http://www.tvim.tv/script/livekey?chan=supersport1'
+	source1 = requests.get(pageUrl2, headers=headers2, cookies=cookie)
+	key = re.findall('key":"(.*?)"', source1.text)[0]
+	pageUrl3='http://stream.tvim.tv/get.str?oid=supersport1&k=' + key
+	return pageUrl3
+]]></expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+<!--------------------------------END------------------------------>
