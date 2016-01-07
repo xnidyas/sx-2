@@ -415,7 +415,7 @@
 </item>
 <!---------------------------B31N SPORTS------------------------------->
 <item>
-<title>BeiN Sports [COLOR yellow](R)[/COLOR]Error =Provo x1-3 her|try x1-3 times!</title>
+<title>BeiN Sports [COLOR yellow](R)[/COLOR] Error=Provo x1-3 her.|Try x1-3 times!</title>
 <link>$doregex[finalurl]</link>
 <regex>
 	<name>finalurl</name>
