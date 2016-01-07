@@ -61,6 +61,12 @@
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/testing2.xml</externallink>
     <fanart></fanart>
     
+    <channel>
+    <name>[COLOR red]*TEST CHANNEL 2*[/COLOR]</name>
+    <thumbnail></thumbnail>
+    <link>#</link> 
+    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/makelist</externallink>
+    <fanart></fanart> 
 
 
 
