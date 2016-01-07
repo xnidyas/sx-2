@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]StreamLive.to[/B] [/COLOR][COLOR coral]Sports Channels[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item><title>[COLOR lime][makelist.param2][/COLOR]</title>
+<link>http$doregex[canal]</link><regex>	 <name>canal</name> <expres>src="http(.*?)"</expres>
+<page>[makelist.param1]</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			</regex></item>	
+]]></listrepeat>
+<expres>href="(.*?)"[\w\W\s]{0,30}strong>(.*?)<</expres>
+<page>http://www.streamlive.to/index.php?cat=Live%20Sport</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
