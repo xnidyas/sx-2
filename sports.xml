@@ -62,10 +62,10 @@
     <fanart></fanart>
     
     <channel>
-    <name>[COLOR red]*TEST CHANNEL 2*[/COLOR]</name>
+    <name>[COLOR red]*TEST CHANNEL TWO*[/COLOR]</name>
     <thumbnail></thumbnail>
     <link>#</link> 
-    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/makelist</externallink>
+    <externallink>http://adrian.kodistream.info/adryan/deportes_adryan_list.xml</externallink>
     <fanart></fanart> 
 
 
