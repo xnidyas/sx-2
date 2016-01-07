@@ -55,14 +55,14 @@
     <fanart></fanart>
     
     <channel>
-    <name>[COLOR red]*TEST CHANNEL*[/COLOR]</name>
+    <name>[COLOR red]*TEST CHANNEL 1*[/COLOR]</name>
     <thumbnail></thumbnail>
     <link>#</link> 
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/testing2.xml</externallink>
     <fanart></fanart>
     
     <channel>
-    <name>[COLOR red]*TEST CHANNEL TWO*[/COLOR]</name>
+    <name>[COLOR red]*Test Not Working*[/COLOR]</name>
     <thumbnail></thumbnail>
     <link>#</link> 
     <externallink>http://ipbestv.net16.net/NewDirectory/index.xml</externallink>
