@@ -18,8 +18,8 @@ http://80.80.160.199/http_livestr.m3u8?id=supersport1&k=pako_3361616138386532663
 http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_3963343530616661636639323833636466373837643530353464333134396433003000617274616e6c6168616a69706b6f0073736e657773
 #EXTINF:-1,test3 
 http://80.80.160.200/http_livestr.m3u8?id=mymusic&k=pako_3563303362346433386431393839656132633661376335373133303234353336003000617274616e6c6168616a69706b6f006d796d75736963
-#EXTINF:-1,test4
-http://stream.ontv.al:8000/live/ontv/albania/7.m3u8
+#EXTINF:-1,Tring Sport 1
+http://stream.ontv.al:8000/live/ontv/albania/93.ts
 #EXTINF:-1,test5klan
 http://ontv.al/jw/ontvweb/klantv.m3u8
 #EXTINF:-1,1testTop
