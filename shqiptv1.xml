@@ -123,7 +123,7 @@
          </subitem>
          
                 <subitem>
-<title>TOP Channel Link 1</title>
+<title>TOP Channel Link 1 [on]</title>
 <link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
 <page>http://shikotv.de/play/kanalet/topchannel.php</page>
 <referer>http://shikotv.de/</referer></regex>
@@ -164,7 +164,7 @@
 </regex>
 </subitem>
                 <subitem>
-                <title>TOP Channel Link 3 [on]</title>
+                <title>TOP Channel Link 3</title>
                 <link></link>
                 <link>http://livefutboll24.com/www.albsports.com/sportsalb.com/208.ts</link>
                 <link>rtmp://94.176.148.213:443/liveedge/ playpath=new2016jJc swfUrl=http://micast.tv/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://micast.tv/iframe.php?ch=new2016jJc&width=640&height=460</link>
@@ -243,13 +243,13 @@
 <thumbnail></thumbnail>
 <fanart></fanart> 
 </subitem>
-
+<!-------------not working----
 <subitem>
 	<title>Super Sport KS</title>
 	<link>http://bit.ly/ssportks1</link>
 	<link>http://bit.ly/ssportks2</link>
 </subitem>
-
+----------------------->
 <subitem>
 <title>Super Sport I</title>
 <link>$doregex[get-M3u8]</link>
@@ -730,7 +730,7 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
             </item>
-            
+ <!------------------------------------NOT WORKING----------------           
             <item>
             	<title>T Shqip</title>
             	<link>http://ontv.al/jw/ontvweb/tchannel.m3u8</link>
@@ -743,10 +743,9 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
             </item>
-
+------------------------------------>
 <item>
   <title>GOLD/Stinet</title>
-  <link>http://visar.goldtv.al:8000/live/www.albsports.com/sportsalb.com/205.ts</link>
   <link>rtmp://46.234.100.41/ playpath=gold swfUrl=http://thecdn.04stream.com/p/ooolo1.swf live=1 pageUrl=http://tvshqiphd.com/tv_al/stinet.html</link>
 </item>
 
