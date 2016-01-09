@@ -243,19 +243,13 @@
 <thumbnail></thumbnail>
 <fanart></fanart> 
 </subitem>
-<!-------------not working----
+
 <subitem>
-	<title>Super Sport KS</title>
-	<link>http://bit.ly/ssportks1</link>
-	<link>http://bit.ly/ssportks2</link>
-</subitem>
------------------------>
-<subitem>
-<title>Super Sport I</title>
-<link>$doregex[get-M3u8]</link>
+<title>Super Sport KS 1</title>
+<link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
 <regex>
 <name>get-M3u8</name>
-<expres>file:'(http.*m3u8)'</expres>
+<expres>file:'(.*?)'</expres>
 <page>http://ontv.al/embed/973</page>
 <referer>http://ontv.al</referer>
 <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
@@ -264,12 +258,12 @@
 </subitem>
 
 <subitem>
-<title>Super Sport SD</title>
-<link>$doregex[get-M3u8]</link>
+<title>Super Sport KS 2</title>
+<link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
 <regex>
 <name>get-M3u8</name>
-<expres>a href="(http.*m3u8.*?)"</expres>
-<page>http://ontv.al/live/858_super_sport_2</page>
+<expres>file:'(.*?)'</expres>
+<page>http://ontv.al/embed/1054</page>
 <referer>http://ontv.al</referer>
 <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
 </regex>
@@ -614,10 +608,10 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
             
 <item>
 <title>Top News</title>
-<link>$doregex[get-M3u8]</link>
+<link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
 <regex>
 <name>get-M3u8</name>
-<expres>file:'(http.*m3u8)'</expres>
+<expres>file:'(.*?)'</expres>
 <page>http://ontv.al/embed/852</page>
 <referer>http://ontv.al</referer>
 <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
@@ -760,11 +754,11 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
 </item>
 
 <item>
-<title>T Plus</title>
-<link>$doregex[get-M3u8]</link>
+<title>T plus</title>
+<link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
 <regex>
 <name>get-M3u8</name>
-<expres>file:'(http.*m3u8)'</expres>
+<expres>file:'(.*?)'</expres>
 <page>http://ontv.al/embed/854</page>
 <referer>http://ontv.al</referer>
 <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
@@ -779,6 +773,32 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
 <name>get-M3u8</name>
 <expres>file:'(.*?)'</expres>
 <page>http://ontv.al/embed/855</page>
+<referer>http://ontv.al</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>EXP Shkence</title>
+<link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
+<regex>
+<name>get-M3u8</name>
+<expres>file:'(.*?)'</expres>
+<page>http://ontv.al/embed/857</page>
+<referer>http://ontv.al</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>EXP Histori</title>
+<link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
+<regex>
+<name>get-M3u8</name>
+<expres>file:'(.*?)'</expres>
+<page>http://ontv.al/embed/1101</page>
 <referer>http://ontv.al</referer>
 <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
 </regex>
@@ -922,6 +942,32 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
             	<title>GLOBI TV</title>
             	<link>rtmp://sharri.streaming.im/live/sharri1/ playpath=livestream swfUrl=http://live.tvglobi.com/playerplus.swf live=1 pageUrl=http://shqip3.altervista.org/globi.html</link>
             </item>
+            
+<item>
+<title>Peace TV</title>
+<link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
+<regex>
+<name>get-M3u8</name>
+<expres>file:'(.*?)'</expres>
+<page>http://ontv.al/embed/1014</page>
+<referer>http://ontv.al</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>Bang Bang</title>
+<link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
+<regex>
+<name>get-M3u8</name>
+<expres>file:'(.*?)'</expres>
+<page>http://ontv.al/embed/853</page>
+<referer>http://ontv.al</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
 <!--------------------------------            
 <item>
 <title>Bang Bang --Test--</title>
