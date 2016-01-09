@@ -943,18 +943,6 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
             	<link>rtmp://sharri.streaming.im/live/sharri1/ playpath=livestream swfUrl=http://live.tvglobi.com/playerplus.swf live=1 pageUrl=http://shqip3.altervista.org/globi.html</link>
             </item>
             
-<item>
-<title>Peace TV</title>
-<link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
-<regex>
-<name>get-M3u8</name>
-<expres>file:'(.*?)'</expres>
-<page>http://ontv.al/embed/1014</page>
-<referer>http://ontv.al</referer>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
-</regex>
-<thumbnail></thumbnail>
-</item>
 
 <item>
 <title>Bang Bang</title>
