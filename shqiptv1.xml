@@ -364,6 +364,20 @@
 <fanart></fanart>
 </subitem>
 
+<subitem>
+<title>Digi Sport 1</title>
+<link>http://82.76.249.81/digiedge/digisport1ehq/index.m3u8?is=1&src=digi-online.ro&t=00000000000000000000000000000000</link>
+</subitem>
+
+<subitem>
+<title>Digi Sport 2</title>
+<link>http://82.76.249.81/digiedge/digisport2ehq/index.m3u8?is=2&src=digi-online.ro&t=00000000000000000000000000000000</link>
+</subitem>
+
+<subitem>
+<title>Digi Sport 3</title>
+<link>http://82.76.249.81/digiedge/digisport3ehq/index.m3u8?is=3&src=digi-online.ro&t=00000000000000000000000000000000</link>
+</subitem>
 <!----
 
 test2
