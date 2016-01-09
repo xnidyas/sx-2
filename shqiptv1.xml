@@ -40,28 +40,23 @@
                 <info>BES-IPTV</info> 	
          </subitem>
             <subitems>
-                <subitem>
-<title>TV Klan Link 1</title>
-<link>http://$doregex[server]$doregex[path]</link>
+            
+ <subitem>
+<title>TV Klan Link 1 [on]</title>
+<link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
 <regex>
-	<name>server</name>
-	<expres>redirect=(.*)</expres>
-	<page>http://www.streamifypublisher.com:1935/loadbalancer</page>
-	<referer>http://www.streamifyplayer.com</referer>
-</regex>
-<regex>
-	<name>path</name>                                                      
-	<expres> \+ "(.*?)"</expres>
-	<page>http://www.streamifyplayer.com/membedplayer/lolohd/1/660/450</page>
-	<referer>http://tvshqiphd.com/</referer>
-	<agent>iPhone</agent>
+<name>get-M3u8</name>
+<expres>file:'(.*?)'</expres>
+<page>http://ontv.al/embed/851</page>
+<referer>http://ontv.al</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
 </regex>
 <thumbnail></thumbnail>
-                </subitem>
+</subitem>
+            
              <subitems>
                 <subitem>
                 <title>TV Klan Link 2 </title>
-                <link>http://visar.goldtv.al:8000/live/www.albsports.com/sportsalb.com/209.ts</link>
                 <link>rtmp://94.176.148.210:443/liveedge/ playpath=albparajsa3tNF swfUrl=http://micast.tv/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://micast.tv/iframe.php?ch=albparajsa3tNF&width=640&height=460</link>
                 <thumbnail></thumbnail>
                 </subitem>
@@ -358,6 +353,7 @@
 <fanart></fanart>
 </subitem>
 
+<!----------------NOT WORKING WITH XML....TRY M3U
 <subitem>
 <title>Digi Sport 1</title>
 <link>http://82.76.249.81/digiedge/digisport1ehq/index.m3u8?is=1&src=digi-online.ro&t=00000000000000000000000000000000</link>
@@ -372,6 +368,7 @@
 <title>Digi Sport 3</title>
 <link>http://82.76.249.81/digiedge/digisport3ehq/index.m3u8?is=3&src=digi-online.ro&t=00000000000000000000000000000000</link>
 </subitem>
+------------------------------->
 <!----
 
 test2
