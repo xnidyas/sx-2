@@ -163,17 +163,17 @@
 
 <item>
   <title>digi1</title>
-  <link>http://82.76.249.81/digiedge/digisport1ehq/index.m3u8?is=1&src=digi-online.ro&t=00000000000000000000000000000000</link>
+  <link>http://82.76.249.81/digiedge/digisport1ehq/index.m3u8?is=1&amp;src=digi-online.ro&t=00000000000000000000000000000000</link>
 </item>
 
 <item>
-  <title></title>
-  <link></link>
+  <title>test1</title>
+  <link>http://80.80.160.199/http_livestr.m3u8?id=supersport1&amp;k=pako_3361616138386532663035316635333565376166313139393135316138363963003000617274616e6c6168616a69706b6f00737570657273706f727431</link>
 </item>
 
 <item>
-  <title></title>
-  <link></link>
+  <title>test2</title>
+  <link>http://80.80.160.200/http_livestr.m3u8?id=mymusic&amp;k=pako_3563303362346433386431393839656132633661376335373133303234353336003000617274616e6c6168616a69706b6f006d796d75736963</link>
 </item>
 
 <item>
