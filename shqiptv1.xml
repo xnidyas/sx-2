@@ -824,6 +824,18 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
 </item>
 
 <item>
+	<title>Filma Hits</title>
+	<link>http://balkanstream.com/stream/filmhits/bit072015/her64tsf</link>
+	<credit>Donat T.</credit>
+</item>
+
+<item>
+	<title>Filma Thriller</title>
+	<link>http://balkanstream.com/stream/filmthriller/bit072015/her64tsf</link>
+	<credit>Donat T.</credit>
+</item>
+
+<item>
 <title>RTK 1</title>
 <link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
 <page>http://shikotv.de/play/kanalet/rtk.php</page>
