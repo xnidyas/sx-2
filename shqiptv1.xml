@@ -457,10 +457,23 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
                 <info>MUZIKE SHQIP</info>
             </item>
             
+<item>
+<title>My music</title>
+<link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
+<regex>
+<name>get-M3u8</name>
+<expres>file:'(.*?)'</expres>
+<page>http://ontv.al/embed/1084</page>
+<referer>http://ontv.al</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
+            
             <item>
-                <title>my Music</title>
+                <title>ALB Music Hits</title>
                 <link>http://str105mb.setplex.net:1935/str2iosmd5/alb_hits/chunklist_w1766613434.m3u8</link>
-                <link>http://str105mb.setplex.net:1935/str2iosmd5/alb_music/playlist.m3u8</link>
+                <!--<link>http://str105mb.setplex.net:1935/str2iosmd5/alb_music/playlist.m3u8</link>-->
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
