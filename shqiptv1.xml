@@ -353,33 +353,32 @@
 <fanart></fanart>
 </subitem>
 
-<!----------------NOT WORKING WITH XML....TRY M3U
 <subitem>
-<title>Digi Sport 1</title>
-<link>http://82.76.249.81/digiedge/digisport1ehq/index.m3u8?is=1&src=digi-online.ro&t=00000000000000000000000000000000</link>
+<title>Digi 1</title>
+<link>http://82.76.249.81/digiedge/digisport1ehq/index.m3u8?is=1&amp;src=digi-online.ro&amp;t=00000000000000000000000000000000</link>
 </subitem>
 
 <subitem>
-<title>Digi Sport 2</title>
-<link>http://82.76.249.81/digiedge/digisport2ehq/index.m3u8?is=2&src=digi-online.ro&t=00000000000000000000000000000000</link>
+<title>Digi 2</title>
+<link>http://82.76.249.81/digiedge/digisport2ehq/index.m3u8?is=2&amp;src=digi-online.ro&amp;t=00000000000000000000000000000000</link>
 </subitem>
 
 <subitem>
-<title>Digi Sport 3</title>
-<link>http://82.76.249.81/digiedge/digisport3ehq/index.m3u8?is=3&src=digi-online.ro&t=00000000000000000000000000000000</link>
+<title>Digi 3</title>
+<link>http://82.76.249.81/digiedge/digisport3ehq/index.m3u8?is=3&amp;src=digi-online.ro&amp;t=00000000000000000000000000000000</link>
 </subitem>
-------------------------------->
+
 <!----
 
 test2
 http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_3963343530616661636639323833636466373837643530353464333134396433003000617274616e6c6168616a69706b6f0073736e657773
+--------->
 
-<!----------------------------------
 <subitem>
 	<title>SS News</title>
-	<link>http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_3963343530616661636639323833636466373837643530353464333134396433003000617274616e6c6168616a69706b6f0073736e657773</link>
+	<link>http://80.80.160.199/http_livestr.m3u8?id=ssnews&amp;k=pako_3963343530616661636639323833636466373837643530353464333134396433003000617274616e6c6168616a69706b6f0073736e657773</link>
 </subitem>
------------------------------------->
+
         <items>
             <item>
                 <title>WEATHER/KOHA U.S.A</title>        
