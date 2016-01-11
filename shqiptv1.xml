@@ -117,8 +117,21 @@
                 <info>BES-IPTV</info> 	
          </subitem>
          
+          <subitem>
+<title>TV Klan Link 1 [on]</title>
+<link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
+<regex>
+<name>get-M3u8</name>
+<expres>file:'(.*?)'</expres>
+<page>http://ontv.al/embed/849</page>
+<referer>http://ontv.al</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
+</regex>
+<thumbnail></thumbnail>
+</subitem>
+         
                 <subitem>
-<title>TOP Channel Link 1 [on]</title>
+<title>TOP Channel Link 2 [on]</title>
 <link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
 <page>http://shikotv.de/play/kanalet/topchannel.php</page>
 <referer>http://shikotv.de/</referer></regex>
@@ -128,7 +141,7 @@
             <subitems>
 <subitem>
 
-<title>TOP Channel Link 2[COLOR green] [/COLOR]</title>
+<title>TOP Channel Link 3[COLOR green] [/COLOR]</title>
 <link>$doregex[get-rtmp] playpath=$doregex[get-playpath]$doregex[get-dynamic] swfUrl=http://static.castalba.tv/player5.9.swf pageUrl=http://castalba.tv/embed.php?cid=$doregex[get-id] live=1</link>
 
 <regex>
@@ -159,7 +172,7 @@
 </regex>
 </subitem>
                 <subitem>
-                <title>TOP Channel Link 3 [on]</title>
+                <title>TOP Channel Link 4</title>
                 <link>rtmp://edge.mdcgate.com:1935/live/ playpath=topchtv swfUrl=http://ssl.p.jwpcdn.com/player/v/7.2.4/jwplayer.flash.swf live=1 pageUrl=http://shqip24.tv/webmasters/shqip-tv/top.html</link>
                 <link></link>
                 <link>rtmp://94.176.148.213:443/liveedge/ playpath=new2016jJc swfUrl=http://micast.tv/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://micast.tv/iframe.php?ch=new2016jJc&width=640&height=460</link>
@@ -167,7 +180,7 @@
                 </subitem>
                 
 <subitem>
-<title>TOP Channel Link 4</title>
+<title>TOP Channel Link 5</title>
 <link>$doregex[get-m3u8]</link>
  
 <regex>
