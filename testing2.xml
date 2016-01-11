@@ -1,207 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<item>
-<title>TEST | Spain Liga | $pyFunction</title>
-<link>$doregex[get-rtmp]/privatestream/ app=privatestream/ playpath=$doregex[path] swfUrl=http://privatestream.tv/js/jwplayer.flash.swf flashVer=WIN\2020,0,0,267 swfVfy=1 live=1 timeout=13 pageUrl=http://privatestream.tv/player?streamname=ligaapp21</link>
-<regex>
-<name>get-rtmp</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://privatestream.tv/player?streamname=ligaapp21'):
- 
- import requests
- import re
- 
- 
- source = requests.get(url)
- var_a = re.findall('var a = (.*?);', source.text)[0]
- var_b = re.findall('var b = (.*?);', source.text)[0]
- var_c = re.findall('var c = (.*?);', source.text)[0]
- var_d = re.findall('var d = (.*?);', source.text)[0]
- var_f = re.findall('var f = (.*?);', source.text)[0]
- 
- a= int(float(var_a))/int(float(var_f))
- b= int(float(var_b))/int(float(var_f))
- c= int(float(var_c))/int(float(var_f))
- d= int(float(var_d))/int(float(var_f))
- 
- rtmp = 'rtmp://' + str(a) + '.' + str(b) + '.' + str(c) + '.' + str(d)
- return rtmp
- 
- 
-]]></expres>
-<page></page>
-</regex>
- 
-<regex>
-<name>path</name>
-<expres>privatestream\/(.*?)';</expres>
-<page>http://privatestream.tv/player?streamname=ligaapp21</page>
-<referer>http://privatestream.tv/</referer>
-<agent></agent>
-</regex>
-</item>
-
-
-<item>
-<title>TEST | TV124</title>
-<link>$doregex[getM3U8]</link>
-<regex>
-<name>getM3U8</name>
-<expres>mobileUrl: "(.*?)"</expres>
-<page>http://meocanaltv.com/canais.php?stream=TVI24</page>
-<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0</agent>
-</regex>
-</item>
-
-<item>
-  <title>GOLD/Stinet</title>
-  <link>rtmp://46.234.100.41/ playpath=gold swfUrl=http://thecdn.04stream.com/p/ooolo1.swf live=1 pageUrl=http://tvshqiphd.com/tv_al/stinet.html</link>
-</item>
-
-<item>
-            <title>Tirana Live CCTV [COLOR yellow](YT)[/COLOR]</title>
-            <link>plugin://plugin.video.youtube/?action=play_video&videoid=$doregex[get-id]</link>
-            <regex>
-            <name>get-id</name>
-            <expres>data-context-item-id="(.*?)"</expres>
-            <page>https://www.youtube.com/watch?v=Dy1lCcuVgtU</page>
-            </regex>
-        </item>
-        
-                    <item>
-                <title>Tirana Live CCTV [COLOR lime]Install YouTube on Kodi to play![/COLOR]</title>  
-                <link>plugin://plugin.video.youtube/?action=play_video&videoid=Dy1lCcuVgtU</link>
-                <!--<link>rtmp://80.91.119.77:1935/livepkgr/sigaluniqa/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://iptvlivestream.com/rtmp/tirana-live-3/</link>--->
-                <thumbnail></thumbnail>
-                <genre>Music</genre>
-                <info>Tirana Live Camera</info>
-            </item>
-
-<item>
-<title>test</title>
-<link>http://iptvcanales.com/xw/canales/canal.m3u8?canal=2527&profile=4|Referer=http://iptvcanales.com/jwplayer/jwplayer.flash.swf</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title> Movies Page 1| full-stream.org</title>
+	 <item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]USA [/B] [/COLOR][COLOR skyblue]Movies Channels[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[makelist.param3]</title>
-<link>$doregex[get-url]</link>
-<thumbnail>[makelist.param1]</thumbnail>
+<title>[makelist.param2]</title>
+<link>http$doregex[canal]</link>
+<regex>	 
+<name>canal</name> 
+<expres>src="http(.*?)"</expres>
+<page>[makelist.param1]</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			
+</regex>
 ]]></listrepeat>
-<expres>\s?.php\?src=([^&]+).*\n.*\n.*\n.*mov-title"..a href="([^"]+)".(.*?)&lt;</expres>
-<page>http://full-stream.org/</page>
-<cookieJar>$doregex[createCFCookie]</cookieJar>
-</regex>
-<regex>
-<name>get-url</name>
-<expres>$pyFunction:'$doregex[get-video]'.replace('\\u0026','&')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-video</name>
-<expres>low","url":"([^"]+)</expres>
-<page>http://ok.ru/dk?cmd=videoPlayerMetadata&amp;mid=$doregex[get-id]</page>
-<referer>$doregex[get-serv]</referer>
-</regex>
-<regex>
-<name>get-id</name>
-<expres>href=".*ok\.ru\/videoembed\/(.*?)"</expres>
-<page>[makelist.param2]</page>
-<referer>http://full-stream.org/</referer>
-<cookieJar>$doregex[createCFCookie2]</cookieJar>
-</regex>
-<regex>
-<name>get-serv</name>
-<expres>href="(http.*ok\.ru.*?)"</expres>
-<page>[makelist.param2]</page>
-<referer>http://full-stream.org/</referer>
+<expres>href="(.*?)"[\w\W\s]{0,30}strong>(.*?)<</expres>
+<page>http://www.streamlive.to/index.php?cat=Movies</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<regex>
-<name>createCFCookie</name>                                                     
-<expres></expres>
-<page>$pyFunction:cloudflare.createCookie('http://full-stream.org/',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>createCFCookie2</name>                                                     
-<expres></expres>
-<page>$pyFunction:cloudflare.createCookie('[makelist.param2]',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://full-stream.org/templates/F-S/images/logo.png</thumbnail>
-</item>
-
-<item>
-<title>testRai1</title>
-<sportsdevil>http://teleboy.customers.cdn.iptv.ch/3003/index.m3u8</sportsdevil>
-<referer>http://teleboy.customers.cdn.iptv.ch/3003/index.m3u8</referer>
-</item>
-
-<item>
-<title>Top News</title>
-<link>$doregex[get-M3u8]</link>
-<regex>
-<name>get-M3u8</name>
-<expres>file:"(.*?)"</expres>
-<page>http://ontv.al/embed/852</page>
-<referer>http://ontv.al</referer>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>test ONAL</title>
-<link>$doregex[get-m3u8]</link>
-
-<regex>
-<name>get-m3u8</name>
-<expres>x-mpegURL" src="(.*?)"</expres>
-<page>http://ontv.al/live/855_</page>
-<referer>http://ontv.al/live/855_</referer>
-</regex>
-</item>
-
-<item>
-  <title>test1/10r21plus</title>
-  <link>http://balkanstream.com/stream/rtv21plus/bit072015/her64tsf</link>
-</item>
-
-<item>
-  <title>rtk3</title>
-  <link>http://84.22.57.190:4022/play/a019</link>
-</item>
-
-<item>
-  <title>rtk4</title>
-  <link>http://84.22.57.190:4022/play/a01a</link>
-</item>
-
-<item>
-  <title>filmthriller</title>
-  <link>http://balkanstream.com/stream/filmthriller/bit072015/her64tsf</link>
-</item>
-
-<item>
-  <title>filmhits</title>
-  <link>http://balkanstream.com/stream/filmhits/bit072015/her64tsf</link>
-</item>
-
-<item>
-  <title>digi1</title>
-  <link>http://82.76.249.81/digiedge/digisport1ehq/index.m3u8?is=1&amp;src=digi-online.ro&amp;t=00000000000000000000000000000000</link>
-</item>
-
-<item>
-  <title>test1</title>
-  <link>http://80.80.160.199/http_livestr.m3u8?id=supersport1&amp;k=pako_3361616138386532663035316635333565376166313139393135316138363963003000617274616e6c6168616a69706b6f00737570657273706f727431</link>
-</item>
+</item>	
 
 <item>
   <title>test2</title>
@@ -210,7 +30,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://privatestream.tv/player?stre
 
 <item>
   <title>testtttExhis</title>
-  <link>http://80.80.160.201/http_livestr.m3u8?r=true&amp;id=mbit-exphistori&amp;k=pako_613636643237646161303435616335336330666663343463396535323735386300633739663838323463393439643030363264653165323162313333366239316200736b656e64657262616a72616d69006b6c616e7476</link>
+  <link>http://80.80.160.201/http_livestr.m3u8?id=exphistori&amp;k=pako_613636643237646161303435616335336330666663343463396535323735386300633739663838323463393439643030363264653165323162313333366239316200736b656e64657262616a72616d69006b6c616e7476</link>
 </item>
 
 <item>
