@@ -470,3 +470,58 @@
 </regex>
 </item>
 <!-------------------------------END B31N SPORTS------------------------------->
+
+<!-----------------------------CANAL+ LIGA DIRETO------------------------------->
+<item>
+<title>Canal + | Spain Liga | Liga Diretto</title>
+<link>$doregex[get-rtmp]/privatestream/ app=privatestream/ playpath=$doregex[path] swfUrl=http://privatestream.tv/js/jwplayer.flash.swf flashVer=WIN\2020,0,0,267 swfVfy=1 live=1 timeout=13 pageUrl=http://privatestream.tv/player?streamname=ligaapp21</link>
+<regex>
+<name>get-rtmp</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://privatestream.tv/player?streamname=ligaapp21'):
+ 
+ import requests
+ import re
+ 
+ 
+ source = requests.get(url)
+ var_a = re.findall('var a = (.*?);', source.text)[0]
+ var_b = re.findall('var b = (.*?);', source.text)[0]
+ var_c = re.findall('var c = (.*?);', source.text)[0]
+ var_d = re.findall('var d = (.*?);', source.text)[0]
+ var_f = re.findall('var f = (.*?);', source.text)[0]
+ 
+ a= int(float(var_a))/int(float(var_f))
+ b= int(float(var_b))/int(float(var_f))
+ c= int(float(var_c))/int(float(var_f))
+ d= int(float(var_d))/int(float(var_f))
+ 
+ rtmp = 'rtmp://' + str(a) + '.' + str(b) + '.' + str(c) + '.' + str(d)
+ return rtmp
+ 
+ 
+]]></expres>
+<page></page>
+</regex>
+ 
+<regex>
+<name>path</name>
+<expres>privatestream\/(.*?)';</expres>
+<page>http://privatestream.tv/player?streamname=ligaapp21</page>
+<referer>http://privatestream.tv/</referer>
+<agent></agent>
+</regex>
+</item>
+
+
+<item>
+<title>TEST | TV124</title>
+<link>$doregex[getM3U8]</link>
+<regex>
+<name>getM3U8</name>
+<expres>mobileUrl: "(.*?)"</expres>
+<page>http://meocanaltv.com/canais.php?stream=TVI24</page>
+<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0</agent>
+</regex>
+</item>
+<!--------------------CANAL+ LIGA DIRETTO ------------------------------>
