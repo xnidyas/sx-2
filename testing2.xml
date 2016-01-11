@@ -1,13 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Klan test</title>
-<link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
-<page>http://tvshqiphd.com/tv_al/klan.html</page>
-<referer>http://tvshqiphd.com/</referer></regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item> 
+<title>TEST | Spain Liga | $pyFunction</title>
+<link>$doregex[get-rtmp]/privatestream/ app=privatestream/ playpath=$doregex[path] swfUrl=http://privatestream.tv/js/jwplayer.flash.swf flashVer=WIN\2020,0,0,267 swfVfy=1 live=1 timeout=13 pageUrl=http://privatestream.tv/player?streamname=ligaapp21</link>
+<regex>
+<name>get-rtmp</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://privatestream.tv/player?streamname=ligaapp21'):
+ 
+ import requests
+ import re
+ 
+ 
+ source = requests.get(url)
+ var_a = re.findall('var a = (.*?);', source.text)[0]
+ var_b = re.findall('var b = (.*?);', source.text)[0]
+ var_c = re.findall('var c = (.*?);', source.text)[0]
+ var_d = re.findall('var d = (.*?);', source.text)[0]
+ var_f = re.findall('var f = (.*?);', source.text)[0]
+ 
+ a= int(float(var_a))/int(float(var_f))
+ b= int(float(var_b))/int(float(var_f))
+ c= int(float(var_c))/int(float(var_f))
+ d= int(float(var_d))/int(float(var_f))
+ 
+ rtmp = 'rtmp://' + str(a) + '.' + str(b) + '.' + str(c) + '.' + str(d)
+ return rtmp
+ 
+ 
+]]></expres>
+<page></page>
+</regex>
+ 
+<regex>
+<name>path</name>
+<expres>privatestream\/(.*?)';</expres>
+<page>http://privatestream.tv/player?streamname=ligaapp21</page>
+<referer>http://privatestream.tv/</referer>
+<agent></agent>
+</regex>
+</item>
 
 
 <item>
