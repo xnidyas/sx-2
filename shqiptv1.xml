@@ -427,7 +427,7 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
             </item>
             <item>
             	<title>KUTIA.tv</title>
-            	<link>http://84.22.48.253:89/kutia/mono.m3u8</link>
+            	<link>http://84.22.48.253:8080/kutia/test.m3u8</link>
             </item>
             <item>
             	<title>STV FOLK HD</title>
