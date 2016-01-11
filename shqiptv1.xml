@@ -848,23 +848,37 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
 <title>RTK 1 - TEST</title>
 <link>http://str105mb.setplex.net:1935/str2iosmd5/rtk_232_4dfaa/playlist.m3u8</link>
 </item>
+
+<item>
+<title>RTV 21 Link 1</title>
+<link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
+<regex>
+<name>get-M3u8</name>
+<expres>file:'(.*?)'</expres>
+<page>http://ontv.al/embed/861</page>
+<referer>http://ontv.al</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
             
 <item>
-<title>RTV 21</title>
+<title>RTV 21 Link 2</title>
 <link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
+<link>http://84.22.44.225:1935/live/21web.stream/playstream.m3u8</link>
 <page>http://shikotv.de/play/kanalet/rtv21.php</page>
 <referer>http://shikotv.de/</referer></regex>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
-
+<!----------
 <item>
 	<title>RTV 21 - TEST</title>
 	<!--<link>http://faton.goldtv.al:8000/live/agroni/agroni/6.ts#sthash.3kjRFQnw.dpuf</link>--->
-	<link>http://84.22.44.225:1935/live/21web.stream/playstream.m3u8</link>
-	<!--<link>http://46.234.100.41:8080/rtv21/index.m3u8</link>-->
+	<!--<link>http://84.22.44.225:1935/live/21web.stream/playstream.m3u8</link>
+	<!--<link>http://46.234.100.41:8080/rtv21/index.m3u8</link>--
 </item>
-
+-------->
 <item>
 <title>KTV KohaVision</title>
 <link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
