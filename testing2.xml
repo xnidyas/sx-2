@@ -3,27 +3,6 @@
 	 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]SHQIP-IPTV [/B] [/COLOR][COLOR skyblue] [/COLOR]</title>
 	
-
-<item>
-  <title>test2</title>
-  <link>http://80.80.160.200/http_livestr.m3u8?id=mymusic&amp;k=pako_3563303362346433386431393839656132633661376335373133303234353336003000617274616e6c6168616a69706b6f006d796d75736963</link>
-</item>
-
-<item>
-  <title>testtttExhis</title>
-  <link>http://80.80.160.201/http_livestr.m3u8?id=exphistori&amp;k=pako_613636643237646161303435616335336330666663343463396535323735386300633739663838323463393439643030363264653165323162313333366239316200736b656e64657262616a72616d69006b6c616e7476</link>
-</item>
-
-<item>
-  <title>Test | Film italia</title>
-  <link>rtmp://flash5.streaming.xdevel.com:80/fmitalia playpath=fmitalia swfUrl=http://share.xdevel.com/api/lib/js/jwplayer5/player.swf live=1 pageUrl=http://share.xdevel.com/api/?platform=streamsolution&get=player&key=f0d4f51258eaceacd3f832e87f262f7f</link>
-</item>
-
-<item>
-  <title>hr1</title>
-  <link>http://5293.live.streamtheworld.com/HTV1?streamtheworld_user=1&amp;uuid=161E3800-0000-0001-7279-2A801980B580&nobuf=1452546614769</link>
-</item>
-
 <item>
   <title>hr12</title>
   <link>http://5293.live.streamtheworld.com/HTV1</link>
