@@ -479,6 +479,11 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
                 <info>MUZIKE SHQIP</info>
             </item>
  
+ <item>
+ 	<title>Plus TV</title>
+ 	<link>rtmp://62.141.45.234/live/shqiptv1/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://iptvlivestream.com/rtmp/plustv/</link>
+ </item>
+ 
             <item>
                 <title>TV Opoja HD</title>
                 <link>rtmp://62.141.45.234/live/shqiptv11/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://opoja.tv/</link>
@@ -598,6 +603,12 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
+            </item>
+            
+            <item>
+            	<title>Arta News</title>
+            	<link>http://84.22.48.253:8080/artanews/test.m3u8</link>
+            	<genre>News Shqip</genre>
             </item>
             
             <item>
@@ -952,6 +963,11 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
                 <info>MUZIKE SHQIP</info>
+            </item>
+            
+            <item>
+            	<title>Era TV</title>
+            	<link>rtmp://217.16.82.6/zulu/ playpath=era_2 swfUrl=http://on.net.mk/jwp/jwplayer.flash.swf live=1 pageUrl=http://on.net.mk/jwp/era.3.html</link>
             </item>
             
            <item>
