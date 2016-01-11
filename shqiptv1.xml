@@ -825,14 +825,14 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
 
 <item>
 	<title>Filma Hits</title>
-	<link>http://balkanstream.com/stream/filmhits/bit072015/her64tsf/playlist.m3u8</link>
-	<credit>Donat T.</credit>
+	<link>http://188.138.17.249:8000/ALB_FilmHits?u=bit072015:p=her64tsf</link>
+	<genre>by: Donat T.</genre>
 </item>
 
 <item>
 	<title>Filma Thriller</title>
 	<link>http://balkanstream.com/stream/filmthriller/bit072015/her64tsf</link>
-	<credit>Donat T.</credit>
+	<genre>by: Donat T.</genre>
 </item>
 
 <item>
