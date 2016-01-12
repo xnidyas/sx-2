@@ -14,6 +14,51 @@
 </item>
 
 <item>
+<title>elite-hd</title>
+
+
+<link>$doregex[makelist]</link>
+<regex>
+              <name>makelist</name>
+                        <listrepeat><![CDATA[
+                        <title>[makelist.param1]</title>
+                        <link>$doregex[makelist2]</link>
+              ]]></listrepeat>
+              <expres>&lt;title&gt;(.*)&lt;.*\n.*\n.*\n.*&lt;serviceLink&gt;(.*)&lt;</expres>
+              <page>$doregex[clean-xml]</page>
+              <cookieJar></cookieJar>
+</regex>
+
+<regex>
+	<name>clean-xml</name>
+	<expres>--&gt;(?s)(.*)Settings</expres>
+	<page>http://iostv.web44.net/Android/Service/ServiceDescAndroid.xml</page>
+</regex>
+
+
+<regex>
+              <name>makelist2</name>
+                        <listrepeat><![CDATA[
+                        <title>[makelist2.param1]</title>
+                        <link>[makelist2.param2]$doregex[get-auth]</link>
+              ]]></listrepeat>
+              <expres>&lt;title&gt;(.*)&lt;.*\n.*&lt;link&gt;(.*)&lt;</expres>
+              <page>[makelist.param2]</page>
+              <cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+<name>get-auth</name>
+<expres>data":"(.*?)"</expres>
+<page>http://85.25.43.14/nusoap/generateCodeJSON.php?method=generate&amp;format=json</page>
+<rawpost>password=xh%4068&amp;username=xhilda&amp;</rawpost>
+<cookieJar></cookieJar>
+</regex>
+
+</item>
+
+<item>
   <title></title>
   <link></link>
 </item>
