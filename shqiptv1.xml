@@ -118,7 +118,7 @@
          </subitem>
          
           <subitem>
-<title>TV Klan Link 1 [on]</title>
+<title>TOP Channel Link 1 [on]</title>
 <link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
 <regex>
 <name>get-M3u8</name>
