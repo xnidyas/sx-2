@@ -94,3 +94,50 @@
   <title></title>
   <link></link>
 </item>
+<item>
+<title>Channels</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat>
+<![CDATA[
+<title>[makelist.param3]</title>
+ <link>$doregex[m3u8]|Referer=http://streamking.cc/player?channel=[makelist.param1]</link>
+ <thumbnail>http://streamking.cc/[makelist.param2]</thumbnail>
+]]>
+</listrepeat>
+<expres>
+(?s)tv-block.*?href="/(.*?)".*?img.*?src="(.*?)".*?title="(.*?)"
+</expres>
+<page>$doregex[getpage]</page>
+<cookieJar/>
+</regex>
+<regex>
+<name>getpage</name>
+<expres>
+$pyFunction:codecs.decode(page_data,'utf-8').encode('ascii', 'xmlcharrefreplace')
+</expres>
+<page>http://streamking.cc/</page>
+<agent>
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0
+</agent>
+<cookieJar/>
+</regex>
+<regex>
+<name>translit</name>
+<expres>
+$pyFunction:translit([makelist.param3], 'ru', reversed=True)
+</expres>
+<page/>
+<cookieJar/>
+</regex>
+<regex>
+<name>m3u8</name>
+<expres>['"](.*?m3u8.*?)['"]</expres>
+<page>
+http://streamking.cc/player?channel=[makelist.param1]
+</page>
+<includeheaders/>
+<cookieJar/>
+</regex>
+</item>
