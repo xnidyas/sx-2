@@ -129,6 +129,11 @@
 </regex>
 <thumbnail></thumbnail>
 </subitem>
+
+<subitem>
+  <title>TOP Channel Link 1 [on]</title>
+  <link>http://ontv.al/jw/ontvweb/topchannel.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</link>
+</subitem>
          
                 <subitem>
 <title>TOP Channel Link 2 [on]</title>
