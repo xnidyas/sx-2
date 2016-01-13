@@ -71,7 +71,7 @@
                         <link>[makelist2.param2].m3u8</link>
               ]]></listrepeat>
               <expres>EXTINF:-1,ex-Yu: (.*).*\n.*(http.*).ts</expres>
-              <page>http://portal.rapidiptv.com:8080/get.php?username=v7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
+              <page>http://portal.rapidiptv.com:8080/get.php?username=7oxEnXqQd&amp;password=kTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
               <cookieJar></cookieJar>
 </regex>
 </item>
@@ -131,5 +131,10 @@
 
 <item>
   <title>testontv3</title>
-  <link>http://stream.ontv.al:8000/live/ontv/albania/3.ts|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</link>
+  <link>http://stream.ontv.al:8000/live/ontvweb/falas/6.ts|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</link>
+</item>
+
+<item>
+  <title>testontv4</title>
+  <link>http://stream.ontv.al:8000/live/ontvweb/falas/6.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</link>
 </item>
