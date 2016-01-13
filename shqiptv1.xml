@@ -432,7 +432,8 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
             </item>
            
             <item>
-                <title>Super Sonic TVHD</title>        
+                <title>Super Sonic TVHD</title> 
+                <!--<link>http://str103.setplex.net:1935/228/stv_online/playlist.m3u8</link>-->
                 <link>rtmp://str103.setplex.net/228/stv_online</link>
                 <thumbnail></thumbnail>
                 <genre>Music</genre>
