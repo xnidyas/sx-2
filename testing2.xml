@@ -118,9 +118,10 @@
 <cookieJar></cookieJar>
 </regex>
 </item>
+
 <item>
   <title>testontv</title>
-  <link>http://ontv.al/jw/ontvweb/exphistori.m3u8</link>
+  <link>http://ontv.al/jw/ontvweb/exphistori.m3u8|UserAgent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</link>
 </item>
 
 <item>
