@@ -14,7 +14,7 @@
 </item>
 
 <item>
-<title>elite-hd</title>
+<title>Test Tv</title>
 
 
 <link>$doregex[makelist]</link>
@@ -84,7 +84,22 @@
   <title></title>
   <link></link>
 </item>
-
+<item>
+<title>TOP Channel Portokalli 2015</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param2]</title>
+    <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+<page>https://www.youtube.com/playlist?list=PLM8BAxfZddjx4J5gzmtW8D-W1uD3-SjRC</page>
+<referer>https://www.youtube.com/user/TopChannelAlbania/playlists</referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
 <item>
   <title></title>
   <link></link>
