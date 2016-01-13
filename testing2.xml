@@ -57,7 +57,25 @@
 </regex>
 
 </item>
+<!------------EXYU----->
+<item>
+<title>ex-Yu</title>
 
+
+<link>$doregex[makelist2]</link>
+
+<regex>
+              <name>makelist2</name>
+                        <listrepeat><![CDATA[
+                        <title>[makelist2.param1]</title>
+                        <link>[makelist2.param2].m3u8</link>
+              ]]></listrepeat>
+              <expres>EXTINF:-1,ex-Yu: (.*).*\n.*(http.*).ts</expres>
+              <page>http://portal.rapidiptv.com:8080/get.php?username=v7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
+              <cookieJar></cookieJar>
+</regex>
+</item>
+<!-----------------------END--->
 <item>
   <title></title>
   <link></link>
