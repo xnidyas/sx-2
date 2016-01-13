@@ -850,6 +850,16 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
 </item>
 
 <item>
+	<title>Film 1</title>
+	<link>rtmp://185.59.222.184/ playpath=filmnje swfUrl=http://ssl.p.jwpcdn.com/player/v/7.2.4/jwplayer.flash.swf live=1 pageUrl=http://content.jwplatform.com/players/gf8O6d3Y-3lkSgoYl.html</link>
+</item>
+
+<item>
+	<title>Film 2</title>
+	<link>rtmp://185.59.222.184/ playpath=filmdy swfUrl=http://ssl.p.jwpcdn.com/player/v/7.2.4/jwplayer.flash.swf live=1 pageUrl=http://content.jwplatform.com/players/88VAoAyf-3lkSgoYl.html</link>
+</item>
+
+<item>
 	<title>Filma Hits</title>
 	<link>http://185.59.222.184/hits/index.m3u8</link>
 	<link>http://188.138.17.249:8000/ALB_FilmHits?u=bit072015:p=her64tsf</link>
