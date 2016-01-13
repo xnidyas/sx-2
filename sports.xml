@@ -38,16 +38,16 @@
     <link>#</link> 
     <externallink>https://raw.githubusercontent.com/fgsalva/listas/master/ufc</externallink>
     <fanart></fanart>
-    
+<!--------------------------DEAD-------    
  <channel>
     <name>[COLOR lime]Sports (Add-on "Iptv Stalker" Necessary)[/COLOR][COLOR yellow](Add to Favorite|Play from Favorites!)[/COLOR]</name>
     <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
     <link>#</link> 
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/Iptvst4lker</externallink>    
-<!---<externallink>http://pastebin.com/raw.php?i=if9DXqty</externallink>--->
+<!---<externallink>http://pastebin.com/raw.php?i=if9DXqty</externallink>---
     <referer>http://www.google.com/</referer>
     <fanart></fanart>
-    
+----------------------------DEAD--------->     
   <channel>
     <name>[COLOR lime]Live PPV Events[/COLOR]</name>
     <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
@@ -62,15 +62,15 @@
     <!--<externallink></externallink>-->
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/testing2.xml</externallink>
     <fanart></fanart>
-    
+    <!--
     <channel>
     <name>[COLOR red]*Test Not Working*[/COLOR]</name>
     <thumbnail></thumbnail>
     <link>#</link> 
     <externallink>http://ipbestv.net16.net/NewDirectory/index.xml</externallink>
-    <!--<externallink>http://adrian.kodistream.info/adryan/deportes_adryan_list.xml</externallink>-->
+    <!--<externallink>http://adrian.kodistream.info/adryan/deportes_adryan_list.xml</externallink>--
     <fanart></fanart> 
-
+---->
     <channel>
     <name>[COLOR red]*DONAT PLAYLIST*[/COLOR]</name>
     <thumbnail></thumbnail>
