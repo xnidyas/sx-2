@@ -164,3 +164,154 @@ http://streamking.cc/player?channel=[makelist.param1]
 <cookieJar></cookieJar>
 </regex>
 </item>
+
+item>
+<title>Events for today</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat>
+<![CDATA[
+<title>[makelist.param1]-[makelist.param2]</title>
+ <link>$doregex[makelist2]</link>
+]]>
+</listrepeat>
+<expres>
+(?s)<td.*?<p class.*?>(\d+\:\d+)\s*<.*?class.*?>\s*(.+?)\s*<(.*?)<\/td
+</expres>
+<page>$doregex[getpage]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<cookieJar/>
+</regex>
+<regex>
+<name>getpage</name>
+<expres>
+$pyFunction:codecs.decode(page_data,'gb18030').encode('ascii', 'xmlcharrefreplace')
+</expres>
+<page>http://www.stadium-live.biz/</page>
+<agent>
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0
+</agent>
+<proxy/>
+<cookieJar/>
+</regex>
+<regex>
+<name>getdate</name>
+<expres>$pyFunction:time.strftime('%d/%m/%Y')</expres>
+<page/>
+</regex>
+<regex>
+<name>getxfip</name>
+<expres>
+$pyFunction:"85." + str(random.randint(0,32767)%8) + "." + str(random.randint(0,32767)%256) + "." + str(random.randint(0,32767)%256)
+</expres>
+<page/>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat>
+<![CDATA[
+<title>[makelist2.param2]</title>
+ <link>$doregex[uri] app=$doregex[app] swfUrl=$doregex[swf]jwplayer.flash.swf playpath=$doregex[file] pageUrl=$doregex[page1] token=@@stop-stole@@ flashVer==WIN\2016,0,0,305 live=1 swfVfy=1</link>
+]]>
+</listrepeat>
+<expres>href="(.+\d+\.html)".+?>(.*?)<</expres>
+<page>[makelist.param3]</page>
+<agent>
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0
+</agent>
+<cookieJar/>
+</regex>
+<regex>
+<name>page0</name>
+<expres>iframe\s+src="(ch_.*?)"</expres>
+<page>http://www.stadium-live.biz/[makelist2.param1]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<agent>
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0
+</agent>
+<x-forward>$doregex[getxfip]</x-forward>
+<cookieJar/>
+</regex>
+<regex>
+<name>page1</name>
+<expres>src="(http://.*?file=\d*)&</expres>
+<page>http://www.stadium-live.biz/$doregex[page0]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<agent>
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0
+</agent>
+<x-forward>$doregex[getxfip]</x-forward>
+<cookieJar/>
+</regex>
+<regex>
+<name>page2</name>
+<expres>iframe.*?"(http://.*/\S*)"</expres>
+<page>$doregex[page1]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<agent>
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0
+</agent>
+<x-forward>$doregex[getxfip]</x-forward>
+<cookieJar/>
+</regex>
+<regex>
+<name>swf</name>
+<expres>
+script type="text/javascript"\s+src="(\S*)jwplayer\.js"
+</expres>
+<page>$doregex[page2]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<agent>
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0
+</agent>
+<x-forward>$doregex[getxfip]</x-forward>
+<cookieJar/>
+</regex>
+<regex>
+<name>file64</name>
+<expres>id="ssx1"\s+value="(.*?)"</expres>
+<page>$doregex[page2]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<agent>
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0
+</agent>
+<x-forward>$doregex[getxfip]</x-forward>
+<cookieJar/>
+</regex>
+<regex>
+<name>file</name>
+<expres>$pyFunction:base64.b64decode('$doregex[file64]')</expres>
+<page/>
+</regex>
+<regex>
+<name>rdr64</name>
+<expres>id="ssx4"\s+value="(.*?)"</expres>
+<page>$doregex[page2]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<agent>
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0
+</agent>
+<x-forward>$doregex[getxfip]</x-forward>
+<cookieJar/>
+</regex>
+<regex>
+<name>rdr</name>
+<expres>$pyFunction:base64.b64decode('$doregex[rdr64]')</expres>
+<page/>
+</regex>
+<regex>
+<name>uri</name>
+<expres>
+$pyFunction:urlparse.urlparse('$doregex[rdr]').scheme + "://" + urlparse.urlparse('$doregex[rdr]').netloc + urlparse.urlparse('$doregex[rdr]').path
+</expres>
+<page/>
+</regex>
+<regex>
+<name>app</name>
+<expres>
+$pyFunction:urlparse.urlparse('$doregex[rdr]').path.replace("/","") + "/?" + urlparse.urlparse('$doregex[rdr]').query
+</expres>
+<page/>
+</regex>
+</item>
