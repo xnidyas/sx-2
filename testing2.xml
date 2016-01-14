@@ -65,7 +65,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-    <title>[makelist.param2]</title>
+    <title>BES-IPTV: [makelist.param2]</title>
     <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
     <thumbnail>NA</thumbnail>
 ]]></listrepeat>
