@@ -339,7 +339,7 @@
 
 <regex>
 <name>get-url</name>
-<expres>$pyFunction:'$doregex[get-video]'.replace('\\u0026','&')</expres>
+<expres>$pyFunction:'$doregex[get-video]'.replace('\\u0026','&amp;')</expres>
 <page></page>
 </regex>
 <regex>
