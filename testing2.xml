@@ -343,13 +343,13 @@
 <!--------------------------END----------------------------------->
 
 	 <item>
-<title>[COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]USA [/B] [/COLOR][COLOR skyblue]Movies Channels[/COLOR]</title>
+<title>[COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]USA [/B] [/COLOR][COLOR skyblue]Movies Channelz[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param2]</title>
-<link>$doregex[file]|Referer=$doregex[ref]&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
+<link>$doregex[makelist2]</link>
 <regex>	 
 <name>canal</name> 
 <expres>src="http(.*?)"</expres>
