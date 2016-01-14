@@ -4,23 +4,7 @@
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]SHQIP-IPTV [/B] [/COLOR][COLOR skyblue] [/COLOR]</title>
 
 
-<item>
-<title>streamfoot</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-    <title>[makelist.param2]</title>
-    <sportsdevil>[makelist.param1]</sportsdevil>
-    <referer>http://www.stream-foot.tv/</referer>
-    <thumbnail>NA</thumbnail>
-]]></listrepeat>
-<expres>a\s+href="([^"]+)">[\W]+(.*?):</expres>
-<page>http://www.stream-foot.tv/</page>
-<referer>http://www.stream-foot.tv/</referer>
-<cookieJar></cookieJar>
-</regex>
-</item>
+
 	
 <item>
   <title>hr12</title>
@@ -195,4 +179,49 @@
 <item>
   <title>testontv44</title>
   <link>http://stream.ontv.al:8000/live/ontvweb/falas/6.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</link>
+</item>
+
+<item>
+<title>Test Tv</title>
+
+
+<link>$doregex[makelist]</link>
+<regex>
+              <name>makelist</name>
+                        <listrepeat><![CDATA[
+                        <title>BES-IPTV | [makelist.param1]</title>
+                        <link>$doregex[makelist2]</link>
+              ]]></listrepeat>
+              <expres>&lt;title&gt;(.*)&lt;.*\n.*\n.*\n.*&lt;serviceLink&gt;(.*)&lt;</expres>
+              <page>$doregex[clean-xml]</page>
+              <cookieJar></cookieJar>
+</regex>
+
+<regex>
+	<name>clean-xml</name>
+	<expres>--&gt;(?s)(.*)Settings</expres>
+	<page>http://iostv.web44.net/Android/Service/ServiceDescAndroid.xml</page>
+</regex>
+
+
+<regex>
+              <name>makelist2</name>
+                        <listrepeat><![CDATA[
+                        <title>BES-IPTV | [makelist2.param1]</title>
+                        <link>[makelist2.param2]$doregex[get-auth]</link>
+              ]]></listrepeat>
+              <expres>&lt;title&gt;(.*)&lt;.*\n.*&lt;link&gt;(.*)&lt;</expres>
+              <page>[makelist.param2]</page>
+              <cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+<name>get-auth</name>
+<expres>data":"(.*?)"</expres>
+<page>http://85.25.43.14/nusoap/generateCodeJSON.php?method=generate&amp;format=json</page>
+<rawpost>password=xh%4068&amp;username=xhilda&amp;</rawpost>
+<cookieJar></cookieJar>
+</regex>
+
 </item>
