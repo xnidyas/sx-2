@@ -185,7 +185,6 @@
 
 <!--------------------------------------END------------------------------------------->
 
-<?xml version="1.0" encoding="UTF-8"?>
 <item>
 <title>Sport Events for Today</title>
 <link>$doregex[makelist]</link>
