@@ -86,7 +86,7 @@
 <regex>
               <name>makelist</name>
                         <listrepeat><![CDATA[
-                        <title>[COLOR white] BES-IPTV -[/COLOR]</title>
+                        <title>[COLOR white]BES-IPTV - [/COLOR]</title>
                         <link>$doregex[makelist2]</link>
               ]]></listrepeat>
               <expres>&lt;title&gt;(.*)&lt;.*\n.*\n.*\n.*&lt;serviceLink&gt;(.*)&lt;</expres>
@@ -104,7 +104,7 @@
 <regex>
               <name>makelist2</name>
                         <listrepeat><![CDATA[
-                        <title>[COLOR white] BES-IPTV -[/COLOR][makelist2.param1]</title>
+                        <title>[makelist2.param1]</title>
                         <link>[makelist2.param2]$doregex[get-auth]</link>
               ]]></listrepeat>
               <expres>&lt;title&gt;(.*)&lt;.*\n.*&lt;link&gt;(.*)&lt;</expres>
@@ -124,7 +124,7 @@
 </item>
 
 <!--------------------------------------END------------------------------------------->
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item>
 <title>Sport Events for Today</title>
 <link>$doregex[makelist]</link>
