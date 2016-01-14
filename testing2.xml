@@ -323,7 +323,7 @@
 <!----------------------------------------->
 
 <item>
-<title>Movies Page 1| Full-stream.org</title>
+<title>Movies Page 1| Full-stream.Org</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -332,7 +332,7 @@
 <link>$doregex[get-url]</link>
 <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
-<expres>\s?.php\?src=([^&]+).*\n.*\n.*\n.*mov-title"&gt;&lt;a href="([^"]+)"&gt;(.*?)&lt;</expres>
+<expres>\s?.php\?src=([^&amp;]+).*\n.*\n.*\n.*mov-title"&gt;&lt;a href="([^"]+)"&gt;(.*?)&lt;</expres>
 <page>http://full-stream.org</page>
 <cookieJar></cookieJar>
 </regex>
