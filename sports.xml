@@ -62,15 +62,7 @@
     <!--<externallink></externallink>-->
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/testing2.xml</externallink>
     <fanart></fanart>
-    <!--
-    <channel>
-    <name>[COLOR red]*Test Not Working*[/COLOR]</name>
-    <thumbnail></thumbnail>
-    <link>#</link> 
-    <externallink>http://ipbestv.net16.net/NewDirectory/index.xml</externallink>
-    <!--<externallink>http://adrian.kodistream.info/adryan/deportes_adryan_list.xml</externallink>--
-    <fanart></fanart> 
----->
+
     <channel>
     <name>[COLOR red]*DONAT PLAYLIST*[/COLOR]</name>
     <thumbnail></thumbnail>
@@ -79,6 +71,12 @@
     <!--<externallink>http://adrian.kodistrea</externallink>-->
     <fanart></fanart> 
 
+    <channel>
+    <name>[COLOR red]*Test Not Working*[/COLOR]</name>
+    <thumbnail></thumbnail>
+    <link>#</link> 
+    <externallink>http://adrian.kodistream.info/adryan/deportes_adryan_list.xml</externallink>
+    <fanart></fanart> 
 
             
         </channel>
