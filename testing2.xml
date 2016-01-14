@@ -321,3 +321,46 @@
 <thumbnail>http://static.filmon.com/couch/channels/213/extra_big_logo.png</thumbnail>
 </item>
 <!----------------------------------------->
+
+<item>
+<title>Movies Page 1| Full-stream.org</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title> [makelist.param3]</title>
+<link>$doregex[get-url]</link>
+<thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres>\s?.php\?src=([^&]+).*\n.*\n.*\n.*mov-title"&gt;&lt;a href="([^"]+)"&gt;(.*?)&lt;</expres>
+<page>http://full-stream.org</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>get-url</name>
+<expres>$pyFunction:'$doregex[get-video]'.replace('\\u0026','&')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-video</name>
+<expres>low","url":"([^"]+)<expres>
+<page>http://ok.ru/dk?cmd=videoPlayerMetadata&amp;mid=$doregex[get-id]</page>
+<referer>$doregex[get-serv]</referer>
+</regex>
+<regex>
+<name>get-id</name>
+<expres>href=".*ok\.ru\/videoembed\/(.*?)"<expres>
+<page>[makelist.param2]</page>
+<referer>http://full-stream.org/</referer>
+</regex>
+<regex>
+<name>get-serv</name>
+<expres>href="(http.*ok\.ru.*?)"<expres>
+<page>[makelist.param2]</page>
+<referer>http://full-stream.org/</referer>
+</regex>
+<thumbnail>http://full-stream.org/templates/F-S/images/logo.png</thumbnail>
+</item>
+
+<!-------------------------------END----------------------------->
