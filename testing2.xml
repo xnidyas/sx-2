@@ -443,3 +443,31 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <!------------end------->
+
+<item>
+<title>Channels</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat>
+<![CDATA[
+<title>[makelist.param2]</title>
+ <link>$doregex[m3u8]</link>
+ <thumbnail>[makelist.param1]</thumbnail>
+]]>
+</listrepeat>
+<expres>
+<td>\s*<img\s+src="(.*?)".*?EXTINF:-1,(.*?)\s+<br.*?(http.*?)&.*?(\d+)
+</expres>
+<page>http://www.tuiptv.biz/</page>
+<cookieJar/>
+</regex>
+<regex>
+<name>m3u8</name>
+<expres>location:(\S+)</expres>
+<page>[makelist.param3]&channel=[makelist.param4]</page>
+<noredirect>true</noredirect>
+<includeheaders/>
+<cookieJar/>
+</regex>
+</item>
