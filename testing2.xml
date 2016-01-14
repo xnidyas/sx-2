@@ -2,7 +2,7 @@
 
 <!------------EXYU----->
 <item>
-<title>EX-Yu | Test</title>
+<title>Ex-Yu | Test</title>
 
 
 <link>$doregex[makelist2]</link>
@@ -10,11 +10,11 @@
 <regex>
               <name>makelist2</name>
                         <listrepeat><![CDATA[
-                        <title>[COLOR] white]KANAL:[/COLOR] [makelist2.param1]</title>
+                        <title>[COLOR white]KANAL:[/COLOR] [makelist2.param1]</title>
                         <link>[makelist2.param2].m3u8</link>
               ]]></listrepeat>
               <expres>EXTINF:-1,AL: (.*).*\n.*(http.*).ts</expres>
-              <page>http://portal.rapidiptv.com:8080/get.php?username=7oxEnXqQd&amp;password=kTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
+              <page>http://portal.rapidiptv.com:8080/get.php?username=v7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
               <cookieJar></cookieJar>
 </regex>
 </item>
@@ -27,7 +27,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <item>
-<title>[COLOR] white]StreamKing.cc | [/COLOR]- [makelist.param3]</title>
+<title>[COLOR white]StreamKing.cc | [/COLOR]- [makelist.param3]</title>
 <link>$doregex[file]|Referer=$doregex[ref]&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
 <regex>
 <name>file</name>
