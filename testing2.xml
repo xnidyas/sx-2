@@ -349,7 +349,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param2]</title>
-<link>http$doregex[canal]</link>
+<link>$doregex[file]|Referer=$doregex[ref]&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
 <regex>	 
 <name>canal</name> 
 <expres>src="http(.*?)"</expres>
