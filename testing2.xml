@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!------------EXYU----->
+<item>
+<title>ex-Yu</title>
+
+
+<link>$doregex[makelist2]</link>
+
+<regex>
+              <name>makelist2</name>
+                        <listrepeat><![CDATA[
+                        <title>[makelist2.param1]</title>
+                        <link>[makelist2.param2].m3u8</link>
+              ]]></listrepeat>
+              <expres>EXTINF:-1,ex-Yu: (.*).*\n.*(http.*).ts</expres>
+              <page>http://portal.rapidiptv.com:8080/get.php?username=7oxEnXqQd&amp;password=kTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
+              <cookieJar></cookieJar>
+</regex>
+</item>
+<!-----------------------END--->
+
+<item>
+<title>Sports | StreamKing.cc |</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item>
+<title>StreamKing.cc | [makelist.param3]</title>
+<link>$doregex[file]|Referer=$doregex[ref]&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
+<regex>
+<name>file</name>
+<expres>source: '(.*?)'</expres>
+<page>$doregex[page]</page>
+<referer>http://streamking.cc/</referer>
+</regex>
+<regex>
+<name>page</name>
+<expres>iframe src="(.*?)"</expres>
+<page>http://streamking.cc/[makelist.param1]</page>
+</regex>
+<regex>
+<name>ref</name>
+<expres>iframe src="(.*?)&amp;</expres>
+<page>http://streamking.cc/[makelist.param1]</page>
+</regex>
+
+
+<thumbnail>http://streamking.cc/[makelist.param2]</thumbnail>
+<fanart>http://streamking.cc/[makelist.param2]</fanart>
+]]></listrepeat>
+<expres>a href="(.*)".*?img class.*? src="(.*)" width=.*?title="(.*)"</expres>
+
+<page>http://streamking.cc/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<!------------------------------END STREAMKING--->
+
+<item>
+<title>TOP Channel Portokalli 2015 (YT)</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param2]</title>
+    <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+<page>https://www.youtube.com/playlist?list=PLM8BAxfZddjx4J5gzmtW8D-W1uD3-SjRC</page>
+<referer>https://www.youtube.com/user/TopChannelAlbania/playlists</referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
+<!-----------------END YOUTUBE---------------------------->
+
+<item>
+<title>Test TV</title>
+
+
+<link>$doregex[makelist]</link>
+<regex>
+              <name>makelist</name>
+                        <listrepeat><![CDATA[
+                        <title>[COLOR white] BES-IPTV -[/COLOR]</title>
+                        <link>$doregex[makelist2]</link>
+              ]]></listrepeat>
+              <expres>&lt;title&gt;(.*)&lt;.*\n.*\n.*\n.*&lt;serviceLink&gt;(.*)&lt;</expres>
+              <page>$doregex[clean-xml]</page>
+              <cookieJar></cookieJar>
+</regex>
+
+<regex>
+	<name>clean-xml</name>
+	<expres>--&gt;(?s)(.*)Settings</expres>
+	<page>http://iostv.web44.net/Android/Service/ServiceDescAndroid.xml</page>
+</regex>
+
+
+<regex>
+              <name>makelist2</name>
+                        <listrepeat><![CDATA[
+                        <title>[COLOR white] BES-IPTV -[/COLOR][makelist2.param1]</title>
+                        <link>[makelist2.param2]$doregex[get-auth]</link>
+              ]]></listrepeat>
+              <expres>&lt;title&gt;(.*)&lt;.*\n.*&lt;link&gt;(.*)&lt;</expres>
+              <page>[makelist.param2]</page>
+              <cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+<name>get-auth</name>
+<expres>data":"(.*?)"</expres>
+<page>http://85.25.43.14/nusoap/generateCodeJSON.php?method=generate&amp;format=json</page>
+<rawpost>password=xh%4068&amp;username=xhilda&amp;</rawpost>
+<cookieJar></cookieJar>
+</regex>
+
+</item>
+
+<!--------------------------------------END------------------------------------------->
+
+<item>
+<title>Sport Events for Today</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param1]-[makelist.param2]</title>
+    <link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres>(?s)&lt;td.*?&lt;p class.*?&gt;(\d+\:\d+)\s*&lt;.*?class.*?&gt;\s*(.+?)\s*&lt;(.*?)&lt;\/td</expres>
+<page>$doregex[getpage]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>getpage</name>
+<expres>$pyFunction:codecs.decode(page_data,'gb18030').encode('ascii', 'xmlcharrefreplace')</expres>
+<page>http://www.stadium-live.biz/</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<proxy></proxy>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>getdate</name>
+<expres>$pyFunction:time.strftime('%d/%m/%Y')</expres>
+<page></page>
+</regex>
+
+<regex>
+<name>getxfip</name>
+<expres>$pyFunction:"85." + str(random.randint(0,32767)%8) + "." + str(random.randint(0,32767)%256) + "." + str(random.randint(0,32767)%256)</expres>
+<page></page>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+    <title>[makelist2.param2]</title>
+	<link>$doregex[uri] app=$doregex[app] swfUrl=$doregex[swf]jwplayer.flash.swf playpath=$doregex[file] pageUrl=$doregex[page1] token=@@stop-stole@@ flashVer==WIN\2016,0,0,305 live=1 swfVfy=1</link>
+]]></listrepeat>
+<expres>href="(.+\d+\.html)".+?&gt;(.*?)&lt;</expres>
+<page>[makelist.param3]</page>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex> 
+<name>page0</name>
+<expres>iframe\s+src="(ch_.*?)"</expres>
+<page>http://www.stadium-live.biz/[makelist2.param1]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<x-forward>$doregex[getxfip]</x-forward>
+<cookieJar></cookieJar>
+</regex>
+	
+<regex> 
+<name>page1</name>
+<expres>src="(http://.*?file=\d*)&amp;</expres>
+<page>http://www.stadium-live.biz/$doregex[page0]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<x-forward>$doregex[getxfip]</x-forward>
+<cookieJar></cookieJar>
+</regex>
+
+<regex> 
+<name>page2</name> 
+<expres>iframe.*?"(http://.*/\S*)"</expres>
+<page>$doregex[page1]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<x-forward>$doregex[getxfip]</x-forward>
+<cookieJar></cookieJar>
+</regex>
+
+<regex> 
+<name>swf</name> 
+<expres>script type="text/javascript"\s+src="(\S*)jwplayer\.js"</expres>
+<page>$doregex[page2]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<x-forward>$doregex[getxfip]</x-forward>
+<cookieJar></cookieJar>
+</regex>
+
+<regex> 
+<name>file64</name> 
+<expres>id="ssx1"\s+value="(.*?)"</expres>
+<page>$doregex[page2]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<x-forward>$doregex[getxfip]</x-forward>
+<cookieJar></cookieJar>
+</regex>
+
+<regex> 
+<name>file</name> 
+<expres>$pyFunction:base64.b64decode('$doregex[file64]')</expres>
+<page></page>
+</regex>
+
+<regex> 
+<name>rdr64</name> 
+<expres>id="ssx4"\s+value="(.*?)"</expres>
+<page>$doregex[page2]</page>
+<referer>http://www.stadium-live.biz/</referer>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
+<x-forward>$doregex[getxfip]</x-forward>
+<cookieJar></cookieJar>
+</regex>
+
+<regex> 
+<name>rdr</name> 
+<expres>$pyFunction:base64.b64decode('$doregex[rdr64]')</expres>
+<page></page>
+</regex>
+
+<regex> 
+<name>uri</name> 
+<expres>$pyFunction:urlparse.urlparse('$doregex[rdr]').scheme + "://" + urlparse.urlparse('$doregex[rdr]').netloc + urlparse.urlparse('$doregex[rdr]').path</expres>
+<page></page>
+</regex>
+
+<regex> 
+<name>app</name> 
+<expres>$pyFunction:urlparse.urlparse('$doregex[rdr]').path.replace("/","") + "/?" + urlparse.urlparse('$doregex[rdr]').query</expres>
+<page></page>
+</regex>
+
+
+</item>
+<!----------------------------END--------------->
+
+<item>
+<title>[COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]cricfree.sx/[/B] [/COLOR][COLOR skyblue]Channels[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item>
+<title>[COLOR white]Channel: [/COLOR][COLOR lime][makelist.param2][/COLOR]</title>
+<sportsdevil>http://cricfree.sx/[makelist.param1]</sportsdevil>
+<referer>http://cricfree.sx/</referer>
+</item>
+]]></listrepeat>
+<expres>href="http://cricfree.sx/(.*?)"[\w\W\s]{0,40}channels-icon (.*?)"</expres>
+<page>http://cricfree.sx/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<!--------------------------END----------------------------------->
+<!----------------
+<item>
+<title>[COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]USA [/B] [/COLOR][COLOR skyblue]Movies Channelz[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2]</title>
+<link>$doregex[makelist2]</link>
+<regex>	 
+<name>canal</name> 
+<expres>src="http(.*?)"</expres>
+<page>[makelist.param1]</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			
+</regex>
+]]></listrepeat>
+<expres>href="(.*?)"[\w\W\s]{0,30}strong>(.*?)<</expres>
+<page>http://www.streamlive.to/index.php?cat=Movies</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+</item>	
+---------------->
