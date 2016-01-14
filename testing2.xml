@@ -262,7 +262,7 @@
 <!----------------------------END--------------->
 
 <item>
-<title>[COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]cricfree.sx/[/B] [/COLOR][COLOR skyblue]Channels[/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue][B]cricfree.sx/[/B] [/COLOR][COLOR skyblue]Channels[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -304,3 +304,20 @@
 </regex>
 </item>	
 ---------------->
+
+<item>
+<title>Test | FilmOn</title>
+<link>http://$doregex[url]/live/213.high.stream/playlist.m3u8$doregex[key]</link>
+<regex>
+<name>url</name>
+<expres>low","url":"http:....([^\\]*)</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=213</page>
+</regex>
+<regex>
+<name>key</name>
+<expres>(\?id=.*?)"</expres>
+<page>http://www.filmon.com/tv/channel/export?channel_id=213</page>
+</regex>
+<thumbnail>http://static.filmon.com/couch/channels/213/extra_big_logo.png</thumbnail>
+</item>
+<!----------------------------------------->
