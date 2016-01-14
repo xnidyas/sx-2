@@ -320,3 +320,21 @@
 
 
 </item>
+<!----------------------------END--------------->
+<item>
+<title>streamfoot</title>
+<link>http://forums.tvaddons.ag/$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><=!=[=C=D=A=T=A=[
+    <title>[makelist.param2]</title>
+    <sportsdevil>[makelist.param1]</sportsdevil>
+    <referer>http://www.stream-foot.tv/</referer>
+    <thumbnail>NA</thumbnail>
+]=]=></listrepeat>
+<expres>a\s+href="([^"]+)">[\W]+(.*?):</expres>
+<page>http://www.stream-foot.tv/</page>
+<referer>http://www.stream-foot.tv/</referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
