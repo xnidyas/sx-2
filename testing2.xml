@@ -79,14 +79,14 @@
 <!-----------------END YOUTUBE---------------------------->
 
 <item>
-<title>Test TV</title>
+<title>TeSt TV</title>
 
 
 <link>$doregex[makelist]</link>
 <regex>
               <name>makelist</name>
                         <listrepeat><![CDATA[
-                        <title>[COLOR white]BES-IPTV - [/COLOR]</title>
+                        <title>[COLOR white]BES-IPTV - [/COLOR][makelist.param1]</title>
                         <link>$doregex[makelist2]</link>
               ]]></listrepeat>
               <expres>&lt;title&gt;(.*)&lt;.*\n.*\n.*\n.*&lt;serviceLink&gt;(.*)&lt;</expres>
