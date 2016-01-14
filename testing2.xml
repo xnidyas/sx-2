@@ -2,6 +2,25 @@
 
 	 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]SHQIP-IPTV [/B] [/COLOR][COLOR skyblue] [/COLOR]</title>
+
+
+<item>
+<title>streamfoot</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param2]</title>
+    <sportsdevil>[makelist.param1]</sportsdevil>
+    <referer>http://www.stream-foot.tv/</referer>
+    <thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>a\s+href="([^"]+)">[\W]+(.*?):</expres>
+<page>http://www.stream-foot.tv/</page>
+<referer>http://www.stream-foot.tv/</referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
 	
 <item>
   <title>hr12</title>
