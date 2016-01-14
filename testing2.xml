@@ -189,7 +189,7 @@
 <regex>
               <name>makelist</name>
                         <listrepeat><![CDATA[
-                        <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue]BES-IPTV[/COLOR][COLOR lime] | [/COLOR][makelist.param1]</title>
+                        <title>BES-IPTV • [makelist.param1]</title>
                         <link>$doregex[makelist2]</link>
               ]]></listrepeat>
               <expres>&lt;title&gt;(.*)&lt;.*\n.*\n.*\n.*&lt;serviceLink&gt;(.*)&lt;</expres>
@@ -207,7 +207,7 @@
 <regex>
               <name>makelist2</name>
                         <listrepeat><![CDATA[
-                        <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue]BES-IPTV[/COLOR][COLOR lime] | [/COLOR][makelist2.param1]</title>
+                        <title>BES-IPTV • [makelist2.param1]</title>
                         <link>[makelist2.param2]$doregex[get-auth]</link>
               ]]></listrepeat>
               <expres>&lt;title&gt;(.*)&lt;.*\n.*&lt;link&gt;(.*)&lt;</expres>
