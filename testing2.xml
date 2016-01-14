@@ -21,13 +21,13 @@
 <!-----------------------END--->
 
 <item>
-<title>Sports | StreamKing.cc |</title>
+<title>Sports | StreamKing.cc</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <item>
-<title>StreamKing.cc | [makelist.param3]</title>
+<title>[COLOR] white]StreamKing.cc | [/COLOR]- [makelist.param3]</title>
 <link>$doregex[file]|Referer=$doregex[ref]&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
 <regex>
 <name>file</name>
