@@ -9,7 +9,7 @@
 </item>
 
 <item>
-<title>TEST | StreamKing.cc | $doregex[makelist]</title>
+<title>Sports | StreamKing.cc |</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
