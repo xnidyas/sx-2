@@ -449,16 +449,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
-<listrepeat>
-<![CDATA[
+<listrepeat><![CDATA[
 <title>[makelist.param2]</title>
  <link>$doregex[m3u8]</link>
  <thumbnail>[makelist.param1]</thumbnail>
 ]]>
 </listrepeat>
-<expres>
-<td>\s*<img\s+src="(.*?)".*?EXTINF:-1,(.*?)\s+<br.*?(http.*?)&.*?(\d+)
-</expres>
+<expres><td>\s*<img\s+src="(.*?)".*?EXTINF:-1,(.*?)\s+<br.*?(http.*?)&.*?(\d+)</expres>
 <page>http://www.tuiptv.biz/</page>
 <cookieJar/>
 </regex>
@@ -474,26 +471,56 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!------------------------------END------------------------------------->
 
 <item>
-<title>TEST</title>
+<title>TEST1</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param2]</title>
-<sportsdevil>http://www.profreetv.com/index.php?content=watch-tv-online[makelist.param1]</sportsdevil>
+<sportsdevil>http://www.profreetv.com/index.php?content=category&cid=8[makelist.param1]</sportsdevil>
 <referer></referer>
 <thumbnail>[makelist.param3]</thumbnail>
 ]]></listrepeat>
 <expres>a href="(.*)".*title="(.*?)".*?src="(.*?)"</expres>
-<page>http://www.profreetv.com/index.php?content=watch-tv-online</page>
-<referer>http://www.profreetv.com/</referer>
+<page>http://www.profreetv.com/index.php?content=category&cid=8</page>
 <cookieJar></cookieJar>
 </regex>
 </item>
 <!--------------------------------END----------------------------------->
 
 <item>
-<title>Cineestrenos TV - Todos Los Canales | Espanol</title>
+<title>TESTETSTS/title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[COLOR snow][makelist.param2][/COLOR]</title>
+    <link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres>font.*?parent&gt;\s*(.*?)\?(.*?)\s*&lt;.*&gt;([\w\W\s]*?)&lt;</expres>
+<page>http://www.profreetv.com/index.php?content=category&cid=8</page>
+<referer>http://footdirect24.com</referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+    <title>[COLOR dodgerblue][makelist2.param1][/COLOR]</title>
+    <sportsdevil>[makelist.param1][makelist.param2]</sportsdevil>
+    <referer>http://www.profreetv.com/</referer>
+]]></listrepeat>
+<expres>\s*(.*?\d{2}\:\d{2}.*)\s+(\s)</expres>
+<page>[makelist.param3]</page>
+<referer>http://www.profreetv.com/</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<!--------------------------------END------------------------------------->
+<item>
+<title>Cinestrenos.TV - Todos Los Canales | Espanol</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
