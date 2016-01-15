@@ -20,44 +20,6 @@
 </item>
 <!-----------------------END--->
 
-<item>
-<title>Sports | StreamKing.cc</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<item>
-<title>[COLOR white]StreamKing.cc | [/COLOR]- [makelist.param3]</title>
-<link>$doregex[file]|Referer=$doregex[ref]&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
-<regex>
-<name>file</name>
-<expres>source: '(.*?)'</expres>
-<page>$doregex[page]</page>
-<referer>http://streamking.cc/</referer>
-</regex>
-<regex>
-<name>page</name>
-<expres>iframe src="(.*?)"</expres>
-<page>http://streamking.cc/[makelist.param1]</page>
-</regex>
-<regex>
-<name>ref</name>
-<expres>iframe src="(.*?)&amp;</expres>
-<page>http://streamking.cc/[makelist.param1]</page>
-</regex>
-
-
-<thumbnail>http://streamking.cc/[makelist.param2]</thumbnail>
-<fanart>http://streamking.cc/[makelist.param2]</fanart>
-]]></listrepeat>
-<expres>a href="(.*)".*?img class.*? src="(.*)" width=.*?title="(.*)"</expres>
-
-<page>http://streamking.cc/</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-</item>
-<!------------------------------END STREAMKING--->
 
 <item>
 <title>TOP Channel Portokalli 2015 (YT)</title>
@@ -81,25 +43,7 @@
 
 <!----------------------------END--------------->
 
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue][B]cricfree.sx/[/B] [/COLOR][COLOR skyblue]Channels[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<item>
-<title>[COLOR white]Channel: [/COLOR][COLOR lime][makelist.param2][/COLOR]</title>
-<sportsdevil>http://cricfree.sx/[makelist.param1]</sportsdevil>
-<referer>http://cricfree.sx/</referer>
-</item>
-]]></listrepeat>
-<expres>href="http://cricfree.sx/(.*?)"[\w\W\s]{0,40}channels-icon (.*?)"</expres>
-<page>http://cricfree.sx/</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-</item>
-<!--------------------------END----------------------------------->
+
 <!----------------
 <item>
 <title>[COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]USA [/B] [/COLOR][COLOR skyblue]Movies Channelz[/COLOR]</title>
