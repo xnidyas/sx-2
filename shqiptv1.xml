@@ -398,6 +398,52 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
 --------->
 
         <items>
+        <item>
+<title>[COLOR yellow]»NEW»[/COLOR]BES-IPTV SHQIP TV CHANNELS![COLOR yellow] Instaloni Versioni e Ri[/COLOR]</title>
+
+
+<link>$doregex[makelist]</link>
+<regex>
+              <name>makelist</name>
+                        <listrepeat><![CDATA[
+                        <title>[COLOR white]BES-IPTV - [/COLOR][makelist.param1]</title>
+                        <link>$doregex[makelist2]</link>
+              ]]></listrepeat>
+              <expres>&lt;title&gt;(.*)&lt;.*\n.*\n.*\n.*&lt;serviceLink&gt;(.*)&lt;</expres>
+              <page>$doregex[clean-xml]</page>
+              <cookieJar></cookieJar>
+</regex>
+
+<regex>
+	<name>clean-xml</name>
+	<expres>--&gt;(?s)(.*)Settings</expres>
+	<page>http://bit.ly/1WetSEB</page>
+</regex>
+
+
+<regex>
+              <name>makelist2</name>
+                        <listrepeat><![CDATA[
+                        <title>[COLOR white]Channel - [/COLOR][makelist2.param1]</title>
+                        <link>[makelist2.param2]$doregex[get-auth]</link>
+              ]]></listrepeat>
+              <expres>&lt;title&gt;(.*)&lt;.*\n.*&lt;link&gt;(.*)&lt;</expres>
+              <page>[makelist.param2]</page>
+              <cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+<name>get-auth</name>
+<expres>data":"(.*?)"</expres>
+<page>http://85.25.43.14/nusoap/generateCodeJSON.php?method=generate&amp;format=json</page>
+<rawpost>password=xh%4068&amp;username=xhilda&amp;</rawpost>
+<cookieJar></cookieJar>
+</regex>
+
+</item>
+        	
+<!-------------------------------------------------END----------------------------------->        	
             <item>
                 <title>WEATHER/KOHA U.S.A</title>        
                 <link>http://kalsegsec-a.akamaihd.net/dc-1/m/ny-live-publish1/kLive/smil:1_oorxcge2_publish.smil/chunklist_b2096000.m3u8</link>
