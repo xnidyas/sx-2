@@ -480,25 +480,25 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param2]</title>
-<sportsdevil>http://www.profreetv.com/[makelist.param1]</sportsdevil>
+<sportsdevil>http://www.profreetv.com/index.php?content=watch-tv-online[makelist.param1]</sportsdevil>
 <referer></referer>
 <thumbnail>[makelist.param3]</thumbnail>
 ]]></listrepeat>
 <expres>a href="(.*)".*title="(.*?)".*?src="(.*?)"</expres>
-<page>http://www.profreetv.com/</page>
-<referer></referer>
+<page>http://www.profreetv.com/index.php?content=watch-tv-online</page>
+<referer>http://www.profreetv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
 </item>
 <!--------------------------------END----------------------------------->
 
 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]CineestrenosTV[/B] [/COLOR][COLOR skyblue]todos Los Canales[/COLOR]</title>
+<title>Cineestrenos TV - Todos Los Canales | Espanol</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[makelist.param2]</title>
+<title>Kannal: - [makelist.param2]</title>
 <sportsdevil>http://cinestrenostv.tv[makelist.param1]</sportsdevil>
 <referer></referer>
 <thumbnail>[makelist.param3]</thumbnail>
