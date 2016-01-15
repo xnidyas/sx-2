@@ -36,3 +36,23 @@
 </regex>
 </item>
 <!------------------------------END STREAMKING--->
+
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue][B]Cricfree.sx/[/B] [/COLOR][COLOR skyblue]Channels[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item>
+<title>[COLOR white]Channel: [/COLOR][COLOR lime][makelist.param2][/COLOR]</title>
+<sportsdevil>http://cricfree.sx/[makelist.param1]</sportsdevil>
+<referer>http://cricfree.sx/</referer>
+</item>
+]]></listrepeat>
+<expres>href="http://cricfree.sx/(.*?)"[\w\W\s]{0,40}channels-icon (.*?)"</expres>
+<page>http://cricfree.sx/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+<!--------------------------END----------------------------------->
