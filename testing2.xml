@@ -79,7 +79,7 @@
 <!-----------------END YOUTUBE---------------------------->
 
 <item>
-<title>TEST TV</title>
+<title>TEST TV 1</title>
 
 
 <link>$doregex[makelist]</link>
@@ -97,7 +97,7 @@
 <regex>
 	<name>clean-xml</name>
 	<expres>--&gt;(?s)(.*)Settings</expres>
-	<page>http://iostv.web44.net/Android/Service/ServiceDescAndroid.xml</page>
+	<page>http://bit.ly/1WetSEB</page>
 </regex>
 
 
