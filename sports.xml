@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-<items>
  
- <item>
-<title>Sports | StreamKing.cc</title>
+ <channels>
+
+ <channel>
+    <name>[COLOR yellow]Live Sports Channels[/COLOR]</name>
+    <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
+    <link>#</link> 
+    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/livesports.m3u</externallink>
+    <fanart></fanart>
+    
+ <!------------------------------->
+ <channel>
+<name>Sports | StreamKing.cc</name>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -36,20 +44,8 @@
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-</item>
 <!------------------------------END STREAMKING--->
- 
-</items>
-
- <channels>
-
- <channel>
-    <name>[COLOR yellow]Live Sports Channels[/COLOR]</name>
-    <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
-    <link>#</link> 
-    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/livesports.m3u</externallink>
-    <fanart></fanart>
-    
+  
  <channel>
     <name>[COLOR yellow]Live Sports Channels 2[/COLOR]</name>
     <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
