@@ -481,7 +481,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title> RTS1</title>
-<link>$doregex[url]/link>
+<link>$doregex[url]</link>
 <regex>
 <name>url</name>
 <expres>rtspURL = '([^']*)</expres>
