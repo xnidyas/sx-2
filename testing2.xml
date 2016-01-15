@@ -471,3 +471,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar/>
 </regex>
 </item>
+<!------------------------------END------------------------------------->
+
+<item>
+  <title>testontv1</title>
+  <link>http://acanlinks.com:1935/securelive/rtssecure1.stream_SD/playlist.m3u8?token=play@1452835618|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</link>
+  <referrer>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_SD</referrer>
+</item>
