@@ -488,3 +488,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_SD</page>
 </regex>
 </item>
+
+<item>
+<title>RTS 1hq</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>rtspURL = '(.*?)'</expres>
+<page>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_HD</page>
+<referer>http://www.rts.sn</referer>
+</regex>
+</item>
