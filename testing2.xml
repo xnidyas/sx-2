@@ -474,28 +474,38 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!------------------------------END------------------------------------->
 
 <item>
-  <title>testontv1</title>
-  <link>http://acanlinks.com:1935/securelive/rtssecure1.stream_SD/playlist.m3u8?token=play@1452835618|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</link>
-  <referrer>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_SD</referrer>
-</item>
-
-<item>
-<title> RTS1</title>
-<link>$doregex[url]</link>
+<title>TEST</title>
+<link>$doregex[makelist]</link>
 <regex>
-<name>url</name>
-<expres>rtspURL = '([^']*)</expres>
-<page>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_SD</page>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2]</title>
+<sportsdevil>http://www.profreetv.com/[makelist.param1]</sportsdevil>
+<referer></referer>
+<thumbnail>[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres>a href="(.*)".*title="(.*?)".*?src="(.*?)"</expres>
+<page>http://www.profreetv.com/</page>
+<referer></referer>
+<cookieJar></cookieJar>
 </regex>
 </item>
+<!--------------------------------END----------------------------------->
 
 <item>
-<title>RTS 1hq</title>
-<link>$doregex[url]</link>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]CineestrenosTV[/B] [/COLOR][COLOR skyblue]todos Los Canales[/COLOR]</title>
+<link>$doregex[makelist]</link>
 <regex>
-<name>url</name>
-<expres>rtspURL = '(.*?)'</expres>
-<page>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_HD</page>
-<referer>http://www.rts.sn</referer>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2]</title>
+<sportsdevil>http://cinestrenostv.tv[makelist.param1]</sportsdevil>
+<referer></referer>
+<thumbnail>[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres>a href="(.*)".*title="(.*?)".*?src="(.*?)"</expres>
+<page>http://cinestrenostv.tv/</page>
+<referer></referer>
+<cookieJar></cookieJar>
 </regex>
 </item>
