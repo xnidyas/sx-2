@@ -240,8 +240,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!------------------------------>
 <item>
-<title>bein Hd</title>
-<link>rtmp://cdn.caston.tv:1935/live/ app=live/?v&Token=$doregex[auth] flashver=WIN\2020,0,0,228 live=1 timeout=15 swfVfy=1 token=$doregex[token] playpath=$doregex[path] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://www.caston.tv/player.php?id=12&height=100%&width=100%</link>
+<title>bein Hd | test</title>
+<link>rtmp://cdn.caston.tv:1935/live/ app=live/?v&amp;Token=$doregex[auth] flashver=WIN\2020,0,0,228 live=1 timeout=15 swfVfy=1 token=$doregex[token] playpath=$doregex[path] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://www.caston.tv/player.php?id=12&amp;height=100%&amp;width=100%</link>
 <regex><name>token</name>
 <expres>,"(.*)"</expres>
 <page>$doregex[getpage]</page>
@@ -260,7 +260,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>getpage</name>
 <expres>(.*)</expres>
 <page>http://www.caston.tv/l.php</page>
-<referer>http://www.caston.tv/player.php?id=12&height=100%&width=100%</referer>
+<referer>http://www.caston.tv/player.php?id=12&amp;height=100%&amp;width=100%</referer>
 <rawpost>token=$doregex[rawtoken]&is_ajax=1</rawpost>
 <x-req>XMLHttpRequest</x-req>
 <cookiejar>$get_cookies$</cookiejar>
@@ -281,7 +281,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>get-encrypted</name>
 <expres>eval\(function\(w,i,s,e\).*}\((.*?)\)</expres>
-<page>http://www.caston.tv/player.php?id=12&height=100%&width=100%</page>
+<page>http://www.caston.tv/player.php?id=12&amp;height=100%&amp;width=100%</page>
 <referer>http://www.caston.tv/watch/12</referer>
 </regex>
 </item>
