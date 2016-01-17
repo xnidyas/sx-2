@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+ <title>[COLOR lime][B]>>>You must have Sports Devil 2 Installed!<<<[/B][/COLOR]</title>
+ <link>http://ignore.me/#</link>
+</item>
+<item>
+ <title>[COLOR lime][B]>>Install from BES-IPTV Repository<<[/B][/COLOR]</title>
+ <link>http://ignore.me/#</link>
+</item>
+
+<item>
 <title>Sports | StreamKing.cc</title>
 <link>$doregex[makelist]</link>
 <regex>
