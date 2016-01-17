@@ -240,7 +240,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!------------------------------>
 <item>
-<title>bein Hd | test</title>
+<title>Bein | test</title>
 <link>rtmp://cdn.caston.tv:1935/live/ app=live/?v&amp;Token=$doregex[auth] flashver=WIN\2020,0,0,228 live=1 timeout=15 swfVfy=1 token=$doregex[token] playpath=$doregex[path] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://www.caston.tv/player.php?id=12&amp;height=100%&amp;width=100%</link>
 <regex><name>token</name>
 <expres>,"(.*)"</expres>
@@ -261,7 +261,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>(.*)</expres>
 <page>http://www.caston.tv/l.php</page>
 <referer>http://www.caston.tv/player.php?id=12&amp;height=100%&amp;width=100%</referer>
-<rawpost>token=$doregex[rawtoken]&is_ajax=1</rawpost>
+<rawpost>token=$doregex[rawtoken]&amp;is_ajax=1</rawpost>
 <x-req>XMLHttpRequest</x-req>
 <cookiejar>$get_cookies$</cookiejar>
 <agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36</agent>
