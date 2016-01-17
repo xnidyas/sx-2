@@ -239,4 +239,51 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <!------------------------------>
-
+<item>
+<title>bein Hd</title>
+<link>rtmp://cdn.caston.tv:1935/live/ app=live/?v&Token=$doregex[auth] flashver=WIN\2020,0,0,228 live=1 timeout=15 swfVfy=1 token=$doregex[token] playpath=$doregex[path] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://www.caston.tv/player.php?id=12&height=100%&width=100%</link>
+<regex><name>token</name>
+<expres>,"(.*)"</expres>
+<page>$doregex[getpage]</page>
+</regex>
+ 
+<regex><name>auth</name>
+<expres>"(.*?)"</expres>
+<page>$doregex[getpage]</page>
+</regex>
+ 
+<regex><name>path</name>
+<expres>file:"(.*?)"</expres>
+<page>$doregex[get-Unencrypted]</page>
+</regex>
+ 
+<regex><name>getpage</name>
+<expres>(.*)</expres>
+<page>http://www.caston.tv/l.php</page>
+<referer>http://www.caston.tv/player.php?id=12&height=100%&width=100%</referer>
+<rawpost>token=$doregex[rawtoken]&is_ajax=1</rawpost>
+<x-req>XMLHttpRequest</x-req>
+<cookiejar>$get_cookies$</cookiejar>
+<agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36</agent>
+</regex>
+ 
+<regex><name>rawtoken</name>
+<expres>token:"(.*?)"</expres>
+<page>$doregex[get-Unencrypted]</page>
+</regex>
+ 
+<regex>
+<name>get-Unencrypted</name>
+<expres>$pyFunction:get_unwise("$doregex[get-encrypted]")</expres>
+<page></page>
+</regex>
+ 
+<regex>
+<name>get-encrypted</name>
+<expres>eval\(function\(w,i,s,e\).*}\((.*?)\)</expres>
+<page>http://www.caston.tv/player.php?id=12&height=100%&width=100%</page>
+<referer>http://www.caston.tv/watch/12</referer>
+</regex>
+</item>
+<fanart></fanart>
+</item>
