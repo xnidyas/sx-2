@@ -89,10 +89,43 @@
 <thumbnail></thumbnail>
 </item>
 <!----------------------------------------------------------------------->
+<!----------------------------------------------------------------------->
 
 <item>
-<title>[COLOR deepskyblue][B]ShowSport-TV[/B][/COLOR]</title>
+<title>[COLOR gold]LsHunter.TV - Live Sports[/COLOR]</title>
 <link>ignorme</link>
-<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=tv/showsport-tv.com.cfg&amp;mode=1</jsonrpc>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/lshunter.tv.cfg&amp;mode=1</jsonrpc>
+<thumbnail></thumbnail>
+</item>
+<!----------------------------------------------------------------------->
+
+<item>
+<title>[COLOR white]RojaDirecta.me Live Sports[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/rojadirecta.me.cfg&amp;mode=1</jsonrpc>
+<thumbnail></thumbnail>
+</item>
+<!----------------------------------------------------------------------->
+
+<item>
+<title>[COLOR yellow]VipBox.TV Live Sports[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/vipbox.tv.cfg&amp;mode=1</jsonrpc>
+<thumbnail></thumbnail>
+</item>
+<!----------------------------------------------------------------------->
+
+<item>
+<title>[COLOR blue]Bundesliga-Streams.net Live Streams[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/bundesliga-streams.net.cfg&amp;mode=1</jsonrpc>
+<thumbnail></thumbnail>
+</item>
+<!----------------------------------------------------------------------->
+
+<item>
+<title>[COLOR deepskyblue]Dimsports.eu Live Sports[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/dimsports.eu.cfg&amp;mode=1</jsonrpc>
 <thumbnail></thumbnail>
 </item>
