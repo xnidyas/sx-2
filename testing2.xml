@@ -14,7 +14,7 @@
                         <link>[makelist2.param2].m3u8</link>
               ]]></listrepeat>
               <expres>EXTINF:-1,AL: (.*).*\n.*(http.*).ts</expres>
-              <page>http://portal.rapidiptv.com:8080/get.php?username=v7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
+              <page>http://portal.rapidiptv.com:8080/get.php?username=oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
               <cookieJar></cookieJar>
 </regex>
 </item>
