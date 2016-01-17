@@ -240,22 +240,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!------------------------------>
 <item>
-<title>Telemicro canal 5 regex</title>
+<title>Telemicro canal 5 doregex</title>
 <link>$doregex[get-rtmp]/live2/telemicro0505_1_96 swfUrl=http://ssl.p.jwpcdn.com/player/v/7.2.4/jwplayer.flash.swf live=1 swfUrl=1 pageUrl=http://telemicro.com.do/web/telemicro-en-vivo-5/</link>
 <regex>
 <name>get-rtmp</name>
-<expres>file: '(.*?)\/live2</expres>
+<expres>file:'(.*?)\/live2/</expres>
 <page>http://telemicro.com.do/web/telemicro-en-vivo-5/</page>
 <referer>http://telemicro.com.do/</referer>
 </regex>
 <thumbnail></thumbnail>
-</item>
-
-rtmps:/5315e9fe566ea.streamlock.net/live2/telemicro0505_1_96
-http://telemicro.com.do/web/telemicro-en-vivo-5/rtmps:/5315e9fe566ea.streamlock.net/live2/telemicro0505_1_96
-
-<item>
-<title>Telemicro 5</title>
-<link>rtmps://5315e9fe566ea.streamlock.net/live2/ playpath=telemicro0505_1_96 swfUrl=http://ssl.p.jwpcdn.com/player/v/7.2.4/jwplayer.flash.swf live=1 swfUrl=1 pageUrl=http://telemicro.com.do/web/telemicro-en-vivo-5/</link>
-<thumbnail>http://radioteve.com/tele/caribe/stdomingo/logo/telemic.jpg</thumbnail>
 </item>
