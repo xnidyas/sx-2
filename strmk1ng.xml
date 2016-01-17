@@ -77,5 +77,22 @@
 <title>[COLOR gold][B]MamaHD TV[/B][/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.SportsDevil/?item=url=tv/mamahd.com.cfg&amp;mode=1</jsonrpc>
-<thumbnail>http://ww1.prweb.com/prfiles/2013/06/09/11806053/gI_127433_OWS_logo_white_green_beyond_boundaries.png</thumbnail>
+<thumbnail></thumbnail>
+</item>
+
+<!----------------------------------------------------------------------->
+
+<item>
+<title>[COLOR deepskyblue][B]BeiN Sports[/B][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=tv/bein.cfg&amp;mode=1</jsonrpc>
+<thumbnail></thumbnail>
+</item>
+<!----------------------------------------------------------------------->
+
+<item>
+<title>[COLOR deepskyblue][B]ShowSport-TV[/B][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=tv/showsport-tv.com.cfg&amp;mode=1</jsonrpc>
+<thumbnail></thumbnail>
 </item>
