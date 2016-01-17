@@ -240,13 +240,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!------------------------------>
 <item>
-<title>Telemicro canal 5 doregex</title>
-<link>$doregex[get-rtmp]/live2/telemicro0505_1_96 swfUrl=http://ssl.p.jwpcdn.com/player/v/7.2.4/jwplayer.flash.swf live=1 swfUrl=1 pageUrl=http://telemicro.com.do/web/telemicro-en-vivo-5/</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file:'(.*?)\/live2/</expres>
-<page>http://telemicro.com.do/web/telemicro-en-vivo-5/</page>
-<referer>http://telemicro.com.do/</referer>
-</regex>
-<thumbnail></thumbnail>
+<title>[COLOR green]Live Sports[/COLOR][COLOR red]All Sport Shown[/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports.cfg&amp;mode=1</jsonrpc>
+ <thumbnail>http://gvt.net/sites/default/files/HD-Sports-2.0-Logo-450.png</thumbnail>
+</item>
+
+
+<item>
+<title>[COLOR gold][B]LIVE Sports HD/SD UPDATE EVERDAY[/B][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/firstrowsports.eu.cfg&amp;mode=1</jsonrpc>
+<thumbnail>http://ww1.prweb.com/prfiles/2013/06/09/11806053/gI_127433_OWS_logo_white_green_beyond_boundaries.png</thumbnail>
 </item>
