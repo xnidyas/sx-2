@@ -237,3 +237,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>https://pbs.twimg.com/profile_images/552092989485355008/5iuVo5m9.png</thumbnail>
 </item>
+
+<!------------------------------>
+<title> Telemicro canal 5</title>
+<link>$doregex[get-rtmp]/live2/ playpath=telemicro1515 swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://telemicro.com.do/tv/index.php?Itemid=180</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)\/live</expres>
+<page>http://109.123.70.68/</page>
+<referer>http://telemicro.com.do/tv/index.php?Itemid=180</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
