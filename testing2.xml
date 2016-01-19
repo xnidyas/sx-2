@@ -452,3 +452,23 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	<title>movie</title>
 	<link>http://89.46.103.76/cvjhpbfqjaqwws4phx6tqpgt5bjczsk6eunrpusuxeze5egijcp2levmnm5q/video.mp4</link>
 </item>
+<!---------------------------------------------------->
+            <item>
+            <title>[COLOR red]*WOLF*[/COLOR][COLOR=FF00FF00][B] TNU CANAL 5 TELEVISION NACIONAL[/B][/COLOR]</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6042</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail></thumbnail>
+            <fanart></fanart>
+            </item>
