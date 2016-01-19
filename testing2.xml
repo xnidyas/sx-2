@@ -326,3 +326,120 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://sawlive.tv/embed/zunoxhkhd1'
 <thumbnail></thumbnail>
 </item>
 <!--------------------------------------------------->
+
+<item>
+<title> All Channels | www.zoptv.com</title>
+<link>$doregex[makelist]</link>
+<regex>
+      <name>makelist</name>
+      <listrepeat><![CDATA[
+               <title>[makelist.param1]</title>
+               <link>$doregex[makelist2]</link>
+               <thumbnail>http://www.zoptv.com/images/logo.png</thumbnail>
+      ]]></listrepeat>
+      <expres>list-header"&gt;(.*?)&lt;\/div>(?s)(.*?)<\/ul</expres>
+      <page>http://www.zoptv.com/channels/sports</page>
+</regex>
+
+<regex>
+      <name>makelist2</name>
+      <listrepeat><![CDATA[
+               <title>[makelist2.param2]</title>
+               <link>$doregex[makelist3]</link>
+               <thumbnail>http://www.zoptv.com/images/logo.png</thumbnail>
+      ]]></listrepeat>
+      <expres>href="\/(.*?)"&gt;(.*?)&lt;\/</expres>
+      <page>[makelist.param2]</page>
+</regex>
+
+<regex>
+      <name>makelist3</name>
+      <listrepeat><![CDATA[
+               <title>[makelist3.param3]</title>
+               <link>http://www.iptvlinks.tk$doregex[Final-Path]|User-Agent=iPhone</link>
+               <link>$doregex[Final-Path]|User-Agent=iPhone</link>
+               <link>http://www.iptvlinks.tk/st/$doregex[Final-Path]|User-Agent=iPhone</link>
+               <thumbnail>http://www.zoptv.com[makelist3.param2]</thumbnail>
+               <fanart>http://www.zoptv.com[makelist3.param2]</fanart>
+      ]]></listrepeat>
+      <expres>"zp-channel" href="(.*?)".*?src="(.*?)"..*?&gt;(.*?)..span.</expres>
+      <page>http://www.zoptv.com/[makelist2.param1]</page>
+</regex>
+
+<regex>
+<name>Final-Path</name>
+<expres>$pyFunction: '$doregex[path]' if not '$doregex[path]'=='' else '$doregex[m5]'</expres>
+<page></page>
+</regex>
+<regex>
+<name>path</name>
+<expres>var src = '(.*?)'</expres>
+<page>http://www.iptvlinks.tk/$doregex[select_Url]</page>
+<referer>http://www.zoptv.com/</referer>
+</regex>
+<regex>
+<name>m5</name>
+<expres>"src":"(.*?)",</expres>
+<page>$doregex[decpage]</page>
+</regex>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[server1]' if not '$doregex[server1]'=='' else '$doregex[server2]' or '$doregex[server2]' if not '$doregex[server2]'=='' else '$doregex[server3]' or '$doregex[server3]' if not '$doregex[server3]'=='' else '$doregex[server4]' or '$doregex[server4]' if not '$doregex[server4]'=='' else '$doregex[server5]' or '$doregex[server5]' if not '$doregex[server5]'=='' else '$doregex[server6]'</expres>
+<page></page>
+</regex>
+<regex>
+<name>server1</name>
+<expres>"src":".*?\/(le\/.*?)",</expres>
+<page>$doregex[decpage]</page>
+<referer>http://www.zoptv.com/</referer>
+</regex>
+<regex>
+<name>server2</name>
+<expres>"src":".*?\/(ds\/.*?)",</expres>
+<page>$doregex[decpage]</page>
+<referer>http://www.zoptv.com/</referer>
+</regex>
+<regex>
+<name>server3</name>
+<expres>"src":".*?\/(fo\/.*?)",</expres>
+<page>$doregex[decpage]</page>
+<referer>http://www.zoptv.com/</referer>
+</regex>
+<regex>
+<name>server4</name>
+<expres>src = '(.*?)';</expres>
+<page>$doregex[decpage]</page>
+<referer>http://www.zoptv.com/</referer>
+</regex>
+<regex>
+<name>server5</name>
+<expres>"src":".*?\/(sl\/.*?)",</expres>
+<page>$doregex[decpage]</page>
+<referer>http://www.zoptv.com/</referer>
+</regex>
+<regex>
+<name>server6</name>
+<expres>"src":".*?\/(st\/.*?)",</expres>
+<page>$doregex[decpage]</page>
+<referer>http://www.zoptv.com/</referer>
+</regex>
+<regex>
+<name>decpage</name>
+<expres><![CDATA[#$pyFunction
+import urllib,re,base64
+def GetLSProData(page_data,Cookie_Jar,m):
+    import base64
+    s=page_data
+    while '(atob(' in s:
+        s=re.compile('\'(.*?)\'').findall(s)[0];
+        s=base64.b64decode(s);
+    return s
+]]></expres>
+<page>$doregex[encpage]</page>
+</regex>
+<regex>
+<name>encpage</name>
+<expres>(.atob.*)</expres>
+<page>http://www.zoptv.com[makelist3.param1]</page>
+</regex>
+</item>
