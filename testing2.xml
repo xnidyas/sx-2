@@ -325,8 +325,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://sawlive.tv/embed/zunoxhkhd1'
 </regex>
 <thumbnail></thumbnail>
 </item>
-<!--------------------------------------------------->
-
+<!--------------------ALL CHANNELS ZOPTV------------------------------->
 <item>
 <title> All Channels | www.zoptv.com</title>
 <link>$doregex[makelist]</link>
@@ -443,3 +442,4 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://www.zoptv.com[makelist3.param1]</page>
 </regex>
 </item>
+<!-----------------------END ALL CHANNELS ZOPTV------------>
