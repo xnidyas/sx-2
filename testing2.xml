@@ -447,3 +447,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	<title>Test1 ua davlik123</title>
 	<link>http://stream.ontv.al:8000/live/ontv/albania/7.m3u8|User-Agent=iPhone</link>
 </item>
+
+<item>
+	<title>movie</title>
+	<link>http://89.46.103.76/cvjhpbfqjaqwws4phx6tqpgt5bjczsk6eunrpusuxeze5egijcp2levmnm5q/video.mp4</link>
+</item>
