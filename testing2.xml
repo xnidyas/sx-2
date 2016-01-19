@@ -444,6 +444,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <!-----------------------END ALL CHANNELS ZOPTV------------>
 <item>
-	<title>Test</title>
-	<link>http://tring-amd-live.tring.tv/out/u/287_359.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</link>
+	<title>Test1</title>
+	<link>http://tring-amd-live.tring.tv/out/u/287_359_1618802.ts?m=1448290766|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</link>
 </item>
