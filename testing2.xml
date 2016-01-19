@@ -444,6 +444,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <!-----------------------END ALL CHANNELS ZOPTV------------>
 <item>
-	<title>Test1 ua davlik1</title>
-	<link>http://stream.ontv.al:8000/live/ontv/albania/7.m3u8|User-Agent=Dalvik/1.6.0+(Linux;+U;+Android+4.4.2;+GT-N7100+Build/KOT49H)&amp;video=true&amp;wpx=1152</link>
+	<title>Test1 ua davlik12</title>
+	<link>http://stream.ontv.al:8000/live/ontv/albania/7.m3u8|User-Agent=Dalvik/1.6.0+(Linux;+U;+Android+4.4.2;+GT-N7100+Build/KOT49H)&amp;video=true&amp;wpx=1152 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</link>
 </item>
