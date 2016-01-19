@@ -327,12 +327,12 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://sawlive.tv/embed/zunoxhkhd1'
 </item>
 <!--------------------ALL CHANNELS ZOPTV------------------------------->
 <item>
-<title> All Channels | www.zoptv.com</title>
+<title>All ChannelZ | www.zoptv.com</title>
 <link>$doregex[makelist]</link>
 <regex>
       <name>makelist</name>
       <listrepeat><![CDATA[
-               <title>[makelist.param1]</title>
+               <title>BES-IPTV:-[makelist.param1]</title>
                <link>$doregex[makelist2]</link>
                <thumbnail>http://www.zoptv.com/images/logo.png</thumbnail>
       ]]></listrepeat>
@@ -343,7 +343,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://sawlive.tv/embed/zunoxhkhd1'
 <regex>
       <name>makelist2</name>
       <listrepeat><![CDATA[
-               <title>[makelist2.param2]</title>
+               <title>BES-IPTV:-[makelist2.param2]</title>
                <link>$doregex[makelist3]</link>
                <thumbnail>http://www.zoptv.com/images/logo.png</thumbnail>
       ]]></listrepeat>
@@ -354,7 +354,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://sawlive.tv/embed/zunoxhkhd1'
 <regex>
       <name>makelist3</name>
       <listrepeat><![CDATA[
-               <title>[makelist3.param3]</title>
+               <title>BES-IPTV:-[makelist3.param3]</title>
                <link>http://www.iptvlinks.tk$doregex[Final-Path]|User-Agent=iPhone</link>
                <link>$doregex[Final-Path]|User-Agent=iPhone</link>
                <link>http://www.iptvlinks.tk/st/$doregex[Final-Path]|User-Agent=iPhone</link>
