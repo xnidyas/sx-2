@@ -472,3 +472,44 @@ def GetLSProData(page_data,Cookie_Jar,m):
             <thumbnail></thumbnail>
             <fanart></fanart>
             </item>
+<!------------------------------------------------------->
+  <item>
+                <title>Sky Sports Test</title>
+                <link>$doregex[select_url]</link>
+                <regex>
+                <name>select_url</name>
+                <expres>$pyFunction: '$doregex[url1]' if not '$doregex[url1]'=='' else '$doregex[rtmpip]43?TbRWY token=$doregex[token] swfUrl=http://www.castup.tv/player/plr.swf pageUrl=http://www.castup.tv live=1 timeout=15' </expres>
+                <page></page>
+                </regex>
+                <regex>
+                <name>url1</name>
+                <expres>file: "(.*?)"</expres>
+                <page>ttp://biggestplayer.me/streamcrjeje2.php?id=$doregex[get-id]</page>
+                <referer>http://theactionlive.com/</referer>
+                </regex>
+                <regex>
+                <name>get-id</name>
+                <expres>id='(.*?)'</expres>
+                <page>http://theactionlive.com/livegamecr2.php?id=sky4n&width=640&height=460&stretching=</page>
+                <referer>http://cricfree.sx/update/skys4.php
+                </referer>
+                <agent>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36</agent>
+                </regex>
+                <regex>
+                <name>rtmpip</name><expres>rtmp":"(.*?)"</expres>
+                <page>$doregex[streamer]</page>
+                <referer>http://www.castup.tv</referer>
+                </regex><regex>
+                <name>streamer</name>
+                <expres>getJSON."(.*?)"</expres>
+                <page>http://www.castup.tv/player.php?channel=43?TbRWY&vw=860&vh=500</page>
+                <referer>http://www.freelivesport.eu</referer>
+                </regex>
+                <regex>
+                <name>token</name>
+                <expres>token', '(.*?)'</expres>
+                <page>http://www.castup.tv/player.php?channel=43?TbRWY&vw=860&vh=500</page>
+                <referer>http://www.freelivesport.eu</referer>
+                </regex>
+                <thumbnail></thumbnail>
+            </item>
