@@ -752,7 +752,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <thumbnail>hxxp://canlitvizle.co/upload/channel/atv.png</thumbnail>
 <name>url</name>
-<expres>file: '(.*?)'</expres>
+<expres>file '(.*?)'</expres>
 <page>hxxp://canlitvizle.co/atv</page>
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</agent>
 </regex>
