@@ -40,176 +40,6 @@
 
 <!-----------------END YOUTUBE---------------------------->
 
-
-<!----------------------------END--------------->
-
-
-<!----------------
-<item>
-<title>[COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]USA [/B] [/COLOR][COLOR skyblue]Movies Channelz[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param2]</title>
-<link>$doregex[makelist2]</link>
-<regex>	 
-<name>canal</name> 
-<expres>src="http(.*?)"</expres>
-<page>[makelist.param1]</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			
-</regex>
-]]></listrepeat>
-<expres>href="(.*?)"[\w\W\s]{0,30}strong>(.*?)<</expres>
-<page>http://www.streamlive.to/index.php?cat=Movies</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-</item>	
----------------->
-
-
-<!----------------------------------------->
-
-<item>
-<title>Movies Page 1| Full-stream.Org</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title> [makelist.param3]</title>
-<link>$doregex[get-url]</link>
-<thumbnail>[makelist.param1]</thumbnail>
-]]></listrepeat>
-<expres>\s?.php\?src=([^&amp;]+).*\n.*\n.*\n.*mov-title"&gt;&lt;a href="([^"]+)"&gt;(.*?)&lt;</expres>
-<page>http://full-stream.org</page>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>get-url</name>
-<expres>$pyFunction:'$doregex[get-video]'.replace('\\u0026','&amp;')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-video</name>
-<expres>low","url":"([^"]+)<expres>
-<page>http://ok.ru/dk?cmd=videoPlayerMetadata&amp;mid=$doregex[get-id]</page>
-<referer>$doregex[get-serv]</referer>
-</regex>
-<regex>
-<name>get-id</name>
-<expres>href=".*ok\.ru\/videoembed\/(.*?)"<expres>
-<page>[makelist.param2]</page>
-<referer>http://full-stream.org/</referer>
-</regex>
-<regex>
-<name>get-serv</name>
-<expres>href="(http.*ok\.ru.*?)"<expres>
-<page>[makelist.param2]</page>
-<referer>http://full-stream.org/</referer>
-</regex>
-<thumbnail>http://full-stream.org/templates/F-S/images/logo.png</thumbnail>
-</item>
-
-<!-------------------------------END----------------------------->
-
-<item>
-<title>www.zoptv.com | 1SPORTS Page</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<item>
-<title>[makelist.param3]</title>
-<link>http://www.iptvlinks.tk$doregex[path]|User-Agent=iPhone</link>
-<link>http://www.iptvlinks.tk$doregex[path1]|User-Agent=iPhone</link>
-<thumbnail>http://www.zoptv.com[makelist.param2]</thumbnail>
-]]></listrepeat>
-<expres>"zp-channel" href="(.*?)".*?src="(.*?)"..*?&gt;(.*?)..span.</expres>
-<page>http://www.zoptv.com/channels/sports</page>
-</regex>
-<regex>
-<name>path</name>
-<expres>var src = '(.*?)'</expres>
-<page>$doregex[embedurl]</page>
-<referer>http://www.zoptv.com/</referer>
-</regex>
-<regex>
-<name>embedurl</name>
-<expres>"src":"(.*?)".+</expres>
-<page>$doregex[decpage]</page>
-</regex>
-<regex>
-<name>decpage</name>
-<expres><![CDATA[#$pyFunction
-import urllib,re,base64
-def GetLSProData(page_data,Cookie_Jar,m):
-	import base64
-	s=page_data
-	while '(atob(' in s:
-		s=re.compile('\'(.*?)\'').findall(s)[0];
-		s=base64.b64decode(s);
-	return s
-]]></expres>
-<page>$doregex[encpage]</page>
-</regex>
-<regex>
-<name>encpage</name>
-<expres>(.atob.*)</expres>
-<page>http://www.zoptv.com[makelist.param1]</page>
-</regex>
-<regex>
-<name>path1</name>
-<expres>var src = '(.*?)'</expres>
-<page>$doregex[embedurl1]</page>
-<referer>http://www.zoptv.com/</referer>
-</regex>
-<regex>
-<name>embedurl1</name>
-<expres>,{"src":"(.*?)".+</expres>
-<page>$doregex[decpage]</page>
-</regex>
-</item>
-<!-------------------------------end------------------------>
-
-<item>
-<title>FootDirect24.com</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-    <title>[COLOR snow][makelist.param2][/COLOR]</title>
-    <link>$doregex[makelist2]</link>
-]]></listrepeat>
-<expres>font.*?parent&gt;\s*(.*?)\?(.*?)\s*&lt;.*&gt;([\w\W\s]*?)&lt;</expres>
-<page>http://footdirect24.com/id.php?channel=1</page>
-<referer>http://footdirect24.com</referer>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-    <title>[COLOR dodgerblue][makelist2.param1][/COLOR]</title>
-    <sportsdevil>[makelist.param1]?[makelist.param2]</sportsdevil>
-    <referer>http://footdirect24.com</referer>
-]]></listrepeat>
-<expres>\s*(.*?\d{2}\:\d{2}.*)\s+(\s)</expres>
-<page>[makelist.param3]</page>
-<referer>http://footdirect24.com</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
-<!------------end------->
-
-
-<!------------------------------END------------------------------------->
-
-
 <!--------------------------------END------------------------------------->
 <item>
 <title>Cinestrenos.TV - Todos Los Canales | Espanol</title>
@@ -229,10 +59,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 
-
-
-
-
+<!-----------------------------------yooutube test---->
 <item>
 <title>Top Channel Albania</title>
 <link>$doregex[makelist]</link>
@@ -250,56 +77,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://pbs.twimg.com/profile_images/552092989485355008/5iuVo5m9.png</thumbnail>
 </item>
 
-<!------------------------------>
-<item>
-<title>Bein | test</title>
-<link>rtmp://cdn.caston.tv:1935/live/ app=live/?v&amp;Token=$doregex[auth] flashver=WIN\2020,0,0,228 live=1 timeout=15 swfVfy=1 token=$doregex[token] playpath=$doregex[path] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://www.caston.tv/player.php?id=12&amp;height=100%&amp;width=100%</link>
-<regex><name>token</name>
-<expres>,"(.*)"</expres>
-<page>$doregex[getpage]</page>
-</regex>
- 
-<regex><name>auth</name>
-<expres>"(.*?)"</expres>
-<page>$doregex[getpage]</page>
-</regex>
- 
-<regex><name>path</name>
-<expres>file:"(.*?)"</expres>
-<page>$doregex[get-Unencrypted]</page>
-</regex>
- 
-<regex><name>getpage</name>
-<expres>(.*)</expres>
-<page>http://www.caston.tv/l.php</page>
-<referer>http://www.caston.tv/player.php?id=12&amp;height=100%&amp;width=100%</referer>
-<rawpost>token=$doregex[rawtoken]&amp;is_ajax=1</rawpost>
-<x-req>XMLHttpRequest</x-req>
-<cookiejar>$get_cookies$</cookiejar>
-<agent>Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36</agent>
-</regex>
- 
-<regex><name>rawtoken</name>
-<expres>token:"(.*?)"</expres>
-<page>$doregex[get-Unencrypted]</page>
-</regex>
- 
-<regex>
-<name>get-Unencrypted</name>
-<expres>$pyFunction:get_unwise("$doregex[get-encrypted]")</expres>
-<page></page>
-</regex>
- 
-<regex>
-<name>get-encrypted</name>
-<expres>eval\(function\(w,i,s,e\).*}\((.*?)\)</expres>
-<page>http://www.caston.tv/player.php?id=12&amp;height=100%&amp;width=100%</page>
-<referer>http://www.caston.tv/watch/12</referer>
-</regex>
-</item>
-<fanart></fanart>
-</item>
-<!----------------------------------------------------------------->
+<!------------------------------------zunox------------->
 <item>
 <title>Zunox Test</title> 
 <link>$doregex[rtmp] swfUrl=http://static3.sawlive.tv/player.swf pageUrl=http://sawlive.tv live=1 timeout=15</link> 
@@ -325,133 +103,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://sawlive.tv/embed/zunoxhkhd1'
 </regex>
 <thumbnail></thumbnail>
 </item>
-<!--------------------ALL CHANNELS ZOPTV------------------------------->
-<item>
-<title>All ChannelS | www.zoptv.com</title>
-<link>$doregex[makelist]</link>
-<regex>
-      <name>makelist</name>
-      <listrepeat><![CDATA[
-               <title>[COLOR deepskyblue]BES-IPTV:[/COLOR]-[makelist.param1]</title>
-               <link>$doregex[makelist2]</link>
-               <thumbnail>http://www.zoptv.com/images/logo.png</thumbnail>
-      ]]></listrepeat>
-      <expres>list-header"&gt;(.*?)&lt;\/div>(?s)(.*?)<\/ul</expres>
-      <page>http://www.zoptv.com/channels/sports</page>
-</regex>
 
-<regex>
-      <name>makelist2</name>
-      <listrepeat><![CDATA[
-               <title>[COLOR deepskyblue]BES-IPTV:[/COLOR]-[makelist2.param2]</title>
-               <link>$doregex[makelist3]</link>
-               <thumbnail>http://www.zoptv.com/images/logo.png</thumbnail>
-      ]]></listrepeat>
-      <expres>href="\/(.*?)"&gt;(.*?)&lt;\/</expres>
-      <page>[makelist.param2]</page>
-</regex>
 
-<regex>
-      <name>makelist3</name>
-      <listrepeat><![CDATA[
-               <title>[COLOR deepskyblue]BES-IPTV:[/COLOR]-[makelist3.param3]</title>
-               <link>http://www.iptvlinks.tk$doregex[Final-Path]|User-Agent=iPhone</link>
-               <link>$doregex[Final-Path]|User-Agent=iPhone</link>
-               <link>http://www.iptvlinks.tk/st/$doregex[Final-Path]|User-Agent=iPhone</link>
-               <thumbnail>http://www.zoptv.com[makelist3.param2]</thumbnail>
-               <fanart>http://www.zoptv.com[makelist3.param2]</fanart>
-      ]]></listrepeat>
-      <expres>"zp-channel" href="(.*?)".*?src="(.*?)"..*?&gt;(.*?)..span.</expres>
-      <page>http://www.zoptv.com/[makelist2.param1]</page>
-</regex>
-
-<regex>
-<name>Final-Path</name>
-<expres>$pyFunction: '$doregex[path]' if not '$doregex[path]'=='' else '$doregex[m5]'</expres>
-<page></page>
-</regex>
-<regex>
-<name>path</name>
-<expres>var src = '(.*?)'</expres>
-<page>http://www.iptvlinks.tk/$doregex[select_Url]</page>
-<referer>http://www.zoptv.com/</referer>
-</regex>
-<regex>
-<name>m5</name>
-<expres>"src":"(.*?)",</expres>
-<page>$doregex[decpage]</page>
-</regex>
-<regex>
-<name>select_Url</name>
-<expres>$pyFunction: '$doregex[server1]' if not '$doregex[server1]'=='' else '$doregex[server2]' or '$doregex[server2]' if not '$doregex[server2]'=='' else '$doregex[server3]' or '$doregex[server3]' if not '$doregex[server3]'=='' else '$doregex[server4]' or '$doregex[server4]' if not '$doregex[server4]'=='' else '$doregex[server5]' or '$doregex[server5]' if not '$doregex[server5]'=='' else '$doregex[server6]'</expres>
-<page></page>
-</regex>
-<regex>
-<name>server1</name>
-<expres>"src":".*?\/(le\/.*?)",</expres>
-<page>$doregex[decpage]</page>
-<referer>http://www.zoptv.com/</referer>
-</regex>
-<regex>
-<name>server2</name>
-<expres>"src":".*?\/(ds\/.*?)",</expres>
-<page>$doregex[decpage]</page>
-<referer>http://www.zoptv.com/</referer>
-</regex>
-<regex>
-<name>server3</name>
-<expres>"src":".*?\/(fo\/.*?)",</expres>
-<page>$doregex[decpage]</page>
-<referer>http://www.zoptv.com/</referer>
-</regex>
-<regex>
-<name>server4</name>
-<expres>src = '(.*?)';</expres>
-<page>$doregex[decpage]</page>
-<referer>http://www.zoptv.com/</referer>
-</regex>
-<regex>
-<name>server5</name>
-<expres>"src":".*?\/(sl\/.*?)",</expres>
-<page>$doregex[decpage]</page>
-<referer>http://www.zoptv.com/</referer>
-</regex>
-<regex>
-<name>server6</name>
-<expres>"src":".*?\/(st\/.*?)",</expres>
-<page>$doregex[decpage]</page>
-<referer>http://www.zoptv.com/</referer>
-</regex>
-<regex>
-<name>decpage</name>
-<expres><![CDATA[#$pyFunction
-import urllib,re,base64
-def GetLSProData(page_data,Cookie_Jar,m):
-    import base64
-    s=page_data
-    while '(atob(' in s:
-        s=re.compile('\'(.*?)\'').findall(s)[0];
-        s=base64.b64decode(s);
-    return s
-]]></expres>
-<page>$doregex[encpage]</page>
-</regex>
-<regex>
-<name>encpage</name>
-<expres>(.atob.*)</expres>
-<page>http://www.zoptv.com[makelist3.param1]</page>
-</regex>
-</item>
-<!-----------------------END ALL CHANNELS ZOPTV------------>
-<item>
-	<title>Test1 ua davlik123</title>
-	<link>http://stream.ontv.al:8000/live/ontv/albania/7.m3u8|User-Agent=iPhone</link>
-</item>
-
-<item>
-	<title>movie</title>
-	<link>http://89.46.103.76/cvjhpbfqjaqwws4phx6tqpgt5bjczsk6eunrpusuxeze5egijcp2levmnm5q/video.mp4</link>
-</item>
 
 <!--------------------------DLSTV REGEX TEST----------------------------->
   <item>
@@ -494,7 +147,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
                 </regex>
                 <thumbnail></thumbnail>
             </item>
-<!----------------------------------------------------------------END-->
+<!------------------------M5 REGEX----------------------------------------END-->
 <item>
 <title>[COLOR yellow] All Channels | www.zoptv.com[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -695,80 +348,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://www.zoptv.com[makelist3.param1]</page>
 </regex>
 </item>
-<!--------------------------end-->
+<!------------------------------------------------------->
 
-	 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]USA  [/B] [/COLOR][COLOR skyblue]Documentary Channels[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param2]</title>
-<link>http$doregex[canal]</link>
-<regex>	 
-<name>canal</name> 
-<expres>src="http(.*?)"</expres>
-<page>[makelist.param1]</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			
-</regex>
-]]></listrepeat>
-<expres>href="(.*?)"[\w\W\s]{0,30}strong>(.*?)<</expres>
-<page>http://www.streamlive.to/index.php?cat=General</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-</item>
-<!------------------------------------------------------->
-	 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]USA  [/B] [/COLOR][COLOR skyblue]Movies Channels[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param2]</title>
-<link>http$doregex[canal]</link>
-<regex>	 
-<name>canal</name> 
-<expres>src="http(.*?)"</expres>
-<page>[makelist.param1]</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>			
-</regex>
-]]></listrepeat>
-<expres>href="(.*?)"[\w\W\s]{0,30}strong>(.*?)<</expres>
-<page>http://www.streamlive.to/index.php?cat=Movies</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-</item>
-<!------------------------------------------------------->
-<item>
-<title>Channels</title>
-<link>$doregex[makelist]</link>
-<regex>
-   <name>makelist</name>
-   <listrepeat><![CDATA[
-     <title>[makelist.param2]</title>
-     <link>$doregex[m3u8]</link>
-     <thumbnail>[makelist.param1]</thumbnail>
-  ]]></listrepeat>
-   <expres>&lt;td&gt;\s*&lt;img\s+src="(.*?)".*?EXTINF:-1,(.*?)\s+&lt;br.*?(http.*?)&amp;.*?(\d+)</expres>
-   <page>http://www.tuiptv.biz/</page>
-   <cookieJar></cookieJar>
-</regex>
- 
-<regex>
-   <name>m3u8</name>
-   <expres>location:(\S+)</expres>
-   <page>[makelist.param3]&amp;channel=[makelist.param4]</page>
-   <noredirect>true</noredirect>
-   <includeheaders/>
-   <cookieJar></cookieJar>
-</regex>
-</item>
-
-<!------------------------------------------------------->
+<!--------------------SKY SPORTS----------------------------------->
 <item>
 <title>ORIGINAL | streamlive.to if / else | @Shani_08</title>
 <link>$doregex[select_Url]</link>
@@ -788,33 +370,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <!------------------------------------------------------->
 
-<item>
-<title>with unicode-escape shani</title>
-<link>$doregex[makelist2]</link>
-
-<regex>
-      <name>makelist2</name>
-      <listrepeat><![CDATA[
-               <title>[makelist2.param2]
-                                        access [COLOR red][makelist2.param3][/COLOR]</title>
-               <link>NA</link>
-               <thumbnail></thumbnail>
-      ]]></listrepeat>
-      <expres>(?s)"content_id":"(.*?)","name":"(.*?)".*?"access":"(.*?)"</expres>
-      <page>$doregex[get-page]</page>
-<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-          <name>get-page</name>
-          <expres>$pyFunction:codecs.decode(page_data,'unicode-escape')</expres>
-          <page>http://tv.vera.com.uy/inicio/get_channels/viewed/40/139/1/</page>
-	  <agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0</agent>
-          <cookieJar></cookieJar>
-</regex>
-</item>
-
 <!------------------------------------------------------->
 
 <item>
@@ -823,7 +378,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>SaydinX: [makelist.param3]</title>
+<title>[COLOR deepskyblue]BES-IPTV: -[/COLOR] [makelist.param3]</title>
 <link>$doregex[canal]</link>
 <thumbnail>http:[makelist.param1]</thumbnail>
 <regex>
