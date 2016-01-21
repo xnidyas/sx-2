@@ -769,3 +769,24 @@ def GetLSProData(page_data,Cookie_Jar,m):
    <cookieJar></cookieJar>
 </regex>
 </item>
+
+
+
+
+<item>
+<title>ORIGINAL | streamlive.to if / else | @Shani_08</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_HD]' if not '$doregex[get_HD]'=='' else '$doregex[get_SD]'</expres>
+<page></page>
+</regex><regex>
+<name>get_HD</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/71560',False,False)</expres>
+<page></page>
+</regex>
+<regex><name>get_SD</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/73269',False,False)</expres>
+<page></page>
+</regex>
+</item>
