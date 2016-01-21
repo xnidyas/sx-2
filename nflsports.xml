@@ -9,6 +9,24 @@
 </item>
 
 <item>
+<title>[COLOR blue]NFL NETWORK[/COLOR]</title>
+<link>$doregex[select_Url]</link>
+<regex>
+<name>select_Url</name>
+<expres>$pyFunction: '$doregex[get_HD]' if not '$doregex[get_HD]'=='' else '$doregex[get_SD]'</expres>
+<page></page>
+</regex><regex>
+<name>get_HD</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/72886',False,False)</expres>
+<page></page>
+</regex>
+<regex><name>get_SD</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/70295',False,False)</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
 <title>[COLOR blue]NFL Network[/COLOR] (wait few seconds) MMHD</title>
 <sportsdevil>http://mamahd.com/watch-nfl-network-live-stream-free-1.html</sportsdevil>
 <referer>http://www.vipbox.sx/</referer>
@@ -117,161 +135,4 @@
 
 </item>
 
-<item>
-<title>[COLOR blue]NFL Network (Game Day)[/COLOR]</title>
-<link>http://streamup.global.ssl.fastly.net/app/crivo227s-stream/chunklist.m3u8</link>
-<thumbnail></thumbnail>
-</item>
 
-<item>
-<title>NFL Network 1</title>
-<link>$doregex[m3u8]</link>
-
-<regex>
-<name>m3u8</name>
-<expres>controls" src="(.*?)"</expres>
-<page>http://www.streamlive.to/view/72886/</page>
-<agent>iphone</agent>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>NFL Network 2</title>
-<link>$doregex[m3u8]</link>
-
-<regex>
-<name>m3u8</name>
-<expres>controls" src="(.*?)"</expres>
-<page>http://www.streamlive.to/view/70295/</page>
-<agent>iphone</agent>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>[COLOR blue]NFL Network[/COLOR] (wait few seconds) VipLeague</title>
-<sportsdevil>http://www.vipleague.se/american-football/6455/1/nfl-network-live-stream-online.html</sportsdevil>
-<referer>http://www.vipleague.se/</referer>
-<thumbnail></thumbnail>
-</item>
-
-<!-----WORKING E5PN USA RGX FROM STRML1VE.TO ---------------->	
-<item>
-<title>[COLOR blue]ESPN [/COLOR]USA Regex</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
-<regex>
-        <name>path</name>
-        <expres>file: "(.*).flv</expres>
-        <page>http://www.streamlive.to/view/71561/</page>
-</regex>
-<regex>
-        <name>tok</name>
-        <expres>token":"([^"]*)</expres>
-        <page>$doregex[tokpg]</page>
-        <referer>http://www.streamlive.to</referer>
-</regex>
-<regex>
-        <name>tokpg</name>
-        <expres>getJSON."(.*?)"</expres>
-        <page>http://www.streamlive.to/view/71561/</page>
-</regex>
-<regex>
-        <name>xs</name>
-        <expres>/(\?xs=.*?)"</expres>
-        <page>http://www.streamlive.to/view/71561/</page>
-        <rawpost>captcha=$doregex[answer]</rawpost>
-        <referer>http://www.streamlive.to</referer>
-        <cookieJar></cookieJar>
-        <ignorecache/>
-</regex>
-<regex>
-        <name>answer</name>
-        <expres>$pyFunction:($doregex[captcha])</expres>
-        <page></page>
-</regex>
-<regex>
-        <name>captcha</name>
-        <expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
-        <page></page>
-</regex>
-<regex>
-        <name>xcaptcha</name>
-        <expres>Question: (.*) =</expres>
-        <page>http://www.streamlive.to/view/71561/</page>
-        <referer>http://www.streamlive.to</referer>
-        <cookieJar></cookieJar>
-</regex>
-<fanart></fanart>
-<thumbnail></thumbnail>   
-
-</item>
-
-<item>
-        <title>ESPN USA</title>
-        <link>rtmp://185.63.255.60:80/live playpath=espnusa swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://www.yotv.co/embed.php?live=espnusa</link>
-</item>
-
-
-
-<!-----------------------------------------TEST REGEX
-<item>
-<title>TEST..ABCAST</title>
-<link>$doregex[get-rtmp] redirect?token=$doregex[get-tok] playpath=verf8e8b210d74b70e6ef2227 swfUrl=http://abcast.net/player.swf live=1 pageUrl=http://abcast.net/channel.php?id=DUGA</link>
-<regex>
-<name>get-rtmp</name>
-<expres>streamer: "(.*?)\?</expres>
-<page>http://abcast.net/channel.php?id=DUGA</page>
-<referer>http://abcast.net/</referer>
-</regex>
-<regex>
-<name>get-tok</name>
-<expres>token=(.*?)"</expres>
-<page>http://abcast.net/channel.php?id=DUGA</page>
-<referer>http://abcast.net/</referer>
-</regex>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>[COLOR green]Live Sports[/COLOR][COLOR red]All Sport Shown[/COLOR]</title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports.cfg&amp;mode=1</jsonrpc>
-<thumbnail>http://gvt.net/sites/default/files/HD-Sports-2.0-Logo-450.png</thumbnail>
-</item>
-
-<item>
-<title>SS</title>
-<link>$doregex[m5]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link><regex><name>m5</name><expres>"application/x-mpegURL" src="(.*?)"</expres>
-<page>http://iptvlivestream.com/rtmp/ss1-6/</page>
-<referer>http://iptvlivestream.com/rtmp/ss1-6/</referer></regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
-                <title>SS TEST</title>        
-                <link>http://85.25.218.196:8081/streamrtmp/ss1/playlist.m3u8 wmsAuthSign=c2VydmVyX3RpbWU9MTIvMjYvMjAxNSA0OjU4OjU3IEFNJmhhc2hfdmFsdWU9YUFQWEhZK0RLNUV0bVluR0N5eVRvUT09JnZhbGlkbWludXRlcz0zNjA= swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://iptvlivestream.com/rtmp/ss1-6/</link>
-                <thumbnail></thumbnail>
-		<referer>http://iptvlivestream.com/rtmp/ss1-6/</referer>
-                <genre>Music</genre>
-                <info>MUZIKE SHQIP</info>
-            </item>
-
-<item>
-<title>SS TEST 2</title>
-<link>$doregex[m3u8]</link>
-
-<regex>
-<name>m3u8</name>
-<expres>controls" src="(.*?)"</expres>
-<page>http://iptvlivestream.com/rtmp/ss1-6/</page>
-<agent>iphone</agent>
-</regex>
-<thumbnail></thumbnail>
-</item>
--------------------------------------------------------------> END TEST REGEX
-
-<item>
-	<title>Not working!</title>
-</item>
