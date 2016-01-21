@@ -697,8 +697,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <!--------------------------end-->
 
-
-
 	 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]USA  [/B] [/COLOR][COLOR skyblue]Documentary Channels[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -721,7 +719,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 </item>
-
+<!------------------------------------------------------->
 	 <item>
 <title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]USA  [/B] [/COLOR][COLOR skyblue]Movies Channels[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -744,7 +742,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 </item>
-
+<!------------------------------------------------------->
 <item>
 <title>Channels</title>
 <link>$doregex[makelist]</link>
@@ -770,9 +768,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 
-
-
-
+<!------------------------------------------------------->
 <item>
 <title>ORIGINAL | streamlive.to if / else | @Shani_08</title>
 <link>$doregex[select_Url]</link>
@@ -788,5 +784,33 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>get_SD</name>
 <expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/73269',False,False)</expres>
 <page></page>
+</regex>
+</item>
+<!------------------------------------------------------->
+
+<item>
+<title>with unicode-escape shani</title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+      <name>makelist2</name>
+      <listrepeat><![CDATA[
+               <title>[makelist2.param2]
+                                        access [COLOR red][makelist2.param3][/COLOR]</title>
+               <link>NA</link>
+               <thumbnail></thumbnail>
+      ]]></listrepeat>
+      <expres>(?s)"content_id":"(.*?)","name":"(.*?)".*?"access":"(.*?)"</expres>
+      <page>$doregex[get-page]</page>
+<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0</agent>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+          <name>get-page</name>
+          <expres>$pyFunction:codecs.decode(page_data,'unicode-escape')</expres>
+          <page>http://tv.vera.com.uy/inicio/get_channels/viewed/40/139/1/</page>
+	  <agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0</agent>
+          <cookieJar></cookieJar>
 </regex>
 </item>
