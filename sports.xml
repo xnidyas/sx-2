@@ -23,34 +23,6 @@
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/strmk1ng.xml</externallink>
     <fanart></fanart>
     
-    <items>
- 
-<item>
-<title>[COLOR yellow]Live Sports[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR deepskyblue]BES-IPTV: -[/COLOR] [makelist.param3]</title>
-<link>$doregex[canal]</link>
-<thumbnail>http:[makelist.param1]</thumbnail>
-<regex>
-	<name>canal</name>
-	<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/[makelist.param2]',False,False)</expres>
-	<page></page>
-</regex>
-]]></listrepeat>
-<expres>src="(.*?)".*?\n.*?\n.*?\n.*?href="http://www.streamlive.to/view/(.*?)/.*?strong&gt;(.*?)&gt;</expres>
-<page>http://www.streamlive.to/index.php?cat=Live%20Sport</page>
-<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-</item>
- 
-</items>
-    
-    
  <channel>
     <name>[COLOR yellow]American Footbal NFL[/COLOR]</name>
     <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
