@@ -389,7 +389,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 ]]></listrepeat>
 <expres>src="(.*?)".*?\n.*?\n.*?\n.*?href="http://www.streamlive.to/view/(.*?)/.*?strong&gt;(.*?)&gt;</expres>
-<page>http://www.streamlive.to/index.php?cat=Movies</page>
+<page>http://www.streamlive.to/index.php?cat=Live%20Sport</page>
 <agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
 <referer></referer>
 <cookieJar></cookieJar>
