@@ -814,3 +814,29 @@ def GetLSProData(page_data,Cookie_Jar,m):
           <cookieJar></cookieJar>
 </regex>
 </item>
+
+<!------------------------------------------------------->
+
+<item>
+<title> Movies | Test</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>SaydinX: [makelist.param3]</title>
+<link>$doregex[canal]</link>
+<thumbnail>http:[makelist.param1]</thumbnail>
+<regex>
+	<name>canal</name>
+	<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/[makelist.param2]',False,False)</expres>
+	<page></page>
+</regex>
+
+]]></listrepeat>
+<expres>src="(.*?)".*?\n.*?\n.*?\n.*?href="http://www.streamlive.to/view/(.*?)/.*?strong&gt;(.*?)&gt;</expres>
+<page>http://www.streamlive.to/index.php?cat=Movies</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
