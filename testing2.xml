@@ -397,28 +397,3 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <!-------------------------------TEST--->
 
-<item>
-<title>with unicode-escape shani</title>
-<link>$doregex[makelist2]</link>
-
-<regex>
-      <name>makelist2</name>
-      <listrepeat><![CDATA[
-               <title>[makelist2.param2] access [COLOR red][makelist2.param3][/COLOR]</title>
-               <link>NA</link>
-               <thumbnail></thumbnail>
-      ]]></listrepeat>
-      <expres>(?s)"content_id":"(.*?)","name":"(.*?)".*?"access":"(.*?)"</expres>
-      <page>$doregex[get-page]</page>
-<agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0</agent>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-          <name>get-page</name>
-          <expres>$pyFunction:codecs.decode(page_data,'unicode-escape')</expres>
-          <page>http://tv.vera.com.uy/inicio/get_channels/viewed/40/139/1/</page>
-	  <agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0</agent>
-          <cookieJar></cookieJar>
-</regex>
-</item>
