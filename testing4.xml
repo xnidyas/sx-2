@@ -421,7 +421,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://sawlive.tv/embed/zunoxhkhd1'
 </subitem>
 <!--------------------------------------END--------------------------->
 <subchannel>
-        <name>[COLOR yellow]»»»[/COLOR][COLOR white]BES-IPTV SHQIP TV CHANNELS![/COLOR][COLOR red] =DOWN![/COLOR] (Click here for links!)</name>
+        <name>[COLOR yellow]»»»[/COLOR][COLOR gray]BES-IPTV SHQIP TV CHANNELS![/COLOR][COLOR red] =DOWN![/COLOR] (Click here for links!)</name>
         <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
         <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
         <subitems>
