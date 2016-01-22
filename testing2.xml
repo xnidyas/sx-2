@@ -451,10 +451,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 	<title>testklan1</title>
-	<link>http://stream.ontv.al:8000/live/ontv/albania/7.m3u8</link>
-	<agent>android</agent>
-	<agent>iphone</agent>
-	<agent>ontvalbania</agent>
+	<link>http://stream.ontv.al:8000/live/ontv/albania/7.m3u8|User-Agent=ontvalbania</link>
 </item>
 
 <item>
@@ -467,3 +464,10 @@ channel_url=http://tring-amd-live.tring.tv/out/u/287_359.m3u8
 channel_url=http://stream.ontv.al:8000/live/ontv/albania/7.m3u8
 
 http://stream.ontv.al:8000/live/ontv/albania/93.ts
+
+
+<item>
+	<title>testssks</title>
+	<link>http://ontv.al/jw/ontvweb/supersport1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36</link>
+</item>
+
