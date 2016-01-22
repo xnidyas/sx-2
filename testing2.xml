@@ -418,44 +418,27 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <!----------------->
-<item>
-<title>[COLOR yellow]»NEW»[/COLOR][COLOR white]TEST[/COLOR]</title>
 
-
-<link>$doregex[makelist]</link>
-<regex>
-              <name>makelist</name>
-                        <listrepeat><![CDATA[
-                        <title>[COLOR white]BES-IPTV - [/COLOR][makelist.param1]</title>
-                        <link>$doregex[makelist2]</link>
-              ]]></listrepeat>
-              <expres>&lt;title&gt;(.*)&lt;.*\n.*\n.*\n.*&lt;serviceLink&gt;(.*)&lt;</expres>
-              <page>$doregex[clean-xml]</page>
-              <cookieJar></cookieJar>
-</regex>
-
-<regex>
-	<name>clean-xml</name>
-	<expres>--&gt;(?s)(.*)Settings</expres>
-	<page>http://ipbestv.net16.net/ontvshikode.xml</page>
-</regex>
-
-
-<regex>
-              <name>makelist2</name>
-                        <listrepeat><![CDATA[
-                        <title>[COLOR white]Channel - [/COLOR][makelist2.param1]</title>
-                        <link>[makelist2.param2]</link>
-              ]]></listrepeat>
-              <expres>&lt;title&gt;(.*)&lt;.*\n.*&lt;link&gt;(.*)&lt;</expres>
-              <page>[makelist.param2]</page>
-              <cookieJar></cookieJar>
-</regex>
-</item>
 <!------------------------------end---->
 
 <item>
 	<title>test</title>
 	<link>http://lstv3.hls2.stream-server.org/live/sport1@sd/index.m3u8|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
 	<referer>http://www.live-stream.tv/online/fernsehen/deutsch/sport1.html</referer>
+</item>
+<!-----------youtube-live----------->
+<item>
+<title>Channels TV  YouTubeLive Test</title>
+<link>$doregex[url]</link>
+<regex>
+	<name>url</name>
+	<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/').replace('https','http')</expres>
+	<page></page>
+</regex>
+<regex>
+	<name>jsonurl</name>
+	<expres>hlsvp":"(.*?)"</expres>
+	<page>https://www.youtube.com/watch?v=ANM-dq5USTc</page>
+</regex>
+<thumbnail></thumbnail>
 </item>
