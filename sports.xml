@@ -90,7 +90,14 @@
     <thumbnail></thumbnail>
     <link>#</link> 
     <externallink>http://www.4legends.co.uk/MoneySports/CTH.XML</externallink>
-    <fanart></fanart> 
+    <fanart></fanart>
+    
+    <channel>
+    <name>[COLOR red]*Test Only*[/COLOR]</name>
+    <thumbnail></thumbnail>
+    <link>#</link> 
+    <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/testing4.xml</externallink>
+    <fanart></fanart>
 
             
         </channel>
