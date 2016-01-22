@@ -444,3 +444,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <!---------end--youtube-live----------->
+<item>
+	<title>testrtv21</title>
+	<link>http://tring-amd-live.tring.tv/out/u/287_359.m3u8|User-Agent=Android</link>
+</item>
+
+channel_url=http://tring-amd-live.tring.tv/out/u/287_359.m3u8
