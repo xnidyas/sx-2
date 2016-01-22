@@ -421,11 +421,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!------------------------------end---->
 
-<item>
-	<title>test</title>
-	<link>http://lstv3.hls2.stream-server.org/live/sport1@sd/index.m3u8|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
-	<referer>http://www.live-stream.tv/online/fernsehen/deutsch/sport1.html</referer>
-</item>
 <!-----------youtube-live----------->
 <item>
 <title>Channels TV  YouTubeLive Test</title>
@@ -444,6 +439,34 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <!---------end--youtube-live----------->
+
+<item>
+<title>Infoua Sport Test</title> 
+<link>http://$doregex[url]</link> 
+<regex>
+<name>url</name>
+<expres><=!=[=C=D=A=T=A=[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+	import base64
+	s = page_data
+	s = s[4:]
+	s = base64.b64decode(s)
+	s = s[3:]
+	s = base64.b64decode(s)
+	return s
+]=]=></expres>
+<page>$doregex[encpage]</page>
+</regex>
+<regex>
+<name>encpage</name>
+<expres>PLAYLIST_USER.LTV.'(.*?)'</expres>
+<page>http://infoua.biz/live/407/2</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<!-------------------------end--->
 <item>
 	<title>testrtv21</title>
 	<link>http://tring-amd-live.tring.tv/out/u/287_359.m3u8|User-Agent=Android</link>
