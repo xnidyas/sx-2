@@ -392,11 +392,56 @@
 <title>Digi 3</title>
 <link>http://82.76.249.81/digiedge/digisport3ehq/index.m3u8?is=3&amp;src=digi-online.ro&amp;t=00000000000000000000000000000000</link>
 </subitem>
-<!----
 
-test2
-http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_3963343530616661636639323833636466373837643530353464333134396433003000617274616e6c6168616a69706b6f0073736e657773
---------->
+<subchannel>
+        <name>[COLOR yellow]»»»[/COLOR][COLOR white]SHQIP TV CHANNELS![/COLOR]</name>
+        <thumbnail>http://s27.postimg.org/y4g92ejan/images.jpg</thumbnail>
+        <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
+        <subitems>
+        	
+          <subitem>
+         <title>[COLOR lime]---Try All Links---[/COLOR]</title>        
+                <link>#</link>
+                <thumbnail></thumbnail>
+                <genre>BES-IPTV</genre>
+                <info>BES-IPTV</info> 	
+         </subitem>
+            <subitems>
+<!--------------0NTV.aI-BEG1N------------------------------------------------------------------------------------------------------>
+<subitem>
+<title>TV Klan Link 1 [on]</title>
+<link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
+<regex>
+<name>get-M3u8</name>
+<expres>file:'(.*?)'</expres>
+<page>http://ontv.al/embed/851</page>
+<referer>http://ontv.al</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
+</regex>
+<thumbnail></thumbnail>
+</subitem>
+<!------End-->
+
+<subitem>
+<title>TOP Channel Link 1 [on]</title>
+<link>$doregex[get-M3u8]|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
+<regex>
+<name>get-M3u8</name>
+<expres>file:'(.*?)'</expres>
+<page>http://ontv.al/embed/849</page>
+<referer>http://ontv.al</referer>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
+</regex>
+<thumbnail></thumbnail>
+</subitem>
+<!------End-->
+
+
+
+            	
+            	
+            	
+<!----------------------------------END------------------------------------------------------------------------------------>
         <items>
         	
         <item>
