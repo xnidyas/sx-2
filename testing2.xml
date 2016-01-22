@@ -445,7 +445,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
               <name>makelist2</name>
                         <listrepeat><![CDATA[
                         <title>[COLOR white]Channel - [/COLOR][makelist2.param1]</title>
-                        <link>[makelist2.param2]$doregex[get-auth]</link>
+                        <link>[makelist2.param2]</link>
               ]]></listrepeat>
               <expres>&lt;title&gt;(.*)&lt;.*\n.*&lt;link&gt;(.*)&lt;</expres>
               <page>[makelist.param2]</page>
