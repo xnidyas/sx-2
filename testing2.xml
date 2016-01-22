@@ -452,3 +452,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
               <cookieJar></cookieJar>
 </regex>
 </item>
+<!------------------------------end---->
+
+<item>
+	<title>test</title>
+	<link>http://lstv3.hls2.stream-server.org/live/sport1@sd/index.m3u8|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
+	<referer>http://www.live-stream.tv/online/fernsehen/deutsch/sport1.html</referer>
+</item>
