@@ -399,7 +399,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-------------------------------TEST--->
 
 <item>
-<title>SHQIP TV | Temporary</title>
+<title>TV | Temp</title>
 
 
 <link>$doregex[makelist2]</link>
@@ -410,7 +410,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
                         <title>[COLOR white]KANAL: [/COLOR] [makelist2.param1]</title>
                         <link>[makelist2.param2]</link>
               ]]></listrepeat>
-              <expres>(.*).*\n.*(http.*)</expres>
+              <expres>&lt;title&gt;(.*)&lt;.*\n.*&lt;link&gt;(.*)&lt;</expres>
+              <!--<expres>(.*).*\n.*(http.*)</expres>-->
               <page>http://ipbestv.net16.net/ontvshikode.xml</page>
               <cookieJar></cookieJar>
 </regex>
