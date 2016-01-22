@@ -447,7 +447,7 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
 
 <!------------EXYU----->
 <item>
-<title>SHQIP TV | Temporary</title>
+<title>SHQIP TV | Temporary (Click here for more links!)</title>
 
 
 <link>$doregex[makelist2]</link>
@@ -456,9 +456,9 @@ http://80.80.160.199/http_livestr.m3u8?id=ssnews&k=pako_396334353061666163663932
               <name>makelist2</name>
                         <listrepeat><![CDATA[
                         <title>[COLOR white]KANAL: [/COLOR] [makelist2.param1]</title>
-                        <link>[makelist2.param2].m3u8</link>
+                        <link>[makelist2.param2].m3u8#sthash.3kjRFQnw.dpuf</link>
               ]]></listrepeat>
-              <expres>EXTINF:-1,TEST: (.*).*\n.*(http.*).ts#sthash.3kjRFQnw.dpuf</expres>
+              <expres>EXTINF:-1,TEST: (.*).*\n.*(http.*).ts</expres>
               <page>http://pastebin.com/raw/JeexKuAd</page>
               <cookieJar></cookieJar>
 </regex>
