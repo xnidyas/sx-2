@@ -416,3 +416,39 @@ def GetLSProData(page_data,Cookie_Jar,m):
               <cookieJar></cookieJar>
 </regex>
 </item>
+
+<!----------------->
+<item>
+<title>[COLOR yellow]»NEW»[/COLOR][COLOR white]TEST[/COLOR]</title>
+
+
+<link>$doregex[makelist]</link>
+<regex>
+              <name>makelist</name>
+                        <listrepeat><![CDATA[
+                        <title>[COLOR white]BES-IPTV - [/COLOR][makelist.param1]</title>
+                        <link>$doregex[makelist2]</link>
+              ]]></listrepeat>
+              <expres>&lt;title&gt;(.*)&lt;.*\n.*\n.*\n.*&lt;serviceLink&gt;(.*)&lt;</expres>
+              <page>$doregex[clean-xml]</page>
+              <cookieJar></cookieJar>
+</regex>
+
+<regex>
+	<name>clean-xml</name>
+	<expres>--&gt;(?s)(.*)Settings</expres>
+	<page>http://ipbestv.net16.net/ontvshikode.xml</page>
+</regex>
+
+
+<regex>
+              <name>makelist2</name>
+                        <listrepeat><![CDATA[
+                        <title>[COLOR white]Channel - [/COLOR][makelist2.param1]</title>
+                        <link>[makelist2.param2]$doregex[get-auth]</link>
+              ]]></listrepeat>
+              <expres>&lt;title&gt;(.*)&lt;.*\n.*&lt;link&gt;(.*)&lt;</expres>
+              <page>[makelist.param2]</page>
+              <cookieJar></cookieJar>
+</regex>
+</item>
