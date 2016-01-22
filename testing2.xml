@@ -443,19 +443,4 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 </item>
 
-<!-----------youtube-live----------->
-<item>
-<title>testutubte</title>
-<link>$doregex[url]</link>
-<regex>
-	<name>url</name>
-	<expres>$pyFunction:'$doregex[jsonurl]'.replace('\/','/').replace('https','http')</expres>
-	<page></page>
-</regex>
-<regex>
-	<name>jsonurl</name>
-	<expres>hlsvp":"(.*?)"</expres>
-	<page>https://www.youtube.com/playlist?list=PLtGclolOH9lDmjSEMd_nUbo6XwDhxDPax</page>
-</regex>
-<thumbnail></thumbnail>
-</item>
+<!---------end--youtube-live----------->
