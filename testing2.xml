@@ -557,3 +557,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>canal/test</title>
 <link>rtmp://104.245.38.209:1935/canalcvv/ playpath=CANALCVV swfUrl=http://www.folkstreams.net/common/mediaplayer/mediaplayer.swf live=1 pageUrl=http://www.canalcvv.net/</link>
 </item>
+
+
+		<item>
+			<title>Ustream/PMCMusic</title>
+				<link>$doregex[get-link]</link>
+				<regex>
+				<name>get-link</name>
+				<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/18021529/streams/live/playlist.m3u8')</expres>
+				<page></page>
+				</regex>
+		</item>
