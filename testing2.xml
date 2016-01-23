@@ -490,8 +490,66 @@ http://stream.ontv.al:8000/live/ontv/albania/93.ts
 
 
 <item>
-	<title>testssks1</title>
-	<link>http://stream.ontv.al:8000/live/ontv/albania/7.m3u8|User-Agent=Mozilla/5.0 (Windows NT 5.1; rv:43.0) Gecko/20100101 Firefox/43.0</link>
+<title>testssks1</title>
+<link>http://stream.ontv.al:8000/live/ontv/albania/7.m3u8|User-Agent=Mozilla/5.0 (Windows NT 5.1; rv:43.0) Gecko/20100101 Firefox/43.0</link>
 </item>
 
 Mozilla/5.0 (Windows NT 5.1; rv:43.0) Gecko/20100101 Firefox/43.0
+
+
+<item>
+<title>Sport 1</title> 
+<link>$doregex[get-url]</link> 
+
+<regex>
+<name>get-url</name>
+<expres>file:'(.*?)'</expres>
+<page>$doregex[update]</page>
+</regex>
+
+<regex>
+<name>update</name>
+<expres><![CDATA[#$pyFunction
+
+def GetLSProData(page_data,Cookie_Jar,m):
+ import requests
+ from threading import Timer,Thread,Event
+ import re
+ url = 'http://gonzo.ucount.in/stats/update/custom/lstv/sport1/sd&_=&callback=\?'
+ referer = 'http://www.live-stream.tv/online/fernsehen/deutsch/sport1.html'
+ headers1 = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': referer}
+ requests.get(url, headers=headers1)
+
+ class perpetualTimer():
+
+    def __init__(self,t,hFunction):
+       self.t=t
+       self.hFunction = hFunction
+       self.thread = Timer(self.t,self.handle_function)
+
+    def handle_function(self):
+      self.hFunction()
+      self.thread = Timer(self.t,self.handle_function)
+      import xbmc
+      player=xbmc.Player()
+      if player.isPlayingVideo():
+         self.thread.start()
+
+    def start(self):
+       self.thread.start()
+
+    def cancel(self):
+       self.thread.cancel()
+
+ def printer():
+     requests.get(url, headers=headers1)
+    
+ t = perpetualTimer(20,printer)
+ t.start()
+ return referer
+ 
+]]></expres>
+<page></page>
+</regex>
+</item>
+
