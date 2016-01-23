@@ -553,3 +553,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 
+<item>
+<title>canal/test</title>
+<link>rtmp://104.245.38.209:1935/canalcvv/ playpath=CANALCVV swfUrl=http://www.folkstreams.net/common/mediaplayer/mediaplayer.swf live=1 pageUrl=http://www.canalcvv.net/</link>
+</item>
