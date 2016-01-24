@@ -568,3 +568,65 @@ def GetLSProData(page_data,Cookie_Jar,m):
 				<page></page>
 				</regex>
 		</item>
+
+<!------------------------------>
+
+<item>
+<title>Live-Stream.TV</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param2]</title>
+    <link>$doregex[update]$doregex[url]</link>
+	<thumbnail>[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres>class="fp_item"&gt;\n.*\n.*href="(.*?)".*title="(.*?) Online.*?&gt;\n.*?src="(.*?)"</expres>
+<page>http://www.live-stream.tv/</page>
+</regex>
+<regex>
+<name>url</name>
+<expres>{ file:'(.*?)'</expres>
+<page>http://www.live-stream.tv[makelist.param1]</page>
+</regex>
+<regex>
+<name>update</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import requests
+ from threading import Timer,Thread,Event
+ import re
+ upd = re.search(r'Statistics .\'(.*?)\'.\'(.*?)\'..\'(.*?)\'', page_data)
+ url = 'http://' + upd.group(3) + '.ucount.in/stats/update/custom/lstv/' + upd.group(1) + '/' + upd.group(2) + '&_=&callback=\?'
+ referer = 'http://www.live-stream.tv/'
+ headers1 = {'User-Agent': 'iPhone', 'Referer': referer}
+ requests.get(url, headers=headers1)
+ class perpetualTimer():
+    def __init__(self,t,hFunction):
+       self.t=t
+       self.hFunction = hFunction
+       self.thread = Timer(self.t,self.handle_function)
+    def handle_function(self):
+      self.hFunction()
+      self.thread = Timer(self.t,self.handle_function)
+      import xbmc
+      player=xbmc.Player()
+      if player.isPlayingVideo():
+         self.thread.start()
+    def start(self):
+       self.thread.start()
+    def cancel(self):
+       self.thread.cancel()
+ def printer():
+     requests.get(url, headers=headers1)
+ t = perpetualTimer(30,printer)
+ t.start()
+ return ''
+]]></expres>
+<page>http://www.live-stream.tv[makelist.param1]</page>
+</regex>
+<thumbnail></thumbnail>
+<fanart>http://www.live-stream.tv/images/lstv-logo.png</fanart>
+</item>
+
+<!------------------------------->
