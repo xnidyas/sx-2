@@ -340,8 +340,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!------------------------------->
 
 <item>
-<title>TESTTTTT</title> 
-<link>$doregex[rtmp] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=Hi_mbc1&width=600&height=400 live=1 timeout=15</link> 
+<title>TESTTTTT!</title> 
+<link>$doregex[rtmp] swfUrl=http://embed.iptv-planet.com/swfs/player.swf pageUrl=http://embed.iptv-planet.com/embed.php?id=Hi_mbc1&amp;width=600&amp;height=400 live=1 timeout=15</link> 
 <regex>
 <name>rtmp</name>
 <expres><![CDATA[#$pyFunction
