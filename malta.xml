@@ -1,3 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
+<item>
+  <title>TV Malta 1</title>
+  <link>http://bcliveuniv-lh.akamaihd.net/i/TVM1DVR_1@326354/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
+</item>
+
+<item>
+  <title>TV Malta 2</title>
+  <link>http://bcliveuniv-lh.akamaihd.net/i/TVM2DVR_1@326354/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
+</item>
+
+<item>
+  <title>NET TV</title>
+  <link>rtmp://stream.vanilla.net.mt/live playpath=net3 swfUrl=http://live.nettv.com.mt/js/jwplayer/player.swf live=1 pageUrl=http://live.nettv.com.mt/</link>
+</item>
+
+<item>
+<title>Smash TV</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/12803100/streams/live/playlist.m3u8')</expres>
+<page></page>
+</regex>
+</item>
