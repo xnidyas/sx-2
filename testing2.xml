@@ -338,3 +338,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <!------------------------------->
+
+<item>
+</title>Test</title>
+<link>rtmp://web3.iptv-planet.com:1937/live2 playpath=Hi_mbc1?cle=084117101032074097110032050054032048049032052055 swfUrl=http://embed.iptv-planet.com/swfs/player.swf live=1 pageUrl=http://embed.iptv-planet.com/embed.php?id=Hi_mbc1&width=600&height=400</link>
+</item>
