@@ -359,4 +359,5 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 	<title>NFL TEST</title>
 	<sportsdevil>http://ifirstrowus.eu/watch/49037/1/watch-nfl-network.html</sportsdevil>
+	<referer>http://ifirstrowus.eu/watch/49037/1/watch-nfl-network.html</referer>
 </item>
