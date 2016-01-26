@@ -31,3 +31,7 @@
   <link>rtmp://srv-104.skylinewebcams.com/live playpath=live swfUrl=http://srv-104.skylinewebcams.com/player/player.swf live=1 pageUrl=http://srv-104.skylinewebcams.com/live.php</link>
 </item>
 
+<item>
+  <title>Port of Malta</title>
+  <link>http://video1.earthcam.com/fecnetwork/5245.flv/.m3u8</link>
+</item>
