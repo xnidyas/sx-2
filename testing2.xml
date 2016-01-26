@@ -338,4 +338,20 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <!------------------------------->
+<item>
+<title>Youtube Playlists</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>BES-IPTV - [makelist.param1]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=paNVvu0W7yQ&amp;list=PLM8BAxfZddjx4J5gzmtW8D-W1uD3-SjRC</page>
+             <cookieJar></cookieJar>
+</regex>
 
+</item>
+https://www.youtube.com/playlist?list=PLM8BAxfZddjx4J5gzmtW8D-W1uD3-SjRC
