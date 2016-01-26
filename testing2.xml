@@ -378,3 +378,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>https://pbs.twimg.com/profile_images/552092989485355008/5iuVo5m9.png</thumbnail>
 </item>
+
+<item>
+<title>[COLOR FFFF00FF]Test[/COLOR]</title>
+<link>http://iptv.ndasat.com:88/live/21041/21041/950.ts&amp;hash=1a7369176c5221f7931628b832c27117&amp;time=0&amp;external_device=&amp;hash=7e67cdd1ea843d168fb75dd49d110938 Buffer=300000 live=1 timeout=20</link>
+</item>
