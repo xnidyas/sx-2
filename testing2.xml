@@ -361,3 +361,20 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	<sportsdevil>http://ifirstrowus.eu/watch/49037/1/watch-nfl-network.html</sportsdevil>
 	<referer>http://ifirstrowus.eu/watch/49037/1/watch-nfl-network.html</referer>
 </item>
+
+<item>
+<title>Top Channel Albania</title>
+<link>https://forums.tvaddons.ag/$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><=!=[=C=D=A=T=A=[
+                        <title>[makelist.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?playlist_id=[makelist.param1]&order=default</link>
+                        <thumbnail>https://pbs.twimg.com/profile_images/552092989485355008/5iuVo5m9.png</thumbnail>
+            ]=]=></listrepeat>
+            <expres>\s?.href="\/playlist\?list=(.*?)">(.*?)<\/</expres>
+            <page>https://www.youtube.com/user/TopChannelAlbania/playlists</page>
+             <cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pbs.twimg.com/profile_images/552092989485355008/5iuVo5m9.png</thumbnail>
+</item>
