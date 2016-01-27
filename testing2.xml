@@ -386,8 +386,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!------------------------>
 
 <item>
-<title>TEST | HBO + </title>        
-<link>rtmp://109.200.202.124/live?wmsAuthSign=$doregex[id] playpath=hboplus swfUrl=http://www.tv-msn.com/player/player.swf live=1 pageUrl=http://tv-msn.com/hboplus.php</link>
+<title>TEST | HBO + !</title>        
+<link>rtmp://109.200.202.124/live?wmsAuthSign=$doregex[id] playpath=hboplus swfUrl=http://www.tv-msn.com/player/player.swf live=1 pageUrl=$doregex[get-iframe]</link>
 <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36</agent>
 <referer>http://tv-msn.com/hboplus.html</referer>
 <thumbnail></thumbnail>
