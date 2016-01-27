@@ -393,3 +393,23 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <info>saydinx</info>
 </item>
+
+<!---------------------->
+
+<item>
+<title>TEST | HBO + REGEX</title>        
+<link>rtmp://109.200.202.124/live?wmsAuthSign=$doregex[id] playpath=hboplus swfUrl=http://www.tv-msn.com/player/player.swf live=1 pageUrl=$doregex[get-iframe]</link>
+
+<regex>
+<name>get-encrypted-url</name>
+<expres>ssx4" value="(.*)"</expres>
+<page>$doregex[get-iframe]</page>
+</regex>
+
+<regex>
+<name>get-iframe</name>
+<expres>src="(.*?)\"</expres>
+<page>http://www.assistirtvbr.tv/frame.php?id=20&amp;width;=468&height;=384&amp;autostart=true</page>
+<referer>http://tv-msn.com/hboplus.html</referer>
+</regex>
+</item>
