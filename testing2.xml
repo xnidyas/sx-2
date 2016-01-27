@@ -388,8 +388,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title>TEST | HBO + !</title>        
 <link>rtmp://109.200.202.124/live?wmsAuthSign=$doregex[id] playpath=hboplus swfUrl=http://www.tv-msn.com/player/player.swf live=1 pageUrl=$doregex[get-iframe]</link>
-<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36</agent>
-<referer>http://tv-msn.com/hboplus.html</referer>
 <thumbnail></thumbnail>
 <info>saydinx</info>
 </item>
@@ -397,7 +395,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!---------------------->
 
 <item>
-<title>TEST | HBO + REGEX</title>        
+<title>TEST | HBO + REGEX!</title>        
 <link>rtmp://109.200.202.124/live?wmsAuthSign=$doregex[id] playpath=hboplus swfUrl=http://www.tv-msn.com/player/player.swf live=1 pageUrl=$doregex[get-iframe]</link>
 
 <regex>
@@ -409,7 +407,38 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>get-iframe</name>
 <expres>src="(.*?)\"</expres>
-<page>http://www.assistirtvbr.tv/frame.php?id=20&amp;width;=468&height;=384&amp;autostart=true</page>
+<page>http://tv-msn.com/hboplus.php&amp;autostart=true</page>
 <referer>http://tv-msn.com/hboplus.html</referer>
+</regex>
+</item>
+
+
+<item>
+<title>hboplus</title>
+<link>$doregex[get-RTMP] playpath=$doregex[get-playpath] pageUrl=$doregex[get-pageUrl]</link>
+<regex>
+<name>get-playpath</name>
+<expres>file=(.*?)\.</expres>
+<page>$doregex[get-pageUrl]</page>
+</regex>
+<regex>
+<name>get-RTMP</name>
+<expres>streamer=(.*?)"</expres>
+<page>$doregex[get-pageUrl]</page>
+</regex>
+<regex>
+<name>get-pageUrl</name>
+<expres>url=(.*?)"</expres>
+<page>$doregex[get-embed-html]</page>
+</regex>
+<regex>
+<name>get-embed-html</name>
+<expres>iframe.*src="(.*?)"</expres>
+<page>$doregex[get-embed1]</page>
+</regex>
+<regex>
+<name>get-embed1</name>
+<expres>iframe.*src="(.*?)"</expres>
+<page>http://tv-msn.com/hboplus.html</page>
 </regex>
 </item>
