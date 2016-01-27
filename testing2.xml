@@ -15,7 +15,7 @@
               ]]></listrepeat>
               <expres>EXTINF:-1,TEST: (.*).*\n.*(http.*).ts</expres>
               <page>http://ipbestv.net16.net/testal.m3u</page>
-              <!--<page>http://portal.rapidiptv.com:8080/get.php?username=oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>-->
+              <!--<page>http://portal.rapidiptv.com:8080/get.php?username=v7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>-->
               <cookieJar></cookieJar>
 </regex>
 </item>
