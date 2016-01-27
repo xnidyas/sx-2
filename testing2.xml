@@ -395,50 +395,35 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!---------------------->
 
 <item>
-<title>TEST | HBO + REGEX!</title>        
-<link>rtmp://109.200.202.124/live?wmsAuthSign=$doregex[id] playpath=hboplus swfUrl=http://www.tv-msn.com/player/player.swf live=1 pageUrl=$doregex[get-iframe]</link>
-
+<title>HbO PLus</title>
+<link>rtmp://109.200.202.124/live?wmsAuthSign=$doregex[auth]$doregex[id] playpath=hboplus swfUrl=http://www.tvmsn.com/player/player.swf pageUrl=http://www.tv-msn.com timeout=15 live=1 token=cc9bfb62db43975c</link>
 <regex>
-<name>get-encrypted-url</name>
-<expres>ssx4" value="(.*)"</expres>
-<page>$doregex[get-iframe]</page>
-</regex>
-
-<regex>
-<name>get-iframe</name>
-<expres>src="(.*?)\"</expres>
-<page>http://tv-msn.com/hboplus.php&amp;autostart=true</page>
-<referer>http://tv-msn.com/hboplus.html</referer>
-</regex>
-</item>
-
-
-<item>
-<title>hboplus</title>
-<link>$doregex[get-RTMP] playpath=$doregex[get-playpath] pageUrl=$doregex[get-pageUrl]</link>
-<regex>
-<name>get-playpath</name>
-<expres>file=(.*?)\.</expres>
-<page>$doregex[get-pageUrl]</page>
+<name>auth</name>
+<expres>$pyFunction:'$doregex[get-auth]'.replace('"','').replace(',','')</expres>
+<page></page>
 </regex>
 <regex>
-<name>get-RTMP</name>
-<expres>streamer=(.*?)"</expres>
-<page>$doregex[get-pageUrl]</page>
+<name>get-auth</name>
+<expres>var $doregex[vcod] = \[(.*?)\]</expres>
+<page>http://tv-msn.com/hboplus.php</page>
+<referer>http://www.tv-msn.com</referer>
 </regex>
 <regex>
-<name>get-pageUrl</name>
-<expres>url=(.*?)"</expres>
-<page>$doregex[get-embed-html]</page>
+<name>vcod</name>
+<expres>join\(""\) \+ (.*?)\.join</expres>
+<page>http://tv-msn.com/hboplus.php</page>
+<referer>http://www.tv-msn.com</referer>
 </regex>
 <regex>
-<name>get-embed-html</name>
-<expres>iframe.*src="(.*?)"</expres>
-<page>$doregex[get-embed1]</page>
+<name>id</name>
+<expres>id=$doregex[vid]\>(.*?)\<</expres>
+<page>http://tv-msn.com/hboplus.php</page>
+<referer>http://www.tv-msn.com</referer>
 </regex>
 <regex>
-<name>get-embed1</name>
-<expres>iframe.*src="(.*?)"</expres>
-<page>http://tv-msn.com/hboplus.html</page>
+<name>vid</name>
+<expres>ById\("(.*?)"</expres>
+<page>http://tv-msn.com/hboplus.php</page>
+<referer>http://www.tv-msn.com</referer>
 </regex>
 </item>
