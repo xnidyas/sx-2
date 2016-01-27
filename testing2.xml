@@ -394,3 +394,36 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!---------------------->
 
+<item>
+<title>HbO PLus</title>
+<link>rtmp://109.200.202.124/live?wmsAuthSign=$doregex[auth]$doregex[id] playpath=hboplus swfUrl=http://www.tvmsn.com/player/player.swf pageUrl=http://www.tv-msn.com timeout=15 live=1 token=cc9bfb62db43975c</link>
+<regex>
+<name>auth</name>
+<expres>$pyFunction:'$doregex[get-auth]'.replace('"','').replace(',','')</expres>
+<page></page>
+</regex>
+<regex>
+<name>get-auth</name>
+<expres>var $doregex[vcod] = \[(.*?)\]</expres>
+<page>http://tv-msn.com/hboplus.php</page>
+<referer>http://www.tv-msn.com</referer>
+</regex>
+<regex>
+<name>vcod</name>
+<expres>join\(""\) \+ (.*?)\.join</expres>
+<page>http://tv-msn.com/hboplus.php</page>
+<referer>http://www.tv-msn.com</referer>
+</regex>
+<regex>
+<name>id</name>
+<expres>id=$doregex[vid]\>(.*?)\<</expres>
+<page>http://tv-msn.com/hboplus.php</page>
+<referer>http://www.tv-msn.com</referer>
+</regex>
+<regex>
+<name>vid</name>
+<expres>ById\("(.*?)"</expres>
+<page>http://tv-msn.com/hboplus.php</page>
+<referer>http://www.tv-msn.com</referer>
+</regex>
+</item>
