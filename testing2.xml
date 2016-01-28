@@ -18,6 +18,7 @@
               <cookieJar></cookieJar>
 </regex>
 
+<title>EX yu | Test v1</title>
 <link>$doregex[makelist3]</link>
 <regex>
               <name>makelist3</name>
