@@ -18,8 +18,7 @@
               <cookieJar></cookieJar>
 </regex>
 
-<title>EX yu | Test v1</title>
-<link>$doregex[makelist3]</link>
+
 <regex>
               <name>makelist3</name>
                         <listrepeat><![CDATA[
@@ -397,54 +396,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://iptv.ndasat.com:88/live/21041/21041/950.ts&amp;hash=1a7369176c5221f7931628b832c27117&amp;time=0&amp;external_device=&amp;hash=7e67cdd1ea843d168fb75dd49d110938 Buffer=300000 live=1 timeout=20</link>
 </item>
 <!------------------------>
-
-<item>
-<title>TEST | HBO +</title>        
-<link>rtmp://109.200.202.124/live?wmsAuthSign=$doregex[id] playpath=hboplus swfUrl=http://www.tv-msn.com/player/player.swf live=1 pageUrl=http://tv-msn.com/hboplus.php token=cc9blb62db43975c</link>
-<thumbnail></thumbnail>
-<info>saydinx</info>
-</item>
-
-<!---------------------->
-
-<item>
-<title>HbO PLus</title>
-<link>rtmp://109.200.202.124/live?wmsAuthSign=$doregex[auth]$doregex[id] playpath=hboplus swfUrl=http://www.tvmsn.com/player/player.swf pageUrl=http://www.tv-msn.com timeout=15 live=1 token=cc9bfb62db43975c</link>
-<regex>
-<name>auth</name>
-<expres>$pyFunction:'$doregex[get-auth]'.replace('"','').replace(',','')</expres>
-<page></page>
-</regex>
-<regex>
-<name>get-auth</name>
-<expres>var $doregex[vcod] = \[(.*?)\]</expres>
-<page>http://tv-msn.com/hboplus.php</page>
-<referer>http://www.tv-msn.com</referer>
-</regex>
-<regex>
-<name>vcod</name>
-<expres>join\(""\) \+ (.*?)\.join</expres>
-<page>http://tv-msn.com/hboplus.php</page>
-<referer>http://www.tv-msn.com</referer>
-</regex>
-<regex>
-<name>id</name>
-<expres>id=$doregex[vid]\>(.*?)\<</expres>
-<page>http://tv-msn.com/hboplus.php</page>
-<referer>http://www.tv-msn.com</referer>
-</regex>
-<regex>
-<name>vid</name>
-<expres>ById\("(.*?)"</expres>
-<page>http://tv-msn.com/hboplus.php</page>
-<referer>http://www.tv-msn.com</referer>
-</regex>
-</item>
-
-
-
-
-
 
 
 <!----------------Y0UTUB3--PL4YL1ST----------------------->
