@@ -17,6 +17,8 @@
     <fanart></fanart>
 ------------------------------------------------------------------------END->
 <!----------------Y0UTUB3--PL4YL1ST----------------------->
+ <items>
+
 <item>
 <title>TOP CHANNEL PLAYLISTS (Full)</title>
 <link>$doregex[makelist]</link>
@@ -938,3 +940,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <!-----------------------------END-------------------->
 
+
+
+
+
+</items>
