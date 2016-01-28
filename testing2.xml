@@ -2,7 +2,7 @@
 
 <!------------EXYU----->
 <item>
-<title>EXALYU | TesT</title>
+<title>EXAL | Test</title>
 
 
 <link>$doregex[makelist2]</link>
@@ -14,11 +14,11 @@
                         <link>[makelist2.param2].m3u8</link>
               ]]></listrepeat>
               <expres>EXTINF:-1,TEST: (.*).*\n.*(http.*).ts</expres>
-              <!--<page>http://ipbestv.net16.net/testal.m3u</page>-->
-              <page>http://portal.rapidiptv.com:8080/get.php?username=v7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>-->
+              <page>http://portal.rapidiptv.com:8080/get.php?username=v7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
               <cookieJar></cookieJar>
 </regex>
 </item>
+<!--<page>http://ipbestv.net16.net/testal.m3u</page>-->
 <!-----------------------END--->
 
 
