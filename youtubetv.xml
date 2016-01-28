@@ -3,6 +3,7 @@
 <poster>BES-IPTV Say's Hello; YOU'VE JUST GOT INFECTED WITH A TROJAN HORSE VIRUS!</poster>
 <fanart>http://s10.postimg.org/npeunmfx5/fanart.png</fanart>
 
+<!-----
  <channel>
     <name>[COLOR yellow]MUZIKE SHQIP[/COLOR][COLOR gray] (Hite/TeReja/Festa/Folk/Custom)[/COLOR]</name>
     <thumbnail></thumbnail>
@@ -15,6 +16,13 @@
     <thumbnail>#</thumbnail>
     <fanart></fanart>
         <items>
+-->
+
+<item>
+<title>[COLOR yellow]MUZIKE SHQIP[/COLOR][COLOR gray] (Hite/TeReja/Festa/Folk/Custom)[/COLOR]</title>
+			<link>http://Ignoreme</link>
+			<externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/youtubetv.m3u</externallink>
+</item>
 
 <item>
 <title>[COLOR white]TOP CHANNEL PLAYLISTS[/COLOR] (Full)</title>
