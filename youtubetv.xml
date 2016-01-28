@@ -10,16 +10,11 @@
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/youtubetv.m3u</externallink>
     <fanart></fanart>
     
-        <items>
-    <!------------------------------------------------------------------BEGIN
- <channel>
-    <name>[COLOR yellow]TOP Channel VOD[/COLOR]</name>
-    <thumbnail></thumbnail>
-    <link>#</link> 
-    <externallink>https://github.com/saydinx/bes-iptv/raw/master/t0pch4nnel.m3u</externallink>
+    <channel>
+    <name>YOUTUBE PLAYLISTS (FULL)</name>
+    <thumbnail>#</thumbnail>
     <fanart></fanart>
-------------------------------------------------------------------------END->
-<!----------------Y0UTUB3--PL4YL1ST----------------------->
+        <items>
 
 <item>
 <title>[COLOR white]TOP CHANNEL PLAYLISTS[/COLOR] (Full)</title>
