@@ -124,11 +124,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-<!----------------Y0UTUB3--PL4YL1ST----------------------->
+<!---------R21-------Y0UTUB3--PL4YL1ST----------------------->
 <item>
-<title>RTV 21 PLAYLISTS (Full)</title>
+<title>[COLOR white]RTV 21 PLAYLISTS[/COLOR] (Full)</title>
 <link>$doregex[makelist]</link>
- 
+
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -139,744 +139,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></listrepeat>
 <expres>href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;</expres>
 <page>https://www.youtube.com/user/rtv21official/playlists</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>Page - [makelist2.param1]</title>
-<link>$doregex[makelist3]</link>
-<referer></referer>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres> (.*?),</expres>
-<page>$doregex[get-number]</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex>
-            <name>makelist3</name>
-            <listrepeat><![CDATA[
-                        <title>[COLOR white]RTV21:[/COLOR][makelist3.param2]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
-                        <thumbnail>https://i.ytimg.com/vi/[makelist3.param1]/hqdefault.jpg</thumbnail>
-            ]]></listrepeat>
-            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
-            <page>$doregex[get-source-page]</page>
-             <cookieJar></cookieJar>
-</regex>
- 
-<regex>
-<name>get-number</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- import requests
- import re
- url='https://www.youtube.com/playlist?list=' + '[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Accept-Language': 'en-US'}
- 
- rr = requests.get(url, headers=headers)
- number = re.findall('</a></li><li>(.*?) vid', rr.text)[0]
- #number = number.encode('unicode-escape')
- number = number.replace(',', '')
- real = int(float(number)) / 100
- real2 = real + 3
- 
- liste = list(range(real2))
- return liste
-]]></expres>
-<page></page>
-</regex>
- 
-<regex>
-<name>get-source-page</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- import requests
- import re
- import json
- 
- 
- pageUrl='https://www.youtube.com/playlist?list=' + '[makelist.param1]'
- 
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'}
- 
- r1 = requests.get(pageUrl, headers = headers)
- source1= r1.text
- page =[makelist2.param1]
- N= int(float(page))
- pre= 'https://www.youtube.com'
- if (N != 1):
- 
-  if (N ==2):
-   continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-   continuation1 = pre + continue1
-   r2 = requests.get(continuation1, headers = headers)
-   source2= r2.text
-   jdata=json.loads(source2)
-   source2=jdata["load_more_widget_html"]
-   page2 = jdata["content_html"]
-   return page2
- 
-  else:
-   if (N==3):
-    continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-    continuation1 = pre + continue1
-    r2 = requests.get(continuation1, headers = headers)
-    source2= r2.text
-    jdata=json.loads(source2)
-    source2=jdata["load_more_widget_html"]
-    page2 = jdata["content_html"]
-    continue2 = re.findall('data-uix-load-more-href="(.*?)"', source2)[0]
-    continuation2 = pre + continue2
-    r3 = requests.get(continuation2, headers = headers)
-    source3 = r3.text
-    jdata=json.loads(source3)
-    source3=jdata["load_more_widget_html"]
-    page3 = jdata["content_html"]
-    return page3
- 
-   else:
-    if (N==4):
-     continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-     continuation1 = pre + continue1
-     r2 = requests.get(continuation1, headers = headers)
-     source2= r2.text
-     jdata=json.loads(source2)
-     source2=jdata["load_more_widget_html"]
-     page2 = jdata["content_html"]
-     continue2 = re.findall('data-uix-load-more-href="(.*?)"', source2)[0]
-     continuation2 = pre + continue2
-     r3 = requests.get(continuation2, headers = headers)
-     source3 = r3.text
-     jdata=json.loads(source3)
-     source3=jdata["load_more_widget_html"]
-     page3 = jdata["content_html"]
-     continue3 = re.findall('data-uix-load-more-href="(.*?)"', source3)[0]
-     continuation3 = pre + continue3    
-     r4 = requests.get(continuation3, headers = headers)
-     source4 = r4.text
-     jdata=json.loads(source4)
-     source4=jdata["load_more_widget_html"]
-     page4 = jdata["content_html"]
-     return page4
- 
-    else:
-     if (N==5):
-      continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-      continuation1 = pre + continue1
-      r2 = requests.get(continuation1, headers = headers)
-      source2= r2.text
-      jdata=json.loads(source2)
-      source2=jdata["load_more_widget_html"]
-      page2 = jdata["content_html"]
-      continue2 = re.findall('data-uix-load-more-href="(.*?)"', source2)[0]
-      continuation2 = pre + continue2
-      r3 = requests.get(continuation2, headers = headers)
-      source3 = r3.text
-      jdata=json.loads(source3)
-      source3=jdata["load_more_widget_html"]
-      page3 = jdata["content_html"]
-      continue3 = re.findall('data-uix-load-more-href="(.*?)"', source3)[0]
-      continuation3 = pre + continue3    
-      r4 = requests.get(continuation3, headers = headers)
-      source4 = r4.text
-      jdata=json.loads(source4)
-      source4=jdata["load_more_widget_html"]
-      page4 = jdata["content_html"]
-      continue4 = re.findall('data-uix-load-more-href="(.*?)"', source4)[0]
-      continuation4 = pre + continue4
-      r5 = requests.get(continuation4, headers = headers)
-      source5 = r5.text
-      jdata=json.loads(source5)
-      source5=jdata["load_more_widget_html"]
-      page5 = jdata["content_html"]
-      return page5
-     
- else:
- 
-  #return source1.encode('unicode-escape')
-  return source1
-]]></expres>
-<page></page>
-</regex>
- 
-</item>
-<!-----------------------------END-------------------->
-
-
-<!----------------Y0UTUB3--PL4YL1ST----------------------->
-<item>
-<title>KTV KOHAVISION PLAYLISTS (Full)</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR blue]BES-IPTV: [/COLOR][makelist.param2]</title>
-<link>$doregex[makelist2]</link>
-<referer></referer>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres>href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;</expres>
-<page>https://www.youtube.com/user/KohavisionOfficial/playlists</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>Page - [makelist2.param1]</title>
-<link>$doregex[makelist3]</link>
-<referer></referer>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres> (.*?),</expres>
-<page>$doregex[get-number]</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex>
-            <name>makelist3</name>
-            <listrepeat><![CDATA[
-                        <title>[COLOR white]KTV:[/COLOR][makelist3.param2]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
-                        <thumbnail>https://i.ytimg.com/vi/[makelist3.param1]/hqdefault.jpg</thumbnail>
-            ]]></listrepeat>
-            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
-            <page>$doregex[get-source-page]</page>
-             <cookieJar></cookieJar>
-</regex>
- 
-<regex>
-<name>get-number</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- import requests
- import re
- url='https://www.youtube.com/playlist?list=' + '[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Accept-Language': 'en-US'}
- 
- rr = requests.get(url, headers=headers)
- number = re.findall('</a></li><li>(.*?) vid', rr.text)[0]
- #number = number.encode('unicode-escape')
- number = number.replace(',', '')
- real = int(float(number)) / 100
- real2 = real + 3
- 
- liste = list(range(real2))
- return liste
-]]></expres>
-<page></page>
-</regex>
- 
-<regex>
-<name>get-source-page</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- import requests
- import re
- import json
- 
- 
- pageUrl='https://www.youtube.com/playlist?list=' + '[makelist.param1]'
- 
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'}
- 
- r1 = requests.get(pageUrl, headers = headers)
- source1= r1.text
- page =[makelist2.param1]
- N= int(float(page))
- pre= 'https://www.youtube.com'
- if (N != 1):
- 
-  if (N ==2):
-   continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-   continuation1 = pre + continue1
-   r2 = requests.get(continuation1, headers = headers)
-   source2= r2.text
-   jdata=json.loads(source2)
-   source2=jdata["load_more_widget_html"]
-   page2 = jdata["content_html"]
-   return page2
- 
-  else:
-   if (N==3):
-    continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-    continuation1 = pre + continue1
-    r2 = requests.get(continuation1, headers = headers)
-    source2= r2.text
-    jdata=json.loads(source2)
-    source2=jdata["load_more_widget_html"]
-    page2 = jdata["content_html"]
-    continue2 = re.findall('data-uix-load-more-href="(.*?)"', source2)[0]
-    continuation2 = pre + continue2
-    r3 = requests.get(continuation2, headers = headers)
-    source3 = r3.text
-    jdata=json.loads(source3)
-    source3=jdata["load_more_widget_html"]
-    page3 = jdata["content_html"]
-    return page3
- 
-   else:
-    if (N==4):
-     continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-     continuation1 = pre + continue1
-     r2 = requests.get(continuation1, headers = headers)
-     source2= r2.text
-     jdata=json.loads(source2)
-     source2=jdata["load_more_widget_html"]
-     page2 = jdata["content_html"]
-     continue2 = re.findall('data-uix-load-more-href="(.*?)"', source2)[0]
-     continuation2 = pre + continue2
-     r3 = requests.get(continuation2, headers = headers)
-     source3 = r3.text
-     jdata=json.loads(source3)
-     source3=jdata["load_more_widget_html"]
-     page3 = jdata["content_html"]
-     continue3 = re.findall('data-uix-load-more-href="(.*?)"', source3)[0]
-     continuation3 = pre + continue3    
-     r4 = requests.get(continuation3, headers = headers)
-     source4 = r4.text
-     jdata=json.loads(source4)
-     source4=jdata["load_more_widget_html"]
-     page4 = jdata["content_html"]
-     return page4
- 
-    else:
-     if (N==5):
-      continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-      continuation1 = pre + continue1
-      r2 = requests.get(continuation1, headers = headers)
-      source2= r2.text
-      jdata=json.loads(source2)
-      source2=jdata["load_more_widget_html"]
-      page2 = jdata["content_html"]
-      continue2 = re.findall('data-uix-load-more-href="(.*?)"', source2)[0]
-      continuation2 = pre + continue2
-      r3 = requests.get(continuation2, headers = headers)
-      source3 = r3.text
-      jdata=json.loads(source3)
-      source3=jdata["load_more_widget_html"]
-      page3 = jdata["content_html"]
-      continue3 = re.findall('data-uix-load-more-href="(.*?)"', source3)[0]
-      continuation3 = pre + continue3    
-      r4 = requests.get(continuation3, headers = headers)
-      source4 = r4.text
-      jdata=json.loads(source4)
-      source4=jdata["load_more_widget_html"]
-      page4 = jdata["content_html"]
-      continue4 = re.findall('data-uix-load-more-href="(.*?)"', source4)[0]
-      continuation4 = pre + continue4
-      r5 = requests.get(continuation4, headers = headers)
-      source5 = r5.text
-      jdata=json.loads(source5)
-      source5=jdata["load_more_widget_html"]
-      page5 = jdata["content_html"]
-      return page5
-     
- else:
- 
-  #return source1.encode('unicode-escape')
-  return source1
-]]></expres>
-<page></page>
-</regex>
- 
-</item>
-<!-----------------------------END-------------------->
-
-
-
-
-<!----------------Y0UTUB3--PL4YL1ST----------------------->
-<item>
-<title>KLAN TV PLAYLISTS (Full)</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR blue]BES-IPTV: [/COLOR][makelist.param2]</title>
-<link>$doregex[makelist2]</link>
-<referer></referer>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres>href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;</expres>
-<page>https://www.youtube.com/user/televizioniKLAN/playlists</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>Page - [makelist2.param1]</title>
-<link>$doregex[makelist3]</link>
-<referer></referer>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres> (.*?),</expres>
-<page>$doregex[get-number]</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex>
-            <name>makelist3</name>
-            <listrepeat><![CDATA[
-                        <title>[COLOR white]KLAN TV:[/COLOR][makelist3.param2]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
-                        <thumbnail>https://i.ytimg.com/vi/[makelist3.param1]/hqdefault.jpg</thumbnail>
-            ]]></listrepeat>
-            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
-            <page>$doregex[get-source-page]</page>
-             <cookieJar></cookieJar>
-</regex>
- 
-<regex>
-<name>get-number</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- import requests
- import re
- url='https://www.youtube.com/playlist?list=' + '[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Accept-Language': 'en-US'}
- 
- rr = requests.get(url, headers=headers)
- number = re.findall('</a></li><li>(.*?) vid', rr.text)[0]
- #number = number.encode('unicode-escape')
- number = number.replace(',', '')
- real = int(float(number)) / 100
- real2 = real + 3
- 
- liste = list(range(real2))
- return liste
-]]></expres>
-<page></page>
-</regex>
- 
-<regex>
-<name>get-source-page</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- import requests
- import re
- import json
- 
- 
- pageUrl='https://www.youtube.com/playlist?list=' + '[makelist.param1]'
- 
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'}
- 
- r1 = requests.get(pageUrl, headers = headers)
- source1= r1.text
- page =[makelist2.param1]
- N= int(float(page))
- pre= 'https://www.youtube.com'
- if (N != 1):
- 
-  if (N ==2):
-   continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-   continuation1 = pre + continue1
-   r2 = requests.get(continuation1, headers = headers)
-   source2= r2.text
-   jdata=json.loads(source2)
-   source2=jdata["load_more_widget_html"]
-   page2 = jdata["content_html"]
-   return page2
- 
-  else:
-   if (N==3):
-    continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-    continuation1 = pre + continue1
-    r2 = requests.get(continuation1, headers = headers)
-    source2= r2.text
-    jdata=json.loads(source2)
-    source2=jdata["load_more_widget_html"]
-    page2 = jdata["content_html"]
-    continue2 = re.findall('data-uix-load-more-href="(.*?)"', source2)[0]
-    continuation2 = pre + continue2
-    r3 = requests.get(continuation2, headers = headers)
-    source3 = r3.text
-    jdata=json.loads(source3)
-    source3=jdata["load_more_widget_html"]
-    page3 = jdata["content_html"]
-    return page3
- 
-   else:
-    if (N==4):
-     continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-     continuation1 = pre + continue1
-     r2 = requests.get(continuation1, headers = headers)
-     source2= r2.text
-     jdata=json.loads(source2)
-     source2=jdata["load_more_widget_html"]
-     page2 = jdata["content_html"]
-     continue2 = re.findall('data-uix-load-more-href="(.*?)"', source2)[0]
-     continuation2 = pre + continue2
-     r3 = requests.get(continuation2, headers = headers)
-     source3 = r3.text
-     jdata=json.loads(source3)
-     source3=jdata["load_more_widget_html"]
-     page3 = jdata["content_html"]
-     continue3 = re.findall('data-uix-load-more-href="(.*?)"', source3)[0]
-     continuation3 = pre + continue3    
-     r4 = requests.get(continuation3, headers = headers)
-     source4 = r4.text
-     jdata=json.loads(source4)
-     source4=jdata["load_more_widget_html"]
-     page4 = jdata["content_html"]
-     return page4
- 
-    else:
-     if (N==5):
-      continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-      continuation1 = pre + continue1
-      r2 = requests.get(continuation1, headers = headers)
-      source2= r2.text
-      jdata=json.loads(source2)
-      source2=jdata["load_more_widget_html"]
-      page2 = jdata["content_html"]
-      continue2 = re.findall('data-uix-load-more-href="(.*?)"', source2)[0]
-      continuation2 = pre + continue2
-      r3 = requests.get(continuation2, headers = headers)
-      source3 = r3.text
-      jdata=json.loads(source3)
-      source3=jdata["load_more_widget_html"]
-      page3 = jdata["content_html"]
-      continue3 = re.findall('data-uix-load-more-href="(.*?)"', source3)[0]
-      continuation3 = pre + continue3    
-      r4 = requests.get(continuation3, headers = headers)
-      source4 = r4.text
-      jdata=json.loads(source4)
-      source4=jdata["load_more_widget_html"]
-      page4 = jdata["content_html"]
-      continue4 = re.findall('data-uix-load-more-href="(.*?)"', source4)[0]
-      continuation4 = pre + continue4
-      r5 = requests.get(continuation4, headers = headers)
-      source5 = r5.text
-      jdata=json.loads(source5)
-      source5=jdata["load_more_widget_html"]
-      page5 = jdata["content_html"]
-      return page5
-     
- else:
- 
-  #return source1.encode('unicode-escape')
-  return source1
-]]></expres>
-<page></page>
-</regex>
- 
-</item>
-<!-----------------------------END-------------------->
-
-
-
-
-<!----------------Y0UTUB3--PL4YL1ST----------------------->
-<item>
-<title>The Voice of Albania PLAYLISTS (Full)</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR blue]BES-IPTV: [/COLOR][makelist.param2]</title>
-<link>$doregex[makelist2]</link>
-<referer></referer>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres>href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;</expres>
-<page>https://www.youtube.com/channel/UCpyG8CqhK3ZZR-jhjaB0gLQ/playlists</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>Page - [makelist2.param1]</title>
-<link>$doregex[makelist3]</link>
-<referer></referer>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres> (.*?),</expres>
-<page>$doregex[get-number]</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex>
-            <name>makelist3</name>
-            <listrepeat><![CDATA[
-                        <title>[COLOR white]VOALB:[/COLOR][makelist3.param2]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
-                        <thumbnail>https://i.ytimg.com/vi/[makelist3.param1]/hqdefault.jpg</thumbnail>
-            ]]></listrepeat>
-            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
-            <page>$doregex[get-source-page]</page>
-             <cookieJar></cookieJar>
-</regex>
- 
-<regex>
-<name>get-number</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- import requests
- import re
- url='https://www.youtube.com/playlist?list=' + '[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Accept-Language': 'en-US'}
- 
- rr = requests.get(url, headers=headers)
- number = re.findall('</a></li><li>(.*?) vid', rr.text)[0]
- #number = number.encode('unicode-escape')
- number = number.replace(',', '')
- real = int(float(number)) / 100
- real2 = real + 3
- 
- liste = list(range(real2))
- return liste
-]]></expres>
-<page></page>
-</regex>
- 
-<regex>
-<name>get-source-page</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- import requests
- import re
- import json
- 
- 
- pageUrl='https://www.youtube.com/playlist?list=' + '[makelist.param1]'
- 
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'}
- 
- r1 = requests.get(pageUrl, headers = headers)
- source1= r1.text
- page =[makelist2.param1]
- N= int(float(page))
- pre= 'https://www.youtube.com'
- if (N != 1):
- 
-  if (N ==2):
-   continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-   continuation1 = pre + continue1
-   r2 = requests.get(continuation1, headers = headers)
-   source2= r2.text
-   jdata=json.loads(source2)
-   source2=jdata["load_more_widget_html"]
-   page2 = jdata["content_html"]
-   return page2
- 
-  else:
-   if (N==3):
-    continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-    continuation1 = pre + continue1
-    r2 = requests.get(continuation1, headers = headers)
-    source2= r2.text
-    jdata=json.loads(source2)
-    source2=jdata["load_more_widget_html"]
-    page2 = jdata["content_html"]
-    continue2 = re.findall('data-uix-load-more-href="(.*?)"', source2)[0]
-    continuation2 = pre + continue2
-    r3 = requests.get(continuation2, headers = headers)
-    source3 = r3.text
-    jdata=json.loads(source3)
-    source3=jdata["load_more_widget_html"]
-    page3 = jdata["content_html"]
-    return page3
- 
-   else:
-    if (N==4):
-     continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-     continuation1 = pre + continue1
-     r2 = requests.get(continuation1, headers = headers)
-     source2= r2.text
-     jdata=json.loads(source2)
-     source2=jdata["load_more_widget_html"]
-     page2 = jdata["content_html"]
-     continue2 = re.findall('data-uix-load-more-href="(.*?)"', source2)[0]
-     continuation2 = pre + continue2
-     r3 = requests.get(continuation2, headers = headers)
-     source3 = r3.text
-     jdata=json.loads(source3)
-     source3=jdata["load_more_widget_html"]
-     page3 = jdata["content_html"]
-     continue3 = re.findall('data-uix-load-more-href="(.*?)"', source3)[0]
-     continuation3 = pre + continue3    
-     r4 = requests.get(continuation3, headers = headers)
-     source4 = r4.text
-     jdata=json.loads(source4)
-     source4=jdata["load_more_widget_html"]
-     page4 = jdata["content_html"]
-     return page4
- 
-    else:
-     if (N==5):
-      continue1 = re.findall('data-uix-load-more-href="(.*?)"', source1)[0]
-      continuation1 = pre + continue1
-      r2 = requests.get(continuation1, headers = headers)
-      source2= r2.text
-      jdata=json.loads(source2)
-      source2=jdata["load_more_widget_html"]
-      page2 = jdata["content_html"]
-      continue2 = re.findall('data-uix-load-more-href="(.*?)"', source2)[0]
-      continuation2 = pre + continue2
-      r3 = requests.get(continuation2, headers = headers)
-      source3 = r3.text
-      jdata=json.loads(source3)
-      source3=jdata["load_more_widget_html"]
-      page3 = jdata["content_html"]
-      continue3 = re.findall('data-uix-load-more-href="(.*?)"', source3)[0]
-      continuation3 = pre + continue3    
-      r4 = requests.get(continuation3, headers = headers)
-      source4 = r4.text
-      jdata=json.loads(source4)
-      source4=jdata["load_more_widget_html"]
-      page4 = jdata["content_html"]
-      continue4 = re.findall('data-uix-load-more-href="(.*?)"', source4)[0]
-      continuation4 = pre + continue4
-      r5 = requests.get(continuation4, headers = headers)
-      source5 = r5.text
-      jdata=json.loads(source5)
-      source5=jdata["load_more_widget_html"]
-      page5 = jdata["content_html"]
-      return page5
-     
- else:
- 
-  #return source1.encode('unicode-escape')
-  return source1
-]]></expres>
-<page></page>
-</regex>
- 
-</item>
-<!-----------------------------END-------------------->
-
-<item>
-<title>Youtube Playlists cleanup</title>
-<link>$doregex[makelist]</link>
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR blue]BES-IPTV: [/COLOR][makelist.param2]</title>
-<link>$doregex[makelist2]</link>
-<referer></referer>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres>href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;</expres>
-<page>https://www.youtube.com/user/TopChannelAlbania/playlists</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -896,7 +158,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
             <name>makelist3</name>
             <listrepeat><![CDATA[
-                        <title>[COLOR deepskyblue]TOP Channel:[/COLOR][makelist3.param2]</title>
+                        <title>[COLOR deepskyblue]RTV 21:[/COLOR][makelist3.param2]</title>
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
                         <thumbnail>https://i.ytimg.com/vi/[makelist3.param1]/hqdefault.jpg</thumbnail>
             ]]></listrepeat>
@@ -963,3 +225,325 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 </item>
+
+<!-----------------------------END------RTV21-------------->
+
+
+<!--------KTV--------Y0UTUB3--PL4YL1ST----------------------->
+<item>
+<title>[COLOR white]KTV KOHAVISION PLAYLISTS[/COLOR] (Full)</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]BES-IPTV: [/COLOR][makelist.param2]</title>
+<link>$doregex[makelist2]</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres>href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;</expres>
+<page>https://www.youtube.com/user/KohavisionOfficial/playlists</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]BES-IPTV: [/COLOR]- Page - [makelist2.param1]</title>
+<link>$doregex[makelist3]</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres> (.*?),</expres>
+<page>$doregex[get-number]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+            <name>makelist3</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR deepskyblue]KTV:[/COLOR][makelist3.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
+                        <thumbnail>https://i.ytimg.com/vi/[makelist3.param1]/hqdefault.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>$doregex[get-source-page]</page>
+             <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>get-number</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+
+ import requests
+ import re
+ url='https://www.youtube.com/playlist?list=' + '[makelist.param1]'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Accept-Language': 'en-US'}
+
+ rr = requests.get(url, headers=headers)
+ number = re.findall('</a></li><li>(.*?) vid', rr.text)[0]
+ #number = number.encode('unicode-escape')
+ number = number.replace(',', '')
+ real = int(float(number)) / 100
+ real2 = real + 3
+
+ liste = list(range(real2))
+ return liste
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-source-page</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+
+ import requests
+ import re
+ import json
+
+ pageUrl='https://www.youtube.com/playlist?list=' + '[makelist.param1]'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'}
+ r1 = requests.get(pageUrl, headers = headers)
+ source = r1.text
+ page = [makelist2.param1]
+ N = int(float(page))
+ pre = 'https://www.youtube.com'
+ if (N > 1):
+
+   for itr in range (1,N):
+    continuex = re.findall('data-uix-load-more-href="(.*?)"', source)[0]
+    continuationx = pre + continuex
+    r = requests.get(continuationx, headers = headers)
+    source = r.text
+    jdata = json.loads(source)
+    source = jdata["load_more_widget_html"]
+    page = jdata["content_html"]
+   return page
+    
+ else:
+
+  return source
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<!-----------------------------END-------KTV------------->
+
+
+
+
+<!--------KL4NTV--------Y0UTUB3--PL4YL1ST----------------------->
+<item>
+<title>[COLOR white]KLAN TV PLAYLISTS[/COLOR] (Full)</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]BES-IPTV: [/COLOR][makelist.param2]</title>
+<link>$doregex[makelist2]</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres>href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;</expres>
+<page>https://www.youtube.com/user/televizioniKLAN/playlists</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]BES-IPTV: [/COLOR]- Page - [makelist2.param1]</title>
+<link>$doregex[makelist3]</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres> (.*?),</expres>
+<page>$doregex[get-number]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+            <name>makelist3</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR deepskyblue]KLAN TV:[/COLOR][makelist3.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
+                        <thumbnail>https://i.ytimg.com/vi/[makelist3.param1]/hqdefault.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>$doregex[get-source-page]</page>
+             <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>get-number</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+
+ import requests
+ import re
+ url='https://www.youtube.com/playlist?list=' + '[makelist.param1]'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Accept-Language': 'en-US'}
+
+ rr = requests.get(url, headers=headers)
+ number = re.findall('</a></li><li>(.*?) vid', rr.text)[0]
+ #number = number.encode('unicode-escape')
+ number = number.replace(',', '')
+ real = int(float(number)) / 100
+ real2 = real + 3
+
+ liste = list(range(real2))
+ return liste
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-source-page</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+
+ import requests
+ import re
+ import json
+
+ pageUrl='https://www.youtube.com/playlist?list=' + '[makelist.param1]'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'}
+ r1 = requests.get(pageUrl, headers = headers)
+ source = r1.text
+ page = [makelist2.param1]
+ N = int(float(page))
+ pre = 'https://www.youtube.com'
+ if (N > 1):
+
+   for itr in range (1,N):
+    continuex = re.findall('data-uix-load-more-href="(.*?)"', source)[0]
+    continuationx = pre + continuex
+    r = requests.get(continuationx, headers = headers)
+    source = r.text
+    jdata = json.loads(source)
+    source = jdata["load_more_widget_html"]
+    page = jdata["content_html"]
+   return page
+    
+ else:
+
+  return source
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<!-----------------------------END-----KLANTV--------------->
+
+
+
+
+<!-------VOALB---------Y0UTUB3--PL4YL1ST----------------------->
+<item>
+<title>[COLOR white]THE VOICE OF ALBANIA PLAYLISTS[/COLOR] (Full)</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]BES-IPTV: [/COLOR][makelist.param2]</title>
+<link>$doregex[makelist2]</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres>href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;</expres>
+<page>https://www.youtube.com/channel/UCpyG8CqhK3ZZR-jhjaB0gLQ/playlists</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]BES-IPTV: [/COLOR]- Page - [makelist2.param1]</title>
+<link>$doregex[makelist3]</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres> (.*?),</expres>
+<page>$doregex[get-number]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+            <name>makelist3</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR deepskyblue]VOALB:[/COLOR][makelist3.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
+                        <thumbnail>https://i.ytimg.com/vi/[makelist3.param1]/hqdefault.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>$doregex[get-source-page]</page>
+             <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>get-number</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+
+ import requests
+ import re
+ url='https://www.youtube.com/playlist?list=' + '[makelist.param1]'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Accept-Language': 'en-US'}
+
+ rr = requests.get(url, headers=headers)
+ number = re.findall('</a></li><li>(.*?) vid', rr.text)[0]
+ #number = number.encode('unicode-escape')
+ number = number.replace(',', '')
+ real = int(float(number)) / 100
+ real2 = real + 3
+
+ liste = list(range(real2))
+ return liste
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-source-page</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+
+ import requests
+ import re
+ import json
+
+ pageUrl='https://www.youtube.com/playlist?list=' + '[makelist.param1]'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'}
+ r1 = requests.get(pageUrl, headers = headers)
+ source = r1.text
+ page = [makelist2.param1]
+ N = int(float(page))
+ pre = 'https://www.youtube.com'
+ if (N > 1):
+
+   for itr in range (1,N):
+    continuex = re.findall('data-uix-load-more-href="(.*?)"', source)[0]
+    continuationx = pre + continuex
+    r = requests.get(continuationx, headers = headers)
+    source = r.text
+    jdata = json.loads(source)
+    source = jdata["load_more_widget_html"]
+    page = jdata["content_html"]
+   return page
+    
+ else:
+
+  return source
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<!-----------------------------END----VOA---------------->
+
