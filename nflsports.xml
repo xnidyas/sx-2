@@ -9,19 +9,19 @@
 </item>
 
 <item>
-<title>[COLOR blue]NFL NETWORK[/COLOR]</title>
+<title>[COLOR blue]NFL Network[/COLOR]</title>
 <link>$doregex[select_Url]</link>
 <regex>
 <name>select_Url</name>
-<expres>$pyFunction: '$doregex[get_HD]' if not '$doregex[get_HD]'=='' else '$doregex[get_SD]'</expres>
+<expres>$pyFunction: '$doregex[get_SD]' if not '$doregex[get_SD]'=='' else '$doregex[get_SD]'</expres>
 <page></page>
 </regex><regex>
-<name>get_HD</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/72886',False,False)</expres>
+<name>get_SD</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/70295',False,False)</expres>
 <page></page>
 </regex>
 <regex><name>get_SD</name>
-<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/70295',False,False)</expres>
+<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/72886',False,False)</expres>
 <page></page>
 </regex>
 </item>
