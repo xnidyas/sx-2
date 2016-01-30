@@ -571,10 +571,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 	<title>test1android</title>
-	<link>http://85.114.132.33:8000/al-apps.com/cfc9ffa3374a870e913e493afe79bb0e/83.ch|User-Agent=Android</link>
+	<link>http://85.114.132.33:8000/al-apps.com/cfc9ffa3374a870e913e493afe79bb0e/83.ch|User-Agent=Dalvik/1.6.0+(Linux;+U;+Android+4.4.2;+GT-N7100+Build/KOT49H)&amp;video=true&amp;wpx=1152</link>
 </item>
 
 <item>
 	<title>test2na</title>
 	<link>http://85.114.132.33:8000/al-apps.com/cfc9ffa3374a870e913e493afe79bb0e/83.ch</link>
+	<agent>Dalvik/1.6.0+(Linux;+U;+Android+4.4.2;+GT-N7100+Build/KOT49H)&amp;video=true&amp;wpx=1152</agent>
 </item>
