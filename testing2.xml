@@ -582,12 +582,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item> 
-<title>www.kolaytv.com/atv/</title> 
+<title>TEST |www.kolaytv.com/atv/</title> 
 <link>$doregex[get-m3u8]</link> 
 <regex> 
 <name>get-m3u8</name>
 <expres>file: '(.*)'</expres> 
-<page>http://www.kolaytv.com/iframe/web/atv.php</page> 
+<page>http://www.kolaytv.com/iframe/web/startv.html</page> 
 <referer>http://kolaytv.com</referer>
 </regex> 
 </item>
