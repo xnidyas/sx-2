@@ -579,3 +579,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	<link>http://85.114.132.33:8000/al-apps.com/cfc9ffa3374a870e913e493afe79bb0e/83.ch</link>
 	<agent>Dalvik/1.6.0+(Linux;+U;+Android+4.4.2;+GT-N7100+Build/KOT49H)&amp;video=true&amp;wpx=1152</agent>
 </item>
+
+
+<item> 
+<title>www.kolaytv.com/atv/</title> 
+<link>$doregex[get-m3u8]</link> 
+<regex> 
+<name>get-m3u8</name>
+<expres>file: '(.*)'</expres> 
+<page>http://www.kolaytv.com/iframe/web/atv.php</page> 
+<referer>http://kolaytv.com</referer>
+</regex> 
+</item>
