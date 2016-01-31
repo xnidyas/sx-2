@@ -587,7 +587,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex> 
 <name>get-m3u8</name>
 <expres>file: '(.*)'</expres>
-<page>http://www.kolaytv.com/atv/embed/</page>
+<page>http://www.kolaytv.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.kolaytv.com%2Fatv%2F&format=xml</page>
 <!--<page>http://www.kolaytv.com/iframe/web/startv.html</page>--> 
 <referer>http://kolaytv.com</referer>
 </regex> 
