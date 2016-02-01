@@ -661,22 +661,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!------------EXYU----->
 <item>
-<title>Channels | Test v1</title>
-
-
-<link>$doregex[makelist2]</link>
-
-<regex>
-              <name>makelist2</name>
-                        <listrepeat><![CDATA[
-                        <title>[COLOR blue]SHQIP TV: -[/COLOR] [makelist2.param1]</title>
-                        <link>[makelist2.param2].m3u8#sthash.3kjRFQnw.dpuf&amp;time=0&amp;external_device= Buffer=300000 live=1 timeout=30</link>
-              ]]></listrepeat>
-              <expres>#EXTINF:0, (.*).*\n.*(http.*).m3u8</expres>
-              <page>http://pastebin.com/raw/mFT10L9e</page>
-              <cookieJar></cookieJar>
-</regex>
-
+<title>TESTV1</title>
+<link>http://ignora/me</link>
+<externallink>http://pastebin.com/raw/mFT10L9e</externallink>
 </item>
 <!--<page>http://ipbestv.net16.net/testal.m3u</page>-->
 <!-----------------------END--->
