@@ -651,3 +651,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <referer>http://nbastream.net/</referer>
 </regex>
 </item>
+
+
+<item>
+<title>ss1</title>
+<link>http://cdn.sstream.pw/live/tvb130/playlist.m3u8|Referer=http://www.playerhd2.pw/embed5.php</link>
+</item>
