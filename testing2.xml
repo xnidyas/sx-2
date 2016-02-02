@@ -669,12 +669,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>IPTV BEIN 9HD</title> 
-<link>http://iptv.ndasat.com:88/live/21047/21047/80.ts|Cookie=$doregex[getPHPSESSID]|Buffer=20971520 live=1 timeout=30</link> 
+<title>IPTV BEIN 9HD .m3u8</title> 
+<link>http://iptv.ndasat.com:88/live/21047/21047/80.m3u8|Cookie=$doregex[getPHPSESSID]|Buffer=20971520 live=1 timeout=30</link> 
 <regex>
 <name>getPHPSESSID</name>
 <expres>(PHPSESSID.*?);</expres>
-<page>http://46.105.106.123:8000//streaming/clients_live.php?username=21047&amp;password=21047&amp;stream=80&amp;extension=ts&amp;hash=810ffd629bc1298e36e09adb2424fabe&amp;time=1454427263&amp;external_device=</page>
+<page>http://46.105.106.123:8000//streaming/clients_live.php?username=21047&amp;password=21047&amp;stream=80&amp;extension=m3u8&amp;hash=810ffd629bc1298e36e09adb2424fabe&amp;time=1454427263&amp;external_device=1</page>
 <cookieJar></cookieJar>
 <noredirect>true</noredirect>
 <includeheaders/>
