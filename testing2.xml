@@ -667,3 +667,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>BEIN 9HD</title> 
 <link>http://iptv.ndasat.com:88/live/21047/21047/80.ts|Cookie=PHPSESSID=f3n00betsu83sgid5tqfppf1q1&amp;User-Agent=Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</link> 
 </item>
+
+<item>
+<title>IPTV BEIN 9HD</title> 
+<link>http://iptv.ndasat.com:88/live/21047/21047/80.ts|Cookie=$doregex[getPHPSESSID]</link> 
+<regex>
+<name>getPHPSESSID</name>
+<expres>(PHPSESSID.*?);</expres>
+<page>http://iptv.ndasat.com:88/live/21047/21047/80.ts</page>
+<cookieJar></cookieJar>
+<noredirect>true</noredirect>
+<includeheaders/>
+</regex>
+</item>
