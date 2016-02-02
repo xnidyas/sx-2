@@ -51,12 +51,12 @@
 <item><title>SS KS 2 .ts</title><link>http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/543.ts|Cookie=PHPSESSID=f3n00betsu83sgid5tqfppf1q1&amp;User-Agent=Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0|Buffer=20971520 live=1 timeout=30</link></item>
 
 <item>
-<title>SS KS 1 .R</title> 
+<title>SS KS 1 .R1</title> 
 <link>http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/542.ts|Cookie=$doregex[getPHPSESSID]|Buffer=20971520 live=1 timeout=30</link> 
 <regex>
 <name>getPHPSESSID</name>
 <expres>(PHPSESSID.*?);</expres>
-<page>http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/542.ts</page>
+<page>http://62.210.188.246:8000//streaming/clients_live.php?username=Gzimidr&amp;password=DRgzimi&amp;stream=542&amp;extension=ts&amp;hash=2e775bfef7f34f446eaa6cbd28e96983&amp;time=1454427325&amp;pid=14599&amp;external_device=</page>
 <cookieJar></cookieJar>
 <noredirect>true</noredirect>
 <includeheaders/>
