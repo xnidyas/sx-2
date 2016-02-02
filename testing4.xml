@@ -64,14 +64,15 @@
 </item>
 
 <item>
-<title>SS KS 1 .R .M3U8</title> 
+<title>SS KS 1 .R .M3U8.</title> 
 <link>http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/542.m3u8|Cookie=$doregex[getPHPSESSID]|Buffer=20971520 live=1 timeout=30</link> 
 <regex>
 <name>getPHPSESSID</name>
 <expres>(PHPSESSID.*?);</expres>
-<page>http://62.210.188.246:8000//streaming/clients_live.php?username=Gzimidr&amp;password=DRgzimi&amp;stream=542&amp;extension=m3u8&amp;hash=2e775bfef7f34f446eaa6cbd28e96983&amp;time=1454427325&amp;pid=14599&amp;external_device=1</page>
+<page>http://62.210.188.246:8000//streaming/clients_live.php?username=Gzimidr&amp;password=DRgzimi&amp;stream=542&amp;extension=m3u8&amp;hash=2e775bfef7f34f446eaa6cbd28e96983&amp;time=00000000000000000000000000000000&amp;pid=14599&amp;external_device=2</page>
 <cookieJar></cookieJar>
 <noredirect>true</noredirect>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
 <includeheaders><includeheaders/>
 </regex>
 </item>
