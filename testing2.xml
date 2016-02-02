@@ -677,6 +677,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://46.105.106.123:8000//streaming/clients_live.php?username=21047&amp;password=21047&amp;stream=80&amp;extension=ts&amp;hash=810ffd629bc1298e36e09adb2424fabe&amp;time=1454427263&amp;external_device=1</page>
 <cookieJar></cookieJar>
 <noredirect>true</noredirect>
-<includeheaders/>
+<includeheaders><includeheaders/>
 </regex>
 </item>
