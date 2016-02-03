@@ -13,7 +13,7 @@
                         <title>[COLOR blue]SHQIP TV: -[/COLOR] [makelist2.param1]</title>
                         <link>[makelist2.param2].m3u8&amp;Buffer=20971520&amp;live=1&amp;timeout=30</link>
               ]]></listrepeat>
-              <expres>EXTINF:-1,AL: (.*).*\n.*(http.*).ts</expres>
+              <expres>EXTINF:-1,MT: (.*).*\n.*(http.*).ts</expres>
               <page>http://portal.rapidiptv.com:8080/get.php?username=v7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
               <cookieJar></cookieJar>
               <agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
@@ -699,7 +699,3 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 
-<item>
-	<title>testks1portal</title>
-	<link>http://portal.rapidiptv.com:8080/live/v7oxEnXqQd/ZkTOFeHlnm/3822.m3u8&Buffer=20971520&live=1&timeout=30</link>
-</item>
