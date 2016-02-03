@@ -2,7 +2,7 @@
 
 <!------------EXYU----->
 <item>
-<title>EX AL | Test v1</title>
+<title>EX AL | Test v3</title>
 
 
 <link>$doregex[makelist2]</link>
@@ -13,7 +13,7 @@
                         <title>[COLOR blue]SHQIP TV: -[/COLOR] [makelist2.param1]</title>
                         <link>[makelist2.param2].m3u8&amp;Buffer=20971520&amp;live=1&amp;timeout=30</link>
               ]]></listrepeat>
-              <expres>EXTINF:-1,AL:|EXTINF:-1,RO: (.*).*\n.*(http.*).ts</expres>
+              <expres>EXTINF:-1,AL: (.*).*\n.*(http.*).ts</expres>
               <page>http://portal.rapidiptv.com:8080/get.php?username=v7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
               <cookieJar></cookieJar>
               <includeheaders>1<includeheaders/>
