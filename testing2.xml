@@ -698,3 +698,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <includeheaders><includeheaders/>
 </regex>
 </item>
+
+<item>
+	<title>testks1portal</title>
+	<link>http://portal.rapidiptv.com:8080/live/v7oxEnXqQd/ZkTOFeHlnm/3822.m3u8&Buffer=20971520&live=1&timeout=30</link>
+</item>
