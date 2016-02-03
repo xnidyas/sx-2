@@ -14,7 +14,7 @@
                         <link>[makelist2.param2].m3u8#sthash.3kjRFQnw.dpuf&amp;hash=9d1ebe2397722563409b55904212337e&amp;time=0&amp;external_device= Buffer=300000 live=1 timeout=30</link>
               ]]></listrepeat>
               <expres>EXTINF:-1,AL: (.*).*\n.*(http.*).ts</expres>
-              <page>http://portal.rapidiptv.com:8080/get.php?username=7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
+              <page>http://portal.rapidiptv.com:8080/get.php?username=v7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
               <cookieJar></cookieJar>
 </regex>
 
