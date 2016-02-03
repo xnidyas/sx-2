@@ -701,7 +701,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-------------------------------->
 <item>
-<title>EX AL | Test v1</title>
+<title>EX AL | Test v2</title>
 
 
 <link>$doregex[makelist2]</link>
@@ -710,9 +710,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
               <name>makelist2</name>
                         <listrepeat><![CDATA[
                         <title>[COLOR blue]KANNAL: -[/COLOR] [makelist2.param1]</title>
-                        <link>[makelist2.param2]</link>
+                        <link>[makelist2.param2].m3u8</link>
               ]]></listrepeat>
-              <expres>EXTINF:-1 tvg-id="RAIUno.it" group-title="Italiano" tvg-logo="0605.png", (.*).*\n.*(http.*).m3u8</expres>
+              <expres>EXTINF (.*).*\n.*(http.*).m3u8</expres>
               <page>http://kodilive.eu/tv</page>
               <cookieJar></cookieJar>
               <agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
