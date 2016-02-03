@@ -95,7 +95,7 @@
 <!-------------------->
 
 <item>
-<title>SS KS 1 .R .TS...1</title> 
+<title>SS KS 1 .R .TS...12</title> 
 <link>http://62.210.188.246:8000//streaming/clients_live.php?username=Gzimidr&password=DRgzimi&amp;stream=542|Cookie=$doregex[getPHPSESSID]|Buffer=20971520 live=1 timeout=30</link> 
 <regex>
 <name>getPHPSESSID</name>
