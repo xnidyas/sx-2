@@ -710,3 +710,43 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 </item
+<!------------------------------------->
+<item>
+<title>sportstream365.com</title>
+<link>https://forums.tvaddons.ag/$doregex[makelist]</link>
+<regex>
+	<name>makelist</name>
+	<listrepeat><=!=[=C=D=A=T=A=[
+	   <title>[makelist.param2]</title>
+	   <link>https://forums.tvaddons.ag/$doregex[makelist2]</link>
+	   <thumbnail>NA</thumbnail>
+	]=]=></listrepeat>
+	<expres></li>\n.*\n.*?"(.*?)".*name.*?>(.*)<</expres>
+	<page>http://sportstream365.com/</page>
+	<setcookie>lng=en</setcookie>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><=!=[=C=D=A=T=A=[
+<title>[makelist2.param2] - [makelist2.param3]</title>
+<link>rtmpe://185.56.137.178/xlive app=xlive playpath=raw:sl4_$doregex[vid] swfUrl=http://sportstream365.com/swf/VideoPlayer.swf?x=0.7034047767464162 pageUrl=http://sportstream365.com/viewer?game=[makelist2.param1] live=1 timeout=15 conn=S:client conn=S:3.1.0.9 conn=S: live=1 swfVfy=true flashVer=LNX\2019,0,0,207</link>
+<thumbnail>NA</thumbnail>
+]=]=></listrepeat>
+<expres>FirstGameId":(.*?),.*?Opp1":"(.*?)".*?:"(.*?)"</expres>
+<page>http://sportstream365.com/LiveFeed/GetLeftMenuShort?sports=$doregex[id]&lng=en&partner=24&_=$epoctime2$</page>
+<referer>http://sportstream365.com/</referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>id</name>
+<expres>typeAllow" value="(.*?)"<expres>
+<page>http://sportstream365.com[makelist.param1]</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>vid</name>
+<expres>VI":"(.*?)"<expres>
+<page>http://sportstream365.com/LiveFeed/GetGame?lng=en&id=[makelist2.param1]&partner=24&_=$epoctime2$</page>
+<cookieJar></cookieJar>
+</regex>
+</item>
