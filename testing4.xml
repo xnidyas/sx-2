@@ -91,3 +91,19 @@
 <includeheaders>1<includeheaders/>
 </regex>
 </item>
+
+<!-------------------->
+
+<item>
+<title>SS KS 1 .R .TS...</title> 
+<link>http://62.210.188.246:8000//streaming/clients_live.php?username=Gzimidr&password=DRgzimi&amp;stream=542&amp;extension=ts&amp;hash=bd02b17f677cb61136fd9fcf34664ad1&amp;time=1454471783&amp;pid=18664&external_device=|Cookie=$doregex[getPHPSESSID]|Buffer=20971520 live=1 timeout=30</link> 
+<regex>
+<name>getPHPSESSID</name>
+<expres>(PHPSESSID.*?);</expres>
+<page>http://sream1.mine.nu:8000/get.php?username=Gzimidr&password=DRgzimi&type=m3u&output=mpegts</page>
+<cookieJar>1</cookieJar>
+<noredirect>true</noredirect>
+<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
+<includeheaders>1<includeheaders/>
+</regex>
+</item>
