@@ -16,6 +16,9 @@
               <expres>EXTINF:-1,AL: (.*).*\n.*(http.*).ts</expres>
               <page>http://portal.rapidiptv.com:8080/get.php?username=v7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
               <cookieJar></cookieJar>
+              <agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
+              <host>portal.rapidiptv.com:8080</host>
+              <connection>1</connection>
               <includeheaders>1<includeheaders/>
               <buffer>20971520</buffer>
 </regex>
