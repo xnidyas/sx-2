@@ -14,7 +14,7 @@
                         <link>[makelist2.param2].m3u8&amp;Buffer=20971520&amp;live=1&amp;timeout=30</link>
               ]]></listrepeat>
               <expres>EXTINF:-1,MT: (.*).*\n.*(http.*).ts</expres>
-              <page>http://portal.rapidiptv.com:8080/get.php?username=v7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
+              <page>http://portal.rapidiptv.com:8080/get.php?username=7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
               <cookieJar></cookieJar>
               <agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
               <host>portal.rapidiptv.com:8080</host>
@@ -27,19 +27,7 @@
 <!--<page>http://ipbestv.net16.net/testal.m3u</page>--
 <link>[makelist2.param2].m3u8#sthash.3kjRFQnw.dpuf&amp;hash=9d1ebe2397722563409b55904212337e&amp;time=0&amp;external_device= Buffer=300000 live=1 timeout=30</link>
 <!-----------------------END---
-<item>
-<title>SS KS 1 .R .TS...1234</title> 
-<link>http://62.210.188.246:8000//streaming/clients_live.php?username=Gzimidr&amp;password=DRgzimi&amp;stream=542&amp;extension=ts|Cookie=$doregex[getPHPSESSID]|Buffer=20971520 live=1 timeout=30</link> 
-<regex>
-<name>getPHPSESSID</name>
-<expres>(PHPSESSID.*?);</expres>
-<page>http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp;type=m3u&amp;output=mpegts</page>
-<cookieJar>1</cookieJar>
-<noredirect>true</noredirect>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
-<includeheaders>1<includeheaders/>
-</regex>
-</item>
+
 -------------------------------->
 <item>
 <title>TOP Channel Portokalli 2015 (YT)</title>
