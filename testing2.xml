@@ -11,11 +11,15 @@
               <name>makelist2</name>
                         <listrepeat><![CDATA[
                         <title>[COLOR blue]SHQIP TV: -[/COLOR] [makelist2.param1]</title>
-                        <link>[makelist2.param2].m3u8#sthash.3kjRFQnw.dpuf|Cookie=PHPSESSID=f3n00betsu83sgid5tqfppf1q1&amp;User-Agent=Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0|Buffer=300000 live=1 timeout=30</link>
+                        <link>[makelist2.param2].m3u8#sthash.3kjRFQnw.dpuf|Cookie=PHPSESSID=f3n00betsu83sgid5tqfppf1q1&amp;User-Agent=Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0&amp;Buffer=20971520 live=1 timeout=30</link>
               ]]></listrepeat>
               <expres>EXTINF:-1,AL: (.*).*\n.*(http.*).ts</expres>
               <page>http://portal.rapidiptv.com:8080/get.php?username=v7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
               <cookieJar></cookieJar>
+              <noredirect>true</noredirect>
+              <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
+              <includeheaders>1<includeheaders/>
+              <buffer>20971520</buffer>
 </regex>
 
 </item>
