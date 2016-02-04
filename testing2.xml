@@ -768,3 +768,22 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <agent>iPhone</agent>
 </regex>
 </item>
+
+<!----------------------------------->
+
+<item>
+<title>AL TEST</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+	<title>[makelist.param2]</title>
+	<link>[makelist.param1]</link>
+	<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>a target.*?(http.*?)".*? (.*?) -</expres>
+<page>http://m.shqip-tv.com/tv-live.html</page>
+<referer>http://m.shqip-tv.com/</referer>
+<agent>iPhone</agent>
+</regex>
+</item>
