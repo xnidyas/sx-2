@@ -110,8 +110,8 @@
 <!---------------------------->
 
 <item>
-<title>SS KS 1 .R .M3U8..Conn.</title> 
-<link>http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/542.m3u8#sthash.3kjRFQnw.dpuf?|Cookie=$doregex[getPHPSESSID]|#sthash.3kjRFQnw.dpuf?|Cookie=$doregex[getPHPSESSID]|conn=S:client conn=S:3.1.0.9 conn=S:en live=1 timeout=15</link> 
+<title>SS KS 1 .R .M3U8..Conn1.</title> 
+<link>http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/542.m3u8#sthash.3kjRFQnw.dpuf?&amp;Cookie=$doregex[getPHPSESSID]&amp;conn=S:client conn=S:3.1.0.9 conn=S:en live=1 timeout=15</link> 
 <regex>
 <name>getPHPSESSID</name>
 <expres>(PHPSESSID.*?);</expres>
