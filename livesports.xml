@@ -20,3 +20,20 @@
 <cookieJar></cookieJar>
 </regex>
 </item>
+<!-------------------------------------->
+<item>
+<title>Sky Sports Channels</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+	<title>[makelist.param2]</title>
+	<link>[makelist.param1]</link>
+	<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>a target.*?(http.*?)".*? (.*?) -</expres>
+<page>http://m.liveonlinetv247.info/skysports.php</page>
+<referer>http://m.liveonlinetv247.info/</referer>
+<agent>iPhone</agent>
+</regex>
+</item>
