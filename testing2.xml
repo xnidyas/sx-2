@@ -712,16 +712,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item
 <!------------------------------------->
 <item>
-<title>sportstream365.com</title>
+<title>Sportstream365.com</title>
 <link>/$doregex[makelist]</link>
 <regex>
 	<name>makelist</name>
 	<listrepeat><=!=[=C=D=A=T=A=[
-	   <title>[makelist.param2]</title>
+	   <title>BES-IPTV: - [makelist.param2]</title>
 	   <link>/$doregex[makelist2]</link>
 	   <thumbnail>NA</thumbnail>
 	]=]=></listrepeat>
-	<expres></li>\n.*\n.*?"(.*?)".*name.*?>(.*)<</expres>
+	<expres>\n.*\n.*?"(.*?)".*name.*?>(.*)</expres>
 	<page>http://sportstream365.com/</page>
 	<setcookie>lng=en</setcookie>
 </regex>
