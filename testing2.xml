@@ -713,12 +713,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!------------------------------------->
 <item>
 <title>sportstream365.com</title>
-<link>https://forums.tvaddons.ag/$doregex[makelist]</link>
+<link>/$doregex[makelist]</link>
 <regex>
 	<name>makelist</name>
 	<listrepeat><=!=[=C=D=A=T=A=[
 	   <title>[makelist.param2]</title>
-	   <link>https://forums.tvaddons.ag/$doregex[makelist2]</link>
+	   <link>/$doregex[makelist2]</link>
 	   <thumbnail>NA</thumbnail>
 	]=]=></listrepeat>
 	<expres></li>\n.*\n.*?"(.*?)".*name.*?>(.*)<</expres>
@@ -733,7 +733,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>NA</thumbnail>
 ]=]=></listrepeat>
 <expres>FirstGameId":(.*?),.*?Opp1":"(.*?)".*?:"(.*?)"</expres>
-<page>http://sportstream365.com/LiveFeed/GetLeftMenuShort?sports=$doregex[id]&amp;lng=en&amp;partner=24&_=$epoctime2$</page>
+<page>http://sportstream365.com/LiveFeed/GetLeftMenuShort?sports=$doregex[id]&amp;lng=en&amp;partner=24&amp;_=$epoctime2$</page>
 <referer>http://sportstream365.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -746,7 +746,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>vid</name>
 <expres>VI":"(.*?)"<expres>
-<page>http://sportstream365.com/LiveFeed/GetGame?lng=en&amp;id=[makelist2.param1]&amp;partner=24&_=$epoctime2$</page>
+<page>http://sportstream365.com/LiveFeed/GetGame?lng=en&amp;id=[makelist2.param1]&amp;partner=24&amp;_=$epoctime2$</page>
 <cookieJar></cookieJar>
 </regex>
 </item>
