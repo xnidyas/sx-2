@@ -65,7 +65,7 @@
 
 <item>
 <title>SS KS 1 .R .M3U8...</title> 
-<link>http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/542.m3u8#sthash.3kjRFQnw.dpuf?|Cookie=$doregex[getPHPSESSID]|Buffer=20971520 live=1 timeout=30</link> 
+<link>http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/542.m3u8#sthash.3kjRFQnw.dpuf?|Cookie=$doregex[getPHPSESSID]|#sthash.3kjRFQnw.dpuf?|Cookie=$doregex[getPHPSESSID]|conn=S:client conn=S:3.1.0.9 conn=S:en live=1 timeout=15 buffer=20971520</link> 
 <regex>
 <name>getPHPSESSID</name>
 <expres>(PHPSESSID.*?);</expres>
@@ -79,8 +79,8 @@
 
 <!-------------------->
 <item>
-<title>SS KS 1 .R .TS...</title> 
-<link>http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/542.ts#sthash.3kjRFQnw.dpuf?|Cookie=$doregex[getPHPSESSID]|Buffer=20971520 live=1 timeout=30</link> 
+<title>SS KS 1 .R .TS.1</title> 
+<link>http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/542.ts#sthash.3kjRFQnw.dpuf?|Cookie=$doregex[getPHPSESSID]|conn=S:client conn=S:3.1.0.9 conn=S:en live=1 timeout=15 buffer=20971520</link> 
 <regex>
 <name>getPHPSESSID</name>
 <expres>(PHPSESSID.*?);</expres>
