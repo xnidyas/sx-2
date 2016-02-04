@@ -772,7 +772,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!----------------------------------->
 
 <item>
-<title>AL TEST</title>
+<title>AL TEST1</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -782,7 +782,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	<thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres>a target.*?(http.*?)".*? (.*?) -</expres>
-<page>http://m.shqip-tv.com/tv-live.html</page>
+<page>http://m.shqip-tv.com/index.php</page>
 <referer>http://m.shqip-tv.com/</referer>
 <agent>iPhone</agent>
 </regex>
