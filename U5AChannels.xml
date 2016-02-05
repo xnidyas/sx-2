@@ -9,7 +9,7 @@
 </item>
 
 <item>
-<title>[COLOR blue]BES-IPTV:[/COLOR][COLOR white]-Live TV,Sports,Movies,Shows[/COLOR]</title>
+<title>[COLOR blue]BES-IPTV:[/COLOR][COLOR white] -Live TV,Sports,Movies,Shows[/COLOR]</title>
 <link>$doregex[pagelist]</link>
 <thumbnail>http://images.clipartlogo.com/files/images/13/134575/ilive_p.png</thumbnail>
 <regex>
