@@ -325,3 +325,189 @@ class InputWindow(xbmcgui.WindowDialog):
 </regex>
  
 </item>
+<!----------------end--------------------------------->
+<item>
+<title>BES-IPTV | MOVIES</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR deepskyblue]BES-IPTV: -[/COLOR] [makelist.param3]</title>
+<link>$doregex[canal]</link>
+<thumbnail>http:[makelist.param1]</thumbnail>
+<regex>
+	<name>canal</name>
+	<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/view/[makelist.param2]',False,False)</expres>
+	<page></page>
+</regex>
+]]></listrepeat>
+<expres>src="(.*?)".*?\n.*?\n.*?\n.*?href="http://www.streamlive.to/view/(.*?)/.*?strong&gt;(.*?)&gt;</expres>
+<page>http://www.streamlive.to/index.php?cat=Movies</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
+<!------------------------------>
+
+
+<item>
+<title>ilive</title>
+<link>$doregex[pagelist]</link>
+<thumbnail>http://images.clipartlogo.com/files/images/13/134575/ilive_p.png</thumbnail>
+<regex>
+      <name>pagelist</name>
+      <listrepeat><![CDATA[
+               <title>page [pagelist.param1]</title>
+               <link>$doregex[makelist]</link>
+               <thumbnail>http://images.clipartlogo.com/files/images/13/134575/ilive_p.png</thumbnail>
+      ]]></listrepeat>
+      <expres>q=.*?(\d.*?)<</expres>
+      <page>$doregex[num1]</page>
+</regex>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param3]</title>
+<link>$doregex[loadcookie]$doregex[get-rtmp-code]$doregex[savecookie]</link>
+<thumbnail>http:[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres>view.(\d+).+\n.+src="(.*?jpg)".+alt="(.*?)".*\n.*\n.*?\t{17}<\/</expres>
+<page>http://www.streamlive.to/?p=[pagelist.param1]&q=</page>
+</regex>
+<regex>
+<name>num</name>
+<expres>13px*?(.*?)span</expres>
+<page>http://www.streamlive.to/index.php?cat=Movies</page>
+</regex>
+<regex>
+<name>num1</name>
+<expres>$pyFunction:'$doregex[num]'.replace(' 1 ','q=xx1')</expres>
+<page></page>
+</regex>
+ 
+<regex>
+<name>savecookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>save[streamlive1.lwp]</cookieJar>
+</regex>
+ 
+<regex>
+<name>get-rtmp-code</name>
+ 
+ 
+<expres><![CDATA[#$pyFunction
+import requests,xbmcgui,xbmc
+import re,os,time
+import xbmcaddon,xbmc,cookielib
+ 
+def calculateauto(question):
+    try:
+        ans=str(eval(question.split(':')[-1].replace('=?','').strip()))
+        print 'q2'
+    except:
+        ans=question.split(':')[-1].strip()
+        print 'q3'
+       
+    return ans
+ 
+def GetLSProData(page_data,Cookie_Jar,m,url='http://www.streamlive.to/view/[makelist.param1]/'):
+ 
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'}
+ page =url
+ session = requests.Session()
+ if Cookie_Jar==None:
+  Cookie_Jar=cookielib.LWPCookieJar()
+ session.cookies = Cookie_Jar
+ 
+ source = session.get(page, headers=headers )
+ 
+ question = re.findall('(Question.*?)\<', source.text)
+ if len(question)>0:
+  question=question[0]
+  print question
+  addon       = xbmcaddon.Addon()
+ 
+  autodone=False
+  try:
+   
+   text=calculateauto(question)
+   data = {"captcha": text}
+   headers2 = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Content-Type': 'application/x-www-form-urlencoded', 'Referer': page}
+   source2= session.post(page, headers = headers2, data= data)  
+   question = re.findall('(Question.*?)\<', source2.text)
+   if len(question)>0:
+    question=question[0]
+   else:
+    autodone=True
+  except: pass
+ 
+  if not autodone:
+   text=takeInputFortext(question)
+   data = {"captcha": text}
+   headers2 = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Content-Type': 'application/x-www-form-urlencoded', 'Referer': page}
+   source2= session.post(page, headers = headers2, data= data)
+ else:
+  source2=source
+ 
+ tokpg = re.findall('getJSON\("(.*?)"', source2.text)[0]
+ xs = re.findall('(\?xs=.*?)"', source2.text)[0]
+ playpath = re.findall('file: "(.*).flv', source2.text)[0]
+ 
+ headers3 = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': 'https://www.streamlive.to'}
+ 
+ source3 = session.get(tokpg, headers=headers3)
+ token = re.findall('token":"(.*?)"', source3.text)[0]
+ 
+ 
+ 
+ return 'rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/' + xs + ' playpath=' + playpath + ' swfVfy=1 token=' + token + ' swfUrl=https://www.streamlive.to/ads/streamlive.swf pageUrl=https://www.streamlive.to live=1 timeout=15'
+ 
+def takeInputFortext(txt):
+ addon = xbmcaddon.Addon('plugin.video.live.streamspro')
+ addon_version = addon.getAddonInfo('version')
+ profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
+ 
+ solver = InputWindow( txt=txt)
+ solution = solver.get()
+ return solution
+ 
+class InputWindow(xbmcgui.WindowDialog):
+    def __init__(self, *args, **kwargs):
+ 
+       
+        self.txt = kwargs.get('txt','')
+ 
+        xbmcgui.WindowXMLDialog.__init__(self)
+        #self.addControl(self.txt)
+        path = xbmcaddon.Addon().getAddonInfo('path')
+        self.kbd = xbmc.Keyboard()
+        self.kbd.setHeading( self.txt)
+ 
+ 
+ 
+    def get(self):
+        self.show()
+        time.sleep(2)
+        self.kbd.doModal()
+        if (self.kbd.isConfirmed()):
+            text = self.kbd.getText()
+            self.close()
+            return text
+        self.close()
+        return False
+       
+]]></expres>
+<page></page>
+</regex>
+ 
+<regex>
+<name>loadcookie</name>
+<expres></expres>
+<page></page>
+<cookieJar>open[streamlive1.lwp]</cookieJar>
+</regex>
+ 
+</item>
