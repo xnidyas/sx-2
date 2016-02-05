@@ -353,13 +353,13 @@ class InputWindow(xbmcgui.WindowDialog):
 
 
 <item>
-<title>ilive</title>
+<title>LIVE TV-SPORTS-MOVIES</title>
 <link>$doregex[pagelist]</link>
 <thumbnail>http://images.clipartlogo.com/files/images/13/134575/ilive_p.png</thumbnail>
 <regex>
       <name>pagelist</name>
       <listrepeat><![CDATA[
-               <title>page [pagelist.param1]</title>
+               <title>[COLOR blue]Page - [/COLOR][pagelist.param1]</title>
                <link>$doregex[makelist]</link>
                <thumbnail>http://images.clipartlogo.com/files/images/13/134575/ilive_p.png</thumbnail>
       ]]></listrepeat>
@@ -369,17 +369,17 @@ class InputWindow(xbmcgui.WindowDialog):
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[makelist.param3]</title>
+<title>[COLOR blue]BES-IPTV - [/COLOR][makelist.param3]</title>
 <link>$doregex[loadcookie]$doregex[get-rtmp-code]$doregex[savecookie]</link>
 <thumbnail>http:[makelist.param2]</thumbnail>
 ]]></listrepeat>
 <expres>view.(\d+).+\n.+src="(.*?jpg)".+alt="(.*?)".*\n.*\n.*?\t{17}<\/</expres>
-<page>http://www.streamlive.to/?p=[pagelist.param1]&q=</page>
+<page>http://www.streamlive.to/?p=[pagelist.param1]&amp;q=</page>
 </regex>
 <regex>
 <name>num</name>
 <expres>13px*?(.*?)span</expres>
-<page>http://www.streamlive.to/index.php?cat=Movies</page>
+<page>http://www.streamlive.to/</page>
 </regex>
 <regex>
 <name>num1</name>
