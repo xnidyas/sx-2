@@ -53,4 +53,9 @@
 </regex>
 </item>
 <!------------------------------------------->
-
+<item>
+	<title>WORLD CCTV Cameras</title>
+	<thumbnail></thumbnail>
+	<link>http://igonra/me</link>
+	<externallink>https://github.com/saydinx/bes-iptv/raw/master/worldcctvcams.m3u</externallink>
+</item>
