@@ -52,6 +52,15 @@
 <agent>iPhone</agent>
 </regex>
 </item>
+<!------------------------------------------>
+
+<item>
+	<title>Stream K Sport Channels</title>
+	<thumbnail></thumbnail>
+	<link>http://ignora/me</link>
+	<externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/strmk1ng.xml</externallink>
+</item>
+
 <!------------------------------------------->
 <item>
 	<title>WORLD CCTV Cameras</title>
@@ -61,7 +70,6 @@
 </item>
 
 <!-------------------------------------------->
-
 <item>
 <title>LIVE TV,Sports,Movies,Shows</title>
 <link>$doregex[pagelist]</link>
