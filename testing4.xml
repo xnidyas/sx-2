@@ -125,7 +125,7 @@
 <!-------------------->
 
 <item>
-<title>f4m test</title>
+<title>F4m test</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[getURL]&amp;streamtype=HLS</link>
 <regex>
 <name>getURL</name>
