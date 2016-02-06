@@ -787,3 +787,42 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <agent>iPhone</agent>
 </regex>
 </item>
+
+
+<item>
+<title>Sky Sports 1</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;url=$doregex[URLEncodedLink]</link>
+
+<regex>
+<name>URLEncodedLink</name>
+<expres>$pyFunction:urllib.quote_plus('$doregex[decodedUrl]$doregex[token]|Referer=http://cdn.p2pcast.tv/jwplayer.flash.swf&amp;User-Agent=Mozilla/5.0 (X11 Linux i686 rv:41.0) Gecko/20100101 Firefox/41.0 Iceweasel/41.0.2')<expres>                                          
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+<name>token</name>
+<expres>"token":"(.*?)"</expres>
+<page>http://p2pcast.tv/getTok.php</page>
+<referer>http://p2pcast.tv/stream.php?id=509875</referer>
+<X-Req>XMLHttpRequest</X-Req>
+<agent>Mozilla/5.0 (X11 Linux i686 rv:41.0) Gecko/20100101 Firefox/41.0 Iceweasel/41.0.2</agent>
+<cookieJar>$doregex[get-encodeUrl]</cookieJar>
+</regex>
+
+<regex>
+<name>decodedUrl</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-encodeUrl]")</expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-encodeUrl</name>
+<expres>murl = "(.*?)"</expres>
+<page>http://p2pcast.tv/stream.php?id=509875</page>
+<referer>http://wiziwig.xyz/frameskysport1.html</referer>
+<agent>Mozilla/5.0 (X11 Linux i686 rv:41.0) Gecko/20100101 Firefox/41.0 Iceweasel/41.0.2</agent>
+<cookieJar></cookieJar>
+</regex>
+</item>
