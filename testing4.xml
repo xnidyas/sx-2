@@ -127,7 +127,7 @@
 
 <item>
 <title>F4m Test .ts</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[getURL]&amp;streamtype=HLS</link>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[getURL]&amp;type=hls</link>
 <regex>
 <name>getURL</name>
 <expres>(http.*ts)</expres>
@@ -137,11 +137,22 @@
 <!-------------------->
 
 <item>
-<title>F4m Test .m3u8</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[getURL]&amp;streamtype=hls</link>
+<title>F4m Test .m3u8!</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[getURL]&amp;type=hls</link>
 <regex>
 <name>getURL</name>
 <expres>(http.*m3u8)</expres>
-<page>http://62.210.188.246:8000/streaming/clients_live.php?pid=61236&amp;extension=m3u8&amp;username=Gzimidr&amp;password=DRgzimi&amp;stream=542&amp;type=hls</page>
+<page>http://62.210.188.246:8000/streaming/clients_live.php?pid=61236&extension=m3u8&username=Gzimidr&password=DRgzimi&stream=542&type=hls&segment=542_83.ts&hash=37aa8dc4ce84697e6ec8f3d092d2239b&time=3084516</page>
+</regex>
+</item>
+<!-------------------->
+
+<item>
+<title>F4m Test .TS url</title>
+<link>plugin://plugin.video.f4mTester/?url=http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/542.ts</link>
+<regex>
+<name>getURL</name>
+<expres>(http.*ts)</expres>
+<page>http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/542.ts</page>
 </regex>
 </item>
