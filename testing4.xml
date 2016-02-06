@@ -141,7 +141,7 @@
 <regex>
 <name>getURL</name>
 <expres>(http.*m3u8)</expres>
-<page>http://62.210.188.246:8000/streaming/clients_live.php?pid=61236&extension=m3u8&username=Gzimidr&password=DRgzimi&stream=542&type=hls&segment=542_83.ts&hash=37aa8dc4ce84697e6ec8f3d092d2239b&time=3084516</page>
+<page>http://62.210.188.246:8000/streaming/clients_live.php?pid=61236&amp;extension=m3u8&amp;username=Gzimidr&amp;password=DRgzimi&amp;stream=542&amp;type=hls&amp;segment=542_83.ts&amp;hash=37aa8dc4ce84697e6ec8f3d092d2239b&amp;time=3084516</page>
 </regex>
 </item>
 <!-------------------->
