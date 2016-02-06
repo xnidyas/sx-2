@@ -69,7 +69,8 @@
 <regex>
 <name>getPHPSESSID</name>
 <expres>(PHPSESSID.*?);</expres>
-<page>http://62.210.188.246:8000//streaming/clients_live.php?username=Gzimidr&amp;password=DRgzimi&amp;stream=542&amp;extension=m3u8&amp;time=00000000000000000000000000000000&amp;pid=14599&amp;external_device=true</page>
+<page>http://62.210.188.246:8000//streaming/clients_live.php?username=Gzimidr&amp;password=DRgzimi&amp;stream=542&amp;extension=m3u8&amp;time=00000000000000000000000000000000&amp;pid=2337&amp;external_device=true</page>
+<!--<page>http://62.210.188.246:8000//streaming/clients_live.php?username=Gzimidr&amp;password=DRgzimi&amp;stream=542&amp;extension=m3u8&amp;time=00000000000000000000000000000000&amp;pid=14599&amp;external_device=true</page>-->
 <cookieJar>1</cookieJar>
 <noredirect>true</noredirect>
 <agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
