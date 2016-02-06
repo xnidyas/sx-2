@@ -8,6 +8,22 @@
 <thumbnail></thumbnail>
 </item>
 
+
+<item>
+<title>.NFL NOW</title> 
+<link>http://nflioslivesvg2-i.akamaihd.net/hls/live/221521/nflioslive/2015HackerNow_w99d9.m3u8|Cookie=$doregex[getPHPSESSID]|Buffer=20971520 live=1 timeout=30</link> 
+<regex>
+<name>getPHPSESSID</name>
+<expres>(PHPSESSID.*?);</expres>
+<page>http://nflioslivesvg2-i.akamaihd.net/hls/live/221521/nflioslive/2015HackerNow_w99d9.m3u8</page>
+<cookieJar></cookieJar>
+<noredirect>true</noredirect>
+<includeheaders><includeheaders/>
+</regex>
+</item>
+
+
+<!--------------------NFL NETWORK-------------------->
 <item>
 <title>.NFL NETWORK</title>
 <link>$doregex[loadcookie]$doregex[get-rtmp-code]$doregex[savecookie]</link>
