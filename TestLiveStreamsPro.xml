@@ -2,7 +2,7 @@
 
 <!-----------EXYU-------->
 <item>
-<title>EX AL | Test v8</title>
+<title>EX AL | Test v9</title>
 
 
 <link>$doregex[makelist2]</link>
@@ -11,7 +11,7 @@
               <name>makelist2</name>
                         <listrepeat><![CDATA[
                         <title>[COLOR blue]SHQIP TV Temporary: -[/COLOR] [makelist2.param1]</title>
-                        <link>[makelist2.param2].ts|User-Agent=www.ontv.al/iptv</link>
+                        <link>[makelist2.param2].m3u8|User-Agent=www.ontv.al/iptv</link>
               ]]></listrepeat>
               <expres>EXTINF:-1,(.*).*\n.*(http.*).ts</expres>
               <page>http://163.172.11.240:8000/get.php?username=iosandroid&amp;password=57a262df95&amp;type=m3u&amp;output=mpegts</page>
