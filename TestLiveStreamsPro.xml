@@ -1,3 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-
+<item>
+<title>Test 1 4326000</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[getURL]&amp;streamtype=HLS</link>
+<regex>
+<name>getURL</name>
+<expres>4326000.*\s*(http.*m3u8)</expres>
+<page>http://play-prod1.nbc.anvato.net/server/play/wmaqxctg/master.m3u8</page>
+</regex>
+</item>
+http://54.159.114.12/server/play/wmaqxctg/4326000/prog.m3u8
+<item>
+<title>Test 2</title>
+<link>http://54.159.114.12/server/play/wmaqxctg/4326000/prog.m3u8</link>
+<regex>
+<name>getURL</name>
+<expres>4326000.*\s*(http.*m3u8)</expres>
+<page>http://play-prod1.nbc.anvato.net/server/play/wmaqxctg/master.m3u8</page>
+</regex>
+</item>
