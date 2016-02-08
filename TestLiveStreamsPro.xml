@@ -23,3 +23,11 @@
 </regex>
 
 </item>
+
+
+<!--- |Buffer=20971520&amp;live=1&amp;timeout=30 --->
+
+<item>
+  <title>TEST</title>
+  <link>http://163.172.11.240:8000/live/iosandroid/57a262df95/5.ts|User-Agent=www.ontv.al/iptv</link>
+</item>
