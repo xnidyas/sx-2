@@ -55,21 +55,3 @@
   <title>TEST</title>
   <link>http://163.172.11.240:8000/live/iosandroid/57a262df95/5.ts|User-Agent=www.ontv.al/iptv</link>
 </item>
-
-
-
-
-
-
-#EXTM3U#EXTINF:-1,RTK 1
-#EXTVLCOPT:http-user-agent=ALTV/1.0.0
-http://bledi.goldtv.al:8000/live/bledi/al-apps-com-apk/1.ts
-#EXTINF:-1,RTK Toksor
-#EXTVLCOPT:http-user-agent=ALTV/1.0.0
-http://bledi.goldtv.al:8000/live/bledi/al-apps-com-shqip/290.ts
-#EXTINF:-1,RTV 21 Sat
-#EXTVLCOPT:http-user-agent=ALTV/1.0.0
-http://bledi.goldtv.al:8000/live/bledi/al-apps-com-apk/5.ts
-#EXTINF:-1,RTV 21 HD
-#EXTVLCOPT:http-user-agent=ALTV/1.0.0
-
