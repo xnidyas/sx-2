@@ -27,7 +27,7 @@
 
 <!-----------EXYU-------->
 <item>
-<title>DE | Test v1</title>
+<title>DE | Test v2</title>
 
 
 <link>$doregex[makelist2]</link>
@@ -38,7 +38,7 @@
                         <title>[COLOR blue]SHQIP TV Temporary: -[/COLOR] [makelist2.param1]</title>
                         <link>[makelist2.param2].ts|Cookie=PHPSESSID=f3n00betsu83sgid5tqfppf1q1&amp;User-Agent=Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</link>
               ]]></listrepeat>
-              <expres>EXTINF:-1,DE(.*).*\n.*(http.*).ts</expres>
+              <expres>EXTINF:-1,DE-(.*).*\n.*(http.*).ts</expres>
               <page>http://iptv.ndasat.com:88/get.php?username=21046&amp;password=21046&amp;type=m3u&amp;output=mpegts</page>
               <cookieJar></cookieJar>
               <agent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0</agent>
