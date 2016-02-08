@@ -55,3 +55,14 @@
   <title>TEST</title>
   <link>http://163.172.11.240:8000/live/iosandroid/57a262df95/5.ts|User-Agent=www.ontv.al/iptv</link>
 </item>
+<!--------------------->
+ 
+
+        <item>
+                <title>TEST</title>        
+                <link>rtmp://185.17.186.227:1932/rts?wmsAuthSign=$doregex[id] playpath=rts1.stream swfUrl=http://api.acan.tv/assets/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://acangroup.org/aar/rts1.php</link>
+                <thumbnail></thumbnail>
+                <genre>BES-IPTV</genre>
+                <info>Balkan TV</info>
+            </item>
+        <item>
