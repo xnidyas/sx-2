@@ -967,3 +967,46 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 </item>
+
+
+
+ 
+<item>
+<title>Sportstream365.com</title>
+<link>$doregex[makelist]</link>
+<regex>
+	<name>makelist</name>
+	<listrepeat><![CDATA[
+	   <title>[makelist.param2]</title>
+	   <link>$doregex[makelist2]</link>
+	   <thumbnail>NA</thumbnail>
+	]]></listrepeat>
+	<expres>&lt;/li&gt;\n.*\n.*?"(.*?)".*name.*?&gt;(.*)&lt;</expres>
+	<page>http://sportstream365.com/</page>
+	<setcookie>lng=en</setcookie>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[makelist2.param2] - [makelist2.param3]</title>
+<link>rtmpe://185.56.139.162/xlive app=xlive playpath=raw:sl1_$doregex[vid]  conn=S:client conn=S:3.1.0.9 conn=S:en live=1 timeout=15</link>
+<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>FirstGameId":(.*?),.*?Opp1":"(.*?)".*?:"(.*?)"</expres>
+<page>http://sportstream365.com/LiveFeed/GetLeftMenuShort?sports=$doregex[id]&amp;lng=en&amp;partner=24&amp;_=$epoctime2$</page>
+<referer>http://sportstream365.com/</referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>id</name>
+<expres>typeAllow" value="(.*?)"<expres>
+<page>http://sportstream365.com[makelist.param1]</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>vid</name>
+<expres>VI":"(.*?)"<expres>
+<page>http://sportstream365.com/LiveFeed/GetGame?lng=en&amp;id=[makelist2.param1]&amp;partner=24&amp;_=$epoctime2$</page>
+<cookieJar></cookieJar>
+</regex>
+</item>
