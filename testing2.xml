@@ -898,3 +898,49 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 </item>
+
+
+
+<item>
+<title>Test onTV 3</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>BES-IPTV: - [makelist.param1]</title>
+<link>[makelist.param2]|User-Agent=www.ontv.al/iptv</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres>"channel_title":"(.*?)","channel_url":"(.*?)"</expres>
+<page>http://ontv.al/app/api.php?cat_id=3</page>
+<referer></referer>
+<cookieJar></cookieJar>
+<agent>Dalvik/2.1.0 (Linux; U; Android 5.0; App Runtime for Chrome Dev Build/48.5021.575.0)</agent>
+</regex>
+
+</item>
+
+
+
+<item>
+<title>Test onTV 4</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>BES-IPTV: - [makelist.param1]</title>
+<link>[makelist.param2]|User-Agent=www.ontv.al/iptv</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres>"channel_title":"(.*?)","channel_url":"(.*?)"</expres>
+<page>http://ontv.al/app/api.php?cat_id=4</page>
+<referer></referer>
+<cookieJar></cookieJar>
+<agent>Dalvik/2.1.0 (Linux; U; Android 5.0; App Runtime for Chrome Dev Build/48.5021.575.0)</agent>
+</regex>
+
+</item>
