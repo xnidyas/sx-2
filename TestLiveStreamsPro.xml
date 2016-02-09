@@ -14,7 +14,7 @@
                         <link>[makelist2.param2].ts|User-Agent=www.ontv.al/iptv</link>
               ]]></listrepeat>
               <expres>EXTINF:-1,(.*).*\n.*(http.*).ts</expres>
-              <page>http://163.172.11.240:8000/get.php?username=iosandroid&amp;password=57a262df95&amp;type=m3u&amp;output=mpegts</page>
+              <page>http://163.172.11.240:8000/get.php?username=iosandroid&amp;password=1a0a17e1ae&amp;type=m3u&amp;output=mpegts</page>
               <cookieJar></cookieJar>
               <agent>www.ontv.al/iptv</agent>
               <connection>1</connection>
