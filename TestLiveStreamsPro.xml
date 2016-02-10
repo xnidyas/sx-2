@@ -229,7 +229,7 @@
 ]]></listrepeat>
 <expres>"channel_title":"(.*?)","channel_url":"(.*?)".*?"useragent":"(.*?)"</expres>
 <page>http://ontv.al/app/api.php?cat_id=1</page>
-<referer></referer>
+<referer>http://ontv.al/app/api.php</referer>
 <cookieJar></cookieJar>
 <agent>Dalvik/2.1.0 (Linux; U; Android 5.0; App Runtime for Chrome Dev Build/48.5021.575.0)</agent>
 </regex>
