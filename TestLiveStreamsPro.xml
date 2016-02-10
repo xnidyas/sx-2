@@ -119,19 +119,18 @@
 <!------------------------------------end--->
 
 <item>
-<title>Test onTV v.4</title>
+<title>Test onTV v.5</title>
 <link>$doregex[makelist]</link>
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>BES-IPTV: - [makelist.param1]</title>
-<link>[makelist.param2]</link>
-<expres>"useragent":"www.ontv.al/iptv"</expres>
+<title>[COLOR blue]BES-IPTV: - [/COLOR][makelist.param1]</title>
+<link>[makelist.param2]|User-Agent=www.ontv.al/iptv</link>
 <referer></referer>
 <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres>"channel_title":"(.*?)","channel_url":"(.*?)","useragent":"www.ontv.al/iptv","</expres>
+<expres>"channel_title":"(.*?)","channel_url":"(.*?)","useragent":"(.*?)"</expres>
 <page>http://ontv.al/app/api.php?cat_id=1</page>
 <referer></referer>
 <cookieJar></cookieJar>
