@@ -9,13 +9,13 @@
 </item>
 
 <item>
-<title>[COLOR yellow]»[/COLOR]LIVE TV,Sports,Movies,Shows</title>
+<title>[COLOR yellow]»[/COLOR]LIVE TV,Sports,Movies,TV Shows</title>
 <link>$doregex[pagelist]</link>
 <thumbnail>http://images.clipartlogo.com/files/images/13/134575/ilive_p.png</thumbnail>
 <regex>
       <name>pagelist</name>
       <listrepeat><![CDATA[
-               <title>[COLOR blue]Page [/COLOR][COLOR yellow]»[/COLOR] [pagelist.param1]</title>
+               <title>[COLOR blue]Page -[/COLOR][pagelist.param1]</title>
                <link>$doregex[makelist]</link>
                <thumbnail>http://images.clipartlogo.com/files/images/13/134575/ilive_p.png</thumbnail>
       ]]></listrepeat>
