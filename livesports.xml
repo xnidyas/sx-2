@@ -35,12 +35,12 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR blue]BES-IPTV [/COLOR][COLOR yellow]»[/COLOR][makelist.param3]</title>
+<title>[COLOR blue]BES-IPTV -[/COLOR][makelist.param3]</title>
 <link>$doregex[loadcookie]$doregex[get-rtmp-code]$doregex[savecookie]</link>
 <thumbnail>http:[makelist.param2]</thumbnail>
 ]]></listrepeat>
 <expres>view.(\d+).+\n.+src="(.*?jpg)".+alt="(.*?)".*\n.*\n.*?\t{17}<\/</expres>
-<page>http://www.streamlive.to/?p=[pagelist.param1]&q=</page>
+<page>http://www.streamlive.to/?p=[pagelist.param1]&amp;q=</page>
 </regex>
 <regex>
 <name>num</name>
