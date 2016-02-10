@@ -119,7 +119,7 @@
 <!------------------------------------end--->
 
 <item>
-<title>Test onTV v.5</title>
+<title>Test onTV v.6</title>
 <link>$doregex[makelist]</link>
 
 <regex>
@@ -130,7 +130,7 @@
 <referer></referer>
 <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres>"channel_title":"(.*?)","channel_url":"(.*?)","useragent":"(.*?)"</expres>
+<expres>"channel_title":"(.*?)","channel_url":"(.*?)"</expres>
 <page>http://ontv.al/app/api.php?cat_id=1</page>
 <referer></referer>
 <cookieJar></cookieJar>
