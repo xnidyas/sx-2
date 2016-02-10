@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-
 <item>
-<title>[COLOR blue]NFL Now[/COLOR]</title>
-<link>http://nflioslivesvg2-i.akamaihd.net/hls/live/221521/nflioslive/2015HackerNow_w99d9_h.m3u8|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>NFL NOW RegEx 5500000</title>
+<title>[COLOR yellow]»[/COLOR]NFL NOW HD</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[getURL]&amp;streamtype=HLS</link>
 <regex>
 <name>getURL</name>
@@ -18,24 +11,9 @@
 </regex>
 </item>
 
-<item>
-<title>.NFL NOW</title> 
-<link>http://nflioslivesvg2-i.akamaihd.net/hls/live/221521/nflioslive/2015HackerNow_w99d9.m3u8|User-Agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4|Cookie=$doregex[getPHPSESSID]|Buffer=20971520 live=1 timeout=30</link> 
-<regex>
-<name>getPHPSESSID</name>
-<expres>(PHPSESSID.*?);</expres>
-<page>http://nflioslivesvg2-i.akamaihd.net/hls/live/221521/nflioslive/2015HackerNow_w99d9.m3u8</page>
-<cookieJar></cookieJar>
-<agent>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile Safari/600.1.4</agent>
-<noredirect>true</noredirect>
-<includeheaders><includeheaders/>
-</regex>
-</item>
-
-
 <!--------------------NFL NETWORK-------------------->
 <item>
-<title>.NFL NETWORK</title>
+<title>[COLOR yellow]»[/COLOR]NFL NETWORK</title>
 <link>$doregex[loadcookie]$doregex[get-rtmp-code]$doregex[savecookie]</link>
 
 
@@ -193,105 +171,3 @@ class InputWindow(xbmcgui.WindowDialog):
 </item>
 
 <!-- REGEX PARA STREMLIVE.TO -->
-
-<item>
-<title>[COLOR blue]NFL Network[/COLOR] Regex SL.to 1</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
-<regex>
-        <name>path</name>
-        <expres>file: "(.*).flv</expres>
-        <page>http://www.streamlive.to/view/72886</page>
-</regex>
-<regex>
-        <name>tok</name>
-        <expres>token":"([^"]*)</expres>
-        <page>$doregex[tokpg]</page>
-        <referer>http://www.streamlive.to</referer>
-</regex>
-<regex>
-        <name>tokpg</name>
-        <expres>getJSON."(.*?)"</expres>
-        <page>http://www.streamlive.to/view/72886</page>
-</regex>
-<regex>
-        <name>xs</name>
-        <expres>/(\?xs=.*?)"</expres>
-        <page>http://www.streamlive.to/view/72886</page>
-        <rawpost>captcha=$doregex[answer]</rawpost>
-        <referer>http://www.streamlive.to</referer>
-        <cookieJar></cookieJar>
-        <ignorecache/>
-</regex>
-<regex>
-        <name>answer</name>
-        <expres>$pyFunction:($doregex[captcha])</expres>
-        <page></page>
-</regex>
-<regex>
-        <name>captcha</name>
-        <expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
-        <page></page>
-</regex>
-<regex>
-        <name>xcaptcha</name>
-        <expres>Question: (.*) =</expres>
-        <page>http://www.streamlive.to/view/72886</page>
-        <referer>http://www.streamlive.to</referer>
-        <cookieJar></cookieJar>
-</regex>
-<fanart></fanart>
-<thumbnail></thumbnail>   
-
-</item>
-<!-----WORKING RGX FROM STRML1VE.TO ---------------->	
-<item>
-<title>[COLOR blue]NFL Network[/COLOR] Regex SL.to 2</title>
-<link>rtmp://watch4.streamlive.to:1935/edge app=edge/_definst_/$doregex[xs] playpath=$doregex[path] swfVfy=1 token=$doregex[tok] swfUrl=http://www.streamlive.to/ads/streamlive.swf pageUrl=http://www.streamlive.to live=1 timeout=15</link>
-<regex>
-        <name>path</name>
-        <expres>file: "(.*).flv</expres>
-        <page>http://www.streamlive.to/view/70295/</page>
-</regex>
-<regex>
-        <name>tok</name>
-        <expres>token":"([^"]*)</expres>
-        <page>$doregex[tokpg]</page>
-        <referer>http://www.streamlive.to</referer>
-</regex>
-<regex>
-        <name>tokpg</name>
-        <expres>getJSON."(.*?)"</expres>
-        <page>http://www.streamlive.to/view/70295/</page>
-</regex>
-<regex>
-        <name>xs</name>
-        <expres>/(\?xs=.*?)"</expres>
-        <page>http://www.streamlive.to/view/70295/</page>
-        <rawpost>captcha=$doregex[answer]</rawpost>
-        <referer>http://www.streamlive.to</referer>
-        <cookieJar></cookieJar>
-        <ignorecache/>
-</regex>
-<regex>
-        <name>answer</name>
-        <expres>$pyFunction:($doregex[captcha])</expres>
-        <page></page>
-</regex>
-<regex>
-        <name>captcha</name>
-        <expres>$pyFunction:'$doregex[xcaptcha]'.replace('x','*')</expres>
-        <page></page>
-</regex>
-<regex>
-        <name>xcaptcha</name>
-        <expres>Question: (.*) =</expres>
-        <page>http://www.streamlive.to/view/70295/</page>
-        <referer>http://www.streamlive.to</referer>
-        <cookieJar></cookieJar>
-</regex>
-<fanart></fanart>
-<thumbnail></thumbnail>   
-
-</item>
-
-
