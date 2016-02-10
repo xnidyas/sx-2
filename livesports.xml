@@ -1,11 +1,11 @@
 
 <item>
-<title>Sky Sports Channels</title>
+<title>[COLOR yellow]»[/COLOR]Sky Sports Channels</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-	<title>[makelist.param2]</title>
+	<title>[COLOR yellow]»[/COLOR][makelist.param2]</title>
 	<link>[makelist.param1]</link>
 	<thumbnail>NA</thumbnail>
 ]]></listrepeat>
@@ -19,7 +19,7 @@
 <!-------------------------------------------->
 
 <item>
-<title>LIVE TV,Sports,Movies,Shows</title>
+<title>[COLOR yellow]»[/COLOR]LIVE TV,Sports,Movies,Shows</title>
 <link>$doregex[pagelist]</link>
 <thumbnail>http://images.clipartlogo.com/files/images/13/134575/ilive_p.png</thumbnail>
 <regex>
@@ -35,7 +35,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR blue]BES-IPTV - [/COLOR][makelist.param3]</title>
+<title>[COLOR blue]BES-IPTV [/COLOR][COLOR yellow]»[/COLOR][makelist.param3]</title>
 <link>$doregex[loadcookie]$doregex[get-rtmp-code]$doregex[savecookie]</link>
 <thumbnail>http:[makelist.param2]</thumbnail>
 ]]></listrepeat>
@@ -181,7 +181,7 @@ class InputWindow(xbmcgui.WindowDialog):
 <!----------------------------------------------------------------------->
 
 <item>
-<title>Live Sports -Footdirect24</title>
+<title>[COLOR yellow]»[/COLOR]Live Sports -Footdirect24</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
