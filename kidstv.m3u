@@ -12,16 +12,3 @@ http://200.76.77.237/LIVE/H01/CANAL308/PROFILE03.m3u8?-1332%2F1499-20150816T1535
 http://200.76.77.237/LIVE/H01/CANAL328/PROFILE03.m3u8?-1332%2F1499-20150816T153535.ts
 #EXTINF:-1,NICK JR
 http://200.76.77.237/LIVE/H01/CANAL310/PROFILE03.m3u8?-1332%2F1499-20150816T153535.ts
-
-#EXTINF:-1,40
-http://iptv.ndasat.com:88/live/21040/21040/950.ts&amp;hash=1a7369176c5221f7931628b832c27117&amp;time=0&amp;external_device=&amp;hash=7e67cdd1ea843d168fb75dd49d110938
-#EXTINF:-1,41
-http://iptv.ndasat.com:88/live/21041/21041/950.ts&amp;hash=1a7369176c5221f7931628b832c27117&amp;time=0&amp;external_device=&amp;hash=7e67cdd1ea843d168fb75dd49d110938
-#EXTINF:-1,42
-http://iptv.ndasat.com:88/live/21042/21042/950.ts&amp;hash=1a7369176c5221f7931628b832c27117&amp;time=0&amp;external_device=&amp;hash=7e67cdd1ea843d168fb75dd49d110938
-#EXTINF:-1,43
-http://iptv.ndasat.com:88/live/21043/21043/950.ts&amp;hash=1a7369176c5221f7931628b832c27117&amp;time=0&amp;external_device=&amp;hash=7e67cdd1ea843d168fb75dd49d110938
-#EXTINF:-1,44
-http://iptv.ndasat.com:88/live/21044/21044/950.ts&amp;hash=1a7369176c5221f7931628b832c27117&amp;time=0&amp;external_device=&amp;hash=7e67cdd1ea843d168fb75dd49d110938
-#EXTINF:-1,45
-http://iptv.ndasat.com:88/live/21045/21045/950.ts&amp;hash=1a7369176c5221f7931628b832c27117&amp;time=0&amp;external_device=&amp;hash=7e67cdd1ea843d168fb75dd49d110938
