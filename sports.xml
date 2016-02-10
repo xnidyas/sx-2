@@ -36,16 +36,16 @@
     <link>#</link> 
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/nflsports.xml</externallink>
     <fanart></fanart>
-    
+   <!-- 
  <channel>
     <name>[COLOR yellow]Sky Sports Channels[/COLOR]</name>
     <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
     <link>#</link> 
     <externallink>https://raw.githubusercontent.com/weedking12/weedkinglist/master/SPORTS.xml</externallink>
-    <!--<externallink>http://sneekytv.x10host.com/SneekyTV/test1.xml</externallink>-->
+    <!--<externallink>http://sneekytv.x10host.com/SneekyTV/test1.xml</externallink>--
     <referer>http://repo.run/cypher/</referer>
     <fanart></fanart>
-    
+    -------->
  <channel>
     <name>[COLOR orange]UFC Fights/Videos[/COLOR]</name>
     <thumbnail>http://previews.123rf.com/images/duug/duug1206/duug120600003/13966994-sport-logo-Stock-Vector-sports.jpg</thumbnail>
@@ -68,12 +68,12 @@
     <link>#</link> 
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/liveppvevents.m3u</externallink>
     <fanart></fanart>
-    
+    <!----------------------------------------
     <channel>
     <name>[COLOR red]*TEST CHANNEL 1*[/COLOR]</name>
     <thumbnail></thumbnail>
     <link>#</link> 
-    <!--<externallink></externallink>-->
+    <!--<externallink></externallink>--
     <externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/testing2.xml</externallink>
     <fanart></fanart>
 
@@ -82,7 +82,7 @@
     <thumbnail></thumbnail>
     <link>#</link> 
     <externallink>http://pastebin.com/raw/TT56uXDs</externallink>
-    <!--<externallink>http://adrian.kodistrea</externallink>-->
+    <!--<externallink>http://adrian.kodistrea</externallink>--
     <fanart></fanart> 
 
     <channel>
@@ -98,7 +98,7 @@
     <link>#</link> 
     <externallink>http://www.4legends.co.uk/MoneySports/CTH.XML</externallink>
     <fanart></fanart>
-    
+    ------------------------->
 
             
         </channel>
