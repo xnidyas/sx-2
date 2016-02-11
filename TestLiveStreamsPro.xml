@@ -23,7 +23,7 @@
 
 <!-----------EXYU-------->
 <item>
-<title>Test | TSDownloader - Test v2</title>
+<title>Test | TSDownloader - Test v3</title>
 
 
 <link>$doregex[makelist2]</link>
@@ -31,7 +31,7 @@
 <regex>
               <name>makelist2</name>
                         <listrepeat><![CDATA[
-                        <title>[COLOR blue]SHQIP TV Temporary: -[/COLOR] [makelist2.param1] | Test.</title>
+                        <title>[COLOR blue]SHQIP TV Temporary: -[/COLOR] [makelist2.param1] [COLOR yellow]|[/COLOR [COLOR red]Test![/COLOR]</title>
                         <link>[makelist2.param2].ts|$$TSDownloader$</link>
               ]]></listrepeat>
               <expres>EXTINF:-1,(.*).*\n.*(http.*).ts</expres>
