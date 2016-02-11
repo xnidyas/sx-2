@@ -19,6 +19,17 @@
 	<link>http:ignora./me/</link>
 	<externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/testing4.xml</externallink>
 </item>
+<!--------plugin://plugin.video.f4mTester/?url=%s&streamtype=TSDOWNLOADER---->
+<item>
+<title>F4M TEST V1</title>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[getURL]%s&amp;streamtype=TSDOWNLOADER</link>
+<regex>
+<name>getURL</name>
+<expres>(http.*ts)</expres>
+<page>http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/542.ts</page>
+</regex>
+</item>
+
 
 
 <!-----------EXYU-------->
