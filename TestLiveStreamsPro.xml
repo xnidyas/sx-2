@@ -24,7 +24,7 @@
 <!---plugin://plugin.video.f4mTester/?url='+urllib.quote_plus(stream_url)+'&amp;streamtype=TSDOWNLOADER&name='+urllib.quote(channel_name)---->
 <item>
 <title>F4M TEST V1</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[getURL]%s&amp;streamtype=TSDOWNLOADER</link>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[getURL]&amp;streamtype=TSDOWNLOADER</link>
 <regex>
 <name>getURL</name>
 <expres>(http.*ts)</expres>
@@ -33,8 +33,8 @@
 </item>
 
 <item>
-<title>F4M TEST LINK V3</title>
-<link>plugin://plugin.video.f4mTester/?url=http://sream1.mine.nu:8000/get.php?username=Gzimidr&password=DRgzimi&type=m3u&output=mpegts&amp;streamtype=TSDOWNLOADER</link>
+<title>F4M TEST LINK V4</title>
+<link>plugin://plugin.video.f4mTester/?url=http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp;type=m3u&amp;output=mpegts&amp;streamtype=TSDOWNLOADER</link>
 </item>
 
 
