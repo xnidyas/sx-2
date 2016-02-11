@@ -30,6 +30,10 @@
 </regex>
 </item>
 
+<item>
+<title>F4M TEST LINK V1</title>
+<link>plugin://plugin.video.f4mTester/?url=http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/542.ts%s&amp;streamtype=TSDOWNLOADER</link>
+</item>
 
 
 <!-----------EXYU-------->
