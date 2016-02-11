@@ -234,14 +234,14 @@
 </regex>
 
 <item>
-<title>Portal v.2 | Test </title>
+<title>Portal v.3 | Test </title>
 <link>$doregex[makelist]</link>
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR blue]COUNTRY=[/COLOR][makelist.param1] [COLOR white]CHANNEL=[/COLOR][makelist.param2]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=SIMPLE&amp;url=$doregex[encodedurl]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&Icy-MetaData=1</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=$doregex[encodedurl]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&Icy-MetaData=1</link>
 <referer></referer>
 <thumbnail></thumbnail>
 ]]></listrepeat>
