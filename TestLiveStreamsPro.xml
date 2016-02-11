@@ -28,13 +28,13 @@
 <regex>
 <name>getURL</name>
 <expres>(http.*ts)</expres>
-<page>http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/542.ts</page>
+<page>http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/70.ts</page>
 </regex>
 </item>
 
 <item>
-<title>F4M TEST LINK V2</title>
-<link>plugin://plugin.video.f4mTester/?url='+urllib.quote_plus(http://sream1.mine.nu:8000/get.php?username=Gzimidr&password=DRgzimi&type=m3u&output=mpegts)+'&amp;streamtype=TSDOWNLOADER&name='+urllib.quote(channel_name)</link>
+<title>F4M TEST LINK V3</title>
+<link>plugin://plugin.video.f4mTester/?url=http://sream1.mine.nu:8000/get.php?username=Gzimidr&password=DRgzimi&type=m3u&output=mpegts&amp;streamtype=TSDOWNLOADER</link>
 </item>
 
 
