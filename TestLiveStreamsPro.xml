@@ -275,18 +275,18 @@
 <!---------------END------>
 
 <item>
-<title>2. Portal v.7 | Test </title>
+<title>2. Portal v.8 | Test </title>
 <link>$doregex[makelist]</link>
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR blue]COUNTRY=[/COLOR][makelist.param1]</title>
+<title>[COLOR blue]Channel=[/COLOR][makelist.param1]</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=$doregex[encodedurl]=[makelist.param2]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&Icy-MetaData=1</link>
 <referer></referer>
 <thumbnail></thumbnail>
 ]]></listrepeat>  <!---(.*?).*(.*?)\n.*(http.*)--->
-<expres>EXTINF:-1,(.*?)\n.*(.*?)</expres> <!---<expres>EXTINF:-1,(.*).*\n.*(http.*).ts</expres> --->
+<expres>EXTINF:-1,(.*?)\n.*(.*)</expres> <!---<expres>EXTINF:-1,(.*).*\n.*(http.*).ts</expres> --->
 <page>http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp;type=m3u&amp;output=mpegts</page>
 <referer></referer>
 <cookieJar></cookieJar>
