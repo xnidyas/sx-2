@@ -23,7 +23,7 @@
 
 <!-----------EXYU-------->
 <item>
-<title>EX AL | Test v9</title>
+<title>Test | TSDownloader - Test v1</title>
 
 
 <link>$doregex[makelist2]</link>
@@ -32,10 +32,10 @@
               <name>makelist2</name>
                         <listrepeat><![CDATA[
                         <title>[COLOR blue]SHQIP TV Temporary: -[/COLOR] [makelist2.param1]</title>
-                        <link>[makelist2.param2].ts|User-Agent=www.ontv.al/iptv</link>
+                        <link>[makelist2.param2].ts$$TSDownloader$</link>
               ]]></listrepeat>
               <expres>EXTINF:-1,(.*).*\n.*(http.*).ts</expres>
-              <page>http://163.172.11.240:8000/get.php?username=iosandroid&amp;password=1a0a17e1ae&amp;type=m3u&amp;output=mpegts</page>
+              <page>http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp;type=m3u&amp;output=mpegts</page>
               <cookieJar></cookieJar>
               <agent>www.ontv.al/iptv</agent>
               <connection>1</connection>
@@ -48,7 +48,7 @@
 
 <!-----------EXYU-------->
 <item>
-<title>DE | Test v4 (Mund te ndalohen mbas pak sekondash!) -TEST</title>
+<title>DE | 21046 Test v4 (Mund te ndalohen mbas pak sekondash!) -TEST</title>
 
 
 <link>$doregex[makelist2]</link>
@@ -94,24 +94,6 @@
 </item>
 
 
-
-
-<item>
-<title>Testing...</title>
-<link>$doregex[get-URL]</link>
-
-<regex>
-<name>get-URL</name>
-<expres>location:(.*)</expres>
-<page>http://iptv.wssiptv.com:80/live/gil71/Aimee211204/237.ts</page>
-<referer></referer>
-<agent>Mozilla/5.0 (iPad CPU OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML like Gecko) Mobile/12A405 Version/7.0 Safari/9537.53</agent>
-<cookieJar></cookieJar>
-<noredirect>true</noredirect>
-<includeheaders/>
-</regex>
-
-</item>
 
 
 
