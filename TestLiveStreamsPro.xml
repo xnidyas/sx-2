@@ -227,7 +227,7 @@
 <referer></referer>
 <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres>"channel_title":"(.*?)","channel_url":"(.*?)".*?"useragent":"(.*?)"</expres>
+<expres>"channel_title":"([^&]*)","channel_url":"([^&]*)".*?"useragent":"([^&]*)"</expres> <!---- [^&]* = .*? ---->
 <page>http://ontv.al/app/api.php?cat_id=1</page>
 <referer>http://ontv.al/app/api.php</referer>
 <cookieJar></cookieJar>
