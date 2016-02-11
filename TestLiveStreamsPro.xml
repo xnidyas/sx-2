@@ -31,7 +31,7 @@
 <regex>
               <name>makelist2</name>
                         <listrepeat><![CDATA[
-                        <title>[COLOR blue]SHQIP TV Temporary: -[/COLOR] [makelist2.param1] [COLOR yellow]|[/COLOR [COLOR red]Test![/COLOR]</title>
+                        <title>[COLOR blue]SHQIP TV Temporary: -[/COLOR][COLOR white] [makelist2.param1][/COLOR] [COLOR yellow]|[/COLOR] [COLOR red]Test![/COLOR]</title>
                         <link>[makelist2.param2].ts|$$TSDownloader$</link>
               ]]></listrepeat>
               <expres>EXTINF:-1,(.*).*\n.*(http.*).ts</expres>
@@ -198,13 +198,13 @@
 
 
 <item>
-<title>[COLOR yellow]»[/COLOR]TEST ontv.al V.3</title>
+<title>[COLOR yellow]»[/COLOR]TEST ontv.al V.4</title>
 <link>$doregex[makelist]</link>
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR blue]BES-IPTV:[/COLOR] [COLOR yellow]»[/COLOR][makelist.param1] [COLOR yellow]|[/COLOR] Prit 2 sekonda!</title>
+<title>[COLOR blue]BES-IPTV:[/COLOR] [COLOR yellow]»[/COLOR][COLOR white][makelist.param1][/COLOR] [COLOR yellow]|[/COLOR] Prit 2 sekonda!</title>
 <link>[makelist.param2]|User-Agent=[makelist.param3]&amp;Buffer=20971520 live=1 timeout=15</link>
 <referer></referer>
 <thumbnail></thumbnail>
