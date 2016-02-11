@@ -313,3 +313,42 @@
 
 
 </item>
+
+
+
+
+<item>
+<title> sream1.mine.nu</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+	<title> [makelist.param1]</title>
+	<link>plugin://plugin.video.f4mTester/?streamtype=SIMPLE&amp;url=$doregex[encodedurl]</link>
+	<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-1,(.*?)\n(.*)</expres>
+<page>http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp;type=m3u&amp;output=mpegts</page>
+<agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+</regex>
+
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('$doregex[get-URL]')<expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-URL</name>
+<expres>location:(.*)</expres>
+<page>[makelist.param2]</page>
+<referer></referer>
+<agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+<noredirect>true</noredirect>
+<includeheaders/>
+</regex>
+
+</item>
+
+
