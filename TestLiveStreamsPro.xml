@@ -234,7 +234,7 @@
 </regex>
 
 <item>
-<title>Portal v.4 | Test </title>
+<title>Portal v.5 | Test </title>
 <link>$doregex[makelist]</link>
 
 <regex>
@@ -245,7 +245,7 @@
 <referer></referer>
 <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres>EXTINF:-1,(.*?): (.*?)\n(.*)</expres>
+<expres>EXTINF:-1,(.*?)AL: (.*?)\n(.*)</expres>
 <page>http://portal.rapidiptv.com:8080/get.php?username=v7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
 <referer></referer>
 <cookieJar></cookieJar>
