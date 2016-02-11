@@ -234,7 +234,7 @@
 </regex>
 
 <item>
-<title>Portal v.3 | Test </title>
+<title>Portal v.4 | Test </title>
 <link>$doregex[makelist]</link>
 
 <regex>
