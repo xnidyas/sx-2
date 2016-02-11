@@ -352,3 +352,13 @@
 </item>
 
 
+
+
+
+
+<item>
+<title>show m3u</title>
+<link>ignore</link>
+<externallink>http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp; type=m3u&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
+<page></page>
+</item>
