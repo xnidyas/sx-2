@@ -209,7 +209,7 @@
 <referer></referer>
 <thumbnail>[makelist.param4]</thumbnail>
 ]]></listrepeat>
-<expres>"channel_title":"(.*?)","channel_url":"(.*?)".*?"useragent":"(.*?)","channel_thumbnail":"(.*?)"</expres> <!---- ---->
+<expres>"channel_title":"(.*?)","channel_url":"(.*?)".*?"useragent":"(.*?)".?*"channel_thumbnail":"(.*?)"</expres> <!---- ---->
 <page>http://ontv.al/app/api.php?cat_id=1</page>
 <referer>http://ontv.al/app/api.php</referer>
 <cookieJar></cookieJar>
@@ -217,4 +217,30 @@
 </regex>
 
 
+</item>
+
+<item>
+<title>Channels</title>
+<link>$doregex[makelist]</link>
+<regex>
+   <name>makelist</name>
+   <listrepeat><![CDATA[
+     <title>[makelist.param2]</title>
+     <link>$doregex[m3u8]</link>
+     <thumbnail>[makelist.param1]</thumbnail>
+  ]]></listrepeat>
+   <expres>&lt;td&gt;\s*&lt;img\s+src="(.*?)".*?EXTINF:-1,(.*?)\s+&lt;br.*?(http.*?)&amp;.*?(\d+)</expres>
+   <page>http://www.tuiptv.biz/</page>
+   <cookieJar></cookieJar>
+</regex>
+ 
+<regex>
+   <name>m3u8</name>
+   <expres>location:(\S+)</expres>
+   <page>[makelist.param3]&amp;channel=[makelist.param4]</page>
+   <noredirect>true</noredirect>
+   <includeheaders/>
+   <cookieJar></cookieJar>
+</regex>
+ 
 </item>
