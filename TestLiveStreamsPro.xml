@@ -233,3 +233,42 @@
 <agent>Dalvik/2.1.0 (Linux; U; Android 5.0; App Runtime for Chrome Dev Build/48.5021.575.0)</agent>
 </regex>
 
+<item>
+<title>Portal v.1 | Test </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>COUNTRY=[makelist.param1] CHANNEL=[makelist.param2]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=SIMPLE&amp;url=$doregex[encodedurl]</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres>EXTINF:-1,(.*?): (.*?)\n(.*)</expres>
+<page>http://portal.rapidiptv.com:8080/get.php?username=v7oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
+<referer></referer>
+<cookieJar></cookieJar>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+</regex>
+
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('$doregex[get-URL]')<expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-URL</name>
+<expres>location:(.*)</expres>
+<page>[makelist.param3]</page>
+<referer></referer>
+<agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+<noredirect>true</noredirect>
+<includeheaders/>
+</regex>
+
+
+
+</item>
