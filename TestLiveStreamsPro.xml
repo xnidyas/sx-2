@@ -216,22 +216,23 @@
 
 
 <item>
-<title>[COLOR yellow]»[/COLOR]TEST ontv.al V.6</title>
+<title>[COLOR yellow]»[/COLOR]TEST ontv.al V.7</title>
 <link>$doregex[makelist]</link>
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR blue]BES-IPTV:[/COLOR] [COLOR yellow]»[/COLOR][makelist.param1]</title>
-<link>[makelist.param2]|User-Agent=[makelist.param3]&amp;Buffer=20971520 live=1 timeout=15</link>
+<link>[makelist.param2]|User-Agent=[makelist.param3]|channel_thumbnail=[makelist.param4]&amp;Buffer=20971520 live=1 timeout=15</link>
 <referer></referer>
-<thumbnail></thumbnail>
+<thumbnail></thumbnail>[
 ]]></listrepeat>
-<expres>"channel_title":"(.*?)","channel_url":"(.*?)".*?"useragent":"(.*?)"</expres> <!---- ---->
+<expres>"channel_title":"(.*?)","channel_url":"(.*?)".*?"useragent":"(.*?)".*?"channel_thumbnail":"(.*?)"</expres> <!---- ---->
 <page>http://ontv.al/app/api.php?cat_id=1</page>
 <referer>http://ontv.al/app/api.php</referer>
 <cookieJar></cookieJar>
 <agent>Dalvik/2.1.0 (Linux; U; Android 5.0; App Runtime for Chrome Dev Build/48.5021.575.0)</agent>
 </regex>
+
 
 </item>
