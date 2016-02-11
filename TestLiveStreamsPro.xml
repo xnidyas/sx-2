@@ -275,7 +275,7 @@
 <!---------------END------>
 
 <item>
-<title>2. Portal v.3 | Test </title>
+<title>2. Portal v.4 | Test </title>
 <link>$doregex[makelist]</link>
 
 <regex>
@@ -286,7 +286,7 @@
 <referer></referer>
 <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres>EXTINF:-1,(.*?) (.*?)\n</expres> <!---<expres>EXTINF:-1,(.*).*\n.*(http.*).ts</expres> --->
+<expres>EXTINF:-1,(.*?).*(.*?)\n.*(http.*)</expres> <!---<expres>EXTINF:-1,(.*).*\n.*(http.*).ts</expres> --->
 <page>http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp;type=m3u&amp;output=mpegts</page>
 <referer></referer>
 <cookieJar></cookieJar>
