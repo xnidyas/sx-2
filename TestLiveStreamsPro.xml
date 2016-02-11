@@ -32,7 +32,7 @@
               <name>makelist2</name>
                         <listrepeat><![CDATA[
                         <title>[COLOR blue]SHQIP TV Temporary: -[/COLOR] [makelist2.param1]</title>
-                        <link>[makelist2.param2].ts$$TSDownloader$</link>
+                        <link>[makelist2.param2].ts|$$TSDownloader$</link>
               ]]></listrepeat>
               <expres>EXTINF:-1,(.*).*\n.*(http.*).ts</expres>
               <page>http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp;type=m3u&amp;output=mpegts</page>
@@ -198,7 +198,7 @@
 
 
 <item>
-<title>[COLOR yellow]»[/COLOR]TEST ontv.al V.8</title>
+<title>[COLOR yellow]»[/COLOR]TEST ontv.al V.9</title>
 <link>$doregex[makelist]</link>
 
 <regex>
@@ -207,9 +207,9 @@
 <title>[COLOR blue]BES-IPTV:[/COLOR] [COLOR yellow]»[/COLOR][makelist.param1]</title>
 <link>[makelist.param2]|User-Agent=[makelist.param3]&amp;Buffer=20971520 live=1 timeout=15</link>
 <referer></referer>
-<thumbnail>[makelist.param4]</thumbnail>[
+<thumbnail>[makelist.param4]</thumbnail>
 ]]></listrepeat>
-<expres>"channel_title":"(.*?)","channel_url":"(.*?)".*?"useragent":"(.*?)".*?"channel_thumbnail":"(.*?)"</expres> <!---- ---->
+<expres>"channel_title":"(.*?)","channel_url":"(.*?)".*?"useragent":"(.*?)","channel_thumbnail":"(.*?)"</expres> <!---- ---->
 <page>http://ontv.al/app/api.php?cat_id=1</page>
 <referer>http://ontv.al/app/api.php</referer>
 <cookieJar></cookieJar>
