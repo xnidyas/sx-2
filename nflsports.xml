@@ -11,6 +11,17 @@
 </regex>
 </item>
 
+<item>
+<title>NFL NTWK</title>
+<link>$doregex[url]</link>
+<regex>
+	<name>url</name>
+	<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/embedplayer_new2.php?channel=70295',False,False,'http://vipracing.info/')</expres>
+	<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
 <!--------------------NFL NETWORK-------------------->
 <item>
 <title>[COLOR yellow]»[/COLOR]NFL NETWORK</title>
