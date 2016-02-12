@@ -390,9 +390,9 @@
 </item>
 
 <item>
-<title>SHOW M3U | AlbSports</title>
+<title>SHOW M3U | AlbSports v1</title>
 <link>ignore</link>
-<externallink>http://visar.goldtv.al:8000/get.php?username=www.albsports.com&password=wwwsportsalb.com&type=m3u&amp;output=mpegts$$TSDOWNLOADER$$|User-Agent=iPhone</externallink>
+<externallink>http://visar.goldtv.al:8000/get.php?username=www.albsports.com&amp;password=wwwsportsalb.com&amp;type=m3u&amp;output=mpegts$$TSDOWNLOADER$$|User-Agent=iPhone</externallink>
 <agent>iPhone</agent>
 <page></page>
 </item>
