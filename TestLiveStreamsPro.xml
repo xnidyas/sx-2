@@ -388,3 +388,11 @@
 <externallink>http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp;type=m3u&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 <page></page>
 </item>
+
+<item>
+<title>SHOW M3U | AlbSports</title>
+<link>ignore</link>
+<externallink>http://visar.goldtv.al:8000/get.php?username=www.albsports.com&password=wwwsportsalb.com&type=m3u&output=mpegts$$TSDOWNLOADER$$|User-Agent=iPhone</externallink>
+<agent>iPhone</agent>
+<page></page>
+</item>
