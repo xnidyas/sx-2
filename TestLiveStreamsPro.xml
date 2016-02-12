@@ -360,7 +360,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 	<title>[makelist.param1]</title>
-	<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=$doregex[encodedurl]</link>
+	<link>plugin://plugin.video.f4mTester/?streamtype=$$TSDOWNLOADER$$&amp;url=$doregex[encodedurl]</link>
 	<thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres>#EXTINF:-1,(.*?)\n(.*ts)</expres>
@@ -378,6 +378,6 @@
 <item>
 <title>show m3u</title>
 <link>ignore</link>
-<externallink>http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp; type=m3u&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
+<externallink>http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp;type=m3u&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 <page></page>
 </item>
