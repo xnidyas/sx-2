@@ -324,7 +324,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 	<title> [makelist.param1]</title>
-	<link>plugin://plugin.video.f4mTester/?streamtype=SIMPLE&amp;url=$doregex[encodedurl]</link>
+	<link>$$TSDOWNLOADER$&amp;url=$doregex[encodedurl]</link>
 	<thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres>#EXTINF:-1,(.*?)\n(.*)</expres>
