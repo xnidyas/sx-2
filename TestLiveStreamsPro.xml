@@ -19,7 +19,7 @@
 	<link>http:ignora./me/</link>
 	<externallink>https://raw.githubusercontent.com/saydinx/bes-iptv/master/testing4.xml</externallink>
 </item>
-<!--------plugin://plugin.video.f4mTester/?url=%s&streamtype=TSDOWNLOADER---->
+<!-----plugin://plugin.video.f4mTester/?url=%s&streamtype=TSDOWNLOADER---->
 
 <!---plugin://plugin.video.f4mTester/?url='+urllib.quote_plus(stream_url)+'&amp;streamtype=TSDOWNLOADER&name='+urllib.quote(channel_name)---->
 <item>
