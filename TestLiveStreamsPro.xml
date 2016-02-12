@@ -376,9 +376,9 @@
 
 
 <item>
-<title>SHOW M3U | kodilive.eu</title>
+<title>SHOW M3U | kodilive.eu 1</title>
 <link>ignore</link>
-<externallink>http://kodilive.eu/tv/$$TSDOWNLOADER$$</externallink>
+<externallink>http://kodilive.eu/tv$$TSDOWNLOADER$$</externallink>
 <page></page>
 </item>
 
