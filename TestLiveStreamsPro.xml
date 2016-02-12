@@ -22,45 +22,7 @@
 <!-----plugin://plugin.video.f4mTester/?url=%s&streamtype=TSDOWNLOADER---->
 
 <!---plugin://plugin.video.f4mTester/?url='+urllib.quote_plus(stream_url)+'&amp;streamtype=TSDOWNLOADER&name='+urllib.quote(channel_name)---->
-<item>
-<title>F4M TEST V1</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[getURL]&amp;streamtype=TSDOWNLOADER</link>
-<regex>
-<name>getURL</name>
-<expres>(http.*ts)</expres>
-<page>http://4545.ddns.net:8000/live/Gzimidr/DRgzimi/70.ts</page>
-</regex>
-</item>
 
-<item>
-<title>F4M TEST LINK V4</title>
-<link>plugin://plugin.video.f4mTester/?url=http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp;type=m3u&amp;output=mpegts&amp;streamtype=TSDOWNLOADER</link>
-</item>
-
-
-<!---------EXYU-------->
-<item>
-<title>Test | TSDownloader - Test v4</title>
-
-
-<link>$doregex[makelist2]</link>
-
-<regex>
-              <name>makelist2</name>
-                        <listrepeat><![CDATA[
-                        <title>[COLOR blue]SHQIP TV Temporary: -[/COLOR][COLOR white] [makelist2.param1][/COLOR] [COLOR yellow]|[/COLOR] [COLOR red]Test![/COLOR]</title>
-                        <link>[makelist2.param2].ts|$$TSDOWNLOADER$</link>
-              ]]></listrepeat>
-              <expres>EXTINF:-1,(.*).*\n.*(http.*).ts</expres>
-              <page>http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp;type=m3u&amp;output=mpegts$$TSDOWNLOADER$</page>
-              <cookieJar></cookieJar>
-              <agent>www.ontv.al/iptv</agent>
-              <connection>1</connection>
-              <includeheaders>1<includeheaders/>
-              <buffer>20971520</buffer>
-</regex>
-
-</item>
 
 
 <!---------EXYU-------->
