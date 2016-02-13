@@ -3,6 +3,12 @@
 
 
 <item>
+	<title>Test</title>
+	<link>plugin://plugin.video.dailymotion_com/?mode=playVideo&amp;url=http://www.dailymotion.com/video/x3rzm0b_linksvip-net-co-va-mua_music</link>
+</item>
+
+
+<item>
 	<title>[COLOR red]*TEST CHANNEL 1*[/COLOR]</title>
 	<link>http:ignora./me/</link>
 	<externallink>http://pastebin.com/raw/TT56uXDs</externallink>
