@@ -385,7 +385,7 @@
 	<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=$doregex[encodedurl]&amp;Buffer=20971520 live=1 timeout=15</link>
 	<thumbnail>NA</thumbnail>
 ]]></listrepeat>
-<expres>#EXTINF:-1,R(.*?)\n(.*ts)</expres>
+<expres>#EXTINF:-1,(.*?)\n(.*ts)</expres>
 <page>http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp;type=m3u&amp;output=mpegts</page>
 <agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
 </regex>
