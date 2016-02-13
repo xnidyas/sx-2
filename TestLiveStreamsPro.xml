@@ -381,8 +381,8 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-	<title>[makelist.param1]</title>
-	<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=$doregex[encodedurl]|Buffer=20971520 live=1 timeout=15</link>
+	<title>[COLOR blue]BES-IPTV: - [/COLOR][makelist.param1]</title>
+	<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=$doregex[encodedurl]&amp;Buffer=20971520 live=1 timeout=15</link>
 	<thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres>#EXTINF:-1,R(.*?)\n(.*ts)</expres>
