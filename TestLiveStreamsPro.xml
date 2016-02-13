@@ -316,13 +316,13 @@
 
 
 <item>
-<title>sream1.mine.nu</title>
+<title>sream1.mine.nu v1</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 	<title>[makelist.param1]</title>
-	<link>plugin://plugin.video.f4mTester/?streamtype=$$TSDOWNLOADER$$&amp;url=$doregex[encodedurl]</link>
+	<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=$doregex[encodedurl]</link>
 	<thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres>#EXTINF:-1,(.*?)\n(.*ts)</expres>
