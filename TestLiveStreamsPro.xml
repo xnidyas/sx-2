@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
-
-<item>
-	<title>Test</title>
-	<link>plugin://plugin.video.dailymotion_com/?mode=playVideo&amp;url=http://www.dailymotion.com/video/x3rzm0b_linksvip-net-co-va-mua_music</link>
-</item>
-
-
 <item>
 	<title>[COLOR red]*TEST CHANNEL 1*[/COLOR]</title>
 	<link>http:ignora./me/</link>
@@ -404,7 +397,7 @@
 
 
 <item>
-<title>Shani | Sream1.mine.nu v2 | Works</title>
+<title>Shani | Sream1.mine.nu v3 | Works</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -414,7 +407,7 @@
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres>#EXTINF:-1,(.*?)\n(.*ts)</expres>
-<page>http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp; type=m3u&amp;output=mpegts</page>
+<page>http://sream1.mine.nu:8000/get.php?username=Gzimidr&amp;password=DRgzimi&amp;type=m3u&amp;output=mpegts</page>
 <agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
 </regex>
 <regex>
