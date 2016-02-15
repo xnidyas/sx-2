@@ -455,6 +455,6 @@
 
 http://live-14.viewer.dacast.com/z/dclive_1@176094/manifest.f4m
 <item>
-	<title>TEST 2</title>
-<link>plugin://plugin.video.f4mTester/?url=http://live-14.viewer.dacast.com/z/dclive_1@176094/manifest.f4m?hdnea=st=1455569972~exp=1455570092~acl=/z/dclive_1@176094*~hmac=e37e2d3580b6912581ee10daa10e999e2434593a7d6252ee8f13e12db879e3a5&amp;hdcore=3.6&amp;g=NUETXSQLZUHC&amp;plugin=aasp-3.9.0.19.11</link>
+	<title>TEST 3</title>
+<link>plugin://plugin.video.f4mTester/?url=http://live-14.viewer.dacast.com/z/dclive_1@176094/manifest.f4m</link>
 </item>
