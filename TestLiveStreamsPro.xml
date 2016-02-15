@@ -10,8 +10,8 @@
             </item>
 
 <item>
-<title>Test1</title>		
-<link>rtmp://37.48.64.26:2035/8180 playpath=8386deuce?wmsAuthSign=$doregex[id] <swfUrl>http://www.sunutv.me/online/swf/player2.n.0.swf?token=45973540050 <pageUrl>http://www.sunutv.me/online/channels/embed.php?id=sentv</link>
+<title>Test2</title>		
+<link>rtmp://37.48.64.26:2035/8180 playpath=8386deuce?wmsAuthSign=$doregex[id] swfUrl=http://www.sunutv.me/online/swf/player2.n.0.swf?token=45973540050 live=1 pageUrl=http://www.sunutv.me/online/channels/embed.php?id=sentv</link>
 </item>
 
 <item>
