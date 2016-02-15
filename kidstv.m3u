@@ -2,15 +2,25 @@
 
 #EXTINF:0 group-title="KIDS TV" tvg-id="" tvg-logo="",Cartoon Network
 http://d1hya96e2cm7qi.cloudfront.net/Live/_definst_/sweetbcha1novD28_W_250.sdp/playlist.m3u8
-#EXTINF:0 group-title="KIDS TV" tvg-id="" tvg-logo="",NICK
-http://200.76.77.237/LIVE/H01/CANAL317/PROFILE03.m3u8?-1332%2F1499-20150816T153535.ts
-#EXTINF:0 group-title="KIDS TV" tvg-id="" tvg-logo="",DISNEY XD
-http://200.76.77.237/LIVE/H01/CANAL322/PROFILE03.m3u8?-1332%2F1499-20150816T153535.ts
-#EXTINF:0 group-title="KIDS TV" tvg-id="" tvg-logo="",DISNEY JR
-http://200.76.77.237/LIVE/H01/CANAL308/PROFILE03.m3u8?-1332%2F1499-20150816T153535.ts
-#EXTINF:0 group-title="KIDS TV" tvg-id="" tvg-logo="",TOONCAST
-http://200.76.77.237/LIVE/H01/CANAL328/PROFILE03.m3u8?-1332%2F1499-20150816T153535.ts
-#EXTINF:-1,NICK JR
-http://200.76.77.237/LIVE/H01/CANAL310/PROFILE03.m3u8?-1332%2F1499-20150816T153535.ts
+#EXTINF:-1 tvg-logo="samplelogo.png" group-title="FERRERx1 TP", Nickelodeon
+http://45.55.81.38:1583/nick/playlist.m3u8
+#EXTINF:-1 tvg-logo="samplelogo.png" group-title="FERRERx1 TP", Nick JR.
+http://162.243.133.156:1583/nickjr/playlist.m3u8
+#EXTINF:-1 tvg-logo="samplelogo.png" group-title="FERRERx1 TP", Cartoon Network
+http://104.131.39.88:1583/cartoon/playlist.m3u8
+#EXTINF:-1 tvg-logo="samplelogo.png" group-title="FERRERx1 TP", Disney Channel
+http://162.243.133.156:1583/disney/playlist.m3u8
+#EXTINF:-1 tvg-logo="samplelogo.png" group-title="FERRERx1 TP", Disney XD
+http://104.236.124.24:1583/disneyxd/playlist.m3u8
+#EXTINF:-1 tvg-logo="samplelogo.png" group-title="FERRERx1 TP", Discovery Kids
+http://45.55.81.38:1583/discoverykids/playlist.m3u8
+#EXTINF:-1 tvg-logo="samplelogo.png" group-title="FERRERx1 TP", Disney Junior
+http://104.131.39.88:1583/disneyjr/playlist.m3u8
+#EXTINF:-1 tvg-logo="samplelogo.png" group-title="FERRERx1 TP", Boomerang
+http://104.236.124.24:1583/boomerang/playlist.m3u8
+#EXTINF:-1 tvg-logo="samplelogo.png" group-title="FERRERx1 TP", TIIN
+http://104.131.117.246:8081/chuy/76/2154-Tiin/playlist.m3u8
+#EXTINF:-1 tvg-logo="samplelogo.png" group-title="FERRERx1 TP", CBeebies
+http://104.131.117.246:8081/chuy/76/014-Cbeebies/playlist.m3u8
 #EXTINF:-1,Ginx TV (Video Gaming TV)
 http://204.107.26.252:1935/live/796.high.stream/HasBahCa.m3u8
