@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>TEST | SENTV</title>
+<title>TEST | SENTV v1</title>
 <link>rtmp://37.48.64.26:2035/8180/8386deuce?wmsAuthSign=$doregex[file] swfUrl=http://www.sunutv.me/online/swf/player2.n.0.swf?token=45973540050 live=1 pageUrl=http://www.sunutv.me/online/channels/embed.php?id=sentv</link>
 <regex>
 <name>file</name>
