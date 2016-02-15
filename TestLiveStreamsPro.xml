@@ -2,9 +2,9 @@
 
 <item>
 <title>TEST | SENTV v3</title>
-<link>rtmp://37.48.64.26:2035/8180 app=8180 playpath=8386deuce?wmsAuthSign=$doregex[file] flashver=WIN\2019,0,0,185 swfUrl=http://www.sunutv.me/online/swf/player2.n.0.swf pageUrl=ttp://www.sunutv.me/online/channels/embed.php?id=sentv live=1 timeout=20<</link>
+<link>rtmp://37.48.64.26:2035/8180 app=8180 playpath=8386deuce?wmsAuthSign=$doregex[wmsAuth] flashver=WIN\2019,0,0,185 swfUrl=http://www.sunutv.me/online/swf/player2.n.0.swf pageUrl=ttp://www.sunutv.me/online/channels/embed.php?id=sentv live=1 timeout=20<</link>
 <regex>
-<name>file</name>
+<name>wmsAuth</name>
 <expres>file: '(.*?)'</expres>
 <page>http://www.sunutv.me/online/channels/embed.php?id=sentv</page>
 <referer>http://www.sunutv.me/</referer>
