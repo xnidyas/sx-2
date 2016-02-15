@@ -398,12 +398,12 @@
 
 
 <item>
-<title>Shani | Sream1.mine.nu v5 | Works</title>
+<title>Shani | Sream1.mine.nu v6 | Works</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR blue]Channels - [/COLOR][makelist.param1]</title>
+<title>[COLOR blue]BES-IPTV[/COLOR][COLOR white] |[/COLOR][COLOR deepskyblue] Channels - [/COLOR][makelist.param1]</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&Icy-MetaData=1&amp;Buffer=20971520 live=1 timeout=15</link>
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
