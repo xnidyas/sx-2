@@ -451,3 +451,10 @@
 <page></page>
 </regex>
 </item>
+
+
+http://live-14.viewer.dacast.com/z/dclive_1@176094/manifest.f4m
+<item>
+	<title>TEST</title>
+<link>plugin://plugin.video.f4mTester/?url=http://live-14.viewer.dacast.com/z/dclive_1@176094/manifest.f4m&amp;streamtype=HDS</link>
+</item>
