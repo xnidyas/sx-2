@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>TEST | SENTV v2</title>
+<title>TEST | SENTV v3</title>
 <link>rtmp://37.48.64.26:2035/8180 app=8180 playpath=8386deuce?wmsAuthSign=$doregex[file] flashver=WIN\2019,0,0,185 swfUrl=http://www.sunutv.me/online/swf/player2.n.0.swf pageUrl=ttp://www.sunutv.me/online/channels/embed.php?id=sentv live=1 timeout=20<</link>
 <regex>
 <name>file</name>
