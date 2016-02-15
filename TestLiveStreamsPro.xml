@@ -428,3 +428,26 @@
 <page></page>
 </regex>
 </item>
+
+
+
+<item>
+<title>Shani | ALB Liverpo0l v1 | Works</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]BES-IPTV[/COLOR][COLOR white] |[/COLOR][COLOR deepskyblue] Channels - [/COLOR][makelist.param1]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&Icy-MetaData=1&amp;Buffer=20971520 live=1 timeout=15</link>
+<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-1,ALB: (.*?)\n(.*ts)</expres>
+<page>http://cp.dmbshare.net:8000/get.php?username=liverpool&amp;password=liverpool&amp;type=m3u&amp;output=mpegts</page>
+<agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+</regex>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
+<page></page>
+</regex>
+</item>
