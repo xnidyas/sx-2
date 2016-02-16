@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>HGTV (Low Quality)</title>
-<link>rtmp://extondemand.livestream.com/ondemand/trans/dv03/mogulus-user-files/chhgtvchat/2011/05/04/7683a731-1056-4608-a387-502c4c2fc510 timeout=5</link>
-<description></description>
-<thumbnail></thumbnail>
+<title>Neo TV</title>
+<link>$doregex[rtmp] playpath=live_360p swfUrl=http://live.techpebbles.com/media/js/player/playerc-3.2.18.swf pageUrl=http://hamariweb.com live=1 timeout=15</link>
+<regex>
+<name>rtmp</name>
+<expres>'(.*?)'</expres>
+<page>http://live.techpebbles.com/auth/neo/web/livertmp/?cb=jQuery110209583654281666165</page>
+<referer>http://hamariweb.com</referer>
+</regex>
+<thumbnail>http://pakistanmediaupdates.com/wp-content/uploads/2015/05/NeoTV_logo.jpg</thumbnail>
 </item>
 
 <item>
