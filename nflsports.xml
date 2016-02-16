@@ -12,7 +12,7 @@
 </item>
 
 <item>
-<title>NFL NTWK</title>
+<title>NFL Network</title>
 <link>$doregex[url]</link>
 <regex>
 	<name>url</name>
@@ -22,7 +22,7 @@
 <thumbnail></thumbnail>
 </item>
 
-<!--------------------NFL NETWORK-------------------->
+<!--------------------NFL NETWORK--------------------
 <item>
 <title>[COLOR yellow]»[/COLOR]NFL NETWORK</title>
 <link>$doregex[loadcookie]$doregex[get-rtmp-code]$doregex[savecookie]</link>
