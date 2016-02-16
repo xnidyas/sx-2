@@ -3,7 +3,7 @@
 
 <item>
 <title>[COLOR yellow]»[/COLOR]NFL NOW HD</title>
-<link>plugin://plugin.video.f4mTester/?url=$doregex[getURL]&amp;streamtype=HLS</link>
+<link>plugin://plugin.video.f4mTester/?url=$doregex[getURL]&amp;streamtype=HLS&amp;name=NFLNETWORK</link>
 <regex>
 <name>getURL</name>
 <expres>5500000.*\s*(http.*m3u8)</expres>
