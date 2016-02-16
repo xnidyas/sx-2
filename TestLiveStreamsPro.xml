@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-
+<item>
+<title>Test (Low Quality)</title>
+<link></link>rtmp://extondemand.livestream.com/ondemand<playpath>trans/dv15/mogulus-user-files/chtvbluesky/2014/12/07/a0a1834a-c6f9-4020-b253-490b22c1db9c timeout=5</link>
+<description></description>
+<thumbnail></thumbnail>
+</item>
 
 <item>
 	<title>[COLOR red]*TEST CHANNEL 1*[/COLOR]</title>
