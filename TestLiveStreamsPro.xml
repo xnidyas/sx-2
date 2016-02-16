@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<item>
-<title>Neo TV</title>
-<link>$doregex[rtmp] playpath=live_360p swfUrl=http://live.techpebbles.com/media/js/player/playerc-3.2.18.swf pageUrl=http://hamariweb.com live=1 timeout=15</link>
-<regex>
-<name>rtmp</name>
-<expres>'(.*?)'</expres>
-<page>http://live.techpebbles.com/auth/neo/web/livertmp/?cb=jQuery110209583654281666165</page>
-<referer>http://hamariweb.com</referer>
-</regex>
-<thumbnail>http://pakistanmediaupdates.com/wp-content/uploads/2015/05/NeoTV_logo.jpg</thumbnail>
-</item>
 
 <item>
 	<title>[COLOR red]*TEST CHANNEL 1*[/COLOR]</title>
@@ -437,7 +426,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR blue]BES-IPTV[/COLOR][COLOR white] |[/COLOR][COLOR deepskyblue] Channels - [/COLOR][makelist.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&Icy-MetaData=1&amp;Buffer=20971520 live=1 timeout=15</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&Icy-MetaData=1&amp;Buffer=20971520 live=1 timeout=30</link>
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres>#EXTINF:-1,ALB: (.*?)\n(.*ts)</expres>
