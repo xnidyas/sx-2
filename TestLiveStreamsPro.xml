@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<item>
-<title>TEST | SENTV v3</title>
-<link>rtmp://37.48.64.26:2035/8180 app=8180 playpath=8386deuce?wmsAuthSign=$doregex[wmsAuth] flashver=WIN\2019,0,0,185 swfUrl=http://www.sunutv.me/online/swf/player2.n.0.swf pageUrl=ttp://www.sunutv.me/online/channels/embed.php?id=sentv live=1 timeout=20<</link>
-<regex>
-<name>wmsAuth</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.sunutv.me/online/channels/embed.php?id=sentv</page>
-<referer>http://www.sunutv.me/</referer>
-</regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
+
 
 <item>
 	<title>[COLOR red]*TEST CHANNEL 1*[/COLOR]</title>
@@ -453,8 +442,3 @@
 </item>
 
 
-http://live-14.viewer.dacast.com/z/dclive_1@176094/manifest.f4m
-<item>
-	<title>TEST 8</title>
-<link>plugin://plugin.video.f4mTester/?url=http://live-14.viewer.dacast.com/z/dclive_1@176094/manifest.f4m?hdcore=3.6&amp;g=NUETXSQLZUHC</link>
-</item>
