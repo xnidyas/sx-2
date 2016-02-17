@@ -441,3 +441,14 @@
 </item>
 
 
+<item>
+<title>Neo News RegEx **http://videos.neonetwork.pk/live/**</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>(http:.*?)'</expres>
+<page>http://live.techpebbles.com/auth/neo/android/hls/?cb=</page>
+<referer>http://videos.neonetwork.pk/live/</referer>
+<agent>Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19</agent>
+</regex>
+</item>
