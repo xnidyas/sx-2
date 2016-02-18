@@ -2,6 +2,17 @@
 <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <item>
+<title>showtime?</title>
+<link>$doregex[url]</link>
+<regex>
+	<name>url</name>
+	<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/embedplayer_new2.php?channel=69036',False,False,'http://vipracing.info/')</expres>
+	<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
 <title>[COLOR yellow]»[/COLOR]NFL NOW HD</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[getURL]&amp;streamtype=HLS&amp;name=NFLNow</link>
 <regex>
