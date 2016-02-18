@@ -2,43 +2,6 @@
 <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <item>
-<title>http://www.streamlive.to/view/69036/Showtime</title> 
-<link>$doregex[get-url]</link> 
-
-<regex>
-<name>get-url</name>
-<expres><![CDATA[#$pyFunction
-
-def GetLSProData(page_data,Cookie_Jar,m):
- import requests
- import re
- import urllib2
- url ='http://www.streamlive.to/view/69036/'
- source = requests.get(url)
- url = re.findall('m3u8_url":"(https.*?hmac=.*?.*?)"', source.text)[-1]
- auth = re.findall('(&hdnea.*)', url)[0]
- print auth
-
- class NoRedirection(urllib2.HTTPErrorProcessor):
-   def http_response(self, request, response):
-     return response
-   https_response = http_response
-
- opener = urllib2.build_opener(NoRedirection)
- location = opener.open(url).info().getheader('Location')
- location = location.replace('&__a__=off', '')
- source = requests.get(location)
- m3u8 = re.findall('RESOLUTION=1280x720.*?\n(.*)', source.text)[0]
- m3u8final = m3u8 + auth
- return m3u8final
-
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-</item>
-
-<item>
 <title>[COLOR yellow]»[/COLOR]NFL NOW HD</title>
 <link>plugin://plugin.video.f4mTester/?url=$doregex[getURL]&amp;streamtype=HLS&amp;name=NFLNow</link>
 <regex>
