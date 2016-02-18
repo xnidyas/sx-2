@@ -2,14 +2,40 @@
 <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <item>
-<title>showtime?</title>
-<link>$doregex[url]</link>
+<title>http://www.streamlive.to/view/69036/Showtime</title> 
+<link>$doregex[get-url]</link> 
+
 <regex>
-	<name>url</name>
-	<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/embedplayer_new2.php?channel=69036',False,False,'http://vipracing.info/')</expres>
-	<page></page>
+<name>get-url</name>
+<expres><![CDATA[#$pyFunction
+
+def GetLSProData(page_data,Cookie_Jar,m):
+ import requests
+ import re
+ import urllib2
+ url ='http://www.streamlive.to/view/69036/'
+ source = requests.get(url)
+ url = re.findall('m3u8_url":"(https.*?hmac=.*?.*?)"', source.text)[-1]
+ auth = re.findall('(&hdnea.*)', url)[0]
+ print auth
+
+ class NoRedirection(urllib2.HTTPErrorProcessor):
+   def http_response(self, request, response):
+     return response
+   https_response = http_response
+
+ opener = urllib2.build_opener(NoRedirection)
+ location = opener.open(url).info().getheader('Location')
+ location = location.replace('&__a__=off', '')
+ source = requests.get(location)
+ m3u8 = re.findall('RESOLUTION=1280x720.*?\n(.*)', source.text)[0]
+ m3u8final = m3u8 + auth
+ return m3u8final
+
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
 </regex>
-<thumbnail></thumbnail>
 </item>
 
 <item>
