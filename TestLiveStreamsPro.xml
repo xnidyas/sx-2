@@ -536,3 +536,24 @@
 <cookieJar></cookieJar>
 </regex>
 </item>
+
+
+
+
+<item>
+<title>TEST v | http://kodilive.eu/iptv/raw2.php</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]BES-IPTV[/COLOR][COLOR white] |[/COLOR][COLOR deepskyblue] Channels - [/COLOR][makelist.param1]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=SIMPLE&amp;name=[makelist.param1]&amp;url=[makelist.param2v|User-Agent=VLC/2.2.1 LibVLC/2.2.17&Icy-MetaData=1&amp;Buffer=20971520 live=1 timeout=30</link>
+<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-1.*,(.*?)\n(.*)</expres>
+<!--<expres>#EXTINF(.*?)\n(.*ts)</expres>-->
+<page>http://kodilive.eu/tv/</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+<!--<agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>-->
+</regex>
+</item>
