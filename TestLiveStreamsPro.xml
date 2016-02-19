@@ -522,3 +522,17 @@
 </regex>
 
 </item>
+
+<item>
+<title>BALKANIKA TV</title>
+<link>$doregex[get-URL]|User-Agent=Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0</link>
+
+<regex>
+<name>get-URL</name>
+<expres>file: "(.*?)"</expres>
+<page>http://freshvideos.net/geto2.php?my=balkanika</page>
+<referer>http://bg-gledai.tv/online-balkanika-tv</referer>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0</agent>
+<cookieJar></cookieJar>
+</regex>
+</item>
