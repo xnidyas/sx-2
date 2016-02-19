@@ -455,7 +455,7 @@
 
 
 <item>
-<title>TEST 2 | http://kodilive.eu/iptv/raw2.php</title>
+<title>TEST 3 | http://kodilive.eu/iptv/raw2.php</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -466,7 +466,7 @@
 ]]></listrepeat>
 <expres>#EXTINF:-1.*,(.*?)\n(.*)</expres>
 <!--<expres>#EXTINF(.*?)\n(.*ts)</expres>-->
-<page>http://kodilive.eu/iptv/raw2.php</page>
+<page>http://kodilive.eu/tv/</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 <!--<agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>-->
 </regex>
