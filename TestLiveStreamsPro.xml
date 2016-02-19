@@ -23,6 +23,34 @@
 <!---plugin://plugin.video.f4mTester/?url='+urllib.quote_plus(stream_url)+'&amp;streamtype=TSDOWNLOADER&name='+urllib.quote(channel_name)---->
 
 
+<item>
+<title> http://www.crichd.tv</title>
+<link>https://forums.tvaddons.ag/$doregex[makelist]</link>
+<regex>
+       <name>makelist</name>
+       <listrepeat><=!=[=C=D=A=T=A=[
+                <title> [makelist.param2]</title>
+                <link>https://forums.tvaddons.ag/$doregex[get-rtmp] playpath=$doregex[get-fid] swfUrl=http://cast4u.tv/jwplayer/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://www.cast4u.tv/embed.php?live=$doregex[get-fid]</link>
+                <thumbnail>http://www.crichd.co/[makelist.param2]</thumbnail>
+       ]=]=></listrepeat>
+       <expres>menuitem" href=.*php.*?><img src="\/images\/(.*?)\..*alt="(.*?)"</expres>
+       <page>http://www.crichd.co/</page>
+       <referer></referer>
+       <cookieJar></cookieJar>
+</regex>
+
+<regex>
+       <name>get-rtmp</name>
+       <expres>(rtmp.*?\/live)</expres>
+       <page>http://www.cast4u.tv/embed.php?live=$doregex[get-fid]</page>
+</regex>
+<regex>
+       <name>get-fid</name>
+       <expres>fid="([^"]+)</expres>
+       <page>http://www.crichd.tv/update/[makelist.param1].php</page>
+</regex>
+</item>
+
 
 <!---------EXYU-------->
 <item>
