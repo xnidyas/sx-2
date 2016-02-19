@@ -455,7 +455,7 @@
 
 
 <item>
-<title>TEST 1 | http://kodilive.eu/iptv/raw2.php</title>
+<title>TEST 2 | http://kodilive.eu/iptv/raw2.php</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -464,9 +464,11 @@
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&Icy-MetaData=1&amp;Buffer=20971520 live=1 timeout=30</link>
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
-<expres>#EXTINF(.*?)\n(.*ts)</expres>
+<expres>#EXTINF:-1.*,(.*?)\n(.*)</expres>
+<!--<expres>#EXTINF(.*?)\n(.*ts)</expres>-->
 <page>http://kodilive.eu/iptv/raw2.php</page>
-<agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+<!--<agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>-->
 </regex>
 <regex>
 <name>encodedurl</name>
