@@ -547,7 +547,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR blue]BES-IPTV[/COLOR][COLOR white] |[/COLOR][COLOR deepskyblue] Channels - [/COLOR][makelist.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;name=BESIPTV&amp;url=[makelist.param2]</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;name=[make list.param1]&amp;url=[makelist.param2]</link>
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres>#EXTINF:-1.*,(.*?)\n(.*)</expres>
