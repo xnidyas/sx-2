@@ -541,12 +541,12 @@
 
 
 <item>
-<title>TEST v4 | http://kodilive.eu/iptv/raw2.php</title>
+<title>TEST v5 | http://kodilive.eu/iptv/raw2.php</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR blue]BES-IPTV[/COLOR][COLOR white] |[/COLOR][COLOR deepskyblue] Channels - [/COLOR][makelist.param1]</title>
+<title>[COLOR blue]BES-IPTV[/COLOR][COLOR white] |[/COLOR][COLOR deepskyblue] Channels - [/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;name=[makelist.param1]&amp;url=[makelist.param2]</link>
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
