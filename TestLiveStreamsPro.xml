@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>test s3</title>
-<link>$doregex[getRTMP] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://www.yotv.co/embed.php?live=sprt1&amp;vw=620&amp;vh=490 token=%Zrey(nKa@#Z</link>
+<title>test s4</title>
+<link>$doregex[getRTMP] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://www.yotv.co/embed.php?live=sprt1&amp;vw=620&amp;vh=490 securetoken=%Zrey(nKa@#Z</link>
 <regex>
 <name>getRTMP</name>
 <expres>(rtmp.*?)"</expres>
