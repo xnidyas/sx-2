@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<item>
+<title>TEST</title>
+<link>$doregex[get-URL]|User-Agent=iPhone</link>
+
+<regex>
+<name>get-URL</name>
+<expres>file: "(.*?)"</expres>
+<page>http://www.ecanlitvizle.com/yayin/foxhd.php</page>
+<referer>http://www.ecanlitvizle.com/</referer>
+<agent>Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0</agent>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
 
 <item>
 	<title>[COLOR red]*TEST CHANNEL 1*[/COLOR]</title>
