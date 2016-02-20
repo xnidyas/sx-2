@@ -600,15 +600,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!---plugin://plugin.video.f4mTester/?streamtype=HLS&amp;name=[makelist.param2]&amp;url=[makelist.param1]-->
 
 <item>
-<title>Testing UKTV with py function | F4MTESTER</title> 
+<title>Testing UKTV with py function | F4MTESTER V.1</title> 
 <link>$doregex[makelist]</link>
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param2]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;name=[makelist.param2]&amp;url=[makelist.param3]</link>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLS&amp;name=[makelist.param2]&amp;url=[makelist.param1]|User-Agent=MXPlayer/1.7.37</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=SIMPLE&amp;name=[makelist.param2]&amp;url=[makelist.param3]</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=SIMPLE&amp;name=[makelist.param2]&amp;url=[makelist.param1]|User-Agent=MXPlayer/1.7.37</link>
 <referer></referer>
 <thumbnail></thumbnail>
 ]]></listrepeat>
