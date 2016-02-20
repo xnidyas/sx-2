@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>test s4</title>
-<link>$doregex[getRTMP] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://www.yotv.co/embed.php?live=sprt1&amp;vw=620&amp;vh=490 securetoken=%Zrey(nKa@#Z</link>
+<title>test s1 regex</title>
+<link>$doregex[getRTMP] swfUrl=http://www.yotv.co/jwplayer/jwplayer.flash.swf pageUrl=http://www.yotv.co/embed.php?live=sprt1&amp;vw=620&amp;vh=490 token=$doregex[getTOKEN]</link>
 <regex>
 <name>getRTMP</name>
 <expres>(rtmp.*?)"</expres>
@@ -10,18 +10,15 @@
 <referer>http://cricfree.sx/update/snone.php</referer>
 <agent>Mozilla/5.0 (Windows NT 6.2; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0</agent>
 </regex>
-</item>
 
-<item>
-<title>TEST 1 | cRic 6</title>
-<link>$doregex[getRTMP] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://www.yotv.co/embedo.php?live=sprt1&amp;vw=620&amp;vh=490 live=1 token=%Zrey(nKa@#Z</link>
 <regex>
-<name>getRTMP</name>
-<expres>(rtmp.*?)"</expres>
-<page>http://www.yotv.co/embedo.php?live=sprt1</page>
+<name>getTOKEN</name>
+<expres>securetoken: "(.*?)"</expres>
+<page>http://www.yotv.co/embed.php?live=sprt1</page>
 <referer>http://cricfree.sx/update/snone.php</referer>
 <agent>Mozilla/5.0 (Windows NT 6.2; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0</agent>
 </regex>
+
 </item>
 
 <item>
