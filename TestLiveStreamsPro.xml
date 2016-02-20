@@ -560,15 +560,15 @@
 
 
 <item>
-<title>Testing UKTV with py function v1</title> 
+<title>Testing UKTV with py function v2</title> 
 <link>$doregex[makelist]</link>
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR blue]BES-IPTV[/COLOR]|[COLOR deepskyblue]Channel:[/COLOR][makelist.param2]</title>
-<link>[COLOR green][makelist.param3][/COLOR]</link>
-<link>[COLOR lime][makelist.param1][/COLOR]|User-Agent=MXPlayer/1.7.37</link>
+<title>[COLOR blue]BES-IPTV[/COLOR]|[COLOR deepskyblue]Channel:[/COLOR] [makelist.param2]</title>
+<link>[makelist.param3]</link>
+<link>[makelist.param1]|User-Agent=MXPlayer/1.7.37</link>
 <referer></referer>
 <thumbnail></thumbnail>
 ]]></listrepeat>
