@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>TEST| KD</title>
+<title>TEST | FOX HD</title>
 <link>$doregex[get-URL]|User-Agent=iPhone</link>
 
 <regex>
