@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>TEST 1 | cRic 5</title>
-<link>$doregex[getRTMP] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf live=1 pageUrl=http://www.yotv.co/embedo.php?live=sprt1&amp;vw=620&amp;vh=490 token=%Zrey(nKa@#Z timeout=15</link>
+<title>TEST 1 | cRic 6</title>
+<link>$doregex[getRTMP] swfUrl=http://p.jwpcdn.com/6/12/jwplayer.flash.swf pageUrl=http://www.yotv.co/embedo.php?live=sprt1&amp;vw=620&amp;vh=490 live=1 token=%Zrey(nKa@#Z</link>
 <regex>
 <name>getRTMP</name>
 <expres>(rtmp.*?)"</expres>
