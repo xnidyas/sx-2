@@ -569,7 +569,7 @@
 <title>[COLOR blue]BES-IPTV[/COLOR]|[COLOR deepskyblue]Channel:[/COLOR] [makelist.param2]</title>
 <link>[makelist.param3]</link>
 <link>[makelist.param1]|User-Agent=MXPlayer/1.7.37</link>
-<referer></referer>
+<referer></referer>  <!--{'username':'saydinx'}-->
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres>http_stream': u'(.*?)'.*?cat_name': u'Sports'.*?channel_name': u'(.*?)'.*?rtmp_stream': u'(.*?)'</expres>
@@ -586,7 +586,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  import json
 
  headers = {'User-Agent': 'USER-AGENT-UKTVNOW-APP-V1'}
- data = {'username':'saydinx'}
+ data = {'username':'saydinx','password':'xhaferaj1'}
  source = requests.post('https://app.uktvnow.net/v1/get_all_channels', headers=headers ,data=data)
 
  jsondata=json.loads(source.text)
@@ -600,7 +600,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!---plugin://plugin.video.f4mTester/?streamtype=HLS&amp;name=[makelist.param2]&amp;url=[makelist.param1]-->
 
 <item>
-<title>Testing UKTV with py function | F4MTESTER V.1</title> 
+<title>Testing UKTV with py function | F4MTESTER V.2</title> 
 <link>$doregex[makelist]</link>
 
 <regex>
@@ -626,7 +626,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  import json
 
  headers = {'User-Agent': 'USER-AGENT-UKTVNOW-APP-V1'}
- data = {'username':'saydinx'}
+ data = {'username':'saydinx','password':'xhaferaj1'}
  source = requests.post('https://app.uktvnow.net/v1/get_all_channels', headers=headers ,data=data)
 
  jsondata=json.loads(source.text)
