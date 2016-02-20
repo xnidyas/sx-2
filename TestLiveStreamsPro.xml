@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>straw-dogs-2011</title>
+<link>$doregex[get-URL]</link>
+
+<regex>
+<name>get-URL</name>
+<expres>file: "(.*?)".*?\n.*\n.*?"1080p Full HD"</expres>
+<page>https://xtubeth.com/file/55431.php</page>
+<agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+</regex>
+</item>
+
+<item>
 <title>Caston Regex</title>
 <link>$doregex[finalurl]</link>
 <regex>
