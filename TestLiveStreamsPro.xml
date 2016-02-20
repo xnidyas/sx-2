@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<item>
-<title>TEST | FOX HD</title>
-<link>$doregex[get-URL]|User-Agent=iPhone</link>
 
-<regex>
-<name>get-URL</name>
-<expres>file : "(.*?)"</expres>
-<page>http://www.ecanlitvizle.com/yayin/foxhd.php</page>
-<referer>http://www.ecanlitvizle.com/</referer>
-<agent>Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0</agent> 
-<cookieJar></cookieJar> 
-</regex> 
-</item> 
-
--->
 <item>
 	<title>[COLOR red]*TEST CHANNEL 1*[/COLOR]</title>
 	<link>http:ignora./me/</link>
@@ -574,15 +560,15 @@
 
 
 <item>
-<title>Testing UKTV with py function</title> 
+<title>Testing UKTV with py function v1</title> 
 <link>$doregex[makelist]</link>
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[makelist.param2]</title>
-<link>[makelist.param3]</link>
-<link>[makelist.param1]|User-Agent=MXPlayer/1.7.37</link>
+<title>[COLOR blue]BES-IPTV[/COLOR]|[COLOR deepskyblue]Channel:[/COLOR][makelist.param2]</title>
+<link>[COLOR green][makelist.param3][/COLOR]</link>
+<link>[COLOR lime][makelist.param1][/COLOR]|User-Agent=MXPlayer/1.7.37</link>
 <referer></referer>
 <thumbnail></thumbnail>
 ]]></listrepeat>
