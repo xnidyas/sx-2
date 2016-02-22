@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+			<item>
+			<title>[COLOR skyblue]TEST MEGA[/COLOR]</title>
+			<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://cdn.shidurlive.com/player.swf swfVfy=1 pageUrl=http://www.shidurlive.com $doregex[do-ping] live=1 timeout=15</link>
+			<regex>
+			<name>rtmp</name>
+			<expres>ova.php.*\n.*\n.*'streamer', '(.*?)'</expres>
+			<page>$doregex[get-page]</page>
+			<cookieJar></cookieJar>
+			<referer>http://www.chilenext.com/2015/11/mega.html</referer>
+			</regex>
+			<regex>
+			<name>path</name>
+			<expres>ova.php.*\n.*unescape..(.*?)'</expres>
+			<page>$doregex[get-page]</page>	
+			<referer>http://www.chilenext.com/2015/11/mega.html</referer>
+			</regex>
+			<regex>
+			<name>do-ping</name>
+			<expres></expres>
+			<page>$doregex[pagewait]$doregex[get-ping]</page>
+			<referer>http://shidurlive.com</referer>
+			<ignorecache/>
+			</regex>
+			<regex>
+			<name>pagewait</name>
+			<expres>$pyFunction: '' if xbmc.sleep(15000) else ''</expres>
+			<page></page>
+			<referer>http://shidurlive.com</referer>
+			<cookieJar></cookieJar>
+			</regex>
+			<regex>
+			<name>get-ping</name>
+			<expres>"pingsts" src="(.*?)"</expres>
+			<page>$doregex[get-page]</page>
+			<cookieJar></cookieJar>
+			<referer>http://www.chilenext.com/2015/11/mega.html</referer>
+			</regex>
+			<regex>
+			<name>get-page</name>
+			<expres>src="(.*?)"</expres>
+			<page>http://shidurlive.com/embed/chilenextmega</page>
+			<referer>http://www.chilenext.com/2015/11/mega.html</referer>
+			<cookieJar></cookieJar>
+			</regex>
+			<thumbnail></thumbnail>
+			</item>
+		
+
+
+
+
+
+<!----->
 <item>
 <title>test s1 regex</title>
 <link>$doregex[getRTMP] swfUrl=http://www.yotv.co/jwplayer/jwplayer.flash.swf pageUrl=http://www.yotv.co/embed.php?live=sprt1&amp;vw=620&amp;vh=490 token=$doregex[getTOKEN]</link>
