@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>Test| the-diary-of-a-teenage-girl-2015</title>
+<link>$doregex[get-link]</link>
+
+<regex>
+<name>get-link</name>
+<expres>location:(.*)</expres>
+<page>$doregex[get-url]</page>
+<referer></referer>
+<agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+<cookieJar></cookieJar>
+<noredirect>true</noredirect>
+<includeheaders/>
+</regex>
+
+<regex>
+    <name>get-url</name>
+    <expres>(https.*m37)"<expres>
+    <page>$doregex[get-embed]</page>
+    <referer>https://www.037hd.com/the-diary-of-a-teenage-girl-2015-%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%A2%E0%B9%82%E0%B8%AA-soundtrack-%E0%B8%9A%E0%B8%A3/</referer>
+<agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+</regex>
+
+<regex>
+    <name>get-embed</name>
+    <expres>iframe.*?src="(.*?)"<expres>
+    <page>https://www.037hd.com/the-diary-of-a-teenage-girl-2015-%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%A2%E0%B9%82%E0%B8%AA-soundtrack-%E0%B8%9A%E0%B8%A3/</page>
+    <referer></referer>
+<agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
+</regex>
+</item>
+
+
+<item>
 <title>Diary of a Teenage Girl | Test</title>
 <link>https://3.bp.blogspot.com/5tzcDN3bXcd_0jvhyhvmqf7kEIY9XTPAm_rJQlxQG0Ap-KCr5x6kFGyGyAy2xGxmVYmatYWLr1f6=m22</link>
 </item>
