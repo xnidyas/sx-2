@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>[COLOR yellow]»[/COLOR]Super Sport 1 [COLOR yellow] (R)[/COLOR]</title>
+<link>$doregex[file]|Referer=http://pxstream.tv/embedrouter.php?file=tashclub&amp;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
+<regex>
+<name>file</name>
+<expres>source: '(.*?)'</expres>
+<page>http://pxstream.tv/embedrouter.php?file=tashclub&amp;player=clappr</page>
+<referer>http://pxstream.tv/</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
 <title> [COLOR blue]*[/COLOR]PINK TV (SD)</title>
-<link>$doregex[get-m3u8]</link>
+<link>$doregex[get-m3u8]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36</link>
 
 <regex>
 <name>get-m3u8</name>
-<expres>file: "(.*?)"</expres>
+<expres>source: "(.*?)"</expres>
 <page>http://pxstream.tv/embedrouter.php?file=tashclub</page>
 <referer>http://www.tashtv.info/2016/02/kanal-5.html</referer>
 </regex>
