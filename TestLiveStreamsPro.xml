@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Test| the-diary-of-a-teenage-girl-2015</title>
+<title>Test v1| the-diary-of-a-teenage-girl-2015</title>
 <link>$doregex[get-link]</link>
 
 <regex>
@@ -19,14 +19,14 @@
     <name>get-url</name>
     <expres>(https.*m37)"<expres>
     <page>$doregex[get-embed]</page>
-    <referer>https://www.037hd.com/the-diary-of-a-teenage-girl-2015-%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%A2%E0%B9%82%E0%B8%AA-soundtrack-%E0%B8%9A%E0%B8%A3/</referer>
+    <referer>https://www.037hd.com/the-diary-of-a-teenage-girl-2015-%e0%b8%9a%e0%b8%b1%e0%b8%99%e0%b8%97%e0%b8%b6%e0%b8%81%e0%b8%a3%e0%b8%b1%e0%b8%81%e0%b8%a7%e0%b8%b1%e0%b8%a2%e0%b9%82%e0%b8%aa-soundtrack-%e0%b8%9a%e0%b8%a3/</referer>
 <agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
 </regex>
 
 <regex>
     <name>get-embed</name>
     <expres>iframe.*?src="(.*?)"<expres>
-    <page>https://www.037hd.com/the-diary-of-a-teenage-girl-2015-%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%A2%E0%B9%82%E0%B8%AA-soundtrack-%E0%B8%9A%E0%B8%A3/</page>
+    <page>https://www.037hd.com/the-diary-of-a-teenage-girl-2015-%e0%b8%9a%e0%b8%b1%e0%b8%99%e0%b8%97%e0%b8%b6%e0%b8%81%e0%b8%a3%e0%b8%b1%e0%b8%81%e0%b8%a7%e0%b8%b1%e0%b8%a2%e0%b9%82%e0%b8%aa-soundtrack-%e0%b8%9a%e0%b8%a3/</page>
     <referer></referer>
 <agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
 </regex>
