@@ -773,3 +773,41 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 </item>
+
+
+<!------------------------------->
+
+<item>
+<title>UKTVNOW.net - usa?</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]BES-IPTV[/COLOR]|[COLOR deepskyblue]Channel:[/COLOR] [makelist.param2]</title>
+<link>[makelist.param3]</link>
+<link>[makelist.param1]|User-Agent=MXPlayer/1.7.37</link>
+<referer></referer>  <!--{'username':'saXXXnx'}-->
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres>http_stream': u'(.*?)'.*?cat_name': u'USA Ch.'.*?channel_name': u'(.*?)'.*?rtmp_stream': u'(.*?)'</expres>
+<page>$doregex[get-json]</page>
+<cookieJar></cookieJar>
+</regex>
+ 
+<regex>
+<name>get-json</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import urllib2
+ import requests
+ import json
+ headers = {'User-Agent': 'USER-AGENT-UKTVNOW-APP-V1'}
+ data = {'username':'donat','password':'23nentori'}
+ source = requests.post('https://app.uktvnow.net/v1/get_all_channels', headers=headers ,data=data)
+ jsondata=json.loads(source.text)
+ return jsondata
+]]></expres>
+<page></page>
+</regex>
+</item>
