@@ -61,4 +61,4 @@
 				<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/21452070/streams/live/playlist.m3u8')</expres>
 				<page></page>
 				</regex>
-		</item>
+		</item> 
