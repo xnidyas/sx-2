@@ -14,7 +14,7 @@
                         <link>[makelist2.param2].m3u8&amp;Buffer=20971520&amp;live=1&amp;timeout=30</link>
               ]]></listrepeat>
               <expres>EXTINF:-1,AL: (.*).*\n.*(http.*).ts</expres>
-              <page>http://portal.rapidiptv.com:8080/get.php?username=oxEnXqQd&amp;password=ZkTOFeHlnm&amp;type=m3u&amp;output=mpegts</page>
+              <page>####</page>
               <cookieJar></cookieJar>
               <agent>Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1</agent>
               <host>portal.rapidiptv.com:8080</host>
@@ -24,7 +24,7 @@
 </regex>
 
 </item>
-<!--<page>http://ipbestv.net16.net/testal.m3u</page>--
+
 <link>[makelist2.param2].m3u8#sthash.3kjRFQnw.dpuf&amp;hash=9d1ebe2397722563409b55904212337e&amp;time=0&amp;external_device= Buffer=300000 live=1 timeout=30</link>
 <!-----------------------END---
 
@@ -114,24 +114,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://sawlive.tv/embed/zunoxhkhd1'
 
 <!-------------------------------TEST--->
 
-<item>
-<title>TV | Temp</title>
 
-
-<link>$doregex[makelist2]</link>
-
-<regex>
-              <name>makelist2</name>
-                        <listrepeat><![CDATA[
-                        <title>[COLOR white]KANAL: [/COLOR] [makelist2.param1]</title>
-                        <link>[makelist2.param2]</link>
-              ]]></listrepeat>
-              <expres>&lt;title&gt;(.*)&lt;.*\n.*&lt;link&gt;(.*)&lt;</expres>
-              <!--<expres>(.*).*\n.*(http.*)</expres>-->
-              <page>http://ipbestv.net16.net/ontvshikode.xml</page>
-              <cookieJar></cookieJar>
-</regex>
-</item>
 
 <!----------------->
 
