@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<item>
+<title>Diary of a Teenage Girl | Test</title>
+<link>https://3.bp.blogspot.com/5tzcDN3bXcd_0jvhyhvmqf7kEIY9XTPAm_rJQlxQG0Ap-KCr5x6kFGyGyAy2xGxmVYmatYWLr1f6=m22</link>
+</item>
+
 			<item>
 			<title>[COLOR skyblue]TEST MEGA[/COLOR]</title>
 			<link>$doregex[rtmp] playpath=$doregex[path] swfUrl=http://cdn.shidurlive.com/player.swf swfVfy=1 pageUrl=http://www.shidurlive.com $doregex[do-ping] live=1 timeout=15</link>
