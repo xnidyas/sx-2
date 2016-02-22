@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Test v1| the-diary-of-a-teenage-girl-2015</title>
+<title>Test v2| the-diary-of-a-teenage-girl-2015</title>
 <link>$doregex[get-link]</link>
 
 <regex>
@@ -17,7 +17,7 @@
 
 <regex>
     <name>get-url</name>
-    <expres>(https.*m37)"<expres>
+    <expres>(https.*?)"<expres>
     <page>$doregex[get-embed]</page>
     <referer>https://www.037hd.com/the-diary-of-a-teenage-girl-2015-%e0%b8%9a%e0%b8%b1%e0%b8%99%e0%b8%97%e0%b8%b6%e0%b8%81%e0%b8%a3%e0%b8%b1%e0%b8%81%e0%b8%a7%e0%b8%b1%e0%b8%a2%e0%b9%82%e0%b8%aa-soundtrack-%e0%b8%9a%e0%b8%a3/</referer>
 <agent>MoziMozilla/5.0 (X11; Linux i686; rv:44.0) Gecko/20100101 Firefox/44.0 Iceweasel/44.0</agent>
