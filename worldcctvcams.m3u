@@ -2,6 +2,8 @@
 
 #EXTINF:0,[COLOR green]*—Web Cam—*[/COLOR]
 http://#.com/#
+#EXTINF:0,FSHATI BESA CCTV
+rtsp://besa:123456789@80.91.119.130:554/cam/realmonitor?channel=1&amp;subtype=0
 #EXTINF:0,Algonquin Park -Canada
 http://video1.earthcam.com/fecnetwork/5230.flv/hasbahca.m3u8
 #EXTINF:0,Bucuti Beach Wing -Aruba
